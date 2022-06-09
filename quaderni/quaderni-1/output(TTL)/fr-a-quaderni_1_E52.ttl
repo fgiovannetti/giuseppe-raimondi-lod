@@ -1,0 +1,188 @@
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ti: <http://www.ontologydesignpatterns.org/cp/owl/timeinterval.owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/ficlitdl/time-span/1954> a crm:P52_Time-Span ;
+    rdfs:label "1954"@en,
+        "1954"@it ;
+    dcterms:identifier <https://w3id.org/ficlitdl/time-span/1954> ;
+    ti:hasIntervalEndDate "1954-12-31T23:59:59+01:00"^^xsd:dateTime ;
+    ti:hasIntervalStartDate "1954-01-01T00:00:00+01:00"^^xsd:dateTime .
+
+<https://w3id.org/ficlitdl/time-span/1955> a crm:P52_Time-Span ;
+    rdfs:label "1955"@en,
+        "1955"@it ;
+    dcterms:identifier <https://w3id.org/ficlitdl/time-span/1955> ;
+    ti:hasIntervalEndDate "1955-12-31T23:59:59+01:00"^^xsd:dateTime ;
+    ti:hasIntervalStartDate "1955-01-01T00:00:00+01:00"^^xsd:dateTime .
+
+<https://w3id.org/ficlitdl/time-span/1956> a crm:P52_Time-Span ;
+    rdfs:label "1956"@en,
+        "1956"@it ;
+    dcterms:identifier <https://w3id.org/ficlitdl/time-span/1956> ;
+    ti:hasIntervalEndDate "1956-12-31T23:59:59+01:00"^^xsd:dateTime ;
+    ti:hasIntervalStartDate "1956-01-01T00:00:00+01:00"^^xsd:dateTime .
+
+<https://w3id.org/ficlitdl/time-span/1957> a crm:P52_Time-Span ;
+    rdfs:label "1957"@en,
+        "1957"@it ;
+    dcterms:identifier <https://w3id.org/ficlitdl/time-span/1957> ;
+    ti:hasIntervalEndDate "1957-12-31T23:59:59+01:00"^^xsd:dateTime ;
+    ti:hasIntervalStartDate "1957-01-01T00:00:00+01:00"^^xsd:dateTime .
+
+<https://w3id.org/ficlitdl/time-span/1958> a crm:P52_Time-Span ;
+    rdfs:label "1958"@en,
+        "1958"@it ;
+    dcterms:identifier <https://w3id.org/ficlitdl/time-span/1958> ;
+    ti:hasIntervalEndDate "1958-12-31T23:59:59+01:00"^^xsd:dateTime ;
+    ti:hasIntervalStartDate "1958-01-01T00:00:00+01:00"^^xsd:dateTime .
+
+<https://w3id.org/ficlitdl/time-span/1959> a crm:P52_Time-Span ;
+    rdfs:label "1959"@en,
+        "1959"@it ;
+    dcterms:identifier <https://w3id.org/ficlitdl/time-span/1959> ;
+    ti:hasIntervalEndDate "1959-12-31T23:59:59+01:00"^^xsd:dateTime ;
+    ti:hasIntervalStartDate "1959-01-01T00:00:00+01:00"^^xsd:dateTime .
+
+<https://w3id.org/ficlitdl/time-span/1960> a crm:P52_Time-Span ;
+    rdfs:label "1960"@en,
+        "1960"@it ;
+    dcterms:identifier <https://w3id.org/ficlitdl/time-span/1960> ;
+    ti:hasIntervalEndDate "1960-12-31T23:59:59+01:00"^^xsd:dateTime ;
+    ti:hasIntervalStartDate "1960-01-01T00:00:00+01:00"^^xsd:dateTime .
+
+<https://w3id.org/ficlitdl/time-span/1961> a crm:P52_Time-Span ;
+    rdfs:label "1961"@en,
+        "1961"@it ;
+    dcterms:identifier <https://w3id.org/ficlitdl/time-span/1961> ;
+    ti:hasIntervalEndDate "1961-12-31T23:59:59+01:00"^^xsd:dateTime ;
+    ti:hasIntervalStartDate "1961-01-01T00:00:00+01:00"^^xsd:dateTime .
+
+<https://w3id.org/ficlitdl/time-span/1962> a crm:P52_Time-Span ;
+    rdfs:label "1962"@en,
+        "1962"@it ;
+    dcterms:identifier <https://w3id.org/ficlitdl/time-span/1962> ;
+    ti:hasIntervalEndDate "1962-12-31T23:59:59+01:00"^^xsd:dateTime ;
+    ti:hasIntervalStartDate "1962-01-01T00:00:00+01:00"^^xsd:dateTime .
+
+<https://w3id.org/ficlitdl/time-span/1963> a crm:P52_Time-Span ;
+    rdfs:label "1963"@en,
+        "1963"@it ;
+    dcterms:identifier <https://w3id.org/ficlitdl/time-span/1963> ;
+    ti:hasIntervalEndDate "1963-12-31T23:59:59+01:00"^^xsd:dateTime ;
+    ti:hasIntervalStartDate "1963-01-01T00:00:00+01:00"^^xsd:dateTime .
+
+<https://w3id.org/ficlitdl/time-span/1964> a crm:P52_Time-Span ;
+    rdfs:label "1964"@en,
+        "1964"@it ;
+    dcterms:identifier <https://w3id.org/ficlitdl/time-span/1964> ;
+    ti:hasIntervalEndDate "1964-12-31T23:59:59+01:00"^^xsd:dateTime ;
+    ti:hasIntervalStartDate "1964-01-01T00:00:00+01:00"^^xsd:dateTime .
+
+<https://w3id.org/ficlitdl/time-span/1965> a crm:P52_Time-Span ;
+    rdfs:label "1965"@en,
+        "1965"@it ;
+    dcterms:identifier <https://w3id.org/ficlitdl/time-span/1965> ;
+    ti:hasIntervalEndDate "1965-12-31T23:59:59+01:00"^^xsd:dateTime ;
+    ti:hasIntervalStartDate "1965-01-01T00:00:00+01:00"^^xsd:dateTime .
+
+<https://w3id.org/ficlitdl/time-span/1966> a crm:P52_Time-Span ;
+    rdfs:label "1966"@en,
+        "1966"@it ;
+    dcterms:identifier <https://w3id.org/ficlitdl/time-span/1966> ;
+    ti:hasIntervalEndDate "1966-12-31T23:59:59+01:00"^^xsd:dateTime ;
+    ti:hasIntervalStartDate "1966-01-01T00:00:00+01:00"^^xsd:dateTime .
+
+<https://w3id.org/ficlitdl/time-span/1967> a crm:P52_Time-Span ;
+    rdfs:label "1967"@en,
+        "1967"@it ;
+    dcterms:identifier <https://w3id.org/ficlitdl/time-span/1967> ;
+    ti:hasIntervalEndDate "1967-12-31T23:59:59+01:00"^^xsd:dateTime ;
+    ti:hasIntervalStartDate "1967-01-01T00:00:00+01:00"^^xsd:dateTime .
+
+<https://w3id.org/ficlitdl/time-span/1968> a crm:P52_Time-Span ;
+    rdfs:label "1968"@en,
+        "1968"@it ;
+    dcterms:identifier <https://w3id.org/ficlitdl/time-span/1968> ;
+    ti:hasIntervalEndDate "1968-12-31T23:59:59+01:00"^^xsd:dateTime ;
+    ti:hasIntervalStartDate "1968-01-01T00:00:00+01:00"^^xsd:dateTime .
+
+<https://w3id.org/ficlitdl/time-span/1969> a crm:P52_Time-Span ;
+    rdfs:label "1969"@en,
+        "1969"@it ;
+    dcterms:identifier <https://w3id.org/ficlitdl/time-span/1969> ;
+    ti:hasIntervalEndDate "1969-12-31T23:59:59+01:00"^^xsd:dateTime ;
+    ti:hasIntervalStartDate "1969-01-01T00:00:00+01:00"^^xsd:dateTime .
+
+<https://w3id.org/ficlitdl/time-span/1970> a crm:P52_Time-Span ;
+    rdfs:label "1970"@en,
+        "1970"@it ;
+    dcterms:identifier <https://w3id.org/ficlitdl/time-span/1970> ;
+    ti:hasIntervalEndDate "1970-12-31T23:59:59+01:00"^^xsd:dateTime ;
+    ti:hasIntervalStartDate "1970-01-01T00:00:00+01:00"^^xsd:dateTime .
+
+<https://w3id.org/ficlitdl/time-span/1971> a crm:P52_Time-Span ;
+    rdfs:label "1971"@en,
+        "1971"@it ;
+    dcterms:identifier <https://w3id.org/ficlitdl/time-span/1971> ;
+    ti:hasIntervalEndDate "1971-12-31T23:59:59+01:00"^^xsd:dateTime ;
+    ti:hasIntervalStartDate "1971-01-01T00:00:00+01:00"^^xsd:dateTime .
+
+<https://w3id.org/ficlitdl/time-span/1972> a crm:P52_Time-Span ;
+    rdfs:label "1972"@en,
+        "1972"@it ;
+    dcterms:identifier <https://w3id.org/ficlitdl/time-span/1972> ;
+    ti:hasIntervalEndDate "1972-12-31T23:59:59+01:00"^^xsd:dateTime ;
+    ti:hasIntervalStartDate "1972-01-01T00:00:00+01:00"^^xsd:dateTime .
+
+<https://w3id.org/ficlitdl/time-span/1973> a crm:P52_Time-Span ;
+    rdfs:label "1973"@en,
+        "1973"@it ;
+    dcterms:identifier <https://w3id.org/ficlitdl/time-span/1973> ;
+    ti:hasIntervalEndDate "1973-12-31T23:59:59+01:00"^^xsd:dateTime ;
+    ti:hasIntervalStartDate "1973-01-01T00:00:00+01:00"^^xsd:dateTime .
+
+<https://w3id.org/ficlitdl/time-span/1974> a crm:P52_Time-Span ;
+    rdfs:label "1974"@en,
+        "1974"@it ;
+    dcterms:identifier <https://w3id.org/ficlitdl/time-span/1974> ;
+    ti:hasIntervalEndDate "1974-12-31T23:59:59+01:00"^^xsd:dateTime ;
+    ti:hasIntervalStartDate "1974-01-01T00:00:00+01:00"^^xsd:dateTime .
+
+<https://w3id.org/ficlitdl/time-span/1975> a crm:P52_Time-Span ;
+    rdfs:label "1975"@en,
+        "1975"@it ;
+    dcterms:identifier <https://w3id.org/ficlitdl/time-span/1975> ;
+    ti:hasIntervalEndDate "1975-12-31T23:59:59+01:00"^^xsd:dateTime ;
+    ti:hasIntervalStartDate "1975-01-01T00:00:00+01:00"^^xsd:dateTime .
+
+<https://w3id.org/ficlitdl/time-span/1976> a crm:P52_Time-Span ;
+    rdfs:label "1976"@en,
+        "1976"@it ;
+    dcterms:identifier <https://w3id.org/ficlitdl/time-span/1976> ;
+    ti:hasIntervalEndDate "1976-12-31T23:59:59+01:00"^^xsd:dateTime ;
+    ti:hasIntervalStartDate "1976-01-01T00:00:00+01:00"^^xsd:dateTime .
+
+<https://w3id.org/ficlitdl/time-span/1985-1989> a crm:P52_Time-Span ;
+    rdfs:label "Late 1980s"@en,
+        "Fine degli anni '80"@it ;
+    dcterms:identifier <https://w3id.org/ficlitdl/time-span/1985-1989> ;
+    ti:hasIntervalEndDate "1989-01-01T23:59:59+01:00"^^xsd:dateTime ;
+    ti:hasIntervalStartDate "1985-01-01T00:00:00+01:00"^^xsd:dateTime .
+
+<https://w3id.org/ficlitdl/time-span/1993-03-08_1993-03-10> a crm:P52_Time-Span ;
+    rdfs:label "8th-10th March 1993"@en,
+        "8-10 marzo 1993"@it ;
+    dcterms:identifier <https://w3id.org/ficlitdl/time-span/1993-03-08_1993-03-10> ;
+    ti:hasIntervalEndDate "1993-03-10T23:59:59+01:00"^^xsd:dateTime ;
+    ti:hasIntervalStartDate "1993-03-08T00:00:00+01:00"^^xsd:dateTime .
+
+<https://w3id.org/ficlitdl/time-span/1996-05> a crm:P52_Time-Span ;
+    rdfs:label "May 1996"@en,
+        "maggio 1996"@it ;
+    dcterms:identifier <https://w3id.org/ficlitdl/time-span/1996-05> ;
+    ti:hasIntervalEndDate "1996-05-31T23:59:59+01:00"^^xsd:dateTime ;
+    ti:hasIntervalStartDate "1996-05-01T00:00:00+01:00"^^xsd:dateTime .
+

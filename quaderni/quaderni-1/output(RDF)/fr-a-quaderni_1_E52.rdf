@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:ti="http://www.ontologydesignpatterns.org/cp/owl/timeinterval.owl#"
+>
+  <rdf:Description rdf:about="https://w3id.org/ficlitdl/time-span/1996-05">
+    <rdfs:label xml:lang="it">maggio 1996</rdfs:label>
+    <ti:hasIntervalStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1996-05-01T00:00:00+01:00</ti:hasIntervalStartDate>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P52_Time-Span"/>
+    <rdfs:label xml:lang="en">May 1996</rdfs:label>
+    <ti:hasIntervalEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1996-05-31T23:59:59+01:00</ti:hasIntervalEndDate>
+    <dcterms:identifier rdf:resource="https://w3id.org/ficlitdl/time-span/1996-05"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/ficlitdl/time-span/1975">
+    <ti:hasIntervalEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1975-12-31T23:59:59+01:00</ti:hasIntervalEndDate>
+    <rdfs:label xml:lang="it">1975</rdfs:label>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P52_Time-Span"/>
+    <ti:hasIntervalStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1975-01-01T00:00:00+01:00</ti:hasIntervalStartDate>
+    <rdfs:label xml:lang="en">1975</rdfs:label>
+    <dcterms:identifier rdf:resource="https://w3id.org/ficlitdl/time-span/1975"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/ficlitdl/time-span/1966">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P52_Time-Span"/>
+    <ti:hasIntervalEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1966-12-31T23:59:59+01:00</ti:hasIntervalEndDate>
+    <ti:hasIntervalStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1966-01-01T00:00:00+01:00</ti:hasIntervalStartDate>
+    <rdfs:label xml:lang="it">1966</rdfs:label>
+    <rdfs:label xml:lang="en">1966</rdfs:label>
+    <dcterms:identifier rdf:resource="https://w3id.org/ficlitdl/time-span/1966"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/ficlitdl/time-span/1962">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P52_Time-Span"/>
+    <ti:hasIntervalStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1962-01-01T00:00:00+01:00</ti:hasIntervalStartDate>
+    <dcterms:identifier rdf:resource="https://w3id.org/ficlitdl/time-span/1962"/>
+    <rdfs:label xml:lang="it">1962</rdfs:label>
+    <rdfs:label xml:lang="en">1962</rdfs:label>
+    <ti:hasIntervalEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1962-12-31T23:59:59+01:00</ti:hasIntervalEndDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/ficlitdl/time-span/1976">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P52_Time-Span"/>
+    <ti:hasIntervalStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1976-01-01T00:00:00+01:00</ti:hasIntervalStartDate>
+    <rdfs:label xml:lang="it">1976</rdfs:label>
+    <dcterms:identifier rdf:resource="https://w3id.org/ficlitdl/time-span/1976"/>
+    <ti:hasIntervalEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1976-12-31T23:59:59+01:00</ti:hasIntervalEndDate>
+    <rdfs:label xml:lang="en">1976</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/ficlitdl/time-span/1960">
+    <dcterms:identifier rdf:resource="https://w3id.org/ficlitdl/time-span/1960"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P52_Time-Span"/>
+    <rdfs:label xml:lang="it">1960</rdfs:label>
+    <rdfs:label xml:lang="en">1960</rdfs:label>
+    <ti:hasIntervalEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1960-12-31T23:59:59+01:00</ti:hasIntervalEndDate>
+    <ti:hasIntervalStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1960-01-01T00:00:00+01:00</ti:hasIntervalStartDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/ficlitdl/time-span/1965">
+    <ti:hasIntervalStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1965-01-01T00:00:00+01:00</ti:hasIntervalStartDate>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P52_Time-Span"/>
+    <ti:hasIntervalEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1965-12-31T23:59:59+01:00</ti:hasIntervalEndDate>
+    <rdfs:label xml:lang="en">1965</rdfs:label>
+    <rdfs:label xml:lang="it">1965</rdfs:label>
+    <dcterms:identifier rdf:resource="https://w3id.org/ficlitdl/time-span/1965"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/ficlitdl/time-span/1959">
+    <rdfs:label xml:lang="it">1959</rdfs:label>
+    <ti:hasIntervalStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1959-01-01T00:00:00+01:00</ti:hasIntervalStartDate>
+    <ti:hasIntervalEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1959-12-31T23:59:59+01:00</ti:hasIntervalEndDate>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P52_Time-Span"/>
+    <rdfs:label xml:lang="en">1959</rdfs:label>
+    <dcterms:identifier rdf:resource="https://w3id.org/ficlitdl/time-span/1959"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/ficlitdl/time-span/1961">
+    <rdfs:label xml:lang="en">1961</rdfs:label>
+    <ti:hasIntervalStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1961-01-01T00:00:00+01:00</ti:hasIntervalStartDate>
+    <ti:hasIntervalEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1961-12-31T23:59:59+01:00</ti:hasIntervalEndDate>
+    <rdfs:label xml:lang="it">1961</rdfs:label>
+    <dcterms:identifier rdf:resource="https://w3id.org/ficlitdl/time-span/1961"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P52_Time-Span"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/ficlitdl/time-span/1958">
+    <rdfs:label xml:lang="en">1958</rdfs:label>
+    <dcterms:identifier rdf:resource="https://w3id.org/ficlitdl/time-span/1958"/>
+    <rdfs:label xml:lang="it">1958</rdfs:label>
+    <ti:hasIntervalStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1958-01-01T00:00:00+01:00</ti:hasIntervalStartDate>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P52_Time-Span"/>
+    <ti:hasIntervalEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1958-12-31T23:59:59+01:00</ti:hasIntervalEndDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/ficlitdl/time-span/1964">
+    <ti:hasIntervalStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1964-01-01T00:00:00+01:00</ti:hasIntervalStartDate>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P52_Time-Span"/>
+    <dcterms:identifier rdf:resource="https://w3id.org/ficlitdl/time-span/1964"/>
+    <rdfs:label xml:lang="en">1964</rdfs:label>
+    <ti:hasIntervalEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1964-12-31T23:59:59+01:00</ti:hasIntervalEndDate>
+    <rdfs:label xml:lang="it">1964</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/ficlitdl/time-span/1993-03-08_1993-03-10">
+    <ti:hasIntervalEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1993-03-10T23:59:59+01:00</ti:hasIntervalEndDate>
+    <dcterms:identifier rdf:resource="https://w3id.org/ficlitdl/time-span/1993-03-08_1993-03-10"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P52_Time-Span"/>
+    <rdfs:label xml:lang="en">8th-10th March 1993</rdfs:label>
+    <ti:hasIntervalStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1993-03-08T00:00:00+01:00</ti:hasIntervalStartDate>
+    <rdfs:label xml:lang="it">8-10 marzo 1993</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/ficlitdl/time-span/1957">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P52_Time-Span"/>
+    <rdfs:label xml:lang="en">1957</rdfs:label>
+    <ti:hasIntervalStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1957-01-01T00:00:00+01:00</ti:hasIntervalStartDate>
+    <rdfs:label xml:lang="it">1957</rdfs:label>
+    <dcterms:identifier rdf:resource="https://w3id.org/ficlitdl/time-span/1957"/>
+    <ti:hasIntervalEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1957-12-31T23:59:59+01:00</ti:hasIntervalEndDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/ficlitdl/time-span/1970">
+    <rdfs:label xml:lang="it">1970</rdfs:label>
+    <ti:hasIntervalEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1970-12-31T23:59:59+01:00</ti:hasIntervalEndDate>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P52_Time-Span"/>
+    <ti:hasIntervalStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1970-01-01T00:00:00+01:00</ti:hasIntervalStartDate>
+    <rdfs:label xml:lang="en">1970</rdfs:label>
+    <dcterms:identifier rdf:resource="https://w3id.org/ficlitdl/time-span/1970"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/ficlitdl/time-span/1963">
+    <ti:hasIntervalStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1963-01-01T00:00:00+01:00</ti:hasIntervalStartDate>
+    <rdfs:label xml:lang="it">1963</rdfs:label>
+    <dcterms:identifier rdf:resource="https://w3id.org/ficlitdl/time-span/1963"/>
+    <rdfs:label xml:lang="en">1963</rdfs:label>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P52_Time-Span"/>
+    <ti:hasIntervalEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1963-12-31T23:59:59+01:00</ti:hasIntervalEndDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/ficlitdl/time-span/1972">
+    <rdfs:label xml:lang="en">1972</rdfs:label>
+    <ti:hasIntervalStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1972-01-01T00:00:00+01:00</ti:hasIntervalStartDate>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P52_Time-Span"/>
+    <rdfs:label xml:lang="it">1972</rdfs:label>
+    <dcterms:identifier rdf:resource="https://w3id.org/ficlitdl/time-span/1972"/>
+    <ti:hasIntervalEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1972-12-31T23:59:59+01:00</ti:hasIntervalEndDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/ficlitdl/time-span/1974">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P52_Time-Span"/>
+    <ti:hasIntervalEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1974-12-31T23:59:59+01:00</ti:hasIntervalEndDate>
+    <ti:hasIntervalStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1974-01-01T00:00:00+01:00</ti:hasIntervalStartDate>
+    <dcterms:identifier rdf:resource="https://w3id.org/ficlitdl/time-span/1974"/>
+    <rdfs:label xml:lang="en">1974</rdfs:label>
+    <rdfs:label xml:lang="it">1974</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/ficlitdl/time-span/1955">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P52_Time-Span"/>
+    <rdfs:label xml:lang="it">1955</rdfs:label>
+    <dcterms:identifier rdf:resource="https://w3id.org/ficlitdl/time-span/1955"/>
+    <ti:hasIntervalStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1955-01-01T00:00:00+01:00</ti:hasIntervalStartDate>
+    <rdfs:label xml:lang="en">1955</rdfs:label>
+    <ti:hasIntervalEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1955-12-31T23:59:59+01:00</ti:hasIntervalEndDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/ficlitdl/time-span/1971">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P52_Time-Span"/>
+    <rdfs:label xml:lang="it">1971</rdfs:label>
+    <dcterms:identifier rdf:resource="https://w3id.org/ficlitdl/time-span/1971"/>
+    <ti:hasIntervalEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1971-12-31T23:59:59+01:00</ti:hasIntervalEndDate>
+    <ti:hasIntervalStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1971-01-01T00:00:00+01:00</ti:hasIntervalStartDate>
+    <rdfs:label xml:lang="en">1971</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/ficlitdl/time-span/1954">
+    <rdfs:label xml:lang="it">1954</rdfs:label>
+    <dcterms:identifier rdf:resource="https://w3id.org/ficlitdl/time-span/1954"/>
+    <rdfs:label xml:lang="en">1954</rdfs:label>
+    <ti:hasIntervalStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1954-01-01T00:00:00+01:00</ti:hasIntervalStartDate>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P52_Time-Span"/>
+    <ti:hasIntervalEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1954-12-31T23:59:59+01:00</ti:hasIntervalEndDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/ficlitdl/time-span/1973">
+    <rdfs:label xml:lang="it">1973</rdfs:label>
+    <rdfs:label xml:lang="en">1973</rdfs:label>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P52_Time-Span"/>
+    <ti:hasIntervalEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1973-12-31T23:59:59+01:00</ti:hasIntervalEndDate>
+    <ti:hasIntervalStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1973-01-01T00:00:00+01:00</ti:hasIntervalStartDate>
+    <dcterms:identifier rdf:resource="https://w3id.org/ficlitdl/time-span/1973"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/ficlitdl/time-span/1967">
+    <rdfs:label xml:lang="en">1967</rdfs:label>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P52_Time-Span"/>
+    <rdfs:label xml:lang="it">1967</rdfs:label>
+    <ti:hasIntervalEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1967-12-31T23:59:59+01:00</ti:hasIntervalEndDate>
+    <ti:hasIntervalStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1967-01-01T00:00:00+01:00</ti:hasIntervalStartDate>
+    <dcterms:identifier rdf:resource="https://w3id.org/ficlitdl/time-span/1967"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/ficlitdl/time-span/1968">
+    <rdfs:label xml:lang="it">1968</rdfs:label>
+    <ti:hasIntervalStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1968-01-01T00:00:00+01:00</ti:hasIntervalStartDate>
+    <dcterms:identifier rdf:resource="https://w3id.org/ficlitdl/time-span/1968"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P52_Time-Span"/>
+    <rdfs:label xml:lang="en">1968</rdfs:label>
+    <ti:hasIntervalEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1968-12-31T23:59:59+01:00</ti:hasIntervalEndDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/ficlitdl/time-span/1985-1989">
+    <ti:hasIntervalEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1989-01-01T23:59:59+01:00</ti:hasIntervalEndDate>
+    <rdfs:label xml:lang="it">Fine degli anni '80</rdfs:label>
+    <rdfs:label xml:lang="en">Late 1980s</rdfs:label>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P52_Time-Span"/>
+    <dcterms:identifier rdf:resource="https://w3id.org/ficlitdl/time-span/1985-1989"/>
+    <ti:hasIntervalStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1985-01-01T00:00:00+01:00</ti:hasIntervalStartDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/ficlitdl/time-span/1956">
+    <dcterms:identifier rdf:resource="https://w3id.org/ficlitdl/time-span/1956"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P52_Time-Span"/>
+    <ti:hasIntervalStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1956-01-01T00:00:00+01:00</ti:hasIntervalStartDate>
+    <rdfs:label xml:lang="it">1956</rdfs:label>
+    <ti:hasIntervalEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1956-12-31T23:59:59+01:00</ti:hasIntervalEndDate>
+    <rdfs:label xml:lang="en">1956</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/ficlitdl/time-span/1969">
+    <rdfs:label xml:lang="en">1969</rdfs:label>
+    <ti:hasIntervalStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1969-01-01T00:00:00+01:00</ti:hasIntervalStartDate>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P52_Time-Span"/>
+    <dcterms:identifier rdf:resource="https://w3id.org/ficlitdl/time-span/1969"/>
+    <ti:hasIntervalEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1969-12-31T23:59:59+01:00</ti:hasIntervalEndDate>
+    <rdfs:label xml:lang="it">1969</rdfs:label>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+>
+  <rdf:Description rdf:about="https://w3id.org/ficlitdl/height/21cm">
+    <skos:closeMatch rdf:resource="http://vocab.getty.edu/aat/300055644"/>
+    <rdfs:label xml:lang="en">Height 21 cm</rdfs:label>
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">21</crm:P90_has_value>
+    <crm:P2_has_type rdf:resource="https://w3id.org/ficlitdl/dimension-type/height"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+    <dcterms:identifier rdf:resource="https://w3id.org/ficlitdl/height/21cm"/>
+    <rdfs:label xml:lang="it">Altezza 21 cm</rdfs:label>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/ficlitdl/measurement-unit-type/centimetre"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/ficlitdl/extent/25p">
+    <rdfs:label xml:lang="it">25 pagine</rdfs:label>
+    <rdfs:label xml:lang="en">25 pages</rdfs:label>
+    <dcterms:identifier rdf:resource="https://w3id.org/ficlitdl/extent/25p"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">25</crm:P90_has_value>
+    <crm:P2_has_type rdf:resource="https://w3id.org/ficlitdl/dimension-type/extent"/>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/ficlitdl/measurement-unit-type/page"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/ficlitdl/extent/22c">
+    <crm:P2_has_type rdf:resource="https://w3id.org/ficlitdl/dimension-type/extent"/>
+    <rdfs:label xml:lang="en">22 leaves</rdfs:label>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/ficlitdl/measurement-unit-type/leaf"/>
+    <rdfs:label xml:lang="it">22 carte</rdfs:label>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">22</crm:P90_has_value>
+    <dcterms:identifier rdf:resource="https://w3id.org/ficlitdl/extent/22c"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/ficlitdl/extent/5c">
+    <crm:P2_has_type rdf:resource="https://w3id.org/ficlitdl/dimension-type/extent"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+    <rdfs:label xml:lang="it">5 carte</rdfs:label>
+    <rdfs:label xml:lang="en">5 leaves</rdfs:label>
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/ficlitdl/measurement-unit-type/leaf"/>
+    <dcterms:identifier rdf:resource="https://w3id.org/ficlitdl/extent/5c"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/ficlitdl/extent/11c">
+    <crm:P91_has_unit rdf:resource="https://w3id.org/ficlitdl/measurement-unit-type/leaf"/>
+    <rdfs:label xml:lang="en">11 leaves</rdfs:label>
+    <rdfs:label xml:lang="it">11 carte</rdfs:label>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+    <crm:P2_has_type rdf:resource="https://w3id.org/ficlitdl/dimension-type/extent"/>
+    <dcterms:identifier rdf:resource="https://w3id.org/ficlitdl/extent/11c"/>
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">11</crm:P90_has_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/ficlitdl/extent/5p">
+    <crm:P91_has_unit rdf:resource="https://w3id.org/ficlitdl/measurement-unit-type/page"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+    <dcterms:identifier rdf:resource="https://w3id.org/ficlitdl/extent/5p"/>
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5</crm:P90_has_value>
+    <rdfs:label xml:lang="en">5 pages</rdfs:label>
+    <rdfs:label xml:lang="it">5 pagine</rdfs:label>
+    <crm:P2_has_type rdf:resource="https://w3id.org/ficlitdl/dimension-type/extent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/ficlitdl/extent/18c">
+    <rdfs:label xml:lang="en">18 leaves</rdfs:label>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/ficlitdl/measurement-unit-type/leaf"/>
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">18</crm:P90_has_value>
+    <rdfs:label xml:lang="it">18 carte</rdfs:label>
+    <dcterms:identifier rdf:resource="https://w3id.org/ficlitdl/extent/18c"/>
+    <crm:P2_has_type rdf:resource="https://w3id.org/ficlitdl/dimension-type/extent"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/ficlitdl/extent/4c">
+    <crm:P2_has_type rdf:resource="https://w3id.org/ficlitdl/dimension-type/extent"/>
+    <rdfs:label xml:lang="en">4 leaves</rdfs:label>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+    <dcterms:identifier rdf:resource="https://w3id.org/ficlitdl/extent/4c"/>
+    <rdfs:label xml:lang="it">4 carte</rdfs:label>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/ficlitdl/measurement-unit-type/leaf"/>
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4</crm:P90_has_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/ficlitdl/extent/6p">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/ficlitdl/measurement-unit-type/page"/>
+    <dcterms:identifier rdf:resource="https://w3id.org/ficlitdl/extent/6p"/>
+    <rdfs:label xml:lang="en">6 pages</rdfs:label>
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6</crm:P90_has_value>
+    <rdfs:label xml:lang="it">6 pagine</rdfs:label>
+    <crm:P2_has_type rdf:resource="https://w3id.org/ficlitdl/dimension-type/extent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/ficlitdl/extent/14c">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">14</crm:P90_has_value>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+    <dcterms:identifier rdf:resource="https://w3id.org/ficlitdl/extent/14c"/>
+    <rdfs:label xml:lang="en">14 leaves</rdfs:label>
+    <rdfs:label xml:lang="it">14 carte</rdfs:label>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/ficlitdl/measurement-unit-type/leaf"/>
+    <crm:P2_has_type rdf:resource="https://w3id.org/ficlitdl/dimension-type/extent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/ficlitdl/extent/7c">
+    <rdfs:label xml:lang="it">7 carte</rdfs:label>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/ficlitdl/measurement-unit-type/leaf"/>
+    <rdfs:label xml:lang="en">7 leaves</rdfs:label>
+    <crm:P2_has_type rdf:resource="https://w3id.org/ficlitdl/dimension-type/extent"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">7</crm:P90_has_value>
+    <dcterms:identifier rdf:resource="https://w3id.org/ficlitdl/extent/7c"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/ficlitdl/extent/2p">
+    <rdfs:label xml:lang="it">2 pagine</rdfs:label>
+    <rdfs:label xml:lang="en">2 pages</rdfs:label>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+    <dcterms:identifier rdf:resource="https://w3id.org/ficlitdl/extent/2p"/>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/ficlitdl/measurement-unit-type/page"/>
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2</crm:P90_has_value>
+    <crm:P2_has_type rdf:resource="https://w3id.org/ficlitdl/dimension-type/extent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/ficlitdl/extent/17p">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">17</crm:P90_has_value>
+    <rdfs:label xml:lang="it">17 pagine</rdfs:label>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+    <crm:P2_has_type rdf:resource="https://w3id.org/ficlitdl/dimension-type/extent"/>
+    <dcterms:identifier rdf:resource="https://w3id.org/ficlitdl/extent/17p"/>
+    <rdfs:label xml:lang="en">17 pages</rdfs:label>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/ficlitdl/measurement-unit-type/page"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/ficlitdl/extent/6c">
+    <crm:P2_has_type rdf:resource="https://w3id.org/ficlitdl/dimension-type/extent"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+    <rdfs:label xml:lang="en">6 leaves</rdfs:label>
+    <rdfs:label xml:lang="it">6 carte</rdfs:label>
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/ficlitdl/measurement-unit-type/leaf"/>
+    <dcterms:identifier rdf:resource="https://w3id.org/ficlitdl/extent/6c"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/ficlitdl/extent/20c">
+    <crm:P2_has_type rdf:resource="https://w3id.org/ficlitdl/dimension-type/extent"/>
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">20</crm:P90_has_value>
+    <rdfs:label xml:lang="it">20 carte</rdfs:label>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/ficlitdl/measurement-unit-type/leaf"/>
+    <rdfs:label xml:lang="en">20 leaves</rdfs:label>
+    <dcterms:identifier rdf:resource="https://w3id.org/ficlitdl/extent/20c"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/ficlitdl/extent/21p">
+    <crm:P2_has_type rdf:resource="https://w3id.org/ficlitdl/dimension-type/extent"/>
+    <rdfs:label xml:lang="it">21 pagine</rdfs:label>
+    <rdfs:label xml:lang="en">21 pages</rdfs:label>
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">21</crm:P90_has_value>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/ficlitdl/measurement-unit-type/page"/>
+    <dcterms:identifier rdf:resource="https://w3id.org/ficlitdl/extent/21p"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/ficlitdl/extent/4p">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4</crm:P90_has_value>
+    <rdfs:label xml:lang="it">4 pagine</rdfs:label>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/ficlitdl/measurement-unit-type/page"/>
+    <rdfs:label xml:lang="en">4 pages</rdfs:label>
+    <crm:P2_has_type rdf:resource="https://w3id.org/ficlitdl/dimension-type/extent"/>
+    <dcterms:identifier rdf:resource="https://w3id.org/ficlitdl/extent/4p"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/ficlitdl/extent/7p">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">7</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/ficlitdl/measurement-unit-type/page"/>
+    <rdfs:label xml:lang="en">7 pages</rdfs:label>
+    <crm:P2_has_type rdf:resource="https://w3id.org/ficlitdl/dimension-type/extent"/>
+    <rdfs:label xml:lang="it">7 pagine</rdfs:label>
+    <dcterms:identifier rdf:resource="https://w3id.org/ficlitdl/extent/7p"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/ficlitdl/extent/26c">
+    <crm:P2_has_type rdf:resource="https://w3id.org/ficlitdl/dimension-type/extent"/>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/ficlitdl/measurement-unit-type/leaf"/>
+    <rdfs:label xml:lang="en">26 leaves</rdfs:label>
+    <dcterms:identifier rdf:resource="https://w3id.org/ficlitdl/extent/26c"/>
+    <rdfs:label xml:lang="it">26 carte</rdfs:label>
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">26</crm:P90_has_value>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/ficlitdl/extent/10c">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">10</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/ficlitdl/measurement-unit-type/leaf"/>
+    <crm:P2_has_type rdf:resource="https://w3id.org/ficlitdl/dimension-type/extent"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+    <rdfs:label xml:lang="en">10 leaves</rdfs:label>
+    <rdfs:label xml:lang="it">10 carte</rdfs:label>
+    <dcterms:identifier rdf:resource="https://w3id.org/ficlitdl/extent/10c"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/ficlitdl/extent/16c">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">16</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/ficlitdl/measurement-unit-type/leaf"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+    <rdfs:label xml:lang="en">16 leaves</rdfs:label>
+    <dcterms:identifier rdf:resource="https://w3id.org/ficlitdl/extent/16c"/>
+    <crm:P2_has_type rdf:resource="https://w3id.org/ficlitdl/dimension-type/extent"/>
+    <rdfs:label xml:lang="it">16 carte</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/ficlitdl/extent/20p">
+    <rdfs:label xml:lang="it">20 pagine</rdfs:label>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+    <dcterms:identifier rdf:resource="https://w3id.org/ficlitdl/extent/20p"/>
+    <rdfs:label xml:lang="en">20 pages</rdfs:label>
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">20</crm:P90_has_value>
+    <crm:P2_has_type rdf:resource="https://w3id.org/ficlitdl/dimension-type/extent"/>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/ficlitdl/measurement-unit-type/page"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/ficlitdl/extent/36c">
+    <rdfs:label xml:lang="en">36 leaves</rdfs:label>
+    <crm:P2_has_type rdf:resource="https://w3id.org/ficlitdl/dimension-type/extent"/>
+    <dcterms:identifier rdf:resource="https://w3id.org/ficlitdl/extent/36c"/>
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">36</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/ficlitdl/measurement-unit-type/leaf"/>
+    <rdfs:label xml:lang="it">36 carte</rdfs:label>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/ficlitdl/extent/19p">
+    <crm:P2_has_type rdf:resource="https://w3id.org/ficlitdl/dimension-type/extent"/>
+    <rdfs:label xml:lang="en">19 pages</rdfs:label>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/ficlitdl/measurement-unit-type/page"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">19</crm:P90_has_value>
+    <rdfs:label xml:lang="it">19 pagine</rdfs:label>
+    <dcterms:identifier rdf:resource="https://w3id.org/ficlitdl/extent/19p"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/ficlitdl/extent/8p">
+    <dcterms:identifier rdf:resource="https://w3id.org/ficlitdl/extent/8p"/>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/ficlitdl/measurement-unit-type/page"/>
+    <crm:P2_has_type rdf:resource="https://w3id.org/ficlitdl/dimension-type/extent"/>
+    <rdfs:label xml:lang="it">8 pagine</rdfs:label>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+    <rdfs:label xml:lang="en">8 pages</rdfs:label>
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8</crm:P90_has_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/ficlitdl/extent/9p">
+    <rdfs:label xml:lang="it">9 pagine</rdfs:label>
+    <rdfs:label xml:lang="en">9 pages</rdfs:label>
+    <dcterms:identifier rdf:resource="https://w3id.org/ficlitdl/extent/9p"/>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/ficlitdl/measurement-unit-type/page"/>
+    <crm:P2_has_type rdf:resource="https://w3id.org/ficlitdl/dimension-type/extent"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9</crm:P90_has_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/ficlitdl/extent/16p">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">16</crm:P90_has_value>
+    <rdfs:label xml:lang="it">16 pagine</rdfs:label>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+    <rdfs:label xml:lang="en">16 pages</rdfs:label>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/ficlitdl/measurement-unit-type/page"/>
+    <crm:P2_has_type rdf:resource="https://w3id.org/ficlitdl/dimension-type/extent"/>
+    <dcterms:identifier rdf:resource="https://w3id.org/ficlitdl/extent/16p"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/ficlitdl/extent/18p">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">18</crm:P90_has_value>
+    <crm:P2_has_type rdf:resource="https://w3id.org/ficlitdl/dimension-type/extent"/>
+    <rdfs:label xml:lang="it">18 pagine</rdfs:label>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/ficlitdl/measurement-unit-type/page"/>
+    <rdfs:label xml:lang="en">18 pages</rdfs:label>
+    <dcterms:identifier rdf:resource="https://w3id.org/ficlitdl/extent/18p"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/ficlitdl/extent/9c">
+    <crm:P91_has_unit rdf:resource="https://w3id.org/ficlitdl/measurement-unit-type/leaf"/>
+    <dcterms:identifier rdf:resource="https://w3id.org/ficlitdl/extent/9c"/>
+    <rdfs:label xml:lang="en">9 leaves</rdfs:label>
+    <rdfs:label xml:lang="it">9 carte</rdfs:label>
+    <crm:P2_has_type rdf:resource="https://w3id.org/ficlitdl/dimension-type/extent"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9</crm:P90_has_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/ficlitdl/extent/12c">
+    <crm:P91_has_unit rdf:resource="https://w3id.org/ficlitdl/measurement-unit-type/leaf"/>
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">12</crm:P90_has_value>
+    <rdfs:label xml:lang="it">12 carte</rdfs:label>
+    <dcterms:identifier rdf:resource="https://w3id.org/ficlitdl/extent/12c"/>
+    <rdfs:label xml:lang="en">12 leaves</rdfs:label>
+    <crm:P2_has_type rdf:resource="https://w3id.org/ficlitdl/dimension-type/extent"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/ficlitdl/extent/15p">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">15</crm:P90_has_value>
+    <crm:P2_has_type rdf:resource="https://w3id.org/ficlitdl/dimension-type/extent"/>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/ficlitdl/measurement-unit-type/page"/>
+    <rdfs:label xml:lang="it">15 pagine</rdfs:label>
+    <rdfs:label xml:lang="en">15 pages</rdfs:label>
+    <dcterms:identifier rdf:resource="https://w3id.org/ficlitdl/extent/15p"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/ficlitdl/extent/14p">
+    <crm:P91_has_unit rdf:resource="https://w3id.org/ficlitdl/measurement-unit-type/page"/>
+    <rdfs:label xml:lang="it">14 pagine</rdfs:label>
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">14</crm:P90_has_value>
+    <crm:P2_has_type rdf:resource="https://w3id.org/ficlitdl/dimension-type/extent"/>
+    <rdfs:label xml:lang="en">14 pages</rdfs:label>
+    <dcterms:identifier rdf:resource="https://w3id.org/ficlitdl/extent/14p"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/ficlitdl/extent/13p">
+    <rdfs:label xml:lang="en">13 pages</rdfs:label>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+    <rdfs:label xml:lang="it">13 pagine</rdfs:label>
+    <dcterms:identifier rdf:resource="https://w3id.org/ficlitdl/extent/13p"/>
+    <crm:P2_has_type rdf:resource="https://w3id.org/ficlitdl/dimension-type/extent"/>
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">13</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/ficlitdl/measurement-unit-type/page"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/ficlitdl/height/22cm">
+    <skos:closeMatch rdf:resource="http://vocab.getty.edu/aat/300055644"/>
+    <rdfs:label xml:lang="it">Altezza 22 cm</rdfs:label>
+    <rdfs:label xml:lang="en">Height 22 cm</rdfs:label>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">22</crm:P90_has_value>
+    <crm:P2_has_type rdf:resource="https://w3id.org/ficlitdl/dimension-type/height"/>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/ficlitdl/measurement-unit-type/centimetre"/>
+    <dcterms:identifier rdf:resource="https://w3id.org/ficlitdl/height/22cm"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/ficlitdl/extent/3p">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3</crm:P90_has_value>
+    <rdfs:label xml:lang="en">3 pages</rdfs:label>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/ficlitdl/measurement-unit-type/page"/>
+    <crm:P2_has_type rdf:resource="https://w3id.org/ficlitdl/dimension-type/extent"/>
+    <rdfs:label xml:lang="it">3 pagine</rdfs:label>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+    <dcterms:identifier rdf:resource="https://w3id.org/ficlitdl/extent/3p"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/ficlitdl/extent/10p">
+    <dcterms:identifier rdf:resource="https://w3id.org/ficlitdl/extent/10p"/>
+    <rdfs:label xml:lang="it">10 pagine</rdfs:label>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+    <rdfs:label xml:lang="en">10 pages</rdfs:label>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/ficlitdl/measurement-unit-type/page"/>
+    <crm:P2_has_type rdf:resource="https://w3id.org/ficlitdl/dimension-type/extent"/>
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">10</crm:P90_has_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/ficlitdl/extent/43p">
+    <crm:P91_has_unit rdf:resource="https://w3id.org/ficlitdl/measurement-unit-type/page"/>
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">43</crm:P90_has_value>
+    <rdfs:label xml:lang="en">43 pages</rdfs:label>
+    <crm:P2_has_type rdf:resource="https://w3id.org/ficlitdl/dimension-type/extent"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+    <rdfs:label xml:lang="it">43 pagine</rdfs:label>
+    <dcterms:identifier rdf:resource="https://w3id.org/ficlitdl/extent/43p"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/ficlitdl/extent/8c">
+    <rdfs:label xml:lang="it">8 carte</rdfs:label>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/ficlitdl/measurement-unit-type/leaf"/>
+    <dcterms:identifier rdf:resource="https://w3id.org/ficlitdl/extent/8c"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+    <rdfs:label xml:lang="en">8 leaves</rdfs:label>
+    <crm:P2_has_type rdf:resource="https://w3id.org/ficlitdl/dimension-type/extent"/>
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8</crm:P90_has_value>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/ficlitdl/extent/12p">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">12</crm:P90_has_value>
+    <dcterms:identifier rdf:resource="https://w3id.org/ficlitdl/extent/12p"/>
+    <rdfs:label xml:lang="it">12 pagine</rdfs:label>
+    <rdfs:label xml:lang="en">12 pages</rdfs:label>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+    <crm:P2_has_type rdf:resource="https://w3id.org/ficlitdl/dimension-type/extent"/>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/ficlitdl/measurement-unit-type/page"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/ficlitdl/extent/11p">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+    <crm:P2_has_type rdf:resource="https://w3id.org/ficlitdl/dimension-type/extent"/>
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">11</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/ficlitdl/measurement-unit-type/page"/>
+    <rdfs:label xml:lang="it">11 pagine</rdfs:label>
+    <dcterms:identifier rdf:resource="https://w3id.org/ficlitdl/extent/11p"/>
+    <rdfs:label xml:lang="en">11 pages</rdfs:label>
+  </rdf:Description>
+</rdf:RDF>
