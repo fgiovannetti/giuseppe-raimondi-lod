@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+>
+  <rdf:Description rdf:about="https://w3id.org/ficlitdl/document-type/postcard">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <dcterms:identifier rdf:resource="https://w3id.org/ficlitdl/document-type/postcard"/>
+    <skos:closeMatch rdf:resource="http://vocab.getty.edu/aat/300026816"/>
+    <rdfs:label xml:lang="it">cartolina</rdfs:label>
+    <rdfs:label xml:lang="en">postcard</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/ficlitdl/document-type/note">
+    <dcterms:identifier rdf:resource="https://w3id.org/ficlitdl/document-type/note"/>
+    <rdfs:label xml:lang="it">biglietto</rdfs:label>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <skos:closeMatch rdf:resource="http://vocab.getty.edu/aat/300027200"/>
+    <rdfs:label xml:lang="en">note</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/ficlitdl/document-type/notebook">
+    <rdfs:label xml:lang="it">quaderno</rdfs:label>
+    <dcterms:identifier rdf:resource="https://w3id.org/ficlitdl/document-type/notebook"/>
+    <rdfs:label xml:lang="en">notebook</rdfs:label>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <skos:relatedMatch rdf:resource="http://vocab.getty.edu/aat/300027200"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/ficlitdl/document-type/telegram">
+    <rdfs:label xml:lang="it">telegramma</rdfs:label>
+    <rdfs:label xml:lang="en">telegram</rdfs:label>
+    <skos:closeMatch rdf:resource="http://vocab.getty.edu/aat/300026909"/>
+    <dcterms:identifier rdf:resource="https://w3id.org/ficlitdl/document-type/telegram"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/ficlitdl/title-type/attributed">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <dcterms:identifier rdf:resource="https://w3id.org/ficlitdl/title-type/attributed"/>
+    <rdfs:label xml:lang="en">attributed title</rdfs:label>
+    <rdfs:label xml:lang="it">titolo attribuito</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/ficlitdl/title-type/proper">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label xml:lang="en">title proper</rdfs:label>
+    <dcterms:identifier rdf:resource="https://w3id.org/ficlitdl/title-type/proper"/>
+    <rdfs:label xml:lang="it">titolo proprio</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/ficlitdl/narrative-form-type/notes">
+    <rdfs:label xml:lang="it">appunti</rdfs:label>
+    <skos:closeMatch rdf:resource="http://vocab.getty.edu/aat/300027200"/>
+    <rdfs:label xml:lang="en">notes</rdfs:label>
+    <dcterms:identifier rdf:resource="https://w3id.org/ficlitdl/narrative-form-type/notes"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/ficlitdl/archival-unit-type/file">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label xml:lang="it">fascicolo</rdfs:label>
+    <dcterms:identifier rdf:resource="https://w3id.org/ficlitdl/archival-unit-type/file"/>
+    <owl:sameAs rdf:resource="http://lod.xdams.org/reload/oad/levelOfDescription/file"/>
+    <rdfs:label xml:lang="en">file</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/ficlitdl/technique-type/handwriting">
+    <dcterms:identifier rdf:resource="https://w3id.org/ficlitdl/technique-type/handwriting"/>
+    <rdfs:label xml:lang="en">manuscript (handwriting)</rdfs:label>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <skos:relatedMatch rdf:resource="http://vocab.getty.edu/aat/300252927"/>
+    <rdfs:label xml:lang="it">manoscritto (scrittura a mano)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/ficlitdl/narrative-form-type/short-story">
+    <rdfs:label xml:lang="en">short story</rdfs:label>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label xml:lang="it">racconto</rdfs:label>
+    <dcterms:identifier rdf:resource="https://w3id.org/ficlitdl/narrative-form-type/short-story"/>
+    <skos:closeMatch rdf:resource="http://vocab.getty.edu/aat/300202607"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/ficlitdl/document-type/funeral-card">
+    <rdfs:label xml:lang="en">funeral card</rdfs:label>
+    <skos:closeMatch rdf:resource="http://vocab.getty.edu/aat/300026812"/>
+    <dcterms:identifier rdf:resource="https://w3id.org/ficlitdl/document-type/funeral-card"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label xml:lang="it">ricordo funebre</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/ficlitdl/narrative-form-type/article">
+    <rdfs:label xml:lang="it">articolo</rdfs:label>
+    <skos:closeMatch rdf:resource="http://vocab.getty.edu/aat/300048715"/>
+    <dcterms:identifier rdf:resource="https://w3id.org/ficlitdl/narrative-form-type/article"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label xml:lang="en">article</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/ficlitdl/technique-type/typewriting">
+    <skos:relatedMatch rdf:resource="http://vocab.getty.edu/aat/300247929"/>
+    <rdfs:label xml:lang="en">typescript (typewriting)</rdfs:label>
+    <rdfs:label xml:lang="it">dattiloscritto (scrittura a macchina)</rdfs:label>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <dcterms:identifier rdf:resource="https://w3id.org/ficlitdl/technique-type/typewriting"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/ficlitdl/document-type/letter">
+    <rdfs:label xml:lang="it">lettera</rdfs:label>
+    <rdfs:label xml:lang="en">letter</rdfs:label>
+    <skos:closeMatch rdf:resource="http://vocab.getty.edu/aat/300026879"/>
+    <dcterms:identifier rdf:resource="https://w3id.org/ficlitdl/document-type/letter"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/ficlitdl/dimension-type/extent">
+    <skos:closeMatch rdf:resource="http://vocab.getty.edu/page/aat/300404433"/>
+    <rdfs:label xml:lang="en">extent</rdfs:label>
+    <rdfs:label xml:lang="it">consistenza</rdfs:label>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <dcterms:identifier rdf:resource="https://w3id.org/ficlitdl/dimension-type/extent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/ficlitdl/identifier-type/shelfmark">
+    <dcterms:identifier rdf:resource="https://w3id.org/ficlitdl/sidentifier-type/helfmark"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label xml:lang="it">collocazione</rdfs:label>
+    <rdfs:label xml:lang="en">shelfmark</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/ficlitdl/document-type/invitation">
+    <rdfs:label xml:lang="it">invito</rdfs:label>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label xml:lang="en">invitation</rdfs:label>
+    <skos:closeMatch rdf:resource="http://vocab.getty.edu/300027083"/>
+    <dcterms:identifier rdf:resource="https://w3id.org/ficlitdl/document-type/invitation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/ficlitdl/identifier-type/inventory-number">
+    <dcterms:identifier rdf:resource="https://w3id.org/ficlitdl/identifier-type/inventory-number"/>
+    <rdfs:label xml:lang="it">numero di inventario</rdfs:label>
+    <rdfs:label xml:lang="en">inventory number</rdfs:label>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/ficlitdl/archival-unit-type/series">
+    <dcterms:identifier rdf:resource="https://w3id.org/ficlitdl/archival-unit-type/series"/>
+    <rdfs:label xml:lang="it">serie</rdfs:label>
+    <owl:sameAs rdf:resource="http://lod.xdams.org/reload/oad/levelOfDescription/series"/>
+    <rdfs:label xml:lang="en">series</rdfs:label>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/ficlitdl/archival-unit-type/fonds">
+    <dcterms:identifier rdf:resource="https://w3id.org/ficlitdl/archival-unit-type/fonds"/>
+    <rdfs:label xml:lang="it">fondo</rdfs:label>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label xml:lang="en">fonds</rdfs:label>
+    <owl:sameAs rdf:resource="http://lod.xdams.org/reload/oad/levelOfDescription/fonds"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/ficlitdl/dimension-type/height">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label xml:lang="it">altezza</rdfs:label>
+    <skos:closeMatch rdf:resource="http://vocab.getty.edu/aat/300055644"/>
+    <dcterms:identifier rdf:resource="https://w3id.org/ficlitdl/dimension-type/height"/>
+    <rdfs:label xml:lang="en">height</rdfs:label>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+>
+  <rdf:Description rdf:about="https://w3id.org/ficlitdl/measurement-unit-type/page">
+    <rdfs:label xml:lang="it">pagina</rdfs:label>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
+    <rdfs:label xml:lang="en">page</rdfs:label>
+    <dcterms:identifier rdf:resource="https://w3id.org/ficlitdl/measurement-unit-type/page"/>
+    <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300194222"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/ficlitdl/measurement-unit-type/leaf">
+    <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300115833"/>
+    <rdfs:label xml:lang="it">carta</rdfs:label>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
+    <dcterms:identifier rdf:resource="https://w3id.org/ficlitdl/measurement-unit-type/leaf"/>
+    <rdfs:label xml:lang="en">leaf</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/ficlitdl/measurement-unit-type/centimetre">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
+    <skos:relatedMatch rdf:resource="http://vocab.getty.edu/aat/300379098"/>
+    <rdfs:label xml:lang="en">centimetre (cm)</rdfs:label>
+    <dcterms:identifier rdf:resource="https://w3id.org/ficlitdl/measurement-unit-type/centimetre"/>
+    <rdfs:label xml:lang="it">centimetro (cm)</rdfs:label>
+  </rdf:Description>
+</rdf:RDF>

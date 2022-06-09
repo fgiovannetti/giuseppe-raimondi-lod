@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <rdf:Description rdf:about="https://w3id.org/ficlitdl/place/biblioteca-ezio-raimondi">
+    <crm:P76_has_contact_point rdf:resource="https://w3id.org/ficlitdl/address/via-zamboni-32-40126-Bologna-BO"/>
+    <rdfs:label xml:lang="en">Ezio Raimondi Library, Department of Classical Philology and Italian Studies, University of Bologna</rdfs:label>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53_Place"/>
+    <rdfs:label xml:lang="it">Biblioteca Ezio Raimondi, Dipartimento di filologia classica e italianistica, Università di Bologna</rdfs:label>
+    <dcterms:identifier rdf:resource="https://w3id.org/ficlitdl/place/biblioteca-ezio-raimondi"/>
+    <crm:P89_falls_within rdf:resource="https://w3id.org/ficlitdl/place/bologna"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/ficlitdl/place/bologna">
+    <rdfs:label xml:lang="en">Bologna</rdfs:label>
+    <rdfs:label xml:lang="it">Bologna</rdfs:label>
+    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q1891"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53_Place"/>
+    <owl:sameAs rdf:resource="http://sws.geonames.org/3181928"/>
+    <dcterms:identifier rdf:resource="https://w3id.org/ficlitdl/place/bologna"/>
+    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Bologna"/>
+  </rdf:Description>
+</rdf:RDF>

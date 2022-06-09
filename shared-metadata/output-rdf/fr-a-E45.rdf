@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <rdf:Description rdf:about="https://w3id.org/ficlitdl/address/via-zamboni-32-40126-Bologna-BO">
+    <rdfs:label xml:lang="en">Via Zamboni 32, 40126, Bologna (BO), Italy</rdfs:label>
+    <rdfs:label xml:lang="it">Via Zamboni 32, 40126, Bologna (BO), Italia</rdfs:label>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E45_Address"/>
+    <dcterms:identifier rdf:resource="https://w3id.org/ficlitdl/address/via-zamboni-32-40126-Bologna-BO"/>
+  </rdf:Description>
+</rdf:RDF>
