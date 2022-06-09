@@ -1,0 +1,1067 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <rdf:Description rdf:about="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1957/object">
+    <crm:P104_is_subject_to rdf:resource="https://w3id.org/ficlitdl/right/all-rights-reserved"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E78_Curated_Holding"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1957/rdq59/object"/>
+    <rdfs:label xml:lang="it">Fondo Giuseppe Raimondi, Archivio, Quaderni, Quaderni manoscritti 1954–1976, 1957</rdfs:label>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1957/rdq56/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1957/rdq66/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1957/rdq68/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1957/rdq65/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1957/rdq64/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1957/rdq54/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1957/rdq51/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1957/rdq52/object"/>
+    <crm:P55_has_current_location rdf:resource="https://w3id.org/ficlitdl/place/biblioteca-ezio-raimondi"/>
+    <crm:P1_is_identified_by rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1957/shelfmark"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1957/rdq58/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1957/rdq67/object"/>
+    <rdfs:label xml:lang="en">Giuseppe Raimondi Fonds, Archive, Notebooks, Manuscript Notebooks 1954–1976, 1957</rdfs:label>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1957/rdq63/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1957/rdq53/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1957/rdq62/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1957/rdq61/object"/>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A QUADERNI.1 1957.</dcterms:bibliographicCitation>
+    <dcterms:identifier rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1957/object"/>
+    <crm:P2_has_type rdf:resource="https://w3id.org/ficlitdl/archival-unit-type/file"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1957/rdq57/object"/>
+    <crm:P50_has_current_keeper rdf:resource="https://w3id.org/ficlitdl/organization/alma-mater-studiorum-university-of-bologna"/>
+    <crm:P52_has_current_owner rdf:resource="https://w3id.org/ficlitdl/organization/istituto-per-i-beni-artistici-culturali-e-naturali"/>
+    <crm:P46i_forms_part_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1//object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1957/rdq55/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1957/rdq60/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1957/rdq69/object"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1972/object">
+    <crm:P50_has_current_keeper rdf:resource="https://w3id.org/ficlitdl/organization/alma-mater-studiorum-university-of-bologna"/>
+    <crm:P104_is_subject_to rdf:resource="https://w3id.org/ficlitdl/right/all-rights-reserved"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1972/rdq284/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1972/rdq286/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1972/rdq277/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1972/rdq283/object"/>
+    <crm:P1_is_identified_by rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1972/shelfmark"/>
+    <dcterms:identifier rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1972/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1972/rdq285/object"/>
+    <crm:P52_has_current_owner rdf:resource="https://w3id.org/ficlitdl/organization/istituto-per-i-beni-artistici-culturali-e-naturali"/>
+    <crm:P46i_forms_part_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1//object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1972/rdq272/object"/>
+    <rdfs:label xml:lang="it">Fondo Giuseppe Raimondi, Archivio, Quaderni, Quaderni manoscritti 1954–1976, 1972</rdfs:label>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1972/rdq281/object"/>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A QUADERNI.1 1972.</dcterms:bibliographicCitation>
+    <rdfs:label xml:lang="en">Giuseppe Raimondi Fonds, Archive, Notebooks, Manuscript Notebooks 1954–1976, 1972</rdfs:label>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1972/rdq274/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1972/rdq273/object"/>
+    <crm:P55_has_current_location rdf:resource="https://w3id.org/ficlitdl/place/biblioteca-ezio-raimondi"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1972/rdq282/object"/>
+    <crm:P2_has_type rdf:resource="https://w3id.org/ficlitdl/archival-unit-type/file"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1972/rdq276/object"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E78_Curated_Holding"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1972/rdq278/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1972/rdq279/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1972/rdq275/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1972/rdq280/object"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1961/object">
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1961/rdq145/object"/>
+    <dcterms:identifier rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1961/object"/>
+    <crm:P104_is_subject_to rdf:resource="https://w3id.org/ficlitdl/right/all-rights-reserved"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1961/rdq148/object"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E78_Curated_Holding"/>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A QUADERNI.1 1961.</dcterms:bibliographicCitation>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1961/rdq131/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1961/rdq146/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1961/rdq149/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1961/rdq138/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1961/rdq151/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1961/rdq147/object"/>
+    <crm:P52_has_current_owner rdf:resource="https://w3id.org/ficlitdl/organization/istituto-per-i-beni-artistici-culturali-e-naturali"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1961/rdq150/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1961/rdq134/object"/>
+    <rdfs:label xml:lang="en">Giuseppe Raimondi Fonds, Archive, Notebooks, Manuscript Notebooks 1954–1976, 1961</rdfs:label>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1961/rdq137/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1961/rdq143/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1961/rdq144/object"/>
+    <rdfs:label xml:lang="it">Fondo Giuseppe Raimondi, Archivio, Quaderni, Quaderni manoscritti 1954–1976, 1961</rdfs:label>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1961/rdq141/object"/>
+    <crm:P50_has_current_keeper rdf:resource="https://w3id.org/ficlitdl/organization/alma-mater-studiorum-university-of-bologna"/>
+    <crm:P2_has_type rdf:resource="https://w3id.org/ficlitdl/archival-unit-type/file"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1961/rdq133/object"/>
+    <crm:P46i_forms_part_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1//object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1961/rdq142/object"/>
+    <crm:P1_is_identified_by rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1961/shelfmark"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1961/rdq162/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1961/rdq139/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1961/rdq132/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1961/rdq140/object"/>
+    <crm:P55_has_current_location rdf:resource="https://w3id.org/ficlitdl/place/biblioteca-ezio-raimondi"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1961/rdq136/object"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1973/object">
+    <dcterms:identifier rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1973/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1973/rdq292/object"/>
+    <rdfs:label xml:lang="it">Fondo Giuseppe Raimondi, Archivio, Quaderni, Quaderni manoscritti 1954–1976, 1973</rdfs:label>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1973/rdq293/object"/>
+    <crm:P46i_forms_part_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1//object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1973/rdq288/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1973/rdq287/object"/>
+    <crm:P104_is_subject_to rdf:resource="https://w3id.org/ficlitdl/right/all-rights-reserved"/>
+    <crm:P2_has_type rdf:resource="https://w3id.org/ficlitdl/archival-unit-type/file"/>
+    <crm:P50_has_current_keeper rdf:resource="https://w3id.org/ficlitdl/organization/alma-mater-studiorum-university-of-bologna"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E78_Curated_Holding"/>
+    <crm:P55_has_current_location rdf:resource="https://w3id.org/ficlitdl/place/biblioteca-ezio-raimondi"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1973/rdq290/object"/>
+    <crm:P52_has_current_owner rdf:resource="https://w3id.org/ficlitdl/organization/istituto-per-i-beni-artistici-culturali-e-naturali"/>
+    <rdfs:label xml:lang="en">Giuseppe Raimondi Fonds, Archive, Notebooks, Manuscript Notebooks 1954–1976, 1973</rdfs:label>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1973/rdq289/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1973/rdq291/object"/>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A QUADERNI.1 1973.</dcterms:bibliographicCitation>
+    <crm:P1_is_identified_by rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1973/shelfmark"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1958/object">
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1958/rdq84/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1958/rdq77/object"/>
+    <rdfs:label xml:lang="en">Giuseppe Raimondi Fonds, Archive, Notebooks, Manuscript Notebooks 1954–1976, 1958</rdfs:label>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1958/rdq79/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1958/rdq76/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1958/rdq86/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1958/rdq72/object"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E78_Curated_Holding"/>
+    <rdfs:label xml:lang="it">Fondo Giuseppe Raimondi, Archivio, Quaderni, Quaderni manoscritti 1954–1976, 1958</rdfs:label>
+    <crm:P52_has_current_owner rdf:resource="https://w3id.org/ficlitdl/organization/istituto-per-i-beni-artistici-culturali-e-naturali"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1958/rdq89/object"/>
+    <crm:P104_is_subject_to rdf:resource="https://w3id.org/ficlitdl/right/all-rights-reserved"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1958/rdq88/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1958/rdq91/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1958/rdq81/object"/>
+    <dcterms:identifier rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1958/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1958/rdq80/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1958/rdq83/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1958/rdq71/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1958/rdq70/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1958/rdq82/object"/>
+    <crm:P55_has_current_location rdf:resource="https://w3id.org/ficlitdl/place/biblioteca-ezio-raimondi"/>
+    <crm:P46i_forms_part_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1//object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1958/rdq92/object"/>
+    <crm:P1_is_identified_by rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1958/shelfmark"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1958/rdq87/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1958/rdq90/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1958/rdq78/object"/>
+    <crm:P2_has_type rdf:resource="https://w3id.org/ficlitdl/archival-unit-type/file"/>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A QUADERNI.1 1958.</dcterms:bibliographicCitation>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1958/rdq85/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1958/rdq73/object"/>
+    <crm:P50_has_current_keeper rdf:resource="https://w3id.org/ficlitdl/organization/alma-mater-studiorum-university-of-bologna"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1958/rdq74/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1958/rdq75/object"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1975/object">
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/2/rdq413/object"/>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A QUADERNI.2 64.</dcterms:bibliographicCitation>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A QUADERNI.2 43.</dcterms:bibliographicCitation>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/3/rdq450/object"/>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A QUADERNI.2 41.</dcterms:bibliographicCitation>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/2/rdq361/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/2/rdq396/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/2/rdq435/object"/>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A QUADERNI.2 108.</dcterms:bibliographicCitation>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/2/rdq365/object"/>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A QUADERNI.2 89.</dcterms:bibliographicCitation>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/2/rdq390/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/2/rdq395/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/2/rdq385/object"/>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A QUADERNI.2 90.</dcterms:bibliographicCitation>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A QUADERNI.2 99.</dcterms:bibliographicCitation>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A QUADERNI.2 71.</dcterms:bibliographicCitation>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/2/rdq310/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/2/rdq321/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/2/rdq363/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/2/rdq318/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/2/rdq431/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/2/rdq374/object"/>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A QUADERNI.2 12.</dcterms:bibliographicCitation>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1975/rdq300/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/2/rdq439/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/2/rdq331/object"/>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A QUADERNI.2 51.</dcterms:bibliographicCitation>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A QUADERNI.3 195.?.</dcterms:bibliographicCitation>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A QUADERNI.2 39.</dcterms:bibliographicCitation>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A QUADERNI.2 19.</dcterms:bibliographicCitation>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A QUADERNI.2 136.</dcterms:bibliographicCitation>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/2/rdq420/object"/>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A QUADERNI.2 72.</dcterms:bibliographicCitation>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/2/rdq401/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/2/rdq408/object"/>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A QUADERNI.2 29.</dcterms:bibliographicCitation>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A QUADERNI.2 69.</dcterms:bibliographicCitation>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/2/rdq327/object"/>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A QUADERNI.2 54.</dcterms:bibliographicCitation>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/2/rdq415/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/2/rdq337/object"/>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A QUADERNI.2 55.</dcterms:bibliographicCitation>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/2/rdq398/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/2/rdq348/object"/>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A QUADERNI.2 114.</dcterms:bibliographicCitation>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/2/rdq383/object"/>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A QUADERNI.2 91.</dcterms:bibliographicCitation>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A QUADERNI.2 22.</dcterms:bibliographicCitation>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A QUADERNI.2 32.</dcterms:bibliographicCitation>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A QUADERNI.2 42.</dcterms:bibliographicCitation>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/2/rdq412/object"/>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A QUADERNI.2 11.</dcterms:bibliographicCitation>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A QUADERNI.2 68.</dcterms:bibliographicCitation>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/2/rdq325/object"/>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A QUADERNI.2 62.</dcterms:bibliographicCitation>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/2/rdq392/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/2/rdq382/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/2/rdq386/object"/>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A QUADERNI.2 116.</dcterms:bibliographicCitation>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/2/rdq434/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/2/rdq311/object"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E78_Curated_Holding"/>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A QUADERNI.2 78.</dcterms:bibliographicCitation>
+    <rdfs:label xml:lang="it">Fondo Giuseppe Raimondi, Archivio, Quaderni, Quaderni manoscritti 1954–1976, 1975</rdfs:label>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A QUADERNI.2 35.</dcterms:bibliographicCitation>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A QUADERNI.2 139.</dcterms:bibliographicCitation>
+    <crm:P2_has_type rdf:resource="https://w3id.org/ficlitdl/archival-unit-type/file"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/2/rdq380/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/2/rdq343/object"/>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A QUADERNI.2 67.</dcterms:bibliographicCitation>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/2/rdq391/object"/>
+    <crm:P104_is_subject_to rdf:resource="https://w3id.org/ficlitdl/right/all-rights-reserved"/>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A QUADERNI.2 58.</dcterms:bibliographicCitation>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/2/rdq342/object"/>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A QUADERNI.2 47.</dcterms:bibliographicCitation>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A QUADERNI.2 102.</dcterms:bibliographicCitation>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/2/rdq446/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1975/rdq308/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/2/rdq440/object"/>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A QUADERNI.2 76.</dcterms:bibliographicCitation>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A QUADERNI.2 8.</dcterms:bibliographicCitation>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/2/rdq355/object"/>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A QUADERNI.2 20.</dcterms:bibliographicCitation>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/2/rdq367/object"/>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A QUADERNI.2 106.</dcterms:bibliographicCitation>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/3/rdq452/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/2/rdq316/object"/>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A QUADERNI.2 66.</dcterms:bibliographicCitation>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A QUADERNI.2 80.</dcterms:bibliographicCitation>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/2/rdq389/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/2/rdq360/object"/>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A QUADERNI.2 7.</dcterms:bibliographicCitation>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/2/rdq371/object"/>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A QUADERNI.2 70.</dcterms:bibliographicCitation>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A QUADERNI.2 131.</dcterms:bibliographicCitation>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/3/rdq454/object"/>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A QUADERNI.2 92.</dcterms:bibliographicCitation>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/2/rdq323/object"/>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A QUADERNI.3 1951.</dcterms:bibliographicCitation>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/2/rdq429/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/2/rdq357/object"/>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A QUADERNI.2 134.</dcterms:bibliographicCitation>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A QUADERNI.2 140.</dcterms:bibliographicCitation>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A QUADERNI.2 3.</dcterms:bibliographicCitation>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A QUADERNI.2 120.</dcterms:bibliographicCitation>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A QUADERNI.2 82.</dcterms:bibliographicCitation>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/3/rdq460/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/2/rdq444/object"/>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A QUADERNI.2 121.</dcterms:bibliographicCitation>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A QUADERNI.2 63.</dcterms:bibliographicCitation>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/2/rdq375/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/2/rdq448/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/2/rdq443/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/2/rdq341/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/2/rdq405/object"/>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A QUADERNI.2 93.</dcterms:bibliographicCitation>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A QUADERNI.2 27.</dcterms:bibliographicCitation>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/2/rdq335/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/2/rdq376/object"/>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A QUADERNI.3  .</dcterms:bibliographicCitation>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A QUADERNI.2 30.</dcterms:bibliographicCitation>
+    <rdfs:label xml:lang="en">Giuseppe Raimondi Fonds, Archive, Notebooks, Manuscript Notebooks 1954–1976, 1975</rdfs:label>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/2/rdq326/object"/>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A QUADERNI.2 79.</dcterms:bibliographicCitation>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A QUADERNI.2 122.</dcterms:bibliographicCitation>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A QUADERNI.2 17.</dcterms:bibliographicCitation>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/2/rdq346/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/3/rdq458/object"/>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A QUADERNI.2 65.</dcterms:bibliographicCitation>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/2/rdq379/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/2/rdq426/object"/>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A QUADERNI.2 52.</dcterms:bibliographicCitation>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/2/rdq322/object"/>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A QUADERNI.2 137.</dcterms:bibliographicCitation>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A QUADERNI.2 129.</dcterms:bibliographicCitation>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/2/rdq333/object"/>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A QUADERNI.1 1975.</dcterms:bibliographicCitation>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A QUADERNI.2 95.</dcterms:bibliographicCitation>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A QUADERNI.2 36.</dcterms:bibliographicCitation>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A QUADERNI.2 127.</dcterms:bibliographicCitation>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A QUADERNI.2 97.</dcterms:bibliographicCitation>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/2/rdq447/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/2/rdq416/object"/>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A QUADERNI.2 109.</dcterms:bibliographicCitation>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/2/rdq353/object"/>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A QUADERNI.2 38.</dcterms:bibliographicCitation>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/2/rdq400/object"/>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A QUADERNI.2 37.</dcterms:bibliographicCitation>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A QUADERNI.2 6.</dcterms:bibliographicCitation>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A QUADERNI.2 132.</dcterms:bibliographicCitation>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A QUADERNI.2 123.</dcterms:bibliographicCitation>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/2/rdq373/object"/>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A QUADERNI.2 60.</dcterms:bibliographicCitation>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A QUADERNI.2 34.</dcterms:bibliographicCitation>
+    <crm:P52_has_current_owner rdf:resource="https://w3id.org/ficlitdl/organization/istituto-per-i-beni-artistici-culturali-e-naturali"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/2/rdq330/object"/>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A QUADERNI.2 50.</dcterms:bibliographicCitation>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/2/rdq340/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/2/rdq419/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/2/rdq334/object"/>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A QUADERNI.2 96.</dcterms:bibliographicCitation>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A QUADERNI.2 13.</dcterms:bibliographicCitation>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A QUADERNI.2 85.</dcterms:bibliographicCitation>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/2/rdq381/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/2/rdq368/object"/>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A QUADERNI.2 105.</dcterms:bibliographicCitation>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/2/rdq397/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1975/rdq297/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/2/rdq354/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/2/rdq436/object"/>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A QUADERNI.2 24.</dcterms:bibliographicCitation>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A QUADERNI.2 48.</dcterms:bibliographicCitation>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/2/rdq425/object"/>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A QUADERNI.2 107.</dcterms:bibliographicCitation>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/2/rdq384/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/2/rdq344/object"/>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A QUADERNI.2 94.</dcterms:bibliographicCitation>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A QUADERNI.2 53.</dcterms:bibliographicCitation>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/2/rdq315/object"/>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A QUADERNI.2 100.</dcterms:bibliographicCitation>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A QUADERNI.2 117.</dcterms:bibliographicCitation>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/2/rdq345/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/2/rdq411/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/2/rdq421/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/2/rdq428/object"/>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A QUADERNI.2 23.</dcterms:bibliographicCitation>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/2/rdq393/object"/>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A QUADERNI.2 49.</dcterms:bibliographicCitation>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A QUADERNI.2 44.</dcterms:bibliographicCitation>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A QUADERNI.2 103.</dcterms:bibliographicCitation>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A QUADERNI.2 16.</dcterms:bibliographicCitation>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/3/rdq457/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/2/rdq399/object"/>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A QUADERNI.2 119.</dcterms:bibliographicCitation>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A QUADERNI.2 125.</dcterms:bibliographicCitation>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/2/rdq424/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/2/rdq319/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/2/rdq338/object"/>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A QUADERNI.2 126.</dcterms:bibliographicCitation>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/2/rdq432/object"/>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A QUADERNI.2 26.</dcterms:bibliographicCitation>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A QUADERNI.2 73.</dcterms:bibliographicCitation>
+    <crm:P46i_forms_part_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/3/object"/>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A QUADERNI.2 10.</dcterms:bibliographicCitation>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/2/rdq437/object"/>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A QUADERNI.2 46.</dcterms:bibliographicCitation>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/2/rdq394/object"/>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A QUADERNI.2 81.</dcterms:bibliographicCitation>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A QUADERNI.2 104.</dcterms:bibliographicCitation>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A QUADERNI.2 40.</dcterms:bibliographicCitation>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A QUADERNI.2 25.</dcterms:bibliographicCitation>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/2/rdq369/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/2/rdq433/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/2/rdq347/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/2/rdq317/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/2/rdq370/object"/>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A QUADERNI.2 111.</dcterms:bibliographicCitation>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A QUADERNI.2 33.</dcterms:bibliographicCitation>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/2/rdq377/object"/>
+    <crm:P55_has_current_location rdf:resource="https://w3id.org/ficlitdl/place/biblioteca-ezio-raimondi"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/2/rdq339/object"/>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A QUADERNI.2 115.</dcterms:bibliographicCitation>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A QUADERNI.2 59.</dcterms:bibliographicCitation>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/2/rdq336/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/2/rdq414/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1975/rdq299/object"/>
+    <crm:P46i_forms_part_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/2/object"/>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A QUADERNI.2 128.</dcterms:bibliographicCitation>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A QUADERNI.2 56.</dcterms:bibliographicCitation>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A QUADERNI.2 113.</dcterms:bibliographicCitation>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A QUADERNI.2 61.</dcterms:bibliographicCitation>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A QUADERNI.2 88.</dcterms:bibliographicCitation>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/2/rdq356/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/2/rdq320/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/2/rdq430/object"/>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A QUADERNI.2 130.</dcterms:bibliographicCitation>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A QUADERNI.2 4.</dcterms:bibliographicCitation>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/2/rdq388/object"/>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A QUADERNI.3 1950?.</dcterms:bibliographicCitation>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A QUADERNI.2 14.</dcterms:bibliographicCitation>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/2/rdq438/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/2/rdq309/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/2/rdq329/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/2/rdq366/object"/>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A QUADERNI.2 83.</dcterms:bibliographicCitation>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/2/rdq351/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1975/rdq298/object"/>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A QUADERNI.2 2.</dcterms:bibliographicCitation>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A QUADERNI.2 124.</dcterms:bibliographicCitation>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/2/rdq441/object"/>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A QUADERNI.2 84.</dcterms:bibliographicCitation>
+    <crm:P50_has_current_keeper rdf:resource="https://w3id.org/ficlitdl/organization/alma-mater-studiorum-university-of-bologna"/>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A QUADERNI.2 57.</dcterms:bibliographicCitation>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A QUADERNI.2 112.</dcterms:bibliographicCitation>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/2/rdq313/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/3/rdq451/object"/>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A QUADERNI.2 138.</dcterms:bibliographicCitation>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/2/rdq358/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/2/rdq324/object"/>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A QUADERNI.2 74.</dcterms:bibliographicCitation>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A QUADERNI.2 21.</dcterms:bibliographicCitation>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A QUADERNI.2 31.</dcterms:bibliographicCitation>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/2/rdq422/object"/>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A QUADERNI.2 18.</dcterms:bibliographicCitation>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/2/rdq417/object"/>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A QUADERNI.2 101.</dcterms:bibliographicCitation>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/2/rdq406/object"/>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A QUADERNI.2 75.</dcterms:bibliographicCitation>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/3/rdq449/object"/>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A QUADERNI.3 1952.</dcterms:bibliographicCitation>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/2/rdq409/object"/>
+    <dcterms:identifier rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1975/object"/>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A QUADERNI.2 15.</dcterms:bibliographicCitation>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/2/rdq359/object"/>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A QUADERNI.2 118.</dcterms:bibliographicCitation>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/2/rdq328/object"/>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A QUADERNI.2 77.</dcterms:bibliographicCitation>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A QUADERNI.2 5.</dcterms:bibliographicCitation>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/2/rdq350/object"/>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A QUADERNI.2 98.</dcterms:bibliographicCitation>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A QUADERNI.2 1.</dcterms:bibliographicCitation>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A QUADERNI.2 87.</dcterms:bibliographicCitation>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/2/rdq378/object"/>
+    <crm:P1_is_identified_by rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1975/shelfmark"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/2/rdq362/object"/>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A QUADERNI.2 28.</dcterms:bibliographicCitation>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A QUADERNI.2 110.</dcterms:bibliographicCitation>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/2/rdq387/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/2/rdq372/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/3/rdq455/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/2/rdq402/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/2/rdq364/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/2/rdq404/object"/>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A QUADERNI.2 9.</dcterms:bibliographicCitation>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/2/rdq423/object"/>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A QUADERNI.2 135.</dcterms:bibliographicCitation>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/2/rdq332/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/3/rdq456/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/2/rdq442/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/2/rdq407/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/2/rdq427/object"/>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A QUADERNI.2 45.</dcterms:bibliographicCitation>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/2/rdq352/object"/>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A QUADERNI.2 86.</dcterms:bibliographicCitation>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/2/rdq410/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/3/rdq459/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/2/rdq314/object"/>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A QUADERNI.3 1945.</dcterms:bibliographicCitation>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A QUADERNI.2 133.</dcterms:bibliographicCitation>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/2/rdq312/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/3/rdq453/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/2/rdq445/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/2/rdq349/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/2/rdq418/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/2/rdq403/object"/>
+    <crm:P46i_forms_part_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1//object"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1954/object">
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1954/rdq8/object"/>
+    <rdfs:label xml:lang="en">Giuseppe Raimondi Fonds, Archive, Notebooks, Manuscript Notebooks 1954–1976, 1954</rdfs:label>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1954/rdq1/object"/>
+    <crm:P1_is_identified_by rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1954/shelfmark"/>
+    <crm:P55_has_current_location rdf:resource="https://w3id.org/ficlitdl/place/biblioteca-ezio-raimondi"/>
+    <crm:P46i_forms_part_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1//object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1954/rdq3/object"/>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A QUADERNI.1 1954.</dcterms:bibliographicCitation>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E78_Curated_Holding"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1954/rdq11/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1954/rdq5/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1954/rdq4/object"/>
+    <crm:P52_has_current_owner rdf:resource="https://w3id.org/ficlitdl/organization/istituto-per-i-beni-artistici-culturali-e-naturali"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1954/rdq7/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1954/rdq10/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1954/rdq2/object"/>
+    <crm:P104_is_subject_to rdf:resource="https://w3id.org/ficlitdl/right/all-rights-reserved"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1954/rdq12/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1954/rdq9/object"/>
+    <dcterms:identifier rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1954/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1954/rdq15/object"/>
+    <crm:P2_has_type rdf:resource="https://w3id.org/ficlitdl/archival-unit-type/file"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1954/rdq6/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1954/rdq13/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1954/rdq14/object"/>
+    <rdfs:label xml:lang="it">Fondo Giuseppe Raimondi, Archivio, Quaderni, Quaderni manoscritti 1954–1976, 1954</rdfs:label>
+    <crm:P50_has_current_keeper rdf:resource="https://w3id.org/ficlitdl/organization/alma-mater-studiorum-university-of-bologna"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1//object">
+    <crm:P52_has_current_owner rdf:resource="https://w3id.org/ficlitdl/organization/istituto-per-i-beni-artistici-culturali-e-naturali"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1964/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1959/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1972/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1974/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1975/object"/>
+    <crm:P1_is_identified_by rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1//shelfmark"/>
+    <rdfs:label xml:lang="it">Fondo Giuseppe Raimondi, Archivio, Quaderni, Quaderni manoscritti 1954–1976</rdfs:label>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1973/object"/>
+    <crm:P2_has_type rdf:resource="https://w3id.org/ficlitdl/archival-unit-type/series"/>
+    <crm:P55_has_current_location rdf:resource="https://w3id.org/ficlitdl/place/biblioteca-ezio-raimondi"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1969/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1962/object"/>
+    <crm:P50_has_current_keeper rdf:resource="https://w3id.org/ficlitdl/organization/alma-mater-studiorum-university-of-bologna"/>
+    <crm:P46i_forms_part_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks//object"/>
+    <crm:P3_has_note xml:lang="it">Mat. document.-manoscr 3621049 [Quaderni manoscritti]. 1954-[1976] / Giuseppe Raimondi. - 1954-1976. - 308 quaderni ; 22 cm. Prima serie di quaderni di appunti, minute di racconti, recensioni, articoli. Serie ordinata dallo stesso Giuseppe Raimondi in carpette per anno.</crm:P3_has_note>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1960/object"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E78_Curated_Holding"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1971/object"/>
+    <rdfs:label xml:lang="en">Giuseppe Raimondi Fonds, Archive, Notebooks, Manuscript Notebooks 1954–1976</rdfs:label>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1970/object"/>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A QUADERNI.1.</dcterms:bibliographicCitation>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1958/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1976/object"/>
+    <crm:P104_is_subject_to rdf:resource="https://w3id.org/ficlitdl/right/all-rights-reserved"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1967/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1957/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1956/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1961/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1966/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1963/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1955/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1965/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1968/object"/>
+    <dcterms:identifier rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1//object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1954/object"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1967/object">
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1967/rdq231/object"/>
+    <crm:P55_has_current_location rdf:resource="https://w3id.org/ficlitdl/place/biblioteca-ezio-raimondi"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1967/rdq229/object"/>
+    <crm:P46i_forms_part_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1//object"/>
+    <crm:P50_has_current_keeper rdf:resource="https://w3id.org/ficlitdl/organization/alma-mater-studiorum-university-of-bologna"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E78_Curated_Holding"/>
+    <dcterms:identifier rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1967/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1967/rdq230/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1967/rdq235/object"/>
+    <crm:P2_has_type rdf:resource="https://w3id.org/ficlitdl/archival-unit-type/file"/>
+    <crm:P52_has_current_owner rdf:resource="https://w3id.org/ficlitdl/organization/istituto-per-i-beni-artistici-culturali-e-naturali"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1967/rdq227/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1967/rdq234/object"/>
+    <rdfs:label xml:lang="en">Giuseppe Raimondi Fonds, Archive, Notebooks, Manuscript Notebooks 1954–1976, 1967</rdfs:label>
+    <crm:P104_is_subject_to rdf:resource="https://w3id.org/ficlitdl/right/all-rights-reserved"/>
+    <crm:P1_is_identified_by rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1967/shelfmark"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1967/rdq233/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1967/rdq232/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1967/rdq236/object"/>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A QUADERNI.1 1967.</dcterms:bibliographicCitation>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1967/rdq228/object"/>
+    <rdfs:label xml:lang="it">Fondo Giuseppe Raimondi, Archivio, Quaderni, Quaderni manoscritti 1954–1976, 1967</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1965/object">
+    <dcterms:identifier rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1965/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1965/rdq208/object"/>
+    <crm:P50_has_current_keeper rdf:resource="https://w3id.org/ficlitdl/organization/alma-mater-studiorum-university-of-bologna"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1965/rdq211/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1965/rdq215/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1965/rdq203/object"/>
+    <crm:P104_is_subject_to rdf:resource="https://w3id.org/ficlitdl/right/all-rights-reserved"/>
+    <crm:P46i_forms_part_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1//object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1965/rdq209/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1965/rdq204/object"/>
+    <crm:P1_is_identified_by rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1965/shelfmark"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1965/rdq214/object"/>
+    <rdfs:label xml:lang="it">Fondo Giuseppe Raimondi, Archivio, Quaderni, Quaderni manoscritti 1954–1976, 1965</rdfs:label>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1965/rdq212/object"/>
+    <rdfs:label xml:lang="en">Giuseppe Raimondi Fonds, Archive, Notebooks, Manuscript Notebooks 1954–1976, 1965</rdfs:label>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1965/rdq207/object"/>
+    <crm:P55_has_current_location rdf:resource="https://w3id.org/ficlitdl/place/biblioteca-ezio-raimondi"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1965/rdq206/object"/>
+    <crm:P2_has_type rdf:resource="https://w3id.org/ficlitdl/archival-unit-type/file"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E78_Curated_Holding"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1965/rdq202/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1965/rdq210/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1965/rdq205/object"/>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A QUADERNI.1 1965.</dcterms:bibliographicCitation>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1965/rdq213/object"/>
+    <crm:P52_has_current_owner rdf:resource="https://w3id.org/ficlitdl/organization/istituto-per-i-beni-artistici-culturali-e-naturali"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1970/object">
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A QUADERNI.1 1970.</dcterms:bibliographicCitation>
+    <rdfs:label xml:lang="en">Giuseppe Raimondi Fonds, Archive, Notebooks, Manuscript Notebooks 1954–1976, 1970</rdfs:label>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1970/rdq264/object"/>
+    <crm:P52_has_current_owner rdf:resource="https://w3id.org/ficlitdl/organization/istituto-per-i-beni-artistici-culturali-e-naturali"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1970/rdq262/object"/>
+    <crm:P55_has_current_location rdf:resource="https://w3id.org/ficlitdl/place/biblioteca-ezio-raimondi"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1970/rdq260/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1970/rdq259/object"/>
+    <rdfs:label xml:lang="it">Fondo Giuseppe Raimondi, Archivio, Quaderni, Quaderni manoscritti 1954–1976, 1970</rdfs:label>
+    <crm:P2_has_type rdf:resource="https://w3id.org/ficlitdl/archival-unit-type/file"/>
+    <crm:P104_is_subject_to rdf:resource="https://w3id.org/ficlitdl/right/all-rights-reserved"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1970/rdq263/object"/>
+    <dcterms:identifier rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1970/object"/>
+    <crm:P1_is_identified_by rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1970/shelfmark"/>
+    <crm:P50_has_current_keeper rdf:resource="https://w3id.org/ficlitdl/organization/alma-mater-studiorum-university-of-bologna"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E78_Curated_Holding"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1970/rdq261/object"/>
+    <crm:P46i_forms_part_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1//object"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/object">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E78_Curated_Holding"/>
+    <crm:P1_is_identified_by rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/shelfmark"/>
+    <crm:P52_has_current_owner rdf:resource="https://w3id.org/ficlitdl/organization/istituto-per-i-beni-artistici-culturali-e-naturali"/>
+    <rdfs:label xml:lang="en">Giuseppe Raimondi Fonds</rdfs:label>
+    <crm:P50_has_current_keeper rdf:resource="https://w3id.org/ficlitdl/organization/alma-mater-studiorum-university-of-bologna"/>
+    <dcterms:identifier rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/object"/>
+    <rdfs:label xml:lang="it">Fondo Giuseppe Raimondi</rdfs:label>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/b/object"/>
+    <crm:P2_has_type rdf:resource="https://w3id.org/ficlitdl/archival-unit-type/fonds"/>
+    <crm:P104_is_subject_to rdf:resource="https://w3id.org/ficlitdl/right/all-rights-reserved"/>
+    <crm:P55_has_current_location rdf:resource="https://w3id.org/ficlitdl/place/biblioteca-ezio-raimondi"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1960/object">
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1960/rdq122/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1960/rdq116/object"/>
+    <crm:P1_is_identified_by rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1960/shelfmark"/>
+    <dcterms:identifier rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1960/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1960/rdq119/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1960/rdq121/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1960/rdq115/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1960/rdq130/object"/>
+    <rdfs:label xml:lang="it">Fondo Giuseppe Raimondi, Archivio, Quaderni, Quaderni manoscritti 1954–1976, 1960</rdfs:label>
+    <rdfs:label xml:lang="en">Giuseppe Raimondi Fonds, Archive, Notebooks, Manuscript Notebooks 1954–1976, 1960</rdfs:label>
+    <crm:P52_has_current_owner rdf:resource="https://w3id.org/ficlitdl/organization/istituto-per-i-beni-artistici-culturali-e-naturali"/>
+    <crm:P50_has_current_keeper rdf:resource="https://w3id.org/ficlitdl/organization/alma-mater-studiorum-university-of-bologna"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1960/rdq117/object"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E78_Curated_Holding"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1960/rdq114/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1960/rdq128/object"/>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A QUADERNI.1 1960.</dcterms:bibliographicCitation>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1960/rdq113/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1960/rdq129/object"/>
+    <crm:P55_has_current_location rdf:resource="https://w3id.org/ficlitdl/place/biblioteca-ezio-raimondi"/>
+    <crm:P46i_forms_part_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1//object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1960/rdq123/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1960/rdq126/object"/>
+    <crm:P2_has_type rdf:resource="https://w3id.org/ficlitdl/archival-unit-type/file"/>
+    <crm:P104_is_subject_to rdf:resource="https://w3id.org/ficlitdl/right/all-rights-reserved"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1960/rdq118/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1960/rdq120/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1960/rdq124/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1960/rdq127/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1960/rdq125/object"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1955/object">
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1955/rdq16/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1955/rdq29/object"/>
+    <dcterms:identifier rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1955/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1955/rdq22/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1955/rdq24/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1955/rdq25/object"/>
+    <crm:P52_has_current_owner rdf:resource="https://w3id.org/ficlitdl/organization/istituto-per-i-beni-artistici-culturali-e-naturali"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1955/rdq31/object"/>
+    <crm:P1_is_identified_by rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1955/shelfmark"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1955/rdq20/object"/>
+    <crm:P2_has_type rdf:resource="https://w3id.org/ficlitdl/archival-unit-type/file"/>
+    <crm:P55_has_current_location rdf:resource="https://w3id.org/ficlitdl/place/biblioteca-ezio-raimondi"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1955/rdq28/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1955/rdq19/object"/>
+    <crm:P104_is_subject_to rdf:resource="https://w3id.org/ficlitdl/right/all-rights-reserved"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1955/rdq23/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1955/rdq17/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1955/rdq26/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1955/rdq30/object"/>
+    <crm:P50_has_current_keeper rdf:resource="https://w3id.org/ficlitdl/organization/alma-mater-studiorum-university-of-bologna"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1955/rdq27/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1955/rdq21/object"/>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A QUADERNI.1 1955.</dcterms:bibliographicCitation>
+    <rdfs:label xml:lang="en">Giuseppe Raimondi Fonds, Archive, Notebooks, Manuscript Notebooks 1954–1976, 1955</rdfs:label>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1955/rdq18/object"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E78_Curated_Holding"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1955/rdq32/object"/>
+    <rdfs:label xml:lang="it">Fondo Giuseppe Raimondi, Archivio, Quaderni, Quaderni manoscritti 1954–1976, 1955</rdfs:label>
+    <crm:P46i_forms_part_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1//object"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1976/object">
+    <crm:P46i_forms_part_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1//object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1976/rdq301/object"/>
+    <rdfs:label xml:lang="en">Giuseppe Raimondi Fonds, Archive, Notebooks, Manuscript Notebooks 1954–1976, 1976</rdfs:label>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1976/rdq304/object"/>
+    <crm:P1_is_identified_by rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1976/shelfmark"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E78_Curated_Holding"/>
+    <crm:P55_has_current_location rdf:resource="https://w3id.org/ficlitdl/place/biblioteca-ezio-raimondi"/>
+    <crm:P52_has_current_owner rdf:resource="https://w3id.org/ficlitdl/organization/istituto-per-i-beni-artistici-culturali-e-naturali"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1976/rdq305/object"/>
+    <crm:P50_has_current_keeper rdf:resource="https://w3id.org/ficlitdl/organization/alma-mater-studiorum-university-of-bologna"/>
+    <crm:P2_has_type rdf:resource="https://w3id.org/ficlitdl/archival-unit-type/file"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1976/rdq306/object"/>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A QUADERNI.1 1976.</dcterms:bibliographicCitation>
+    <dcterms:identifier rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1976/object"/>
+    <rdfs:label xml:lang="it">Fondo Giuseppe Raimondi, Archivio, Quaderni, Quaderni manoscritti 1954–1976, 1976</rdfs:label>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1976/rdq307/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1976/rdq302/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1976/rdq303/object"/>
+    <crm:P104_is_subject_to rdf:resource="https://w3id.org/ficlitdl/right/all-rights-reserved"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1962/object">
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A QUADERNI.1 1962.</dcterms:bibliographicCitation>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1962/rdq152/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1962/rdq157/object"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E78_Curated_Holding"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1962/rdq153/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1962/rdq169/object"/>
+    <crm:P50_has_current_keeper rdf:resource="https://w3id.org/ficlitdl/organization/alma-mater-studiorum-university-of-bologna"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1962/rdq159/object"/>
+    <crm:P1_is_identified_by rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1962/shelfmark"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1962/rdq158/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1962/rdq166/object"/>
+    <crm:P46i_forms_part_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1//object"/>
+    <rdfs:label xml:lang="en">Giuseppe Raimondi Fonds, Archive, Notebooks, Manuscript Notebooks 1954–1976, 1962</rdfs:label>
+    <crm:P2_has_type rdf:resource="https://w3id.org/ficlitdl/archival-unit-type/file"/>
+    <crm:P55_has_current_location rdf:resource="https://w3id.org/ficlitdl/place/biblioteca-ezio-raimondi"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1962/rdq155/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1962/rdq163/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1962/rdq154/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1962/rdq161/object"/>
+    <rdfs:label xml:lang="it">Fondo Giuseppe Raimondi, Archivio, Quaderni, Quaderni manoscritti 1954–1976, 1962</rdfs:label>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1962/rdq170/object"/>
+    <crm:P52_has_current_owner rdf:resource="https://w3id.org/ficlitdl/organization/istituto-per-i-beni-artistici-culturali-e-naturali"/>
+    <dcterms:identifier rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1962/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1962/rdq160/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1962/rdq165/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1962/rdq164/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1962/rdq156/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1962/rdq167/object"/>
+    <crm:P104_is_subject_to rdf:resource="https://w3id.org/ficlitdl/right/all-rights-reserved"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1962/rdq168/object"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1963/object">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E78_Curated_Holding"/>
+    <rdfs:label xml:lang="en">Giuseppe Raimondi Fonds, Archive, Notebooks, Manuscript Notebooks 1954–1976, 1963</rdfs:label>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1963/rdq172/object"/>
+    <dcterms:identifier rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1963/object"/>
+    <crm:P46i_forms_part_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1//object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1963/rdq182/object"/>
+    <rdfs:label xml:lang="it">Fondo Giuseppe Raimondi, Archivio, Quaderni, Quaderni manoscritti 1954–1976, 1963</rdfs:label>
+    <crm:P104_is_subject_to rdf:resource="https://w3id.org/ficlitdl/right/all-rights-reserved"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1963/rdq184/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1963/rdq176/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1963/rdq177/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1963/rdq178/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1963/rdq179/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1963/rdq181/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1963/rdq190/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1963/rdq188/object"/>
+    <crm:P50_has_current_keeper rdf:resource="https://w3id.org/ficlitdl/organization/alma-mater-studiorum-university-of-bologna"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1963/rdq174/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1963/rdq171/object"/>
+    <crm:P55_has_current_location rdf:resource="https://w3id.org/ficlitdl/place/biblioteca-ezio-raimondi"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1963/rdq180/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1963/rdq185/object"/>
+    <crm:P2_has_type rdf:resource="https://w3id.org/ficlitdl/archival-unit-type/file"/>
+    <crm:P1_is_identified_by rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1963/shelfmark"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1963/rdq187/object"/>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A QUADERNI.1 1963.</dcterms:bibliographicCitation>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1963/rdq186/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1963/rdq175/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1963/rdq173/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1963/rdq183/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1963/rdq189/object"/>
+    <crm:P52_has_current_owner rdf:resource="https://w3id.org/ficlitdl/organization/istituto-per-i-beni-artistici-culturali-e-naturali"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1974/object">
+    <crm:P55_has_current_location rdf:resource="https://w3id.org/ficlitdl/place/biblioteca-ezio-raimondi"/>
+    <crm:P2_has_type rdf:resource="https://w3id.org/ficlitdl/archival-unit-type/file"/>
+    <crm:P104_is_subject_to rdf:resource="https://w3id.org/ficlitdl/right/all-rights-reserved"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1974/rdq295/object"/>
+    <dcterms:identifier rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1974/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1974/rdq294/object"/>
+    <crm:P52_has_current_owner rdf:resource="https://w3id.org/ficlitdl/organization/istituto-per-i-beni-artistici-culturali-e-naturali"/>
+    <crm:P50_has_current_keeper rdf:resource="https://w3id.org/ficlitdl/organization/alma-mater-studiorum-university-of-bologna"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E78_Curated_Holding"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1974/rdq296/object"/>
+    <rdfs:label xml:lang="en">Giuseppe Raimondi Fonds, Archive, Notebooks, Manuscript Notebooks 1954–1976, 1974</rdfs:label>
+    <rdfs:label xml:lang="it">Fondo Giuseppe Raimondi, Archivio, Quaderni, Quaderni manoscritti 1954–1976, 1974</rdfs:label>
+    <crm:P46i_forms_part_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1//object"/>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A QUADERNI.1 1974.</dcterms:bibliographicCitation>
+    <crm:P1_is_identified_by rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1974/shelfmark"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1969/object">
+    <rdfs:label xml:lang="en">Giuseppe Raimondi Fonds, Archive, Notebooks, Manuscript Notebooks 1954–1976, 1969</rdfs:label>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1969/rdq257/object"/>
+    <crm:P52_has_current_owner rdf:resource="https://w3id.org/ficlitdl/organization/istituto-per-i-beni-artistici-culturali-e-naturali"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1969/rdq250/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1969/rdq253/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1969/rdq258/object"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E78_Curated_Holding"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1969/rdq249/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1969/rdq254/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1969/rdq251/object"/>
+    <crm:P104_is_subject_to rdf:resource="https://w3id.org/ficlitdl/right/all-rights-reserved"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1969/rdq252/object"/>
+    <crm:P50_has_current_keeper rdf:resource="https://w3id.org/ficlitdl/organization/alma-mater-studiorum-university-of-bologna"/>
+    <crm:P1_is_identified_by rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1969/shelfmark"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1969/rdq256/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1969/rdq255/object"/>
+    <rdfs:label xml:lang="it">Fondo Giuseppe Raimondi, Archivio, Quaderni, Quaderni manoscritti 1954–1976, 1969</rdfs:label>
+    <crm:P2_has_type rdf:resource="https://w3id.org/ficlitdl/archival-unit-type/file"/>
+    <crm:P55_has_current_location rdf:resource="https://w3id.org/ficlitdl/place/biblioteca-ezio-raimondi"/>
+    <crm:P46i_forms_part_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1//object"/>
+    <dcterms:identifier rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1969/object"/>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A QUADERNI.1 1969.</dcterms:bibliographicCitation>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/2/object">
+    <rdfs:label xml:lang="it">Fondo Giuseppe Raimondi, Archivio, Quaderni, Quaderni manoscritti 1915–1981</rdfs:label>
+    <crm:P104_is_subject_to rdf:resource="https://w3id.org/ficlitdl/right/all-rights-reserved"/>
+    <dcterms:identifier rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/2/object"/>
+    <crm:P50_has_current_keeper rdf:resource="https://w3id.org/ficlitdl/organization/alma-mater-studiorum-university-of-bologna"/>
+    <crm:P46i_forms_part_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks//object"/>
+    <rdfs:label xml:lang="en">Giuseppe Raimondi Fonds, Archive, Notebooks, Manuscript Notebooks 1915–1981</rdfs:label>
+    <crm:P52_has_current_owner rdf:resource="https://w3id.org/ficlitdl/organization/istituto-per-i-beni-artistici-culturali-e-naturali"/>
+    <crm:P3_has_note xml:lang="it">Mat. document.-manoscr 3621048 [Quaderni manoscritti] / Giuseppe Raimondi. - 1915-1981. - 140 quaderni ; 22 cm. Seconda serie di quaderni contenenti appunti, minute di racconti, recensioni, articoli. La serie è stata riordinata cronologicamente in analogia alla prima, cosi organizzata dallo stesso Giuseppe Raimondi.</crm:P3_has_note>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A QUADERNI.2.</dcterms:bibliographicCitation>
+    <crm:P1_is_identified_by rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/2/shelfmark"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E78_Curated_Holding"/>
+    <crm:P2_has_type rdf:resource="https://w3id.org/ficlitdl/archival-unit-type/series"/>
+    <crm:P55_has_current_location rdf:resource="https://w3id.org/ficlitdl/place/biblioteca-ezio-raimondi"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1964/object">
+    <crm:P46i_forms_part_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1//object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1964/rdq192/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1964/rdq197/object"/>
+    <crm:P2_has_type rdf:resource="https://w3id.org/ficlitdl/archival-unit-type/file"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1964/rdq196/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1964/rdq193/object"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E78_Curated_Holding"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1964/rdq191/object"/>
+    <rdfs:label xml:lang="it">Fondo Giuseppe Raimondi, Archivio, Quaderni, Quaderni manoscritti 1954–1976, 1964</rdfs:label>
+    <rdfs:label xml:lang="en">Giuseppe Raimondi Fonds, Archive, Notebooks, Manuscript Notebooks 1954–1976, 1964</rdfs:label>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1964/rdq200/object"/>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A QUADERNI.1 1964.</dcterms:bibliographicCitation>
+    <crm:P55_has_current_location rdf:resource="https://w3id.org/ficlitdl/place/biblioteca-ezio-raimondi"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1964/rdq195/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1964/rdq199/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1964/rdq198/object"/>
+    <crm:P1_is_identified_by rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1964/shelfmark"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1964/rdq194/object"/>
+    <crm:P50_has_current_keeper rdf:resource="https://w3id.org/ficlitdl/organization/alma-mater-studiorum-university-of-bologna"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1964/rdq201/object"/>
+    <crm:P52_has_current_owner rdf:resource="https://w3id.org/ficlitdl/organization/istituto-per-i-beni-artistici-culturali-e-naturali"/>
+    <crm:P104_is_subject_to rdf:resource="https://w3id.org/ficlitdl/right/all-rights-reserved"/>
+    <dcterms:identifier rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1964/object"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1968/object">
+    <crm:P1_is_identified_by rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1968/shelfmark"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1968/rdq244/object"/>
+    <crm:P2_has_type rdf:resource="https://w3id.org/ficlitdl/archival-unit-type/file"/>
+    <rdfs:label xml:lang="it">Fondo Giuseppe Raimondi, Archivio, Quaderni, Quaderni manoscritti 1954–1976, 1968</rdfs:label>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1968/rdq240/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1968/rdq245/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1968/rdq247/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1968/rdq242/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1968/rdq243/object"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E78_Curated_Holding"/>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A QUADERNI.1 1968.</dcterms:bibliographicCitation>
+    <crm:P50_has_current_keeper rdf:resource="https://w3id.org/ficlitdl/organization/alma-mater-studiorum-university-of-bologna"/>
+    <rdfs:label xml:lang="en">Giuseppe Raimondi Fonds, Archive, Notebooks, Manuscript Notebooks 1954–1976, 1968</rdfs:label>
+    <crm:P55_has_current_location rdf:resource="https://w3id.org/ficlitdl/place/biblioteca-ezio-raimondi"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1968/rdq239/object"/>
+    <crm:P46i_forms_part_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1//object"/>
+    <dcterms:identifier rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1968/object"/>
+    <crm:P52_has_current_owner rdf:resource="https://w3id.org/ficlitdl/organization/istituto-per-i-beni-artistici-culturali-e-naturali"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1968/rdq241/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1968/rdq248/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1968/rdq246/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1968/rdq238/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1968/rdq237/object"/>
+    <crm:P104_is_subject_to rdf:resource="https://w3id.org/ficlitdl/right/all-rights-reserved"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1971/object">
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1971/rdq267/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1971/rdq269/object"/>
+    <crm:P2_has_type rdf:resource="https://w3id.org/ficlitdl/archival-unit-type/file"/>
+    <crm:P55_has_current_location rdf:resource="https://w3id.org/ficlitdl/place/biblioteca-ezio-raimondi"/>
+    <crm:P46i_forms_part_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1//object"/>
+    <rdfs:label xml:lang="it">Fondo Giuseppe Raimondi, Archivio, Quaderni, Quaderni manoscritti 1954–1976, 1971</rdfs:label>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A QUADERNI.1 1971.</dcterms:bibliographicCitation>
+    <crm:P52_has_current_owner rdf:resource="https://w3id.org/ficlitdl/organization/istituto-per-i-beni-artistici-culturali-e-naturali"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1971/rdq266/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1971/rdq271/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1971/rdq268/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1971/rdq265/object"/>
+    <crm:P1_is_identified_by rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1971/shelfmark"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E78_Curated_Holding"/>
+    <dcterms:identifier rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1971/object"/>
+    <crm:P104_is_subject_to rdf:resource="https://w3id.org/ficlitdl/right/all-rights-reserved"/>
+    <crm:P50_has_current_keeper rdf:resource="https://w3id.org/ficlitdl/organization/alma-mater-studiorum-university-of-bologna"/>
+    <rdfs:label xml:lang="en">Giuseppe Raimondi Fonds, Archive, Notebooks, Manuscript Notebooks 1954–1976, 1971</rdfs:label>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1971/rdq270/object"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/3/object">
+    <rdfs:label xml:lang="en">Giuseppe Raimondi Fonds, Archive, Notebooks, Manuscript Notebooks 1915–1981</rdfs:label>
+    <dcterms:identifier rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/3/object"/>
+    <crm:P2_has_type rdf:resource="https://w3id.org/ficlitdl/archival-unit-type/series"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E78_Curated_Holding"/>
+    <crm:P50_has_current_keeper rdf:resource="https://w3id.org/ficlitdl/organization/alma-mater-studiorum-university-of-bologna"/>
+    <crm:P55_has_current_location rdf:resource="https://w3id.org/ficlitdl/place/biblioteca-ezio-raimondi"/>
+    <crm:P52_has_current_owner rdf:resource="https://w3id.org/ficlitdl/organization/istituto-per-i-beni-artistici-culturali-e-naturali"/>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A QUADERNI.3.</dcterms:bibliographicCitation>
+    <crm:P46i_forms_part_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks//object"/>
+    <crm:P1_is_identified_by rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/3/shelfmark"/>
+    <crm:P3_has_note xml:lang="it">Mat. document.-manoscr 3621048 [Quaderni manoscritti] / Giuseppe Raimondi. - 1915-1981. - 140 quaderni ; 22 cm. Seconda serie di quaderni contenenti appunti, minute di racconti, recensioni, articoli. La serie è stata riordinata cronologicamente in analogia alla prima, cosi organizzata dallo stesso Giuseppe Raimondi.</crm:P3_has_note>
+    <rdfs:label xml:lang="it">Fondo Giuseppe Raimondi, Archivio, Quaderni, Quaderni manoscritti 1915–1981</rdfs:label>
+    <crm:P104_is_subject_to rdf:resource="https://w3id.org/ficlitdl/right/all-rights-reserved"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1966/object">
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1966/rdq225/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1966/rdq218/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1966/rdq217/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1966/rdq219/object"/>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A QUADERNI.1 1966.</dcterms:bibliographicCitation>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1966/rdq224/object"/>
+    <crm:P50_has_current_keeper rdf:resource="https://w3id.org/ficlitdl/organization/alma-mater-studiorum-university-of-bologna"/>
+    <crm:P52_has_current_owner rdf:resource="https://w3id.org/ficlitdl/organization/istituto-per-i-beni-artistici-culturali-e-naturali"/>
+    <crm:P46i_forms_part_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1//object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1966/rdq221/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1966/rdq222/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1966/rdq223/object"/>
+    <crm:P104_is_subject_to rdf:resource="https://w3id.org/ficlitdl/right/all-rights-reserved"/>
+    <rdfs:label xml:lang="en">Giuseppe Raimondi Fonds, Archive, Notebooks, Manuscript Notebooks 1954–1976, 1966</rdfs:label>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1966/rdq216/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1966/rdq220/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1966/rdq226/object"/>
+    <crm:P1_is_identified_by rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1966/shelfmark"/>
+    <dcterms:identifier rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1966/object"/>
+    <rdfs:label xml:lang="it">Fondo Giuseppe Raimondi, Archivio, Quaderni, Quaderni manoscritti 1954–1976, 1966</rdfs:label>
+    <crm:P2_has_type rdf:resource="https://w3id.org/ficlitdl/archival-unit-type/file"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E78_Curated_Holding"/>
+    <crm:P55_has_current_location rdf:resource="https://w3id.org/ficlitdl/place/biblioteca-ezio-raimondi"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1956/object">
+    <crm:P104_is_subject_to rdf:resource="https://w3id.org/ficlitdl/right/all-rights-reserved"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E78_Curated_Holding"/>
+    <rdfs:label xml:lang="en">Giuseppe Raimondi Fonds, Archive, Notebooks, Manuscript Notebooks 1954–1976, 1956</rdfs:label>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1956/rdq44/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1956/rdq46/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1956/rdq43/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1956/rdq36/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1956/rdq48/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1956/rdq34/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1956/rdq39/object"/>
+    <crm:P55_has_current_location rdf:resource="https://w3id.org/ficlitdl/place/biblioteca-ezio-raimondi"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1956/rdq38/object"/>
+    <rdfs:label xml:lang="it">Fondo Giuseppe Raimondi, Archivio, Quaderni, Quaderni manoscritti 1954–1976, 1956</rdfs:label>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A QUADERNI.1 1956.</dcterms:bibliographicCitation>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1956/rdq47/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1956/rdq40/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1956/rdq42/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1956/rdq50/object"/>
+    <crm:P1_is_identified_by rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1956/shelfmark"/>
+    <dcterms:identifier rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1956/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1956/rdq45/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1956/rdq49/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1956/rdq37/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1956/rdq33/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1956/rdq41/object"/>
+    <crm:P2_has_type rdf:resource="https://w3id.org/ficlitdl/archival-unit-type/file"/>
+    <crm:P50_has_current_keeper rdf:resource="https://w3id.org/ficlitdl/organization/alma-mater-studiorum-university-of-bologna"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1956/rdq35/object"/>
+    <crm:P52_has_current_owner rdf:resource="https://w3id.org/ficlitdl/organization/istituto-per-i-beni-artistici-culturali-e-naturali"/>
+    <crm:P46i_forms_part_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1//object"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks//object">
+    <rdfs:label xml:lang="en">Giuseppe Raimondi Fonds, Archive, Notebooks</rdfs:label>
+    <crm:P1_is_identified_by rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks//shelfmark"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1//object"/>
+    <crm:P104_is_subject_to rdf:resource="https://w3id.org/ficlitdl/right/all-rights-reserved"/>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A QUADERNI.</dcterms:bibliographicCitation>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E78_Curated_Holding"/>
+    <rdfs:label xml:lang="it">Fondo Giuseppe Raimondi, Archivio, Quaderni</rdfs:label>
+    <crm:P55_has_current_location rdf:resource="https://w3id.org/ficlitdl/place/biblioteca-ezio-raimondi"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/2/object"/>
+    <crm:P52_has_current_owner rdf:resource="https://w3id.org/ficlitdl/organization/istituto-per-i-beni-artistici-culturali-e-naturali"/>
+    <crm:P46i_forms_part_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/object"/>
+    <crm:P2_has_type rdf:resource="https://w3id.org/ficlitdl/archival-unit-type/series"/>
+    <dcterms:identifier rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks//object"/>
+    <crm:P50_has_current_keeper rdf:resource="https://w3id.org/ficlitdl/organization/alma-mater-studiorum-university-of-bologna"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/3/object"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/b/object">
+    <rdfs:label xml:lang="it">Fondo Giuseppe Raimondi, Library</rdfs:label>
+    <rdfs:label xml:lang="en">Giuseppe Raimondi Fonds, Library</rdfs:label>
+    <crm:P55_has_current_location rdf:resource="https://w3id.org/ficlitdl/place/biblioteca-ezio-raimondi"/>
+    <crm:P46i_forms_part_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/object"/>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca. Biblioteca Ezio Raimondi, Università di Bologna.</dcterms:bibliographicCitation>
+    <crm:P52_has_current_owner rdf:resource="https://w3id.org/ficlitdl/organization/istituto-per-i-beni-artistici-culturali-e-naturali"/>
+    <dcterms:identifier rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/b/object"/>
+    <crm:P50_has_current_keeper rdf:resource="https://w3id.org/ficlitdl/organization/alma-mater-studiorum-university-of-bologna"/>
+    <crm:P1_is_identified_by rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/b/shelfmark"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E22_Human-Made_Object"/>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi. Biblioteca Ezio Raimondi, Università di Bologna.</dcterms:bibliographicCitation>
+    <crm:P2_has_type rdf:resource="https://w3id.org/ficlitdl/archival-unit-type/fonds"/>
+    <crm:P104_is_subject_to rdf:resource="https://w3id.org/ficlitdl/right/all-rights-reserved"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1959/object">
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1959/rdq106/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1959/rdq101/object"/>
+    <crm:P50_has_current_keeper rdf:resource="https://w3id.org/ficlitdl/organization/alma-mater-studiorum-university-of-bologna"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1959/rdq102/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1959/rdq95/object"/>
+    <rdfs:label xml:lang="it">Fondo Giuseppe Raimondi, Archivio, Quaderni, Quaderni manoscritti 1954–1976, 1959</rdfs:label>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1959/rdq104/object"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E78_Curated_Holding"/>
+    <rdfs:label xml:lang="en">Giuseppe Raimondi Fonds, Archive, Notebooks, Manuscript Notebooks 1954–1976, 1959</rdfs:label>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1959/rdq97/object"/>
+    <crm:P46i_forms_part_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1//object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1959/rdq109/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1959/rdq99/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1959/rdq93/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1959/rdq100/object"/>
+    <crm:P52_has_current_owner rdf:resource="https://w3id.org/ficlitdl/organization/istituto-per-i-beni-artistici-culturali-e-naturali"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1959/rdq107/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1959/rdq105/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1959/rdq94/object"/>
+    <crm:P2_has_type rdf:resource="https://w3id.org/ficlitdl/archival-unit-type/file"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1959/rdq98/object"/>
+    <crm:P104_is_subject_to rdf:resource="https://w3id.org/ficlitdl/right/all-rights-reserved"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1959/rdq110/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1959/rdq111/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1959/rdq108/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1959/rdq103/object"/>
+    <crm:P55_has_current_location rdf:resource="https://w3id.org/ficlitdl/place/biblioteca-ezio-raimondi"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1959/rdq112/object"/>
+    <crm:P1_is_identified_by rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1959/shelfmark"/>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A QUADERNI.1 1959.</dcterms:bibliographicCitation>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1959/rdq96/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1959/rdq135/object"/>
+    <dcterms:identifier rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks/1959/object"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/object">
+    <rdfs:label xml:lang="en">Giuseppe Raimondi Fonds, Archive</rdfs:label>
+    <crm:P55_has_current_location rdf:resource="https://w3id.org/ficlitdl/place/biblioteca-ezio-raimondi"/>
+    <crm:P52_has_current_owner rdf:resource="https://w3id.org/ficlitdl/organization/istituto-per-i-beni-artistici-culturali-e-naturali"/>
+    <crm:P50_has_current_keeper rdf:resource="https://w3id.org/ficlitdl/organization/alma-mater-studiorum-university-of-bologna"/>
+    <crm:P104_is_subject_to rdf:resource="https://w3id.org/ficlitdl/right/all-rights-reserved"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E78_Curated_Holding"/>
+    <crm:P2_has_type rdf:resource="https://w3id.org/ficlitdl/archival-unit-type/fonds"/>
+    <crm:P46i_forms_part_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/object"/>
+    <crm:P46_is_composed_of rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/notebooks//object"/>
+    <crm:P1_is_identified_by rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/shelfmark"/>
+    <rdfs:label xml:lang="it">Fondo Giuseppe Raimondi, Archivio</rdfs:label>
+    <dcterms:identifier rdf:resource="https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/a/object"/>
+    <dcterms:bibliographicCitation>Fondo Giuseppe Raimondi, Archivio. Biblioteca Ezio Raimondi, Università di Bologna.</dcterms:bibliographicCitation>
+  </rdf:Description>
+</rdf:RDF>
