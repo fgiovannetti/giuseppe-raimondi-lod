@@ -1,9 +1,0 @@
-@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
-@prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-
-<https://w3id.org/ficlitdl/right/all-rights-reserved> a crm:E30_Right ;
-    rdfs:label "All rights reserved. Any other reproduction or distribution is prohibited."@en,
-        "Tutti i diritti riservati. Vietata ogni ulteriore riproduzione."@it ;
-    dcterms:identifier <https://w3id.org/ficlitdl/right/all-rights-reserved> .
-
