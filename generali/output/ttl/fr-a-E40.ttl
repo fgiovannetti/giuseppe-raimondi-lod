@@ -1,0 +1,22 @@
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<https://w3id.org/giuseppe-raimondi-lod/organization/istituto-per-i-beni-artistici-culturali-e-naturali> a crm:E40_Legal_Body ;
+    rdfs:label "Istitute for Cultural and Natural Heritage of the Region Emilia-Romagna (IBC)"@en,
+        "Istituto per i beni artistici, culturali e naturali della Regione Emilia-Romagna (IBC)"@it ;
+    dcterms:identifier <https://w3id.org/giuseppe-raimondi-lod/organization/alma-mater-studiorum-university-of-bologna> ;
+    owl:sameAs <http://viaf.org/viaf/130841901> ;
+    foaf:homepage <https://ibc.regione.emilia-romagna.it> .
+
+<https://w3id.org/giuseppe-raimondi-lod/organization/alma-mater-studiorum-university-of-bologna> a crm:E40_Legal_Body ;
+    rdfs:label "Alma Mater Studiorum University of Bologna"@en,
+        "Alma Mater Studiorum Università di Bologna"@it ;
+    dcterms:identifier <https://w3id.org/giuseppe-raimondi-lod/organization/alma-mater-studiorum-university-of-bologna> ;
+    owl:sameAs <https://viaf.org/viaf/155886025>,
+        <https://w3id.org/zericatalog/organization/alma-mater-studiorum-university-of-bologna>,
+        <https://www.wikidata.org/wiki/Q131262> ;
+    foaf:homepage <https://www.unibo.it> .
+

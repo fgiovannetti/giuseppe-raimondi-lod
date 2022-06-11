@@ -1,0 +1,23 @@
+[
+  {
+    "@id": "https://w3id.org/giuseppe-raimondi-lod/right/all-rights-reserved",
+    "@type": [
+      "http://www.cidoc-crm.org/cidoc-crm/E30_Right"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@id": "https://w3id.org/giuseppe-raimondi-lod/right/all-rights-reserved"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "it",
+        "@value": "Tutti i diritti riservati. Vietata ogni ulteriore riproduzione."
+      },
+      {
+        "@language": "en",
+        "@value": "All rights reserved. Any other reproduction or distribution is prohibited."
+      }
+    ]
+  }
+]

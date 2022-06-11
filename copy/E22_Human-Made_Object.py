@@ -30,10 +30,11 @@ g.bind('crm', crm)
 g.bind('dcterms', DCTERMS)
 g.bind('seq', seq)
 
-# base_uri = 'https://w3id.org/ficlitdl/' # da eliminare
-# base_uri_grf = base_uri + 'giuseppe-raimondi-fonds/a/'
-base_uri = 'https://w3id.org/giuseppe-raimondi-lod/' # da eliminare
-base_uri_grf = base_uri
+base_uri = 'https://w3id.org/ficlitdl/'
+base_uri_grf = base_uri + 'giuseppe-raimondi-fonds/a/'
+
+
+from my_base import *
 
 # Sequenza QUADERNI.1 (specificata in Sequenza)
 invn_by_seqn = {}
@@ -42,6 +43,7 @@ invn_by_seqn = {}
 
 # Sequenza QUADERNI.2 (specificata in Specificazione)
 invn_by_spec = {}
+
 
 with open('../input/quaderni.csv', mode='r') as csv_file:
 	csv_reader = csv.DictReader(csv_file , delimiter=';')
@@ -53,6 +55,7 @@ with open('../input/quaderni.csv', mode='r') as csv_file:
 			invn_by_seqn[specificazione] = {}
 		if row['Collocazione'] == 'QUADERNI.2':
 			invn_by_spec[specificazione] = invn[0]
+
 
 with open('../input/quaderni.csv', mode='r') as csv_file:
 	csv_reader = csv.DictReader(csv_file , delimiter=';')
@@ -80,28 +83,28 @@ with open('../input/quaderni.csv', mode='r') as csv_file:
 		descrizione_isbd = row['Descrizione isbd']
 		legami = re.findall("(.+?) *$", row["Legami con titoli superiori o supplementi"])
 
-		series = URIRef(base_uri_grf + 'record-set' + '/' + 'notebooks')
-
+		series = URIRef(base_uri_grf + 'notebooks/')
 		if collocazione == 'QUADERNI.1':
-			subseries = URIRef(series + '-1')
-			file = URIRef(subseries + '-' + specificazione)
+			subseries = URIRef(series + '1/')
+			file = URIRef(series + specificazione)
+			record = URIRef(file + '/' + inventario[0].lower().replace(' ', '') + '/')
 		elif collocazione == 'QUADERNI.2':
-			subseries = URIRef(series + '-2')
+			subseries = URIRef(series + '2')
+			record = URIRef(subseries + '/' + inventario[0].lower().replace(' ', '') + '/')
 		elif collocazione == 'QUADERNI.3':
-			subseries = URIRef(series + '-3')
+			subseries = URIRef(series + '3')
+			record = URIRef(subseries + '/' + inventario[0].lower().replace(' ', '') + '/')
 
-		record = URIRef(base_uri_grf + 'notebook/' + inventario[0].lower().replace(' ', '') + '/')
-
-		# physical notebook URI
+		# Physical notebook URI
 		rec_object = URIRef(record + 'object')
  		
- 		# expression URI
+ 		# Expression URI
 		rec_expression = URIRef(record + 'text')
-
 
 		rec_label = re.findall('^(.+?) \/? \[?G(iuseppe)?\.? Raimondi', descrizione_isbd)[0]
 
- 		# dimensions of physical object (height in cm, extent in number of pages and number of leaves)
+
+ 		# Dimensions of physical object (height in cm, extent in number of pages and number of leaves)
 		height = re.findall("; +(\d+) cm.", row["Descrizione isbd"])
 		extent_leaves = re.findall("su (\d+) +c+.", row["Descrizione isbd"])
 		extent_pages = re.findall("(\d+) +p.", row["Descrizione isbd"])
@@ -163,9 +166,9 @@ with open('../input/quaderni.csv', mode='r') as csv_file:
 				seqn_prev = int(seqn) - 1
 				seqn_next = int(seqn) + 1
 				if str(seqn_prev) in invn_by_seqn[specificazione]:
-					g.add((rec_object, seq.follows, URIRef(base_uri_grf + 'notebook/rdq' + invn_by_seqn[specificazione][str(seqn_prev)] + '/object')))
+					g.add((rec_object, seq.follows, URIRef(file + '/rdq' + invn_by_seqn[specificazione][str(seqn_prev)] + '/object')))
 				if str(seqn_next) in invn_by_seqn[specificazione]:
-					g.add((rec_object, seq.precedes, URIRef(base_uri_grf + 'notebook/rdq' + invn_by_seqn[specificazione][str(seqn_next)] + '/object')))
+					g.add((rec_object, seq.precedes, URIRef(file + '/rdq' + invn_by_seqn[specificazione][str(seqn_next)] + '/object')))
 
 		if collocazione == 'QUADERNI.2':
 			if int(specificazione) > 1 :
@@ -194,6 +197,8 @@ with open('../input/quaderni.csv', mode='r') as csv_file:
 		else:
 			g.add((rec_object, DCTERMS.bibliographicCitation, Literal('Raimondi, Giuseppe. ' + '. Quaderno manoscritto. ' + 'Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. ' + inventario[0] + ', ' + sezione + ' ' + collocazione + '.')))
 
+
+
 # Arricchimento WIP di Maria Chiara Tortora (relazione fra quaderni e schede OPAC delle pubblicazioni corrispondenti), aggiornato al 13 luglio 2021
 
 with open('../input/raimondi_q1_54-70_13-07-21.csv', mode='r') as csv_file:
@@ -217,11 +222,19 @@ with open('../input/raimondi_q1_54-70_13-07-21.csv', mode='r') as csv_file:
 		# 	subseries = URIRef(series + '3')
 		# 	record = URIRef(subseries + '/' + inventario[0].lower().replace(' ', '') + '/')
 
-		# physical notebook URI
+		# Physical notebook URI
 		rec_object = URIRef(record + 'object')
 
 		if permalink:
 			g.add((rec_object, DCTERMS.relation, URIRef(permalink)))
+
+
+
+
+
+
+
+
 
 # RDF/XML
 g.serialize(destination="../output/rdf/fr-a-quaderni-E22.rdf", format='xml')

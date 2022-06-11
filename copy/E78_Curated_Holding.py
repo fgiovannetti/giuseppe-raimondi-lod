@@ -17,10 +17,8 @@ g.bind('crm', crm)
 g.bind('dcterms', DCTERMS)
 g.bind('seq', seq)
 
-# base_uri = 'https://w3id.org/ficlitdl/' # da eliminare
-# base_uri_grf = base_uri + 'giuseppe-raimondi-fonds/a/'
-base_uri = 'https://w3id.org/giuseppe-raimondi-lod/' # da eliminare
-base_uri_grf = base_uri
+base_uri = 'https://w3id.org/ficlitdl/'
+base_uri_grf = base_uri + 'giuseppe-raimondi-fonds/a/'
 
 with open('../input/quaderni.csv', mode='r') as csv_file:
 	csv_reader = csv.DictReader(csv_file , delimiter=';')
@@ -35,53 +33,47 @@ with open('../input/quaderni.csv', mode='r') as csv_file:
 		legami = re.findall("(.+?) *$", row["Legami con titoli superiori o supplementi"])
 
 		# URI Fondo Giuseppe Raimondi
-		fonds = URIRef(base_uri_grf + 'record-set' + '/' + 'giuseppe-raimondi-fonds')
+		fonds = URIRef(base_uri + 'giuseppe-raimondi-fonds')
 		fonds_label_en = 'Giuseppe Raimondi Fonds'
 		fonds_label_it = 'Fondo Giuseppe Raimondi'
 
 		# URI Subfondo Archivio in Fondo Giuseppe Raimondi (unico altro subfondo: Biblioteca)
-		subfonds = URIRef(base_uri_grf + 'record-set' + '/' + 'giuseppe-raimondi-archive')
+		subfonds = URIRef(base_uri + 'giuseppe-raimondi-fonds/a')
 		subfonds_label_en = 'Giuseppe Raimondi Fonds, Archive'
 		subfonds_label_it = 'Fondo Giuseppe Raimondi, Archivio'
 
 		# URI Subfondo Biblioteca in Fondo Giuseppe Raimondi
-		subfonds_b = URIRef(base_uri_grf + 'record-set' + '/' + 'giuseppe-raimondi-library')
+		subfonds_b = URIRef(base_uri + 'giuseppe-raimondi-fonds/b')
 		subfonds_b_label_en = 'Giuseppe Raimondi Fonds, Library'
-		subfonds_b_label_it = 'Fondo Giuseppe Raimondi, Biblioteca'
-		
-		# Quaderni
-		series = URIRef(base_uri_grf + 'record-set' + '/' + 'notebooks')
+		subfonds_b_label_it = 'Fondo Giuseppe Raimondi, Library'
+
+		# URI Serie Quaderni
+		series = URIRef(base_uri_grf + 'notebooks/')
 		series_label_en = 'Giuseppe Raimondi Fonds, Archive, Notebooks'
 		series_label_it = 'Fondo Giuseppe Raimondi, Archivio, Quaderni'
-		# TODO
-		# Articoli
-		# Album
-		# Corrispondenza
-		# Volumi
 
 		if collocazione == 'QUADERNI.1':
-			subseries = URIRef(series + '-1')
+			subseries = URIRef(series + '1/')
 			subseries_label_en = 'Giuseppe Raimondi Fonds, Archive, Notebooks, Manuscript Notebooks 1954–1976'
 			subseries_label_it = 'Fondo Giuseppe Raimondi, Archivio, Quaderni, Quaderni manoscritti 1954–1976'
 			subseries_note = 'Mat. document.-manoscr 3621049 [Quaderni manoscritti]. 1954-[1976] / Giuseppe Raimondi. - 1954-1976. - 308 quaderni ; 22 cm. Prima serie di quaderni di appunti, minute di racconti, recensioni, articoli. Serie ordinata dallo stesso Giuseppe Raimondi in carpette per anno.'
-
-			file = URIRef(subseries + '-' + specificazione)
+			file = URIRef(series + specificazione)
 			file_label_en = 'Giuseppe Raimondi Fonds, Archive, Notebooks, Manuscript Notebooks 1954–1976, ' + specificazione
 			file_label_it = 'Fondo Giuseppe Raimondi, Archivio, Quaderni, Quaderni manoscritti 1954–1976, ' + specificazione
-
+			record = URIRef(file + '/' + inventario[0].lower().replace(' ', '') + '/')
 		elif collocazione == 'QUADERNI.2':
-			subseries = URIRef(series + '-2')
+			subseries = URIRef(series + '2')
 			subseries_label_en = 'Giuseppe Raimondi Fonds, Archive, Notebooks, Manuscript Notebooks 1915–1981'
 			subseries_label_it = 'Fondo Giuseppe Raimondi, Archivio, Quaderni, Quaderni manoscritti 1915–1981'
 			subseries_note = 'Mat. document.-manoscr 3621048 [Quaderni manoscritti] / Giuseppe Raimondi. - 1915-1981. - 140 quaderni ; 22 cm. Seconda serie di quaderni contenenti appunti, minute di racconti, recensioni, articoli. La serie è stata riordinata cronologicamente in analogia alla prima, cosi organizzata dallo stesso Giuseppe Raimondi.'
-
+			record = URIRef(subseries + '/' + inventario[0].lower().replace(' ', '') + '/')
 		elif collocazione == 'QUADERNI.3':
-			subseries = URIRef(series + '-3')
-
-		record = URIRef(base_uri_grf + 'notebook/' + inventario[0].lower().replace(' ', '') + '/')
+			subseries = URIRef(series + '3')
+			record = URIRef(subseries + '/' + inventario[0].lower().replace(' ', '') + '/')
 
 		# Physical notebook URI
 		rec_object = URIRef(record + 'object')
+ 		
 
 		# File description (Solo in Quaderni 1, Fascicoli per anno)
 
@@ -98,9 +90,9 @@ with open('../input/quaderni.csv', mode='r') as csv_file:
 		g.add((URIRef(file + '/object'), crm.P52_has_current_owner, URIRef(base_uri + 'organization/' + 'istituto-per-i-beni-artistici-culturali-e-naturali')))
 		g.add((URIRef(file + '/object'), crm.P55_has_current_location, URIRef(base_uri + 'place/' + 'biblioteca-ezio-raimondi')))
 		g.add((URIRef(file + '/object'), crm.P104_is_subject_to, URIRef(base_uri + 'right/' + 'all-rights-reserved')))
-		
 		# How to cite
 		g.add((URIRef(file + '/object'), DCTERMS.bibliographicCitation, Literal('Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. ' + sezione + ' ' + collocazione + ' ' + specificazione.replace('[', '').replace(']', '') + '.')))
+
 
 		# Subseries description (Quaderni 1-2-3)
 
@@ -120,6 +112,7 @@ with open('../input/quaderni.csv', mode='r') as csv_file:
 		g.add((URIRef(subseries + '/object'), crm.P104_is_subject_to, URIRef(base_uri + 'right/' + 'all-rights-reserved')))
 		g.add((URIRef(subseries + '/object'), DCTERMS.bibliographicCitation, Literal('Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. ' + sezione + ' ' + collocazione + '.')))
 
+
 		# Series description 
 
 		g.add((URIRef(series + '/object'), RDF.type, URIRef('http://www.cidoc-crm.org/cidoc-crm/E78_Curated_Holding')))
@@ -136,6 +129,8 @@ with open('../input/quaderni.csv', mode='r') as csv_file:
 		g.add((URIRef(series + '/object'), crm.P55_has_current_location, URIRef(base_uri + 'place/' + 'biblioteca-ezio-raimondi')))
 		g.add((URIRef(series + '/object'), crm.P104_is_subject_to, URIRef(base_uri + 'right/' + 'all-rights-reserved')))
 		g.add((URIRef(series + '/object'), DCTERMS.bibliographicCitation, Literal('Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. ' + sezione + ' QUADERNI.')))
+
+
 
 		# Subfonds description
 	

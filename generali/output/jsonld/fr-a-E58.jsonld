@@ -1,0 +1,80 @@
+[
+  {
+    "@id": "https://w3id.org/giuseppe-raimondi-lod/measurement-unit-type/centimetre",
+    "@type": [
+      "http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@id": "https://w3id.org/giuseppe-raimondi-lod/measurement-unit-type/centimetre"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "it",
+        "@value": "centimetro (cm)"
+      },
+      {
+        "@language": "en",
+        "@value": "centimetre (cm)"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#relatedMatch": [
+      {
+        "@id": "http://vocab.getty.edu/aat/300379098"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/giuseppe-raimondi-lod/measurement-unit-type/page",
+    "@type": [
+      "http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@id": "https://w3id.org/giuseppe-raimondi-lod/measurement-unit-type/page"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "page"
+      },
+      {
+        "@language": "it",
+        "@value": "pagina"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#exactMatch": [
+      {
+        "@id": "http://vocab.getty.edu/aat/300194222"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/giuseppe-raimondi-lod/measurement-unit-type/leaf",
+    "@type": [
+      "http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@id": "https://w3id.org/giuseppe-raimondi-lod/measurement-unit-type/leaf"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "leaf"
+      },
+      {
+        "@language": "it",
+        "@value": "carta"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#exactMatch": [
+      {
+        "@id": "http://vocab.getty.edu/aat/300115833"
+      }
+    ]
+  }
+]

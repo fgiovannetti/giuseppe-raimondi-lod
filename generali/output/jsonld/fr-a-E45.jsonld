@@ -1,0 +1,23 @@
+[
+  {
+    "@id": "https://w3id.org/giuseppe-raimondi-lod/address/via-zamboni-32-40126-Bologna-BO",
+    "@type": [
+      "http://www.cidoc-crm.org/cidoc-crm/E45_Address"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@id": "https://w3id.org/giuseppe-raimondi-lod/address/via-zamboni-32-40126-Bologna-BO"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Via Zamboni 32, 40126, Bologna (BO), Italy"
+      },
+      {
+        "@language": "it",
+        "@value": "Via Zamboni 32, 40126, Bologna (BO), Italia"
+      }
+    ]
+  }
+]

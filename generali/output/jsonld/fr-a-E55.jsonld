@@ -1,0 +1,528 @@
+[
+  {
+    "@id": "https://w3id.org/giuseppe-raimondi-lod/technique-type/handwriting",
+    "@type": [
+      "http://www.cidoc-crm.org/cidoc-crm/E55_Type"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@id": "https://w3id.org/giuseppe-raimondi-lod/technique-type/handwriting"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "manuscript (handwriting)"
+      },
+      {
+        "@language": "it",
+        "@value": "manoscritto (scrittura a mano)"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#relatedMatch": [
+      {
+        "@id": "http://vocab.getty.edu/aat/300252927"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/giuseppe-raimondi-lod/document-type/note",
+    "@type": [
+      "http://www.cidoc-crm.org/cidoc-crm/E55_Type"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@id": "https://w3id.org/giuseppe-raimondi-lod/document-type/note"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "it",
+        "@value": "biglietto"
+      },
+      {
+        "@language": "en",
+        "@value": "note"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#closeMatch": [
+      {
+        "@id": "http://vocab.getty.edu/aat/300027200"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/giuseppe-raimondi-lod/identifier-type/shelfmark",
+    "@type": [
+      "http://www.cidoc-crm.org/cidoc-crm/E55_Type"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@id": "https://w3id.org/giuseppe-raimondi-lod/sidentifier-type/helfmark"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "it",
+        "@value": "collocazione"
+      },
+      {
+        "@language": "en",
+        "@value": "shelfmark"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/giuseppe-raimondi-lod/title-type/attributed",
+    "@type": [
+      "http://www.cidoc-crm.org/cidoc-crm/E55_Type"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@id": "https://w3id.org/giuseppe-raimondi-lod/title-type/attributed"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "attributed title"
+      },
+      {
+        "@language": "it",
+        "@value": "titolo attribuito"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/giuseppe-raimondi-lod/title-type/proper",
+    "@type": [
+      "http://www.cidoc-crm.org/cidoc-crm/E55_Type"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@id": "https://w3id.org/giuseppe-raimondi-lod/title-type/proper"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "title proper"
+      },
+      {
+        "@language": "it",
+        "@value": "titolo proprio"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/giuseppe-raimondi-lod/narrative-form-type/short-story",
+    "@type": [
+      "http://www.cidoc-crm.org/cidoc-crm/E55_Type"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@id": "https://w3id.org/giuseppe-raimondi-lod/narrative-form-type/short-story"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "short story"
+      },
+      {
+        "@language": "it",
+        "@value": "racconto"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#closeMatch": [
+      {
+        "@id": "http://vocab.getty.edu/aat/300202607"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/giuseppe-raimondi-lod/identifier-type/inventory-number",
+    "@type": [
+      "http://www.cidoc-crm.org/cidoc-crm/E55_Type"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@id": "https://w3id.org/giuseppe-raimondi-lod/identifier-type/inventory-number"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "inventory number"
+      },
+      {
+        "@language": "it",
+        "@value": "numero di inventario"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/giuseppe-raimondi-lod/dimension-type/extent",
+    "@type": [
+      "http://www.cidoc-crm.org/cidoc-crm/E55_Type"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@id": "https://w3id.org/giuseppe-raimondi-lod/dimension-type/extent"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "extent"
+      },
+      {
+        "@language": "it",
+        "@value": "consistenza"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#closeMatch": [
+      {
+        "@id": "http://vocab.getty.edu/page/aat/300404433"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/giuseppe-raimondi-lod/narrative-form-type/notes",
+    "@type": [
+      "http://www.cidoc-crm.org/cidoc-crm/E55_Type"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@id": "https://w3id.org/giuseppe-raimondi-lod/narrative-form-type/notes"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "notes"
+      },
+      {
+        "@language": "it",
+        "@value": "appunti"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#closeMatch": [
+      {
+        "@id": "http://vocab.getty.edu/aat/300027200"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/giuseppe-raimondi-lod/archival-unit-type/fonds",
+    "@type": [
+      "http://www.cidoc-crm.org/cidoc-crm/E55_Type"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@id": "https://w3id.org/giuseppe-raimondi-lod/archival-unit-type/fonds"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "fonds"
+      },
+      {
+        "@language": "it",
+        "@value": "fondo"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://lod.xdams.org/reload/oad/levelOfDescription/fonds"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/giuseppe-raimondi-lod/technique-type/typewriting",
+    "@type": [
+      "http://www.cidoc-crm.org/cidoc-crm/E55_Type"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@id": "https://w3id.org/giuseppe-raimondi-lod/technique-type/typewriting"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "typescript (typewriting)"
+      },
+      {
+        "@language": "it",
+        "@value": "dattiloscritto (scrittura a macchina)"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#relatedMatch": [
+      {
+        "@id": "http://vocab.getty.edu/aat/300247929"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/giuseppe-raimondi-lod/narrative-form-type/article",
+    "@type": [
+      "http://www.cidoc-crm.org/cidoc-crm/E55_Type"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@id": "https://w3id.org/giuseppe-raimondi-lod/narrative-form-type/article"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "it",
+        "@value": "articolo"
+      },
+      {
+        "@language": "en",
+        "@value": "article"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#closeMatch": [
+      {
+        "@id": "http://vocab.getty.edu/aat/300048715"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/giuseppe-raimondi-lod/document-type/notebook",
+    "@type": [
+      "http://www.cidoc-crm.org/cidoc-crm/E55_Type"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@id": "https://w3id.org/giuseppe-raimondi-lod/document-type/notebook"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "it",
+        "@value": "quaderno"
+      },
+      {
+        "@language": "en",
+        "@value": "notebook"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#relatedMatch": [
+      {
+        "@id": "http://vocab.getty.edu/aat/300027200"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/giuseppe-raimondi-lod/document-type/postcard",
+    "@type": [
+      "http://www.cidoc-crm.org/cidoc-crm/E55_Type"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@id": "https://w3id.org/giuseppe-raimondi-lod/document-type/postcard"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "it",
+        "@value": "cartolina"
+      },
+      {
+        "@language": "en",
+        "@value": "postcard"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#closeMatch": [
+      {
+        "@id": "http://vocab.getty.edu/aat/300026816"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/giuseppe-raimondi-lod/document-type/funeral-card",
+    "@type": [
+      "http://www.cidoc-crm.org/cidoc-crm/E55_Type"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@id": "https://w3id.org/giuseppe-raimondi-lod/document-type/funeral-card"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "funeral card"
+      },
+      {
+        "@language": "it",
+        "@value": "ricordo funebre"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#closeMatch": [
+      {
+        "@id": "http://vocab.getty.edu/aat/300026812"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/giuseppe-raimondi-lod/document-type/letter",
+    "@type": [
+      "http://www.cidoc-crm.org/cidoc-crm/E55_Type"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@id": "https://w3id.org/giuseppe-raimondi-lod/document-type/letter"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "letter"
+      },
+      {
+        "@language": "it",
+        "@value": "lettera"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#closeMatch": [
+      {
+        "@id": "http://vocab.getty.edu/aat/300026879"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/giuseppe-raimondi-lod/archival-unit-type/file",
+    "@type": [
+      "http://www.cidoc-crm.org/cidoc-crm/E55_Type"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@id": "https://w3id.org/giuseppe-raimondi-lod/archival-unit-type/file"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "it",
+        "@value": "fascicolo"
+      },
+      {
+        "@language": "en",
+        "@value": "file"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://lod.xdams.org/reload/oad/levelOfDescription/file"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/giuseppe-raimondi-lod/archival-unit-type/series",
+    "@type": [
+      "http://www.cidoc-crm.org/cidoc-crm/E55_Type"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@id": "https://w3id.org/giuseppe-raimondi-lod/archival-unit-type/series"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "it",
+        "@value": "serie"
+      },
+      {
+        "@language": "en",
+        "@value": "series"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://lod.xdams.org/reload/oad/levelOfDescription/series"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/giuseppe-raimondi-lod/document-type/telegram",
+    "@type": [
+      "http://www.cidoc-crm.org/cidoc-crm/E55_Type"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@id": "https://w3id.org/giuseppe-raimondi-lod/document-type/telegram"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "telegram"
+      },
+      {
+        "@language": "it",
+        "@value": "telegramma"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#closeMatch": [
+      {
+        "@id": "http://vocab.getty.edu/aat/300026909"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/giuseppe-raimondi-lod/document-type/invitation",
+    "@type": [
+      "http://www.cidoc-crm.org/cidoc-crm/E55_Type"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@id": "https://w3id.org/giuseppe-raimondi-lod/document-type/invitation"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "it",
+        "@value": "invito"
+      },
+      {
+        "@language": "en",
+        "@value": "invitation"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#closeMatch": [
+      {
+        "@id": "http://vocab.getty.edu/300027083"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/giuseppe-raimondi-lod/dimension-type/height",
+    "@type": [
+      "http://www.cidoc-crm.org/cidoc-crm/E55_Type"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@id": "https://w3id.org/giuseppe-raimondi-lod/dimension-type/height"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "height"
+      },
+      {
+        "@language": "it",
+        "@value": "altezza"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#closeMatch": [
+      {
+        "@id": "http://vocab.getty.edu/aat/300055644"
+      }
+    ]
+  }
+]
