@@ -1,0 +1,65 @@
+[
+  {
+    "@id": "https://w3id.org/giuseppe-raimondi-lod/place/biblioteca-ezio-raimondi",
+    "@type": [
+      "http://www.cidoc-crm.org/cidoc-crm/E53_Place"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@id": "https://w3id.org/giuseppe-raimondi-lod/place/biblioteca-ezio-raimondi"
+      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P76_has_contact_point": [
+      {
+        "@id": "https://w3id.org/giuseppe-raimondi-lod/address/via-zamboni-32-40126-Bologna-BO"
+      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P89_falls_within": [
+      {
+        "@id": "https://w3id.org/giuseppe-raimondi-lod/place/bologna"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Ezio Raimondi Library, Department of Classical Philology and Italian Studies, University of Bologna"
+      },
+      {
+        "@language": "it",
+        "@value": "Biblioteca Ezio Raimondi, Dipartimento di filologia classica e italianistica, Università di Bologna"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/giuseppe-raimondi-lod/place/bologna",
+    "@type": [
+      "http://www.cidoc-crm.org/cidoc-crm/E53_Place"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@id": "https://w3id.org/giuseppe-raimondi-lod/place/bologna"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "it",
+        "@value": "Bologna"
+      },
+      {
+        "@language": "en",
+        "@value": "Bologna"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://www.wikidata.org/wiki/Q1891"
+      },
+      {
+        "@id": "http://sws.geonames.org/3181928"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Bologna"
+      }
+    ]
+  }
+]

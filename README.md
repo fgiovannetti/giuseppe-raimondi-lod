@@ -1,2 +1,3 @@
 # giuseppe-raimondi-lod
-Metadati del Fondo Giuseppe Raimondi in LOD
+
+The repo contains the RDF dataset of Giuseppe Raimondi's Personal Archive.
