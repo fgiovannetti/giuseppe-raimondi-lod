@@ -57,17 +57,17 @@ with open('../input/quaderni.csv', mode='r') as csv_file:
 
 		person = URIRef('https://w3id.org/ficlitdl/' + 'person/')
 
-		g.add((URIRef(rec_expression + 'creation'), RDF.type, efrbroo.F28_Expression_Creation))
-		g.add((URIRef(rec_expression + 'creation'), RDFS.label, Literal('Raimondi, Giuseppe. Testo manoscritto, "' + rec_label[0].replace('*', '') + '", creazione.' , lang='it')))
-		g.add((URIRef(rec_expression + 'creation'), RDFS.label, Literal('Raimondi, Giuseppe. Testo manoscritto, "' + rec_label[0].replace('*', '') + '", creation.' , lang='en')))
+		g.add((URIRef(rec_expression + '/creation'), RDF.type, efrbroo.F28_Expression_Creation))
+		g.add((URIRef(rec_expression + '/creation'), RDFS.label, Literal('Raimondi, Giuseppe. Testo manoscritto, "' + rec_label[0].replace('*', '') + '", creazione.' , lang='it')))
+		g.add((URIRef(rec_expression + '/creation'), RDFS.label, Literal('Raimondi, Giuseppe. Testo manoscritto, "' + rec_label[0].replace('*', '') + '", creation.' , lang='en')))
 		if collocazione == 'QUADERNI.1':
-			g.add((URIRef(rec_expression + 'creation'), URIRef('http://erlangen-crm.org/current/P4_has_time-span'), URIRef(base_uri + 'time-span/' + specificazione)))
+			g.add((URIRef(rec_expression + '/creation'), URIRef('http://erlangen-crm.org/current/P4_has_time-span'), URIRef(base_uri + 'time-span/' + specificazione)))
 		else:
-			g.add((URIRef(rec_expression + 'creation'), URIRef('http://erlangen-crm.org/current/P4_has_time-span'), URIRef(base_uri + 'time-span/' + rec_time_span)))
-		g.add((URIRef(rec_expression + 'creation'), ecrm.P14_carried_out_by, URIRef(person + 'giuseppe-raimondi')))
-		g.add((URIRef(rec_expression + 'creation'), ecrm.P32_used_general_technique, ficlitdlo.handwriting))
-		g.add((URIRef(rec_expression + 'creation'), efrbroo.R17_created, URIRef(rec_expression)))
-		g.add((URIRef(rec_expression + 'creation'), efrbroo.R18_created, URIRef(rec_object)))
+			g.add((URIRef(rec_expression + '/creation'), URIRef('http://erlangen-crm.org/current/P4_has_time-span'), URIRef(base_uri + 'time-span/' + rec_time_span)))
+		g.add((URIRef(rec_expression + '/creation'), ecrm.P14_carried_out_by, URIRef(person + 'giuseppe-raimondi')))
+		g.add((URIRef(rec_expression + '/creation'), ecrm.P32_used_general_technique, ficlitdlo.handwriting))
+		g.add((URIRef(rec_expression + '/creation'), efrbroo.R17_created, URIRef(rec_expression)))
+		g.add((URIRef(rec_expression + '/creation'), efrbroo.R18_created, URIRef(rec_object)))
 
 # RDF/XML
 g.serialize(destination="../output/rdf/quaderni-F28.rdf", format='xml')

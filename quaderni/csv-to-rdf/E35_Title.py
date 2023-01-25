@@ -29,7 +29,7 @@ with open('../input/quaderni.csv', mode='r') as csv_file:
 		specificazione = row['Specificazione']
 		sequenza = row['Sequenza']
 		identificativo = row['Id.']
-		descrizione_isbd = row['Descrizione isbd']
+		descrizione_isbd = row['Descrizione isbd'].replace('*', '')
 		legami = re.findall("(.+?) *$", row["Legami con titoli superiori o supplementi"])
 		
 		record = URIRef(base_uri + 'notebook/' + inventario[0].lower().replace(' ', '') + '/')
@@ -48,15 +48,15 @@ with open('../input/quaderni.csv', mode='r') as csv_file:
 		#                         #
 		###########################
 
-		g.add((URIRef(rec_expression + 'title'), RDF.type, ecrm.E35_Title))
-		g.add((URIRef(rec_expression + 'title'), RDFS.label, Literal('Titolo, "' + rec_label[0].replace('*', '') + '"', lang='it')))
-		g.add((URIRef(rec_expression + 'title'), RDFS.label, Literal('Title, "' + rec_label[0].replace('*', '') + '"', lang='en')))
-		g.add((URIRef(rec_expression + 'title'), RDF.value, Literal(rec_label[0])))
+		g.add((URIRef(rec_expression + '/title'), RDF.type, ecrm.E35_Title))
+		g.add((URIRef(rec_expression + '/title'), RDFS.label, Literal('Titolo, "' + rec_label[0].replace('*', '').replace('[', '').replace(']', '') + '"', lang='it')))
+		g.add((URIRef(rec_expression + '/title'), RDFS.label, Literal('Title, "' + rec_label[0].replace('*', '').replace('[', '').replace(']', '') + '"', lang='en')))
+		g.add((URIRef(rec_expression + '/title'), RDF.value, Literal(rec_label[0])))
 		if rec_label[0].startswith('['):
-			g.add((URIRef(rec_expression + 'title-attribution'), RDF.type, ecrm.E13_Attribute_Assignment))
-			g.add((URIRef(rec_expression + 'title-attribution'), ecrm.P141_assigned, URIRef(rec_expression + 'title')))
-			g.add((URIRef(rec_expression + 'title-attribution'), ecrm.P14_carried_out_by, URIRef('https://w3id.org/ficlitdl/org/ibc')))
-			g.add((URIRef(rec_expression + 'title-attribution'), URIRef('http://erlangen-crm.org/current/P4_has_time-span'), URIRef(base_uri + '1993-03-07')))
+			g.add((URIRef(rec_expression + '/title-attribution'), RDF.type, ecrm.E13_Attribute_Assignment))
+			g.add((URIRef(rec_expression + '/title-attribution'), ecrm.P141_assigned, URIRef(rec_expression + '/title')))
+			g.add((URIRef(rec_expression + '/title-attribution'), ecrm.P14_carried_out_by, URIRef('https://w3id.org/ficlitdl/org/ibc')))
+			g.add((URIRef(rec_expression + '/title-attribution'), URIRef('http://erlangen-crm.org/current/P4_has_time-span'), URIRef(base_uri + '1993-03-07')))
 
 		#############################
 		#                           #
@@ -84,22 +84,22 @@ with open('../input/quaderni.csv', mode='r') as csv_file:
 		#                          #
 		############################
 
-		# if ' ; ' in rec_label:
-		# 	rec_label = rec_label.split(' ; ')
-		# 	i = 1
-		# 	for title in rec_label:
-		# 		subrec = URIRef(record + str(i))
-		# 		g.add((URIRef(subrec + '/title'), RDF.type, ecrm.E35_Title))
-		# 		g.add((URIRef(subrec + '/title'), DCTERMS.identifier, URIRef(subrec + '/title')))
-		# 		g.add((URIRef(subrec + '/title'), RDFS.label, Literal('Titolo, "' + title + '"', lang='it')))
-		# 		g.add((URIRef(subrec + '/title'), RDFS.label, Literal('Title, "' + title + '"', lang='en')))
-		# 		g.add((URIRef(subrec + '/title'), RDF.value, Literal(title)))
+		if ' ; ' in rec_label[0]:
+			rec_label = rec_label[0].split(' ; ')
+			i = 1
+			for title in rec_label:
+				# URI Subexpression
+				rec_subexpression = URIRef(rec_expression + '/' + str(i))
+				g.add((URIRef(rec_subexpression + '/title'), RDF.type, ecrm.E35_Title))
+				g.add((URIRef(rec_subexpression + '/title'), RDFS.label, Literal('Titolo, "' + title.replace('[', '').replace(']', '') + '"', lang='it')))
+				g.add((URIRef(rec_subexpression + '/title'), RDFS.label, Literal('Title, "' + title.replace('[', '').replace(']', '') + '"', lang='en')))
+				g.add((URIRef(rec_subexpression + '/title'), RDF.value, Literal(title)))
 
-		# 		if title.startswith('['):
-		# 			g.add((URIRef(subrec + '/title'), ecrm.P2_has_type, URIRef(base_uri + 'title-type/attributed')))
-		# 		else:
-		# 			g.add((URIRef(subrec + '/title'), ecrm.P2_has_type, URIRef(base_uri + 'title-type/proper')))
-		# 		i += 1
+				# if title.startswith('['):
+				# 	g.add((URIRef(rec_subexpression + '/title'), ecrm.P2_has_type, URIRef(base_uri + 'title-type/attributed')))
+				# else:
+				# 	g.add((URIRef(rec_subexpression + '/title'), ecrm.P2_has_type, URIRef(base_uri + 'title-type/proper')))
+				i += 1
 
 # RDF/XML
 g.serialize(destination="../output/rdf/quaderni-E35.rdf", format='xml')
