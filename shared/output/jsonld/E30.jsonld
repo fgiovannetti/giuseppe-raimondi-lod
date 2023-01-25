@@ -1,0 +1,18 @@
+[
+  {
+    "@id": "https://w3id.org/giuseppe-raimondi-lod/right/all-rights-reserved",
+    "@type": [
+      "http://erlangen-crm.org/current/E30_Right"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "All rights reserved. Any other reproduction or distribution is prohibited."
+      },
+      {
+        "@language": "it",
+        "@value": "Tutti i diritti riservati. Vietata ogni ulteriore riproduzione."
+      }
+    ]
+  }
+]

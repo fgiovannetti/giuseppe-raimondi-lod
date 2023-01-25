@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+>
+  <rdf:Description rdf:about="https://w3id.org/ficlitdlo/page">
+    <rdf:type rdf:resource="http://erlangen-crm.org/current/E58_Measurement_Unit"/>
+    <rdfs:label xml:lang="it">pagina</rdfs:label>
+    <rdfs:label xml:lang="en">page</rdfs:label>
+    <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300194222"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/ficlitdlo/centimetre">
+    <skos:relatedMatch rdf:resource="http://vocab.getty.edu/aat/300379098"/>
+    <rdf:type rdf:resource="http://erlangen-crm.org/current/E58_Measurement_Unit"/>
+    <rdfs:label xml:lang="it">centimetro (cm)</rdfs:label>
+    <rdfs:label xml:lang="en">centimetre (cm)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/ficlitdlo/leaf">
+    <rdf:type rdf:resource="http://erlangen-crm.org/current/E58_Measurement_Unit"/>
+    <rdfs:label xml:lang="en">leaf</rdfs:label>
+    <rdfs:label xml:lang="it">carta</rdfs:label>
+    <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300115833"/>
+  </rdf:Description>
+</rdf:RDF>

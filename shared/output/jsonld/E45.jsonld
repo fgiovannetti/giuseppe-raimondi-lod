@@ -1,0 +1,18 @@
+[
+  {
+    "@id": "https://w3id.org/ficlitdl/address/via-zamboni-32-40126-Bologna-BO",
+    "@type": [
+      "http://erlangen-crm.org/current/E45_Address"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "it",
+        "@value": "Via Zamboni 32, 40126, Bologna (BO), Italia"
+      },
+      {
+        "@language": "en",
+        "@value": "Via Zamboni 32, 40126, Bologna (BO), Italy"
+      }
+    ]
+  }
+]

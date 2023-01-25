@@ -1,9 +1,0 @@
-@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
-@prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-
-<https://w3id.org/giuseppe-raimondi-lod/address/via-zamboni-32-40126-Bologna-BO> a crm:E45_Address ;
-    rdfs:label "Via Zamboni 32, 40126, Bologna (BO), Italy"@en,
-        "Via Zamboni 32, 40126, Bologna (BO), Italia"@it ;
-    dcterms:identifier <https://w3id.org/giuseppe-raimondi-lod/address/via-zamboni-32-40126-Bologna-BO> .
-

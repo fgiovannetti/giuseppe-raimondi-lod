@@ -1,0 +1,60 @@
+[
+  {
+    "@id": "https://w3id.org/ficlitdl/org/ibc",
+    "@type": [
+      "http://erlangen-crm.org/current/E40_Legal_Body"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Istitute for Cultural and Natural Heritage of the Region Emilia-Romagna (IBC)"
+      },
+      {
+        "@language": "it",
+        "@value": "Istituto per i beni artistici, culturali e naturali della Regione Emilia-Romagna (IBC)"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://viaf.org/viaf/130841901"
+      }
+    ],
+    "http://xmlns.com/foaf/0.1/homepage": [
+      {
+        "@id": "https://ibc.regione.emilia-romagna.it"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ficlitdl/org/unibo",
+    "@type": [
+      "http://erlangen-crm.org/current/E40_Legal_Body"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "it",
+        "@value": "Alma Mater Studiorum Università di Bologna"
+      },
+      {
+        "@language": "en",
+        "@value": "Alma Mater Studiorum University of Bologna"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://w3id.org/zericatalog/organization/unibo"
+      },
+      {
+        "@id": "https://viaf.org/viaf/155886025"
+      },
+      {
+        "@id": "https://www.wikidata.org/wiki/Q131262"
+      }
+    ],
+    "http://xmlns.com/foaf/0.1/homepage": [
+      {
+        "@id": "https://www.unibo.it"
+      }
+    ]
+  }
+]

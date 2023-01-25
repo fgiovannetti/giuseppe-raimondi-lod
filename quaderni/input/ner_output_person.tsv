@@ -1,0 +1,515 @@
+inventario	entity_type	occurrence	wikidata	wikidata_code	VIAF_ID	wikidata_uri
+RDq 5	PER	Paul Valery	Paul Valéry	Q200639
+RDq 7	PER	Marcel Schwob	Marcel Schwob	Q472697
+RDq 7	PER	Mario Marcucci	Mario Marcucci	Q21208726
+RDq 9	PER	Rimbaud	Arthur Rimbaud	Q493
+RDq 10	PER	Cardarelli	Vincenzo Cardarelli	Q922237
+RDq 10	PER	Hemingway	Ernest Hemingway	Q23434
+RDq 10	PER	Lorenzo Montano	Lorenzo Montano	Q3837018
+RDq 10	PER	Lawrence d'Arabia	T. E. Lawrence	Q170596
+RDq 12	PER	Guido Reni	Guido Reni	Q109061
+RDq 13	PER	Rimbaud	Arthur Rimbaud	Q493
+RDq 19	PER	Gerard de Nerval	Gérard de Nerval	Q191305
+RDq 20	PER	Conrad	Joseph Conrad	Q82925
+RDq 20	PER	Jahier	Piero Jahier	Q3903278
+RDq 20	PER	Maccari	Mino Maccari	Q3858582
+RDq 21	PER	Arturo Rimbaud	Arthur Rimbaud	Q493
+RDq 22	PER	Apollinaire	Guillaume Apollinaire	Q133855
+RDq 22	PER	Clemente Rebora	Clemente Rebora	Q3680468
+RDq 23	PER	Carlo Porta	Carlo Porta	Q1248697
+RDq 23	PER	Carlo Porta	Carlo Porta	Q1248697
+RDq 24	PER	Apollinaire	Guillaume Apollinaire	Q133855
+RDq 24	PER	Giovanni Verga	Giovanni Verga	Q271814
+RDq 25	PER	Dante	Dante Alighieri	Q1067
+RDq 26	PER	Antonio Fiacchi	Antonio Fiacchi	http://viaf.org/viaf/234456322
+RDq 26	PER	Passerotti	Bartolomeo Passarotti	Q809512
+RDq 27	PER	Umberto Saba	Umberto Saba	Q451312
+RDq 29	PER	Sbarbaro	Camillo Sbarbaro	Q585401
+RDq 30	PER	Bastianino	Sebastiano Filippi	Q3476895
+RDq 30	PER	Gratella	Sebastiano Filippi	Q3476895
+RDq 31	PER	Radiguet	Raymond Radiguet	Q333615
+RDq 32	PER	Rosai	Ottone Rosai	Q719109
+RDq 34	PER	Meryon	Charles Méryon	Q247505
+RDq 37	PER	Pascarella	Cesare Pascarella	Q3665495
+RDq 38	PER	Teresa Carniani Malvezzi	Teresa Carniani	Q3984273
+RDq 39	PER	Teresa Malvezzi	Teresa Carniani	Q3984273
+RDq 39	PER	Cornelia Martinelli	Cornelia Rossi-Martinetti	Q52709250
+RDq 39	PER	Cornelia Martinetti	Cornelia Rossi-Martinetti	Q52709250
+RDq 40	PER	T.S. Eliot	T. S. Eliot	Q37767
+RDq 41	PER	Cornelia Martinetti	Cornelia Rossi-Martinetti	Q52709250
+RDq 42	PER	Pontormo	Pontormo	Q207929
+RDq 42	PER	Lorenzo Montano	Lorenzo Montano	Q3837018
+RDq 42	PER	Pontormo	Pontormo	Q207929
+RDq 44	PER	Pascal	Blaise Pascal	Q1290
+RDq 45	PER	Diderot	Denis Diderot	Q448
+RDq 46	PER	Annibale Carracci	Annibale Carracci	Q7824
+RDq 47	PER	Antonio Rinaldi	Antonio Rinaldi	Q3620097
+RDq 47	PER	Antonio Rinaldi	Antonio Rinaldi	Q3620097
+RDq 48	PER	Giorgio Morandi	Giorgio Morandi	Q309618
+RDq 48	PER	Montale	Eugenio Montale	Q83174
+RDq 49	PER	Germano Passarelli	Germano Pessarelli	http://viaf.org/viaf/96417864
+RDq 50	PER	Van Eyck	Jan van Eyck	Q102272
+RDq 50	PER	Petrus Cristus	Petrus Christus	Q312616
+RDq 50	PER	Rubens	Peter Paul Rubens	Q5599
+RDq 51	PER	Guillaume Apollinaire	Guillaume Apollinaire	Q133855
+RDq 51	PER	Odilon Redon	Odilon Redon	Q154349
+RDq 52	PER	Monsu Bernardo	Bernhard Keil	Q259393
+RDq 53	PER	Manzoni	Alessandro Manzoni	Q1064
+RDq 54	PER	Bacchelli	Mario Bacchelli	Q20735044
+RDq 54	PER	Bacchelli	Mario Bacchelli	Q20735044
+RDq 55	PER	Corot	Jean-Baptiste Camille Corot	Q148475
+RDq 56	PER	Dino Campana	Dino Campana	Q2271183
+RDq 56	PER	Campana	Dino Campana	Q2271183
+RDq 56	PER	Dino Campana	Dino Campana	Q2271183
+RDq 57	PER	Andre Derain	André Derain	Q156272
+RDq 58	PER	Cecchi	Emilio Cecchi	Q708563
+RDq 58	PER	Cardarelli	Vincenzo Cardarelli	Q922237
+RDq 59	PER	Joyce	James Joyce	Q6882
+RDq 59	PER	Joyce	James Joyce	Q6882
+RDq 59	PER	Joyce	James Joyce	Q6882
+RDq 60	PER	Virgilio Giotti	Virgilio Giotti	Q2160344
+RDq 64	PER	Pasternak	Boris Pasternak	Q41223
+RDq 64	PER	Baudelaire	Charles Baudelaire	Q501
+RDq 64	PER	Boris Pasternak	Boris Pasternak	Q41223
+RDq 65	PER	Cezanne	Paul Cézanne	Q35548
+RDq 65	PER	Leopoldo Longanesi	Leo Longanesi	Q1818677
+RDq 66	PER	Romagnoli	Giovanni Romagnoli	Q3768048
+RDq 67	PER	Blaise Cendras	Blaise Cendrars	Q123080
+RDq 68	PER	De Pisis	Filippo De Pisis	Q661473
+RDq 68	PER	De Pisis	Filippo De Pisis	Q661473
+RDq 70	PER	Longanesi	Leo Longanesi	Q1818677
+RDq 70	PER	Bino Binazzi	Bino Binazzi	Q3640117
+RDq 74	PER	Campana	Dino Campana	Q2271183
+RDq 74	PER	Sibilla Aleramo	Sibilla Aleramo	Q287741
+RDq 75	PER	Lautreamont	Comte de Lautréamont	Q294181
+RDq 76	PER	Sibilla	Sibilla Aleramo	Q287741
+RDq 76	PER	Cocteau	Jean Cocteau	Q83158
+RDq 77	PER	Georges Seurat	Georges Seurat	Q34013
+RDq 78	PER	Pascoli	Giovanni Pascoli	Q375998
+RDq 78	PER	Montaigne	Michel de Montaigne	Q41568
+RDq 78	PER	Pessarelli	Germano Pessarelli	http://viaf.org/viaf/96417864
+RDq 81	PER	Gerard de Nerval	Gérard de Nerval	Q191305
+RDq 81	PER	Nerval	Gérard de Nerval	Q191305
+RDq 82	PER	Charles Peguy	Charles Péguy	Q334965
+RDq 82	PER	Peguy	Charles Péguy	Q334965
+RDq 83	PER	Barocci	Federico Barocci	Q316731
+RDq 83	PER	Cuccoli	Filippo Cuccoli	
+RDq 84	PER	De Pisis	Filippo De Pisis	Q661473
+RDq 84	PER	Cavafis	Konstantinos P. Cavafy	Q216980
+RDq 84	PER	Isacco Babel	Isaak Babel	Q49080
+RDq 85	PER	Ingres	Jean Auguste Dominique Ingres	Q23380
+RDq 85	PER	Ingres	Jean Auguste Dominique Ingres	Q23380
+RDq 86	PER	Brandi	Cesare Brandi	Q1056780
+RDq 87	PER	Lorenzo Montano	Lorenzo Montano	Q3837018
+RDq 88	PER	Apollinaire	Guillaume Apollinaire	Q133855
+RDq 90	PER	A. Modigliani	Amedeo Modigliani	Q120993
+RDq 91	PER	Bellotto	Bernardo Bellotto	Q164688
+RDq 92	PER	Antonin Artaud	Antonin Artaud	Q187166
+RDq 92	PER	Artaud	Antonin Artaud	Q187166
+RDq 94	PER	Corrado Corazza	Corrado Corazza	http://viaf.org/viaf/22065938
+RDq 97	PER	Michael Sweerts	Michiel Sweerts	Q1342328
+RDq 97	PER	Mallarme	Stéphane Mallarmé	Q767
+RDq 98	PER	Casanova	Giacomo Casanova	Q83321
+RDq 99	PER	Giotto	Giotto di Bondone	Q7814
+RDq 99	PER	Giotto	Giotto di Bondone	Q7814
+RDq 99	PER	Cesare Gnudi	Cesare Gnudi	Q16268417
+RDq 99	PER	Giotto	Giotto di Bondone	Q7814
+RDq 100	PER	La Fayette	Gilbert du Motier, Marquis de Lafayette	Q186652
+RDq 101	PER	Guido Cagnacci	Guido Cagnacci	Q2449649
+RDq 101	PER	Guido Cagnacci	Guido Cagnacci	Q2449649
+RDq 102	PER	Stendhal	Stendhal	Q502
+RDq 103	PER	Vuillard	Édouard Vuillard	Q239394
+RDq 105	PER	Henri Michaux	Henri Michaux	Q160780
+RDq 106	PER	Soffici	Mario Soffici	Q10752256
+RDq 106	PER	Soffici	Mario Soffici	Q10752256
+RDq 108	PER	Radiguet	Raymond Radiguet	Q333615
+RDq 108	PER	Paul Klee	Paul Klee	Q44007
+RDq 110	PER	Mazzoni	Sebastiano Mazzoni	Q2327193
+RDq 110	PER	Vuillard	Édouard Vuillard	Q239394
+RDq 111	PER	Domenico Giordani	Domenico Giordani	Q16550375
+RDq 111	PER	William Faulkner	William Faulkner	Q38392
+RDq 112	PER	Corazzini	Sergio Corazzini	Q1377174
+RDq 113	PER	Laforgue	Jules Laforgue	Q380275
+RDq 114	PER	Sbarbaro	Camillo Sbarbaro	Q585401
+RDq 115	PER	Baudelaire	Charles Baudelaire	Q501
+RDq 115	PER	Giotti	Giotto di Bondone	Q7814
+RDq 116	PER	Alberto Mondadori	Alberto Mondadori	Q3608456
+RDq 116	PER	Picasso	Pablo Picasso	Q5593
+RDq 117	PER	Valery	Paul Valéry	Q200639
+RDq 118	PER	Radiguet	Raymond Radiguet	Q333615
+RDq 118	PER	Raymond Radiguet	Raymond Radiguet	Q333615
+RDq 119	PER	Canova	Antonio Canova	Q5547
+RDq 119	PER	Canova	Antonio Canova	Q5547
+RDq 120	PER	Carlo Porta	Carlo Porta	Q1248697
+RDq 120	PER	D. Isella	Dante Isella	Q674132
+RDq 120	PER	Carlo Porta	Carlo Porta	Q1248697
+RDq 121	PER	Diego Valeri	Diego Valeri	Q615053
+RDq 121	PER	Diego Valeri	Diego Valeri	Q615053
+RDq 122	PER	Soffici	Mario Soffici	Q10752256
+RDq 123	PER	Cecchi	Emilio Cecchi	Q708563
+RDq 124	PER	Jules Supervielle	Jules Supervielle	Q732569
+RDq 125	PER	Degas	Edgar Degas	Q46373
+RDq 125	PER	Durand-Ruel	Paul Durand-Ruel	Q649052
+RDq 125	PER	Degas	Edgar Degas	Q46373
+RDq 126	PER	Brandi	Cesare Brandi	Q1056780
+RDq 127	PER	Apollinaire	Guillaume Apollinaire	Q133855
+RDq 127	PER	Apollinaire	Guillaume Apollinaire	Q133855
+RDq 129	PER	Paul Klee	Paul Klee	Q44007
+RDq 130	PER	Ingres	Jean Auguste Dominique Ingres	Q23380
+RDq 131	PER	Vita	Vita	Q24006244
+RDq 131	PER	Ottone Rosai	Ottone Rosai	Q719109
+RDq 132	PER	Carlo Carra	Carlo Carrà	Q168496
+RDq 133	PER	Dino Campana	Dino Campana	Q2271183
+RDq 134	PER	Blaise Cendras	Blaise Cendrars	Q123080
+RDq 135	PER	Jouhandeau	Marcel Jouhandeau	Q561479
+RDq 136	PER	Marcel Schwob	Marcel Schwob	Q472697
+RDq 136	PER	Marcel Schwob	Marcel Schwob	Q472697
+RDq 137	PER	Rousseau	Jean-Jacques Rousseau	Q6527
+RDq 137	PER	Pierre Reverdy	Pierre Reverdy	Q379931
+RDq 137	PER	Manara Valgimigli	Manara Valgimigli	Q3844245
+RDq 137	PER	Rousseau	Jean-Jacques Rousseau	Q6527
+RDq 138	PER	Ungaretti	Giuseppe Ungaretti	Q311802
+RDq 138	PER	Rimbaud	Arthur Rimbaud	Q493
+RDq 139	PER	Leopardi	Giacomo Leopardi	Q172599
+RDq 139	PER	Brancusi	Constantin Brâncuși	Q153048
+RDq 141	PER	Daumier	Honoré Daumier	Q187506
+RDq 143	PER	Pascal	Blaise Pascal	Q1290
+RDq 144	PER	Bacchelli	Mario Bacchelli	Q20735044
+RDq 145	PER	Giovanni Romagnoli	Giovanni Romagnoli	Q3768048
+RDq 146	PER	Gustave Moreau	Gustave Moreau	Q203828
+RDq 146	PER	Pascal	Blaise Pascal	Q1290
+RDq 146	PER	Chardin	Jean-Baptiste-Siméon Chardin	Q207447
+RDq 146	PER	Gustave Moreau	Gustave Moreau	Q203828
+RDq 146	PER	Chardin	Jean-Baptiste-Siméon Chardin	Q207447
+RDq 146	PER	Chardin	Jean-Baptiste-Siméon Chardin	Q207447
+RDq 147	PER	Pascal	Blaise Pascal	Q1290
+RDq 147	PER	P. Valery	Paul Valéry	Q200639
+RDq 147	PER	Ingres	Jean Auguste Dominique Ingres	Q23380
+RDq 147	PER	Gericault	Théodore Géricault	Q184212
+RDq 147	PER	Chardin	Jean-Baptiste-Siméon Chardin	Q207447
+RDq 148	PER	Rodin	Auguste Rodin	Q30755
+RDq 149	PER	Lea Colliva	Lea Colliva	http://viaf.org/viaf/34155224504384372528
+RDq 150	PER	Gericault	Théodore Géricault	Q184212
+RDq 150	PER	Valery	Paul Valéry	Q200639
+RDq 150	PER	Gericault	Théodore Géricault	Q184212
+RDq 151	PER	Verga	Giovanni Verga	Q271814
+RDq 151	PER	Jackson Pollock	Jackson Pollock	Q37571
+RDq 152	PER	Michelangelo	Michelangelo	Q5592
+RDq 154	PER	Oskar Kokoschka	Oskar Kokoschka	Q154260
+RDq 155	PER	Giani	Felice Giani	Q3105258
+RDq 155	PER	Michelangelo	Michelangelo	Q5592
+RDq 156	PER	G. R. a Camerani	Sergio Camerani	http://viaf.org/viaf/200256858
+RDq 158	PER	Piranesi	Giovanni Battista Piranesi	Q316307
+RDq 158	PER	Pascoli	Giovanni Pascoli	Q375998
+RDq 158	PER	Pascoli	Giovanni Pascoli	Q375998
+RDq 161	PER	Giovanni Verga	Giovanni Verga	Q271814
+RDq 161	PER	Giovanni Verga	Giovanni Verga	Q271814
+RDq 162	PER	Mantegna	Andrea Mantegna	Q5681
+RDq 162	PER	Andrea Mantegna	Andrea Mantegna	Q5681
+RDq 162	PER	Mantegna	Andrea Mantegna	Q5681
+RDq 163	PER	Cesare Gnudi	Cesare Gnudi	Q16268417
+RDq 164	PER	Odilon Redon	Odilon Redon	Q154349
+RDq 164	PER	Arshile Gorky	Arshile Gorky	Q165648
+RDq 164	PER	Gorky	Arshile Gorky	Q165648
+RDq 165	PER	Pascal	Blaise Pascal	Q1290
+RDq 165	PER	Pascal	Blaise Pascal	Q1290
+RDq 166	PER	Ugo	Ugo Valeri	Q4002917
+RDq 166	PER	Diego Valeri	Diego Valeri	Q615053
+RDq 168	PER	Bottrigari	Enrico Bottrigari	Q87711180
+RDq 168	PER	Berenson	Bernard Berenson	Q359047
+RDq 168	PER	Il Giacometti	Alberto Giacometti	Q157194
+RDq 168	PER	Palma Bucarelli	Palma Bucarelli	Q3892735
+RDq 168	PER	Alberto Giacometti	Alberto Giacometti	Q157194
+RDq 169	PER	Laclos	Pierre Choderlos de Laclos	Q212476
+RDq 169	PER	Antonio Baldini	Antonio Baldini	Q599687
+RDq 169	PER	Baldini	Antonio Baldini	Q599687
+RDq 169	PER	Baldini	Antonio Baldini	Q599687
+RDq 170	PER	Vitale da Bologna	Vitale da Bologna	Q2575398
+RDq 170	PER	Gnudi	Cesare Gnudi	Q16268417
+RDq 170	PER	Marc Chagall	Marc Chagall	Q93284
+RDq 170	PER	Vitale da Bologna	Vitale da Bologna	Q2575398
+RDq 170	PER	Chagall	Marc Chagall	Q93284
+RDq 170	PER	Marc Chagall	Marc Chagall	Q93284
+RDq 171	PER	Cardarelli	Vincenzo Cardarelli	Q922237
+RDq 171	PER	Cezanne	Paul Cézanne	Q35548
+RDq 171	PER	Pascal	Blaise Pascal	Q1290
+RDq 171	PER	Vincenzo Cardarelli	Vincenzo Cardarelli	Q922237
+RDq 171	PER	Pascal	Blaise Pascal	Q1290
+RDq 171	PER	Serini	Paolo Serini	Q15918700
+RDq 172	PER	Piranesi	Giovanni Battista Piranesi	Q316307
+RDq 173	PER	Antonio	Antonio Vivarini	Q935534
+RDq 173	PER	Bartolomeo	Bartolomeo Vivarini	Q456971
+RDq 173	PER	Alvise Vivarini	Alvise Vivarini	Q1258585
+RDq 173	PER	Magalotti	Lorenzo Magalotti	Q590501
+RDq 173	PER	Carlo Bonomi	Carlo Bonomi	Q27825154
+RDq 173	PER	Rodolfo Pallucchini	Rodolfo Pallucchini	Q3438258
+RDq 173	PER	Carlo Bonomi	Carlo Bonomi	Q27825154
+RDq 174	PER	Longhi	Roberto Longhi	Q1361667
+RDq 175	PER	Stendhal	Stendhal	Q502
+RDq 175	PER	Athos Casarini	Athos Casarini	Q18509114
+RDq 175	PER	Athos Casarini	Athos Casarini	Q18509114
+RDq 175	PER	Athos Casarini	Athos Casarini	Q18509114
+RDq 176	PER	Caravaggio	Caravaggio	Q42207
+RDq 177	PER	Piero Jahier	Piero Jahier	Q3903278
+RDq 179	PER	Luigi Bartolini	Luigi Bartolini	Q172346
+RDq 180	PER	Giulio Carpioni	Giulio Carpioni	Q1528009
+RDq 181	PER	Petrarca	Francesco Petrarca	Q1401
+RDq 182	PER	Claude Lorrain	Claude Lorrain	Q214074
+RDq 182	PER	Picasso	Pablo Picasso	Q5593
+RDq 182	PER	Claude Lorrain	Claude Lorrain	Q214074
+RDq 184	PER	Mario Ricci	Mario Ricci	
+RDq 184	PER	De Logu	Giuseppe Delogu	Q55226990
+RDq 184	PER	Giuseppe De Logu	Giuseppe Delogu	Q55226990
+RDq 185	PER	Longanesi	Leo Longanesi	Q1818677
+RDq 185	PER	Govoni	Corrado Govoni	Q345236
+RDq 185	PER	De Pisis	Filippo De Pisis	Q661473
+RDq 187	PER	Delacroix	Eugène Delacroix	Q33477
+RDq 187	PER	Berenson	Bernard Berenson	Q359047
+RDq 188	PER	Giuseppe Gioacchino Belli	Giuseppe Gioachino Belli	Q2080788
+RDq 188	PER	Andre Gide	André Gide	Q47484
+RDq 188	PER	Belli	Giuseppe Gioachino Belli	Q2080788
+RDq 189	PER	Il Bastianino	Sebastiano Filippi	Q3476895
+RDq 192	PER	Carpaccio	Vittore Carpaccio	Q5581
+RDq 193	PER	Brecht	Bertolt Brecht	Q38757
+RDq 193	PER	Barilli	Bruno Barilli	Q993006
+RDq 193	PER	Bruno Barilli	Bruno Barilli	Q993006
+RDq 195	PER	Il Savoldo	Girolamo Savoldo	Q938442
+RDq 198	PER	Julio Gonzalez	Julio González	Q316531
+RDq 200	PER	G. Bonsanti	Alessandro Bonsanti	Q3609870
+RDq 205	PER	Nietzsche	Friedrich Nietzsche	Q9358
+RDq 205	PER	Nietzsche	Friedrich Nietzsche	Q9358
+RDq 207	PER	Emilio Lovarini	Emilio Lovarini	Q19861578
+RDq 207	PER	Emilio Lovarini	Emilio Lovarini	Q19861578
+RDq 209	PER	Chardin	Jean-Baptiste-Siméon Chardin	Q207447
+RDq 209	PER	Manara Valgimigli	Manara Valgimigli	Q3844245
+RDq 210	PER	Renato Serra	Renato Serra	Q3932800
+RDq 211	PER	Hemingway	Ernest Hemingway	Q23434
+RDq 211	PER	Hemingway	Ernest Hemingway	Q23434
+RDq 212	PER	William Blake	William Blake	Q41513
+RDq 213	PER	Leopardi	Giacomo Leopardi	Q172599
+RDq 214	PER	Pontormo	Pontormo	Q207929
+RDq 214	PER	Proust	Marcel Proust	Q7199
+RDq 215	PER	Giovanni Romagnoli	Giovanni Romagnoli	Q3768048
+RDq 215	PER	Rembrandt	Rembrandt	Q5598
+RDq 217	PER	Severino Ferrari	Severino Ferrari	Q3958500
+RDq 219	PER	Nietzsche	Friedrich Nietzsche	Q9358
+RDq 219	PER	De Pisis	Filippo De Pisis	Q661473
+RDq 219	PER	Dylan Thomas	Dylan Thomas	Q191023
+RDq 219	PER	Francis Bacon	Francis Bacon	Q154340
+RDq 220	PER	Cardarelli	Vincenzo Cardarelli	Q922237
+RDq 220	PER	Laforgue	Jules Laforgue	Q380275
+RDq 220	PER	Laforgue	Jules Laforgue	Q380275
+RDq 221	PER	Longanesi	Leo Longanesi	Q1818677
+RDq 221	PER	Gustavo Courbet	Gustave Courbet	Q34618
+RDq 221	PER	Carlo Carra	Carlo Carrà	Q168496
+RDq 222	PER	Francois Villon	François Villon	Q849
+RDq 223	PER	De Pisis	Filippo De Pisis	Q661473
+RDq 223	PER	De Pisis	Filippo De Pisis	Q661473
+RDq 224	PER	Ardengo Soffici	Ardengo Soffici	Q638877
+RDq 224	PER	Stendhal	Stendhal	Q502
+RDq 224	PER	Stendhal	Stendhal	Q502
+RDq 225	PER	Max Ernst	Max Ernst	Q154842
+RDq 226	PER	Leopardi	Giacomo Leopardi	Q172599
+RDq 226	PER	Carlo Porta	Carlo Porta	Q1248697
+RDq 226	PER	Dante	Dante Alighieri	Q1067
+RDq 226	PER	Leopardi	Giacomo Leopardi	Q172599
+RDq 226	PER	Carlo Porta	Carlo Porta	Q1248697
+RDq 228	PER	Giotto	Giotto di Bondone	Q7814
+RDq 229	PER	Cezanne	Paul Cézanne	Q35548
+RDq 229	PER	Scott Fitzgerald	F. Scott Fitzgerald	Q93354
+RDq 229	PER	Cezanne	Paul Cézanne	Q35548
+RDq 230	PER	Villon	François Villon	Q849
+RDq 234	PER	Nerval	Gérard de Nerval	Q191305
+RDq 236	PER	Meryon	Charles Méryon	Q247505
+RDq 236	PER	Meryon	Charles Méryon	Q247505
+RDq 236	PER	Baudelaire	Charles Baudelaire	Q501
+RDq 239	PER	Nanni di Banco	Nanni di Banco	Q465917
+RDq 240	PER	Domenico Giordani	Domenico Giordani	Q16550375
+RDq 246	PER	Magalotti	Lorenzo Magalotti	Q590501
+RDq 250	PER	Montaigne	Michel de Montaigne	Q41568
+RDq 257	PER	Ungaretti	Giuseppe Ungaretti	Q311802
+RDq 258	PER	Emilio Cecchi	Emilio Cecchi	Q708563
+RDq 258	PER	M. Fubini	Mario Fubini	Q3848601
+RDq 260	PER	V. Venturi	Venturino Venturi	Q2513051
+RDq 272	PER	Holderlin	Friedrich Hölderlin	Q75889
+RDq 277	PER	Rembrandt	Rembrandt	Q5598
+RDq 279	PER	Blaise Pascal	Blaise Pascal	Q1290
+RDq 282	PER	Blaise Pascal	Blaise Pascal	Q1290
+RDq 283	PER	James Ensor	James Ensor	Q158840
+RDq 289	PER	Dino Campana	Dino Campana	Q2271183
+RDq 291	PER	Rimbaud	Arthur Rimbaud	Q493
+RDq 291	PER	Verlaine	Paul Verlaine	Q755
+RDq 295	PER	Francesco Arcangeli	Francesco Arcangeli	Q1121086
+RDq 296	PER	Alfredo Merio	Alfredo Merio	
+RDq 297	PER	Carlo Porta	Carlo Porta	Q1248697
+RDq 298	PER	Ardengo Soffici	Ardengo Soffici	Q638877
+RDq 299	PER	Giorgio Morandi	Giorgio Morandi	Q309618
+RDq 301	PER	Carlo Carra	Carlo Carrà	Q168496
+RDq 302	PER	Roberto Longhi	Roberto Longhi	Q1361667
+RDq 303	PER	Francois Villon	François Villon	Q849
+RDq 304	PER	Charles Baudelaire	Charles Baudelaire	Q501
+RDq 305	PER	Clemente Rebora	Clemente Rebora	Q3680468
+RDq 307	PER	Blaise Cendras	Blaise Cendrars	Q123080
+RDq 310	PER	Calzolaretto	Gabriele Capellini	Q5515998	
+RDq 311	PER	Domenico Giordani	Domenico Giordani		
+RDq 312	PER	Domenico Giordani	Domenico Giordani		
+RDq 314	PER	Baudelaire	Charles Baudelaire	Q501	17218730
+RDq 315	PER	Giuseppe	Giuseppe Raimondi	Q3771293	7457679
+RDq 316	PER	Giuseppe	Giuseppe Raimondi	Q3771293	7457679
+RDq 316	PER	Rimbaud	Arthur Rimbaud	Q493	7396281
+RDq 317	PER	Magalotti	Magalotti		
+RDq 317	PER	G. Cestoni	G. Cestoni		
+RDq 317	PER	G. Morandi	Giorgio Morandi	Q309618	7399099
+RDq 317	PER	Morandi	Giorgio Morandi	Q309618	7399099
+RDq 318	PER	Pascal	Blaise Pascal	Q1290	29538862
+RDq 318	PER	Pascal	Blaise Pascal	Q1290	29538862
+RDq 318	PER	Blaise Pascal	Blaise Pascal	Q1290	29538862
+RDq 318	PER	Ch. Baudelaire	Charles Baudelaire	Q501	17218730
+RDq 319	PER	Marcel Proust	Marcel Proust	Q7199	32001793
+RDq 319	PER	G. Debenedetti	Giacomo Debenedetti	Q472856	34469924
+RDq 322	PER	Mario Cavaglieri	Mario Cavaglieri	Q3293389	59357691
+RDq 322	PER	De Pisis	Filippo De Pisis	Q661473	68940882
+RDq 322	PER	De Pisis	Filippo De Pisis	Q661473	68940882
+RDq 325	PER	Domenico Giordani	Domenico Giordani		
+RDq 326	PER	Ungaretti	Giuseppe Ungaretti	Q311802	89710987
+RDq 326	PER	Giorgio Morandi	Giorgio Morandi	Q309618	7399099
+RDq 326	PER	Leo Longanesi	Leo Longanesi	Q1818677	34565669
+RDq 326	PER	Dino Campana	Dino Campana	Q2271183	7387912
+RDq 327	PER	Baudelaire	Charles Baudelaire	Q501	17218730
+RDq 327	PER	Baudelaire	Charles Baudelaire	Q501	17218730
+RDq 328	PER	Gian Girolamo Savoldo	Girolamo Savoldo	Q938442	89075896
+RDq 328	PER	Gian Girolamo Savoldo	Girolamo Savoldo	Q938442	89075896
+RDq 329	PER	Montaigne	Michel de Montaigne	Q41568	95153547
+RDq 329	PER	Montaigne	Michel de Montaigne	Q41568	95153547
+RDq 329	PER	Pascaliano	Blaise Pascal	Q1290	29538862
+RDq 330	PER	Pascal	Blaise Pascal	Q1290	29538862
+RDq 330	PER	pascaliana	Blaise Pascal	Q1290	29538862
+RDq 331	PER	Pierre-Joseph Proudhon	Pierre-Joseph Proudhon	Q5749	17228286
+RDq 331	PER	Geminiani	Francesco Geminiani	Q311625	196150
+RDq 332	PER	Goethe	Johann Wolfgang von Goethe	Q5879	24602065
+RDq 333	PER	Pascal	Blaise Pascal	Q1290	29538862
+RDq 333	PER	pascaliana	Blaise Pascal	Q1290	29538862
+RDq 334	PER	Cartesio	René Descartes	Q9191	41838958
+RDq 334	PER	Pascal	Blaise Pascal	Q1290	29538862
+RDq 335	PER	Giuseppe	Giuseppe Raimondi	Q3771293	7457679
+RDq 336	PER	Giuseppe	Giuseppe Raimondi	Q3771293	7457679
+RDq 337	PER	Giuseppe	Giuseppe Raimondi	Q3771293	7457679
+RDq 338	PER	Plotino	Plotino	Q134189	108386765
+RDq 338	PER	Porfirio	Porfirio	Q203445	64016141
+RDq 339	PER	Giuseppe	Giuseppe Raimondi	Q3771293	7457679
+RDq 340	PER	Mario Pozzati	Mario Pozzati		
+RDq 341	PER	Pl.	Plotino	Q134189	108386765
+RDq 341	PER	Porf.rio	Porfirio	Q203445	64016141
+RDq 341	PER	Malraux	André Malraux	Q151164	51692748
+RDq 341	PER	Mallarme	Stéphane Mallarmé	Q767	51692711
+RDq 345	PER	Baudelaire	Charles Baudelaire	Q501	17218730
+RDq 345	PER	Eurialo de Michelis	Eurialo De Michelis	Q3734622	95296860
+RDq 348	PER	Romanino	Girolamo Romanino	Q732766	122377180
+RDq 348	PER	Cardarelli	Vincenzo Cardarelli	Q922237	46755526
+RDq 348	PER	Morandi	Giorgio Morandi	Q309618	7399099
+RDq 349	PER	De Pisis	Filippo De Pisis	Q661473	68940882
+RDq 350	PER	Bonsanti	Alessandro Bonsanti	Q3609870	34607550
+RDq 353	PER	Poe	Edgar Allan Poe	Q16867	60351476
+RDq 354	PER	Camus	Albert Camus	Q34670	97000332
+RDq 356	PER	Cardarelli	Vincenzo Cardarelli	Q922237	46755526
+RDq 357	PER	Rimbaud	Arthur Rimbaud	Q493	7396281
+RDq 357	PER	Bacchelli	Riccardo Bacchelli	Q650303	64044782
+RDq 358	PER	De Pisis	Filippo De Pisis	Q661473	68940882
+RDq 359	PER	Cardarelli	Vincenzo Cardarelli	Q922237	46755526
+RDq 359	PER	Vincenzo Cardarelli	Vincenzo Cardarelli	Q922237	46755526
+RDq 362	PER	Eluard	Paul Éluard	Q152176	73848255
+RDq 362	PER	La bomba di Faulkner	William Faulkner	Q38392	39376770
+RDq 362	PER	Isacco Babel	Isaak Babel	Q49080	9842443
+RDq 362	PER	Hemingway	Ernest Hemingway	Q23434	97006051
+RDq 364	PER	Paul Louis Courier	Paul Louis Courier	Q1393399	5724843
+RDq 364	PER	Paolo Luigi Courier	Paul Louis Courier	Q1393399	5724843
+RDq 365	PER	Mia madre	Argentina Testoni		
+RDq 368	PER	M. Proust	Marcel Proust	Q7199	32001793
+RDq 368	PER	Il Ruzzante	Angelo Beolco	Q1055609	4972611
+RDq 368	PER	Ojetti	Ugo Ojetti	Q4002867	36957491
+RDq 370	PER	P. Valery	Paul Valéry	Q200639	61553403
+RDq 372	PER	Mario Cavaglieri	Mario Cavaglieri	Q3293389	59357691
+RDq 372	PER	Jean Jenet	Johann Jenet	Q21532124	172664327
+RDq 372	PER	Mario Cavaglieri	Mario Cavaglieri	Q3293389	59357691
+RDq 372	PER	San Giovanni Genet	San Giovanni Genet		
+RDq 376	PER	Venturina	Russel Evan L. Venturina	Q36671253	
+RDq 376	PER	pascaliani	Blaise Pascal	Q1290	29538862
+RDq 377	PER	Gius. Ungaretti	Giuseppe Ungaretti	Q311802	89710987
+RDq 377	PER	Dino Campana	Dino Campana	Q2271183	7387912
+RDq 377	PER	Leonardo	Leonardo da Vinci	Q762	24604287
+RDq 381	PER	Manet	Édouard Manet	Q40599	97379936
+RDq 381	PER	Garzanti	Garzanti		
+RDq 387	PER	Joseph Conrad	Joseph Conrad	Q82925	73862853
+RDq 388	PER	Mallarme	Stéphane Mallarmé	Q767	51692711
+RDq 388	PER	Vuillard	Édouard Vuillard	Q239394	17397031
+RDq 389	PER	Blaise Pascal	Blaise Pascal	Q1290	29538862
+RDq 389	PER	Henry Brulard	Stendhal	Q502	17823
+RDq 389	PER	Baudelaire	Charles Baudelaire	Q501	17218730
+RDq 390	PER	Baudelaire	Charles Baudelaire	Q501	17218730
+RDq 390	PER	Blaise Pascal	Blaise Pascal	Q1290	29538862
+RDq 391	PER	Dino Campana	Dino Campana	Q2271183	7387912
+RDq 393	PER	Nerval	Gérard de Nerval	Q191305	24596532
+RDq 397	PER	Felice Giani	Felice Giani	Q3105258	37089976
+RDq 398	PER	Campana	Dino Campana	Q2271183	7387912
+RDq 398	PER	Cardarelli	Vincenzo Cardarelli	Q922237	46755526
+RDq 400	PER	Leonardo	Leonardo da Vinci	Q762	24604287
+RDq 401	PER	Elio Vittorini	Elio Vittorini	Q468658	27072824
+RDq 401	PER	Dostoiewski	Fyodor Dostoyevsky	Q991	104023256
+RDq 401	PER	Elio Vittorini	Elio Vittorini	Q468658	27072824
+RDq 402	PER	Hemingway	Ernest Hemingway	Q23434	97006051
+RDq 403	PER	Saint-Just	Louis Antoine de Saint-Just	Q27764	22137301
+RDq 404	PER	J. Heinrich Fussli	Henry Fuseli	Q122382	53061
+RDq 404	PER	G. Morandi	Giorgio Morandi	Q309618	7399099
+RDq 404	PER	J. H. Fussli	Henry Fuseli	Q122382	53061
+RDq 404	PER	Morandi	Giorgio Morandi	Q309618	7399099
+RDq 404	PER	Vanelli	Gino Vannelli	Q1345565	51878903
+RDq 405	PER	Leopardi	Giacomo Leopardi	Q172599	12311353
+RDq 406	PER	Paul Cezanne	Paul Cézanne	Q35548	39374836
+RDq 406	PER	Odilon Redon	Odilon Redon	Q154349	73859058
+RDq 406	PER	Renato Serra	Renato Serra	Q3932800	68948433
+RDq 406	PER	Paul Cezanne	Paul Cézanne	Q35548	39374836
+RDq 408	PER	Dostoiewski	Fyodor Dostoyevsky	Q991	104023256
+RDq 409	PER	V. Cardarelli	Vincenzo Cardarelli	Q922237	46755526
+RDq 410	PER	Rimbaud	Arthur Rimbaud	Q493	7396281
+RDq 410	PER	Morandi	Giorgio Morandi	Q309618	7399099
+RDq 411	PER	Ritratto del padre	Ritratto del padre		
+RDq 412	PER	Ungaretti	Giuseppe Ungaretti	Q311802	89710987
+RDq 412	PER	Ungaretti	Giuseppe Ungaretti	Q311802	89710987
+RDq 412	PER	Giuseppe Ungaretti	Giuseppe Ungaretti	Q311802	89710987
+RDq 414	PER	Baudelaire	Charles Baudelaire	Q501	17218730
+RDq 416	PER	Arthur Rimbaud	Arthur Rimbaud	Q493	7396281
+RDq 423	PER	Morandi	Giorgio Morandi	Q309618	7399099
+RDq 423	PER	Morandi	Giorgio Morandi	Q309618	7399099
+RDq 423	PER	Giorgio Morandi	Giorgio Morandi	Q309618	7399099
+RDq 424	PER	Carracci	Carracci		
+RDq 424	PER	Cesi	Bartolomeo Cesi	Q2606854	69203106
+RDq 424	PER	Morandi	Giorgio Morandi	Q309618	7399099
+RDq 424	PER	Romanino	Girolamo Romanino	Q732766	122377180
+RDq 425	PER	Giuseppe	Giuseppe Raimondi	Q3771293	7457679
+RDq 426	PER	Giuseppe	Giuseppe Raimondi	Q3771293	7457679
+RDq 427	PER	Bacchelli	Riccardo Bacchelli	Q650303	64044782
+RDq 427	PER	Riccardo Bacchelli	Riccardo Bacchelli	Q650303	64044782
+RDq 431	PER	Paul Valery	Paul Valéry	Q200639	61553403
+RDq 431	PER	Descartes	René Descartes	Q9191	41838958
+RDq 436	PER	Stendhal	Stendhal	Q502	17823
+RDq 436	PER	Ottone Rosai	Ottone Rosai	Q719109	76345389
+RDq 439	PER	Caletti	Giuseppe Caletti	Q3108002	95721816
+RDq 439	PER	Giuseppe Caletti	Giuseppe Caletti	Q3108002	95721816
+RDq 440	PER	Giacobbe	Giacobbe		
+RDq 442	PER	Giulio Cesare	Giulio Cesare		
+RDq 442	PER	Shakespeare	William Shakespeare	Q692	96994048
+RDq 444	PER	Dante	Dante Alighieri	Q1067	97105654
+RDq 444	PER	Dante	Dante Alighieri	Q1067	97105654
+RDq 445	PER	V. Cardarelli	Vincenzo Cardarelli	Q922237	46755526
+RDq 446	PER	Rimbaud	Arthur Rimbaud	Q493	7396281
+RDq 447	PER	Rimbaud	Arthur Rimbaud	Q493	7396281
+RDq 451	PER	Nerval	Gérard de Nerval	Q191305	24596532	https://www.wikidata.org/wiki/Q191305
+RDq 451	PER	Baudelaire	Charles Baudelaire	Q501	17218730	https://www.wikidata.org/wiki/Q501
+RDq 451	PER	Rimbaud	Arthur Rimbaud	Q493	7396281	https://www.wikidata.org/wiki/Q493
+RDq 451	PER	G. De Nerval	Gérard de Nerval	Q191305	24596532	https://www.wikidata.org/wiki/Q191305
+RDq 453	PER	Rimbaud	Arthur Rimbaud	Q493	7396281	https://www.wikidata.org/wiki/Q493
+RDq 453	PER	Germain Nouveau	Germain Nouveau	Q611066	54152119	https://www.wikidata.org/wiki/Q611066
+RDq 453	PER	Paul Verlaine	Paul Verlaine	Q755	4937684	https://www.wikidata.org/wiki/Q755
+RDq 453	PER	Charles Cros	Charles Cros	Q356575	19676238	https://www.wikidata.org/wiki/Q356575
+RDq 454	PER	Longhi	Roberto Longhi	Q1361667	39380437	https://www.wikidata.org/wiki/Q1361667
+RDq 460	PER	Ottone Rosai	Ottone Rosai	Q719109	76345389	https://www.wikidata.org/wiki/Q719109

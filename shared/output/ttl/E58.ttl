@@ -1,0 +1,19 @@
+@prefix ecrm: <http://erlangen-crm.org/current/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<https://w3id.org/ficlitdlo/centimetre> a ecrm:E58_Measurement_Unit ;
+    rdfs:label "centimetre (cm)"@en,
+        "centimetro (cm)"@it ;
+    skos:relatedMatch <http://vocab.getty.edu/aat/300379098> .
+
+<https://w3id.org/ficlitdlo/leaf> a ecrm:E58_Measurement_Unit ;
+    rdfs:label "leaf"@en,
+        "carta"@it ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300115833> .
+
+<https://w3id.org/ficlitdlo/page> a ecrm:E58_Measurement_Unit ;
+    rdfs:label "page"@en,
+        "pagina"@it ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300194222> .
+

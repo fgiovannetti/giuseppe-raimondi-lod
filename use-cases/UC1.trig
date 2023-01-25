@@ -18,8 +18,8 @@
     <notebook/rdq303/object> a ecrm:E22_Human-Made_Object ;
       ecrm:P2_has_type ficlitdlo:notebook , ficlitdlo:file ;
       ecrm:P43_has_dimension <height/20cm> , <extent/7c> ;
-      ecrm:P1_is_identified_by <notebook/rdq303/inventory-number>, <notebook/rdq303/shelfmark> ;
-      ecrm:P128_carries <notebook/rdq303/text> ;  
+      ecrm:P1_is_identified_by[ecrm:P2_has_type ficlitdlo:inventory-number ; rdfs:label "RDq 303"], [ecrm:P2_has_type ficlitdlo:shelfmark ; rdfs:label "FR.A QUADERNI.1 1976 3"] ;
+      ecrm:P128_carries <notebook/rdq303/text> , <notebook/rdq303/text/1> , <notebook/rdq303/text/2> ;  
       ecrm:P3_has_note 'Una forca per il poeta François Villon / [Giuseppe Raimondi]. - 1976. - 1 quaderno (7 p. ms., di cui alcune numerate irregolarmente, su 10 c.) ; 21 cm. ((In cop., di altra mano, anche: (Gelo invernale e nostalgia di legna accesa) Il giorno 7.6.76; I dattiloscritti sono inseriti ne "I tetti sulla citta"; a c. [3v]: 24.5.1976; a c. [5v]: 3 luglio 1976. - Contiene anche: A proposito di tegole, di tetti e di fantasmi. - Ms.' ;
       ecrm:P46i_forms_part_of <record-set/notebooks-1-1976/object> ; # physical folder containing all 1976 notebooks
       ficlitdlo:formsConceptuallyPartOf <record-set/notebooks-1-1976> . # record set (file level)
@@ -27,7 +27,7 @@
    <notebook/rdq303/text> a efrbroo:F22_Self-Contained_Expression ;
       ecrm:P165_incorporates <notebook/rdq303/text/1> , <notebook/rdq303/text/2> ;
       ecrm:P43_has_dimension <extent/7p> ;
-      ecrm:P165_incorporates <notebook/rdq2/text/1> , <notebook/rdq2/text/2> ;
+      ecrm:P165_incorporates <notebook/rdq303/text/1> , <notebook/rdq303/text/2> ;
       ecrm:P102_has_title [ rdf:value "Una forca per il poeta François Villon" ] ;
       efrbroo:R17i_was_created_by <notebook/rdq303/text/creation> . 
 

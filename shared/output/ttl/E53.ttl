@@ -1,0 +1,17 @@
+@prefix ecrm: <http://erlangen-crm.org/current/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<https://w3id.org/ficlitdl/place/biblioteca-ezio-raimondi> a ecrm:E53_Place ;
+    rdfs:label "Ezio Raimondi Library, Department of Classical Philology and Italian Studies, University of Bologna"@en,
+        "Biblioteca Ezio Raimondi, Dipartimento di filologia classica e italianistica, Università di Bologna"@it ;
+    ecrm:P76_has_contact_point <https://w3id.org/ficlitdl/address/via-zamboni-32-40126-Bologna-BO> ;
+    ecrm:P89_falls_within <https://w3id.org/ficlitdl/place/bologna> .
+
+<https://w3id.org/ficlitdl/place/bologna> a ecrm:E53_Place ;
+    rdfs:label "Bologna"@en,
+        "Bologna"@it ;
+    owl:sameAs <http://dbpedia.org/resource/Bologna>,
+        <http://sws.geonames.org/3181928>,
+        <https://www.wikidata.org/wiki/Q1891> .
+

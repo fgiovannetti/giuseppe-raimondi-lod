@@ -1,0 +1,68 @@
+# UC1 SPARQL Queries
+
+BASE <https://w3id.org/giuseppe-raimondi-lod/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX ecrm: <http://erlangen-crm.org/current/>
+PREFIX efrbroo: <http://erlangen-crm.org/efrbroo/>
+PREFIX ficlitdlo: <https://w3id.org/ficlitdl/ontology/>
+PREFIX np: <http://www.nanopub.org/nschema#>
+PREFIX prism: <http://prismstandard.org/namespaces/basic/2.0/>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX pro: <https://purl.org/spar/pro/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX time: <https://www.w3.org/TR/owl-time/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+The number of pages that compose the notebook;
+The physical dimensions of the notebook;
+The notebook collocation within the hierarchy of the archival collection;
+The physical location of the notebook;
+If available,  the link to the facsimile and transcription of the notebook;
+
+# CQ6 The texts contained in the notebook;
+
+SELECT DISTINCT ?text
+	WHERE {
+      ?notebook ecrm:P2_has_type ficlitdlo:notebook ;
+                ecrm:P1_is_identified_by [ecrm:P2_has_type ficlitdlo:inventory-number ; rdfs:label "RDq 303"] .
+      ?notebook ecrm:P128_carries ?text .
+    }
+
+# CQ7 The dates on which the texts were created;
+
+SELECT DISTINCT ?text ?date_of_creation
+	WHERE {
+      ?text efrbroo:R17i_was_created_by ?creation .
+      ?creation ecrm:P4_has_time-span ?time-span .
+      ?time-span rdfs:label ?date_of_creation .
+    }
+
+# CQ8 The authors of the texts;
+
+SELECT DISTINCT ?text ?author
+	WHERE {
+      ?text efrbroo:R17i_was_created_by ?creation .
+      ?creation ecrm:P4_has_time-span ?time-span .
+      ?time-span rdfs:label ?date_of_creation .
+    }
+
+
+
+
+
+The titles of the texts;
+Any variants of the texts contained in the archive;
+Any variants of the texts carried by a manuscript document;
+All known variants of the text, including documents outside the collection.
+Other texts in the archive mentioning François Villon;
+Other named entities mentioned in such texts, particularly works of art.
+Relationships between the variant versions of “Una forca per il poeta François Villon”, as reconstructed by a named researcher.
+
+A list of all available manuscript notebooks.
+What texts are included in Notebook 303? When were they produced?
+Which manuscript notebooks carry a variant version of Giuseppe Raimondi’s work “Le nevi di François Villon”?
+Which documents carry a variant version of Giuseppe Raimondi’s work “Le nevi di François Villon”? What kind are they?
+A list of all published versions of Giuseppe Raimondi’s work “Le nevi di François Villon”, arranged in chronological order. 
