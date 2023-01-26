@@ -62,16 +62,19 @@ with open('../input/quaderni.csv', mode='r') as csv_file:
 		rec_expression = URIRef(record + 'text')
 		rec_label = re.findall('^(.+?) \/? \[?G(iuseppe)?\.? Raimondi', descrizione_isbd)[0]
 
+		
 		# authorship attribution
 
-		g.add((URIRef(record + 'author-attribution'), RDF.type, ecrm.E13_Attribute_Assignment))
-		g.add((URIRef(record + 'author-attribution'), ecrm.P141_assigned, URIRef(rec_expression + '/author')))
-		g.add((URIRef(record + 'author-attribution'), ecrm.P140_assigned_attribute_to, URIRef('https://w3id.org/ficlitdl/' + 'person/giuseppe-raimondi')))
-		g.add((URIRef(record + 'author-attribution'), ecrm.P14_carried_out_by, URIRef('https://w3id.org/ficlitdl/org/ibc')))
-		g.add((URIRef(record + 'author-attribution'), URIRef('http://erlangen-crm.org/current/P4_has_time-span'), URIRef(base_uri + 'time-span/' + '1993-03-07')))
-		g.add((URIRef(record + 'author-attribution'), RDFS.label, Literal('Attribuzione della paternità del testo manoscritto ' + '"' + rec_label[0].replace('*', '') + '" a Giuseppe Raimondi', lang='it')))
-		g.add((URIRef(record + 'author-attribution'), RDFS.label, Literal('Authorship attribution of the manuscript text ' + '"' + rec_label[0].replace('*', '') + '" to Giuseppe Raimondi', lang='en')))
-		
+		if '[Giuseppe' in descrizione_isbd[0]:
+
+			g.add((URIRef(record + 'author-attribution'), RDF.type, ecrm.E13_Attribute_Assignment))
+			g.add((URIRef(record + 'author-attribution'), ecrm.P141_assigned, URIRef(rec_expression + '/author')))
+			g.add((URIRef(record + 'author-attribution'), ecrm.P140_assigned_attribute_to, URIRef('https://w3id.org/ficlitdl/' + 'person/giuseppe-raimondi')))
+			g.add((URIRef(record + 'author-attribution'), ecrm.P14_carried_out_by, URIRef('https://w3id.org/ficlitdl/org/ibc')))
+			g.add((URIRef(record + 'author-attribution'), URIRef('http://erlangen-crm.org/current/P4_has_time-span'), URIRef(base_uri + 'time-span/' + '1993-03-07')))
+			g.add((URIRef(record + 'author-attribution'), RDFS.label, Literal('Attribuzione della paternità del testo manoscritto ' + '"' + rec_label[0].replace('*', '') + '" a Giuseppe Raimondi', lang='it')))
+			g.add((URIRef(record + 'author-attribution'), RDFS.label, Literal('Authorship attribution of the manuscript text ' + '"' + rec_label[0].replace('*', '') + '" to Giuseppe Raimondi', lang='en')))
+			
 # RDF/XML
 g.serialize(destination="../output/rdf/quaderni-E13.rdf", format='xml')
 
