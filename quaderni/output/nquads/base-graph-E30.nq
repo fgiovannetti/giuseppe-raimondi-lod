@@ -1,0 +1,4 @@
+<https://w3id.org/ficlitdl/right/all-rights-reserved> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://erlangen-crm.org/current/E30_Right> <https://w3id.org/ficlitdl/nanopub/nanopub-base/assertion> .
+<https://w3id.org/ficlitdl/right/all-rights-reserved> <http://www.w3.org/2000/01/rdf-schema#label> "All rights reserved. Any other reproduction or distribution is prohibited."@en <https://w3id.org/ficlitdl/nanopub/nanopub-base/assertion> .
+<https://w3id.org/ficlitdl/right/all-rights-reserved> <http://www.w3.org/2000/01/rdf-schema#label> "Tutti i diritti riservati. Vietata ogni ulteriore riproduzione."@it <https://w3id.org/ficlitdl/nanopub/nanopub-base/assertion> .
+
