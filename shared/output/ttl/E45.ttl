@@ -1,7 +1,0 @@
-@prefix ecrm: <http://erlangen-crm.org/current/> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-
-<https://w3id.org/ficlitdl/address/via-zamboni-32-40126-Bologna-BO> a ecrm:E45_Address ;
-    rdfs:label "Via Zamboni 32, 40126, Bologna (BO), Italy"@en,
-        "Via Zamboni 32, 40126, Bologna (BO), Italia"@it .
-

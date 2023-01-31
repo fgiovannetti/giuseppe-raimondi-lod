@@ -1,7 +1,0 @@
-@prefix ecrm: <http://erlangen-crm.org/current/> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-
-<https://w3id.org/giuseppe-raimondi-lod/right/all-rights-reserved> a ecrm:E30_Right ;
-    rdfs:label "All rights reserved. Any other reproduction or distribution is prohibited."@en,
-        "Tutti i diritti riservati. Vietata ogni ulteriore riproduzione."@it .
-
