@@ -95,6 +95,7 @@ with open('../input/quaderni.csv', mode='r') as csv_file:
 		# Expression creation
 		d.add((rec_expression, efrbroo.R17i_was_created_by, URIRef(rec_expression + '/creation'), graph_base))
 
+		
 		# Main title
 		d.add((rec_expression, ecrm.P102_has_title, URIRef(rec_expression + '/title'), graph_base))
 		
@@ -151,7 +152,6 @@ with open('../input/quaderni.csv', mode='r') as csv_file:
 
 				# Link to overall expression
 				d.add((rec_subexpression, ecrm.P165i_is_incorporated_in, rec_expression, graph_base))
-				d.add((rec_subexpression, ecrm.P165_incorporates, rec_subexpression, graph_base))
 				
 				# Subexpression creation
 				d.add((rec_subexpression, efrbroo.R17i_was_created_by, URIRef(rec_subexpression + '/creation'), graph_base))
@@ -163,7 +163,18 @@ with open('../input/quaderni.csv', mode='r') as csv_file:
 
 				i += 1
 
-
+		# Expression realises Work
+				s = title.replace(' ', 'x')
+				w = ''.join(ch for ch in s if ch.isalpha())
+				rec_work = URIRef(base_uri + 'work/' + w.lower().replace('x' , '-'))
+				d.add((rec_work, efrbroo.R3_is_realised_in, rec_expression, graph_base))
+				d.add((rec_work, RDF.type, efrbroo.F1_Work, graph_base))
+		else:
+			s = rec_label[0].replace(' ', 'x')
+			w = ''.join(ch for ch in s if ch.isalpha())
+			rec_work = URIRef(base_uri + 'work/' + w.lower().replace('x' , '-'))
+			d.add((rec_work, efrbroo.R3_is_realised_in, rec_expression, graph_base))
+			d.add((rec_work, RDF.type, efrbroo.F1_Work, graph_base))
 
 # TriG
 d.serialize(destination="../output/trig/base-graph-F22.trig", format='trig')

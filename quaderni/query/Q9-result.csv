@@ -1,0 +1,6 @@
+"Entity","Relation","Notebook text","Responsible agent"
+"https://w3id.org/giuseppe-raimondi-lod/pub-text/gelo-invernale-e-nostalgia-di-legna-accesa-19760607","https://w3id.org/ficlitdl/ontology/isPublishedVersionOf","https://w3id.org/giuseppe-raimondi-lod/notebook/rdq303/text/1","https://orcid.org/0000-0001-6007-9118"
+"https://w3id.org/giuseppe-raimondi-lod/notebook/rdq303/text/1/creation","http://erlangen-crm.org/efrbroo/R17_created","https://w3id.org/giuseppe-raimondi-lod/notebook/rdq303/text/1","https://orcid.org/0000-0001-6007-9118"
+"https://w3id.org/giuseppe-raimondi-lod/pub-text/i-tetti-sulla-citta-19731976/una-forca-per-il-poeta-francois-villon","https://w3id.org/ficlitdl/ontology/isPublishedVersionOf","https://w3id.org/giuseppe-raimondi-lod/notebook/rdq303/text/1","https://orcid.org/0000-0001-6007-9118"
+"https://w3id.org/giuseppe-raimondi-lod/notebook/rdq303/object","http://erlangen-crm.org/current/P128_carries","https://w3id.org/giuseppe-raimondi-lod/notebook/rdq303/text/1","https://orcid.org/0000-0001-6007-9118"
+"https://w3id.org/giuseppe-raimondi-lod/notebook/rdq303/text","http://erlangen-crm.org/current/P165_incorporates","https://w3id.org/giuseppe-raimondi-lod/notebook/rdq303/text/1","https://orcid.org/0000-0001-6007-9118"

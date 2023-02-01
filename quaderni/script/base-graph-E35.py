@@ -1,7 +1,7 @@
 # coding: utf-8
 
 """ Base graph :
-Quaderni, Role In Time
+Quaderni, E35 Title
 """
 
 from rdflib import Dataset, URIRef, Literal, Namespace
@@ -18,7 +18,6 @@ ficlitdl = Namespace('https://w3id.org/ficlitdl/')
 ficlitdlo = Namespace('https://w3id.org/ficlitdl/ontology/')
 np = Namespace('http://www.nanopub.org/nschema#')
 prism = Namespace('http://prismstandard.org/namespaces/basic/2.0/')
-pro = Namespace("http://purl.org/spar/pro/")
 seq = Namespace('http://www.ontologydesignpatterns.org/cp/owl/sequence.owl#')
 ti = Namespace("http://www.ontologydesignpatterns.org/cp/owl/timeinterval.owl#")
 tvc = Namespace("http://www.essepuntato.it/2012/04/tvc/")
@@ -36,7 +35,6 @@ d.bind('grlod-np', URIRef('https://w3id.org/giuseppe-raimondi-lod/nanopub/nanopu
 d.bind('prov', PROV)
 d.bind('rdfs', RDFS)
 d.bind('prism', prism)
-d.bind("pro", pro)
 d.bind('seq', seq)
 d.bind('ti', ti)
 d.bind('tvc', tvc)
@@ -66,26 +64,42 @@ with open('../input/quaderni.csv', mode='r') as csv_file:
 		identificativo = row['Id.']
 		descrizione_isbd = row['Descrizione isbd'].replace('*', '')
 		legami = re.findall("(.+?) *$", row["Legami con titoli superiori o supplementi"])
-		
+
 		record = URIRef(base_uri + 'notebook/' + inventario[0].lower().replace(' ', '') + '/')
 
-		# Physical notebook URI
+		# physical notebook URI
+
 		rec_object = URIRef(record + 'object')
  		
- 		# Expression URI
+ 		# expression URI
+
 		rec_expression = URIRef(record + 'text')
-
 		rec_label = re.findall('^(.+?) \/? \[?G(iuseppe)?\.? Raimondi', descrizione_isbd)[0]
-
 
 
 		# Add quads to base-graph
 
-		d.add((URIRef(rec_expression + '/author'), RDF.type, pro.RoleInTime, graph_base))
-		d.add((URIRef(rec_expression + '/author'), pro.withRole, pro.author, graph_base))
-		d.add((URIRef(rec_expression + '/author'), RDFS.label, Literal('Giuseppe Raimondi, autore del testo manoscritto ' + '"' + rec_label[0].replace('*', '') + '"', lang='it'), graph_base))
-		d.add((URIRef(rec_expression + '/author'), RDFS.label, Literal('Giuseppe Raimondi, author of the manuscript text ' + '"' + rec_label[0].replace('*', '') + '"', lang='en'), graph_base))
-		d.add((URIRef(rec_expression + '/author'), pro.relatesToEntity, rec_expression, graph_base))
+		###########################
+		#                         #
+		# Title of main text      #
+		#                         #
+		###########################
+
+		d.add((URIRef(rec_expression + '/title'), RDF.type, ecrm.E35_Title, graph_base))
+		d.add((URIRef(rec_expression + '/title'), RDFS.label, Literal('Titolo, "' + rec_label[0].replace('*', '').replace('[', '').replace(']', '') + '"', lang='it'), graph_base))
+		d.add((URIRef(rec_expression + '/title'), RDFS.label, Literal('Title, "' + rec_label[0].replace('*', '').replace('[', '').replace(']', '') + '"', lang='en'), graph_base))
+		d.add((URIRef(rec_expression + '/title'), RDF.value, Literal(rec_label[0]), graph_base))
+		if rec_label[0].startswith('['):
+			d.add((URIRef(rec_expression + '/title-attribution'), RDF.type, ecrm.E13_Attribute_Assignment, graph_base))
+			d.add((URIRef(rec_expression + '/title-attribution'), ecrm.P141_assigned, URIRef(rec_expression + '/title'), graph_base))
+			d.add((URIRef(rec_expression + '/title-attribution'), ecrm.P14_carried_out_by, URIRef('https://w3id.org/ficlitdl/org/sab-ero'), graph_base))
+			d.add((URIRef(rec_expression + '/title-attribution'), URIRef('http://erlangen-crm.org/current/P4_has_time-span'), URIRef(base_uri + '1993-03-07'), graph_base))
+
+		############################
+		#                          #
+		# Titles of sub-texts      #
+		#                          #
+		############################
 
 		if ' ; ' in rec_label[0]:
 			rec_label = rec_label[0].split(' ; ')
@@ -93,20 +107,16 @@ with open('../input/quaderni.csv', mode='r') as csv_file:
 			for title in rec_label:
 				# URI Subexpression
 				rec_subexpression = URIRef(rec_expression + '/' + str(i))
-
-				d.add((URIRef(rec_subexpression + '/author'), RDF.type, pro.RoleInTime, graph_base))
-				d.add((URIRef(rec_subexpression + '/author'), pro.withRole, pro.author, graph_base))
-				d.add((URIRef(rec_subexpression + '/author'), RDFS.label, Literal('Giuseppe Raimondi, autore del testo manoscritto ' + '"' + title.replace('[', '').replace(']', '') + '"', lang='it'), graph_base))
-				d.add((URIRef(rec_subexpression + '/author'), RDFS.label, Literal('Giuseppe Raimondi, author of the manuscript text ' + '"' + title.replace('[', '').replace(']', '') + '"', lang='en'), graph_base))
-				d.add((URIRef(rec_subexpression + '/author'), pro.relatesToEntity, rec_subexpression, graph_base))
-
-
+				d.add((URIRef(rec_subexpression + '/title'), RDF.type, ecrm.E35_Title, graph_base))
+				d.add((URIRef(rec_subexpression + '/title'), RDFS.label, Literal('Titolo, "' + title.replace('[', '').replace(']', '') + '"', lang='it'), graph_base))
+				d.add((URIRef(rec_subexpression + '/title'), RDFS.label, Literal('Title, "' + title.replace('[', '').replace(']', '') + '"', lang='en'), graph_base))
+				d.add((URIRef(rec_subexpression + '/title'), RDF.value, Literal(title), graph_base))
 				i += 1
 
 
 
 # TriG
-d.serialize(destination="../output/trig/base-graph-RIT.trig", format='trig')
+d.serialize(destination="../output/trig/base-graph-E35.trig", format='trig')
 
 # N-Quads
-d.serialize(destination="../output/nquads/base-graph-RIT.nq", format='nquads')
+d.serialize(destination="../output/nquads/base-graph-E35.nq", format='nquads')

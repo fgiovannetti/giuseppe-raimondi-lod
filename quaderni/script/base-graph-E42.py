@@ -116,53 +116,45 @@ with open('../input/quaderni.csv', mode='r') as csv_file:
 		# Add quads to base-graph
 
 		d.add((URIRef(record + 'inventory-number'), RDF.type, ecrm.E42_Identifier, graph_base))
-		d.add((URIRef(record + 'inventory-number'), RDFS.label, Literal('Inventario ' + inventario[0], lang='it'), graph_base))
-		d.add((URIRef(record + 'inventory-number'), RDFS.label, Literal('Inventory number ' + inventario[0], lang='en'), graph_base))
+		d.add((URIRef(record + 'inventory-number'), RDFS.label, Literal(inventario[0]), graph_base))
 		d.add((URIRef(record + 'inventory-number'), ecrm.P2_has_type, URIRef('https://w3id.org/ficlitdl/ontology/inventory-number'), graph_base))
 
 		d.add((URIRef(record + 'shelfmark'), RDF.type, ecrm.E42_Identifier, graph_base))
-		d.add((URIRef(record + 'shelfmark'), RDFS.label, Literal('Collocazione ' + sezione + ' ' + collocazione + ' ' + specificazione.replace('[', '').replace(']', '') + ' ' + sequenza, lang='it'), graph_base))
-		d.add((URIRef(record + 'shelfmark'), RDFS.label, Literal('Shelfmark ' + sezione + ' ' + collocazione + ' ' + specificazione.replace('[', '').replace(']', '') + ' ' + sequenza, lang='en'), graph_base))
+		d.add((URIRef(record + 'shelfmark'), RDFS.label, Literal(sezione + ' ' + collocazione + ' ' + specificazione.replace('[', '').replace(']', '') + ' ' + sequenza), graph_base))
 		d.add((URIRef(record + 'shelfmark'), ecrm.P2_has_type, ficlitdlo.shelfmark, graph_base))
 	
 		# File
 
 		d.add((URIRef(file + '/shelfmark'), RDF.type, ecrm.E42_Identifier, graph_base))
-		d.add((URIRef(file + '/shelfmark'), RDFS.label, Literal('Collocazione ' + sezione + ' ' + collocazione + ' ' + specificazione.replace('[', '').replace(']', ''), lang='it'), graph_base))
-		d.add((URIRef(file + '/shelfmark'), RDFS.label, Literal('Shelfmark ' + sezione + ' ' + collocazione + ' ' + specificazione.replace('[', '').replace(']', ''), lang='en'), graph_base))
+		d.add((URIRef(file + '/shelfmark'), RDFS.label, Literal(sezione + ' ' + collocazione + ' ' + specificazione.replace('[', '').replace(']', '')), graph_base))
 		d.add((URIRef(file + '/shelfmark'), ecrm.P2_has_type, ficlitdlo.shelfmark, graph_base))
 
 		# Subseries
 
 		d.add((URIRef(subseries + '/shelfmark'), RDF.type, ecrm.E42_Identifier, graph_base))
-		d.add((URIRef(subseries + '/shelfmark'), RDFS.label, Literal('Collocazione ' + sezione + ' ' + collocazione, lang='it'), graph_base))
-		d.add((URIRef(subseries + '/shelfmark'), RDFS.label, Literal('Shelfmark ' + sezione + ' ' + collocazione, lang='en'), graph_base))
+		d.add((URIRef(subseries + '/shelfmark'), RDFS.label, Literal(sezione + ' ' + collocazione), graph_base))
 		d.add((URIRef(subseries + '/shelfmark'), ecrm.P2_has_type, ficlitdlo.shelfmark, graph_base))
 
 		# Series
 
 		d.add((URIRef(series + '/shelfmark'), RDF.type, ecrm.E42_Identifier, graph_base))
-		d.add((URIRef(series + '/shelfmark'), RDFS.label, Literal('Collocazione ' + sezione + ' QUADERNI', lang='it'), graph_base))
-		d.add((URIRef(series + '/shelfmark'), RDFS.label, Literal('Shelfmark ' + sezione + ' QUADERNI', lang='en'), graph_base))
+		d.add((URIRef(series + '/shelfmark'), RDFS.label, Literal(sezione + ' QUADERNI'), graph_base))
 		d.add((URIRef(series + '/shelfmark'), ecrm.P2_has_type, ficlitdlo.shelfmark, graph_base))
 
 		# Subfonds
 
 		d.add((URIRef(subfonds + '/shelfmark'), RDF.type, ecrm.E42_Identifier, graph_base))
-		d.add((URIRef(subfonds + '/shelfmark'), RDFS.label, Literal('Collocazione ' + sezione, lang='it'), graph_base))
-		d.add((URIRef(subfonds + '/shelfmark'), RDFS.label, Literal('Shelfmark ' + sezione, lang='en'), graph_base))
+		d.add((URIRef(subfonds + '/shelfmark'), RDFS.label, Literal(sezione), graph_base))
 		d.add((URIRef(subfonds + '/shelfmark'), ecrm.P2_has_type, ficlitdlo.shelfmark, graph_base))
 
 		d.add((URIRef(subfonds_b + '/shelfmark'), RDF.type, ecrm.E42_Identifier, graph_base))
-		d.add((URIRef(subfonds_b + '/shelfmark'), RDFS.label, Literal('Collocazione ' + sezione, lang='it'), graph_base))
-		d.add((URIRef(subfonds_b + '/shelfmark'), RDFS.label, Literal('Shelfmark ' + sezione, lang='en'), graph_base))
+		d.add((URIRef(subfonds_b + '/shelfmark'), RDFS.label, Literal(sezione), graph_base))
 		d.add((URIRef(subfonds_b + '/shelfmark'), ecrm.P2_has_type, ficlitdlo.shelfmark, graph_base))
 
 		# Fonds
 
 		d.add((URIRef(fonds + '/shelfmark'), RDF.type, ecrm.E42_Identifier, graph_base))
-		d.add((URIRef(fonds + '/shelfmark'), RDFS.label, Literal('Collocazione ' + sezione, lang='it'), graph_base))
-		d.add((URIRef(fonds + '/shelfmark'), RDFS.label, Literal('Shelfmark ' + sezione, lang='en'), graph_base))
+		d.add((URIRef(fonds + '/shelfmark'), RDFS.label, Literal(sezione), graph_base))
 		d.add((URIRef(fonds + '/shelfmark'), ecrm.P2_has_type, ficlitdlo.shelfmark, graph_base))
 
 

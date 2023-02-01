@@ -161,7 +161,7 @@ with open('../input/quaderni.csv', mode='r') as csv_file:
 
 		# Document type (notebooks are regarded both as items and files)
 		d.add((rec_object, ecrm.P2_has_type, ficlitdlo.notebook, graph_base))
-		d.add((rec_object, ecrm.P2_has_type, ficlitdlo.file, graph_base))
+		# d.add((rec_object, ecrm.P2_has_type, ficlitdlo.file, graph_base))
 		
 		# Descrizione isbd
 		d.add((rec_object, ecrm.P3_has_note, Literal(descrizione_isbd.replace('*', '') , lang='it'), graph_base))

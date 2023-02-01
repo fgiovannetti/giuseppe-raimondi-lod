@@ -1,826 +1,588 @@
 @prefix ecrm: <http://erlangen-crm.org/current/> .
+@prefix ficlitdl-np: <https://w3id.org/ficlitdl/nanopub/nanopub-base/> .
 @prefix np: <http://www.nanopub.org/nschema#> .
-@prefix ns1: <https://w3id.org/giuseppe-raimondi-lod/nanopub/nanopub-base/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix pro: <http://purl.org/spar/pro/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-ns1:assertion {
+ficlitdl-np:assertion {
     <https://w3id.org/ficlitdl/person/albert-camus> a ecrm:E21_Person ;
         rdfs:label "Albert Camus"@en,
             "Albert Camus"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq354/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q34670> .
 
     <https://w3id.org/ficlitdl/person/alberto-giacometti> a ecrm:E21_Person ;
         rdfs:label "Alberto Giacometti"@en,
             "Alberto Giacometti"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq168/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q157194> .
 
     <https://w3id.org/ficlitdl/person/alberto-mondadori> a ecrm:E21_Person ;
         rdfs:label "Alberto Mondadori"@en,
             "Alberto Mondadori"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq116/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q3608456> .
 
     <https://w3id.org/ficlitdl/person/alessandro-bonsanti> a ecrm:E21_Person ;
         rdfs:label "Alessandro Bonsanti"@en,
             "Alessandro Bonsanti"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq200/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq350/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q3609870> .
 
     <https://w3id.org/ficlitdl/person/alessandro-manzoni> a ecrm:E21_Person ;
         rdfs:label "Alessandro Manzoni"@en,
             "Alessandro Manzoni"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq53/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q1064> .
 
     <https://w3id.org/ficlitdl/person/alfredo-merio> a ecrm:E21_Person ;
         rdfs:label "Alfredo Merio"@en,
-            "Alfredo Merio"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq296/text> .
+            "Alfredo Merio"@it .
 
     <https://w3id.org/ficlitdl/person/alvise-vivarini> a ecrm:E21_Person ;
         rdfs:label "Alvise Vivarini"@en,
             "Alvise Vivarini"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq173/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q1258585> .
 
     <https://w3id.org/ficlitdl/person/amedeo-modigliani> a ecrm:E21_Person ;
         rdfs:label "Amedeo Modigliani"@en,
             "Amedeo Modigliani"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq90/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q120993> .
 
     <https://w3id.org/ficlitdl/person/andre-derain> a ecrm:E21_Person ;
         rdfs:label "André Derain"@en,
             "André Derain"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq57/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q156272> .
 
     <https://w3id.org/ficlitdl/person/andre-gide> a ecrm:E21_Person ;
         rdfs:label "André Gide"@en,
             "André Gide"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq188/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q47484> .
 
     <https://w3id.org/ficlitdl/person/andre-malraux> a ecrm:E21_Person ;
         rdfs:label "André Malraux"@en,
             "André Malraux"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq341/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q151164> .
 
     <https://w3id.org/ficlitdl/person/andrea-mantegna> a ecrm:E21_Person ;
         rdfs:label "Andrea Mantegna"@en,
             "Andrea Mantegna"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq162/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q5681> .
 
     <https://w3id.org/ficlitdl/person/angelo-beolco> a ecrm:E21_Person ;
         rdfs:label "Angelo Beolco"@en,
             "Angelo Beolco"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq368/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q1055609> .
 
     <https://w3id.org/ficlitdl/person/annibale-carracci> a ecrm:E21_Person ;
         rdfs:label "Annibale Carracci"@en,
             "Annibale Carracci"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq46/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q7824> .
 
     <https://w3id.org/ficlitdl/person/antonin-artaud> a ecrm:E21_Person ;
         rdfs:label "Antonin Artaud"@en,
             "Antonin Artaud"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq92/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q187166> .
 
     <https://w3id.org/ficlitdl/person/antonio-baldini> a ecrm:E21_Person ;
         rdfs:label "Antonio Baldini"@en,
             "Antonio Baldini"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq169/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q599687> .
 
     <https://w3id.org/ficlitdl/person/antonio-canova> a ecrm:E21_Person ;
         rdfs:label "Antonio Canova"@en,
             "Antonio Canova"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq119/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q5547> .
 
     <https://w3id.org/ficlitdl/person/antonio-fiacchi> a ecrm:E21_Person ;
         rdfs:label "Antonio Fiacchi"@en,
             "Antonio Fiacchi"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq26/text> ;
         owl:sameAs <http://viaf.org/viaf/234456322> .
 
     <https://w3id.org/ficlitdl/person/antonio-rinaldi> a ecrm:E21_Person ;
         rdfs:label "Antonio Rinaldi"@en,
             "Antonio Rinaldi"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq47/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q3620097> .
 
     <https://w3id.org/ficlitdl/person/antonio-vivarini> a ecrm:E21_Person ;
         rdfs:label "Antonio Vivarini"@en,
             "Antonio Vivarini"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq173/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q935534> .
 
     <https://w3id.org/ficlitdl/person/ardengo-soffici> a ecrm:E21_Person ;
         rdfs:label "Ardengo Soffici"@en,
             "Ardengo Soffici"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq224/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq298/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q638877> .
 
     <https://w3id.org/ficlitdl/person/argentina-testoni> a ecrm:E21_Person ;
         rdfs:label "Argentina Testoni"@en,
-            "Argentina Testoni"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq365/text> .
+            "Argentina Testoni"@it .
 
     <https://w3id.org/ficlitdl/person/arshile-gorky> a ecrm:E21_Person ;
         rdfs:label "Arshile Gorky"@en,
             "Arshile Gorky"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq164/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q165648> .
 
     <https://w3id.org/ficlitdl/person/arthur-rimbaud> a ecrm:E21_Person ;
         rdfs:label "Arthur Rimbaud"@en,
             "Arthur Rimbaud"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq13/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq138/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq21/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq291/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq316/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq357/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq410/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq416/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq446/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq447/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq451/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq453/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq9/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q493> .
 
     <https://w3id.org/ficlitdl/person/athos-casarini> a ecrm:E21_Person ;
         rdfs:label "Athos Casarini"@en,
             "Athos Casarini"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq175/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q18509114> .
 
     <https://w3id.org/ficlitdl/person/auguste-rodin> a ecrm:E21_Person ;
         rdfs:label "Auguste Rodin"@en,
             "Auguste Rodin"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq148/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q30755> .
 
     <https://w3id.org/ficlitdl/person/bartolomeo-cesi> a ecrm:E21_Person ;
         rdfs:label "Bartolomeo Cesi"@en,
             "Bartolomeo Cesi"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq424/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q2606854> .
 
     <https://w3id.org/ficlitdl/person/bartolomeo-passarotti> a ecrm:E21_Person ;
         rdfs:label "Bartolomeo Passarotti"@en,
             "Bartolomeo Passarotti"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq26/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q809512> .
 
     <https://w3id.org/ficlitdl/person/bartolomeo-vivarini> a ecrm:E21_Person ;
         rdfs:label "Bartolomeo Vivarini"@en,
             "Bartolomeo Vivarini"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq173/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q456971> .
 
     <https://w3id.org/ficlitdl/person/bernard-berenson> a ecrm:E21_Person ;
         rdfs:label "Bernard Berenson"@en,
             "Bernard Berenson"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq168/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq187/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q359047> .
 
     <https://w3id.org/ficlitdl/person/bernardo-bellotto> a ecrm:E21_Person ;
         rdfs:label "Bernardo Bellotto"@en,
             "Bernardo Bellotto"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq91/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q164688> .
 
     <https://w3id.org/ficlitdl/person/bernhard-keil> a ecrm:E21_Person ;
         rdfs:label "Bernhard Keil"@en,
             "Bernhard Keil"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq52/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q259393> .
 
     <https://w3id.org/ficlitdl/person/bertolt-brecht> a ecrm:E21_Person ;
         rdfs:label "Bertolt Brecht"@en,
             "Bertolt Brecht"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq193/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q38757> .
 
     <https://w3id.org/ficlitdl/person/bino-binazzi> a ecrm:E21_Person ;
         rdfs:label "Bino Binazzi"@en,
             "Bino Binazzi"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq70/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q3640117> .
 
     <https://w3id.org/ficlitdl/person/blaise-cendrars> a ecrm:E21_Person ;
         rdfs:label "Blaise Cendrars"@en,
             "Blaise Cendrars"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq134/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq307/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq67/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q123080> .
 
     <https://w3id.org/ficlitdl/person/blaise-pascal> a ecrm:E21_Person ;
         rdfs:label "Blaise Pascal"@en,
             "Blaise Pascal"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq143/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq146/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq147/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq165/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq171/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq279/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq282/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq318/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq329/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq330/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq333/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq334/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq376/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq389/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq390/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq44/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q1290> .
 
     <https://w3id.org/ficlitdl/person/boris-pasternak> a ecrm:E21_Person ;
         rdfs:label "Boris Pasternak"@en,
             "Boris Pasternak"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq64/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q41223> .
 
     <https://w3id.org/ficlitdl/person/bruno-barilli> a ecrm:E21_Person ;
         rdfs:label "Bruno Barilli"@en,
             "Bruno Barilli"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq193/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q993006> .
 
     <https://w3id.org/ficlitdl/person/camillo-sbarbaro> a ecrm:E21_Person ;
         rdfs:label "Camillo Sbarbaro"@en,
             "Camillo Sbarbaro"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq114/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq29/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q585401> .
 
     <https://w3id.org/ficlitdl/person/caravaggio> a ecrm:E21_Person ;
         rdfs:label "Caravaggio"@en,
             "Caravaggio"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq176/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q42207> .
 
     <https://w3id.org/ficlitdl/person/carlo-bonomi> a ecrm:E21_Person ;
         rdfs:label "Carlo Bonomi"@en,
             "Carlo Bonomi"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq173/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q27825154> .
 
     <https://w3id.org/ficlitdl/person/carlo-carra> a ecrm:E21_Person ;
         rdfs:label "Carlo Carrà"@en,
             "Carlo Carrà"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq132/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq221/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq301/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q168496> .
 
     <https://w3id.org/ficlitdl/person/carlo-porta> a ecrm:E21_Person ;
         rdfs:label "Carlo Porta"@en,
             "Carlo Porta"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq120/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq226/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq23/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq297/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q1248697> .
 
     <https://w3id.org/ficlitdl/person/carracci> a ecrm:E21_Person ;
         rdfs:label "Carracci"@en,
-            "Carracci"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq424/text> .
+            "Carracci"@it .
 
     <https://w3id.org/ficlitdl/person/cesare-brandi> a ecrm:E21_Person ;
         rdfs:label "Cesare Brandi"@en,
             "Cesare Brandi"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq126/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq86/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q1056780> .
 
     <https://w3id.org/ficlitdl/person/cesare-gnudi> a ecrm:E21_Person ;
         rdfs:label "Cesare Gnudi"@en,
             "Cesare Gnudi"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq163/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq170/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq99/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q16268417> .
 
     <https://w3id.org/ficlitdl/person/cesare-pascarella> a ecrm:E21_Person ;
         rdfs:label "Cesare Pascarella"@en,
             "Cesare Pascarella"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq37/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q3665495> .
 
     <https://w3id.org/ficlitdl/person/charles-baudelaire> a ecrm:E21_Person ;
         rdfs:label "Charles Baudelaire"@en,
             "Charles Baudelaire"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq115/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq236/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq304/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq314/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq318/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq327/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq345/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq389/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq390/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq414/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq451/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq64/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q501> .
 
     <https://w3id.org/ficlitdl/person/charles-cros> a ecrm:E21_Person ;
         rdfs:label "Charles Cros"@en,
             "Charles Cros"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq453/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q356575> .
 
     <https://w3id.org/ficlitdl/person/charles-meryon> a ecrm:E21_Person ;
         rdfs:label "Charles Méryon"@en,
             "Charles Méryon"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq236/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq34/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q247505> .
 
     <https://w3id.org/ficlitdl/person/charles-peguy> a ecrm:E21_Person ;
         rdfs:label "Charles Péguy"@en,
             "Charles Péguy"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq82/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q334965> .
 
     <https://w3id.org/ficlitdl/person/claude-lorrain> a ecrm:E21_Person ;
         rdfs:label "Claude Lorrain"@en,
             "Claude Lorrain"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq182/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q214074> .
 
     <https://w3id.org/ficlitdl/person/clemente-rebora> a ecrm:E21_Person ;
         rdfs:label "Clemente Rebora"@en,
             "Clemente Rebora"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq22/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq305/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q3680468> .
 
     <https://w3id.org/ficlitdl/person/comte-de-lautreamont> a ecrm:E21_Person ;
         rdfs:label "Comte de Lautréamont"@en,
             "Comte de Lautréamont"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq75/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q294181> .
 
     <https://w3id.org/ficlitdl/person/constantin-brâncuși> a ecrm:E21_Person ;
         rdfs:label "Constantin Brâncuși"@en,
             "Constantin Brâncuși"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq139/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q153048> .
 
     <https://w3id.org/ficlitdl/person/cornelia-rossi-martinetti> a ecrm:E21_Person ;
         rdfs:label "Cornelia Rossi-Martinetti"@en,
             "Cornelia Rossi-Martinetti"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq39/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq41/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q52709250> .
 
     <https://w3id.org/ficlitdl/person/corrado-corazza> a ecrm:E21_Person ;
         rdfs:label "Corrado Corazza"@en,
             "Corrado Corazza"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq94/text> ;
         owl:sameAs <http://viaf.org/viaf/22065938> .
 
     <https://w3id.org/ficlitdl/person/corrado-govoni> a ecrm:E21_Person ;
         rdfs:label "Corrado Govoni"@en,
             "Corrado Govoni"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq185/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q345236> .
 
     <https://w3id.org/ficlitdl/person/dante-alighieri> a ecrm:E21_Person ;
         rdfs:label "Dante Alighieri"@en,
             "Dante Alighieri"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq226/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq25/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq444/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q1067> .
 
     <https://w3id.org/ficlitdl/person/dante-isella> a ecrm:E21_Person ;
         rdfs:label "Dante Isella"@en,
             "Dante Isella"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq120/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q674132> .
 
     <https://w3id.org/ficlitdl/person/denis-diderot> a ecrm:E21_Person ;
         rdfs:label "Denis Diderot"@en,
             "Denis Diderot"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq45/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q448> .
 
     <https://w3id.org/ficlitdl/person/diego-valeri> a ecrm:E21_Person ;
         rdfs:label "Diego Valeri"@en,
             "Diego Valeri"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq121/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq166/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q615053> .
 
     <https://w3id.org/ficlitdl/person/dino-campana> a ecrm:E21_Person ;
         rdfs:label "Dino Campana"@en,
             "Dino Campana"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq133/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq289/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq326/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq377/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq391/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq398/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq56/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq74/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q2271183> .
 
     <https://w3id.org/ficlitdl/person/domenico-giordani> a ecrm:E21_Person ;
         rdfs:label "Domenico Giordani"@en,
             "Domenico Giordani"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq111/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq240/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq311/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq312/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq325/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q16550375> .
 
     <https://w3id.org/ficlitdl/person/dylan-thomas> a ecrm:E21_Person ;
         rdfs:label "Dylan Thomas"@en,
             "Dylan Thomas"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq219/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q191023> .
 
     <https://w3id.org/ficlitdl/person/edgar-allan-poe> a ecrm:E21_Person ;
         rdfs:label "Edgar Allan Poe"@en,
             "Edgar Allan Poe"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq353/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q16867> .
 
     <https://w3id.org/ficlitdl/person/edgar-degas> a ecrm:E21_Person ;
         rdfs:label "Edgar Degas"@en,
             "Edgar Degas"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq125/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q46373> .
 
     <https://w3id.org/ficlitdl/person/edouard-manet> a ecrm:E21_Person ;
         rdfs:label "Édouard Manet"@en,
             "Édouard Manet"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq381/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q40599> .
 
     <https://w3id.org/ficlitdl/person/edouard-vuillard> a ecrm:E21_Person ;
         rdfs:label "Édouard Vuillard"@en,
             "Édouard Vuillard"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq103/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq110/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq388/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q239394> .
 
     <https://w3id.org/ficlitdl/person/elio-vittorini> a ecrm:E21_Person ;
         rdfs:label "Elio Vittorini"@en,
             "Elio Vittorini"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq401/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q468658> .
 
     <https://w3id.org/ficlitdl/person/emilio-cecchi> a ecrm:E21_Person ;
         rdfs:label "Emilio Cecchi"@en,
             "Emilio Cecchi"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq123/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq258/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq58/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q708563> .
 
     <https://w3id.org/ficlitdl/person/emilio-lovarini> a ecrm:E21_Person ;
         rdfs:label "Emilio Lovarini"@en,
             "Emilio Lovarini"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq207/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q19861578> .
 
     <https://w3id.org/ficlitdl/person/enrico-bottrigari> a ecrm:E21_Person ;
         rdfs:label "Enrico Bottrigari"@en,
             "Enrico Bottrigari"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq168/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q87711180> .
 
     <https://w3id.org/ficlitdl/person/ernest-hemingway> a ecrm:E21_Person ;
         rdfs:label "Ernest Hemingway"@en,
             "Ernest Hemingway"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq10/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq211/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq362/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq402/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q23434> .
 
     <https://w3id.org/ficlitdl/person/eugene-delacroix> a ecrm:E21_Person ;
         rdfs:label "Eugène Delacroix"@en,
             "Eugène Delacroix"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq187/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q33477> .
 
     <https://w3id.org/ficlitdl/person/eugenio-montale> a ecrm:E21_Person ;
         rdfs:label "Eugenio Montale"@en,
             "Eugenio Montale"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq48/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q83174> .
 
     <https://w3id.org/ficlitdl/person/eurialo-de-michelis> a ecrm:E21_Person ;
         rdfs:label "Eurialo De Michelis"@en,
             "Eurialo De Michelis"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq345/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q3734622> .
 
     <https://w3id.org/ficlitdl/person/f-scott-fitzgerald> a ecrm:E21_Person ;
         rdfs:label "F. Scott Fitzgerald"@en,
             "F. Scott Fitzgerald"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq229/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q93354> .
 
     <https://w3id.org/ficlitdl/person/federico-barocci> a ecrm:E21_Person ;
         rdfs:label "Federico Barocci"@en,
             "Federico Barocci"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq83/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q316731> .
 
     <https://w3id.org/ficlitdl/person/felice-giani> a ecrm:E21_Person ;
         rdfs:label "Felice Giani"@en,
             "Felice Giani"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq155/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq397/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q3105258> .
 
     <https://w3id.org/ficlitdl/person/filippo-cuccoli> a ecrm:E21_Person ;
         rdfs:label "Filippo Cuccoli"@en,
-            "Filippo Cuccoli"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq83/text> .
+            "Filippo Cuccoli"@it .
 
     <https://w3id.org/ficlitdl/person/filippo-de-pisis> a ecrm:E21_Person ;
         rdfs:label "Filippo De Pisis"@en,
             "Filippo De Pisis"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq185/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq219/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq223/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq322/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq349/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq358/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq68/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq84/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q661473> .
 
     <https://w3id.org/ficlitdl/person/francesco-arcangeli> a ecrm:E21_Person ;
         rdfs:label "Francesco Arcangeli"@en,
             "Francesco Arcangeli"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq295/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q1121086> .
 
     <https://w3id.org/ficlitdl/person/francesco-geminiani> a ecrm:E21_Person ;
         rdfs:label "Francesco Geminiani"@en,
             "Francesco Geminiani"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq331/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q311625> .
 
     <https://w3id.org/ficlitdl/person/francesco-petrarca> a ecrm:E21_Person ;
         rdfs:label "Francesco Petrarca"@en,
             "Francesco Petrarca"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq181/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q1401> .
 
     <https://w3id.org/ficlitdl/person/francis-bacon> a ecrm:E21_Person ;
         rdfs:label "Francis Bacon"@en,
             "Francis Bacon"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq219/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q154340> .
 
     <https://w3id.org/ficlitdl/person/francois-villon> a ecrm:E21_Person ;
         rdfs:label "François Villon"@en,
             "François Villon"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq222/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq230/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq303/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q849> .
 
     <https://w3id.org/ficlitdl/person/friedrich-holderlin> a ecrm:E21_Person ;
         rdfs:label "Friedrich Hölderlin"@en,
             "Friedrich Hölderlin"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq272/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q75889> .
 
     <https://w3id.org/ficlitdl/person/friedrich-nietzsche> a ecrm:E21_Person ;
         rdfs:label "Friedrich Nietzsche"@en,
             "Friedrich Nietzsche"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq205/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq219/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q9358> .
 
     <https://w3id.org/ficlitdl/person/fyodor-dostoyevsky> a ecrm:E21_Person ;
         rdfs:label "Fyodor Dostoyevsky"@en,
             "Fyodor Dostoyevsky"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq401/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq408/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q991> .
 
     <https://w3id.org/ficlitdl/person/g-cestoni> a ecrm:E21_Person ;
         rdfs:label "G. Cestoni"@en,
-            "G. Cestoni"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq317/text> .
+            "G. Cestoni"@it .
 
     <https://w3id.org/ficlitdl/person/gabriele-capellini> a ecrm:E21_Person ;
         rdfs:label "Gabriele Capellini"@en,
             "Gabriele Capellini"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq310/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q5515998> .
 
     <https://w3id.org/ficlitdl/person/garzanti> a ecrm:E21_Person ;
         rdfs:label "Garzanti"@en,
-            "Garzanti"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq381/text> .
+            "Garzanti"@it .
 
     <https://w3id.org/ficlitdl/person/georges-seurat> a ecrm:E21_Person ;
         rdfs:label "Georges Seurat"@en,
             "Georges Seurat"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq77/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q34013> .
 
     <https://w3id.org/ficlitdl/person/gerard-de-nerval> a ecrm:E21_Person ;
         rdfs:label "Gérard de Nerval"@en,
             "Gérard de Nerval"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq19/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq234/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq393/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq451/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq81/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q191305> .
 
     <https://w3id.org/ficlitdl/person/germain-nouveau> a ecrm:E21_Person ;
         rdfs:label "Germain Nouveau"@en,
             "Germain Nouveau"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq453/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q611066> .
 
     <https://w3id.org/ficlitdl/person/germano-pessarelli> a ecrm:E21_Person ;
         rdfs:label "Germano Pessarelli"@en,
             "Germano Pessarelli"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq49/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq78/text> ;
         owl:sameAs <http://viaf.org/viaf/96417864> .
 
     <https://w3id.org/ficlitdl/person/giacobbe> a ecrm:E21_Person ;
         rdfs:label "Giacobbe"@en,
-            "Giacobbe"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq440/text> .
+            "Giacobbe"@it .
 
     <https://w3id.org/ficlitdl/person/giacomo-casanova> a ecrm:E21_Person ;
         rdfs:label "Giacomo Casanova"@en,
             "Giacomo Casanova"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq98/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q83321> .
 
     <https://w3id.org/ficlitdl/person/giacomo-debenedetti> a ecrm:E21_Person ;
         rdfs:label "Giacomo Debenedetti"@en,
             "Giacomo Debenedetti"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq319/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q472856> .
 
     <https://w3id.org/ficlitdl/person/giacomo-leopardi> a ecrm:E21_Person ;
         rdfs:label "Giacomo Leopardi"@en,
             "Giacomo Leopardi"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq139/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq213/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq226/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq405/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q172599> .
 
     <https://w3id.org/ficlitdl/person/gilbert-du-motier-marquis-de-lafayette> a ecrm:E21_Person ;
         rdfs:label "Gilbert du Motier, Marquis de Lafayette"@en,
             "Gilbert du Motier, Marquis de Lafayette"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq100/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q186652> .
 
     <https://w3id.org/ficlitdl/person/gino-vannelli> a ecrm:E21_Person ;
         rdfs:label "Gino Vannelli"@en,
             "Gino Vannelli"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq404/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q1345565> .
 
     <https://w3id.org/ficlitdl/person/giorgio-morandi> a ecrm:E21_Person ;
         rdfs:label "Giorgio Morandi"@en,
             "Giorgio Morandi"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq299/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq317/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq326/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq348/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq404/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq410/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq423/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq424/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq48/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q309618> .
 
     <https://w3id.org/ficlitdl/person/giotto-di-bondone> a ecrm:E21_Person ;
         rdfs:label "Giotto di Bondone"@en,
             "Giotto di Bondone"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq115/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq228/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq99/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q7814> .
 
     <https://w3id.org/ficlitdl/person/giovanni-battista-piranesi> a ecrm:E21_Person ;
         rdfs:label "Giovanni Battista Piranesi"@en,
             "Giovanni Battista Piranesi"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq158/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq172/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q316307> .
 
     <https://w3id.org/ficlitdl/person/giovanni-pascoli> a ecrm:E21_Person ;
         rdfs:label "Giovanni Pascoli"@en,
             "Giovanni Pascoli"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq158/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq78/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q375998> .
 
     <https://w3id.org/ficlitdl/person/giovanni-romagnoli> a ecrm:E21_Person ;
         rdfs:label "Giovanni Romagnoli"@en,
             "Giovanni Romagnoli"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq145/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq215/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq66/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q3768048> .
 
     <https://w3id.org/ficlitdl/person/giovanni-verga> a ecrm:E21_Person ;
         rdfs:label "Giovanni Verga"@en,
             "Giovanni Verga"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq151/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq161/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq24/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q271814> .
 
     <https://w3id.org/ficlitdl/person/girolamo-romanino> a ecrm:E21_Person ;
         rdfs:label "Girolamo Romanino"@en,
             "Girolamo Romanino"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq348/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq424/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q732766> .
 
     <https://w3id.org/ficlitdl/person/girolamo-savoldo> a ecrm:E21_Person ;
         rdfs:label "Girolamo Savoldo"@en,
             "Girolamo Savoldo"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq195/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq328/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q938442> .
 
     <https://w3id.org/ficlitdl/person/giulio-carpioni> a ecrm:E21_Person ;
         rdfs:label "Giulio Carpioni"@en,
             "Giulio Carpioni"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq180/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q1528009> .
 
     <https://w3id.org/ficlitdl/person/giulio-cesare> a ecrm:E21_Person ;
         rdfs:label "Giulio Cesare"@en,
-            "Giulio Cesare"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq442/text> .
+            "Giulio Cesare"@it .
 
     <https://w3id.org/ficlitdl/person/giuseppe-caletti> a ecrm:E21_Person ;
         rdfs:label "Giuseppe Caletti"@en,
             "Giuseppe Caletti"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq439/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q3108002> .
 
     <https://w3id.org/ficlitdl/person/giuseppe-delogu> a ecrm:E21_Person ;
         rdfs:label "Giuseppe Delogu"@en,
             "Giuseppe Delogu"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq184/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q55226990> .
 
     <https://w3id.org/ficlitdl/person/giuseppe-gioachino-belli> a ecrm:E21_Person ;
         rdfs:label "Giuseppe Gioachino Belli"@en,
             "Giuseppe Gioachino Belli"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq188/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q2080788> .
 
     <https://w3id.org/ficlitdl/person/giuseppe-raimondi> a ecrm:E21_Person ;
         rdfs:label "Giuseppe Raimondi"@en,
             "Giuseppe Raimondi"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq315/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq316/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq335/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq336/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq337/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq339/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq425/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq426/text> ;
         pro:holdsRoleInTime <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq1/text/author>,
             <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq10/text/author>,
             <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq100/text/author>,
@@ -1288,742 +1050,553 @@ ns1:assertion {
     <https://w3id.org/ficlitdl/person/giuseppe-ungaretti> a ecrm:E21_Person ;
         rdfs:label "Giuseppe Ungaretti"@en,
             "Giuseppe Ungaretti"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq138/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq257/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq326/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq377/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq412/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q311802> .
 
     <https://w3id.org/ficlitdl/person/guido-cagnacci> a ecrm:E21_Person ;
         rdfs:label "Guido Cagnacci"@en,
             "Guido Cagnacci"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq101/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q2449649> .
 
     <https://w3id.org/ficlitdl/person/guido-reni> a ecrm:E21_Person ;
         rdfs:label "Guido Reni"@en,
             "Guido Reni"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq12/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q109061> .
 
     <https://w3id.org/ficlitdl/person/guillaume-apollinaire> a ecrm:E21_Person ;
         rdfs:label "Guillaume Apollinaire"@en,
             "Guillaume Apollinaire"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq127/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq22/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq24/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq51/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq88/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q133855> .
 
     <https://w3id.org/ficlitdl/person/gustave-courbet> a ecrm:E21_Person ;
         rdfs:label "Gustave Courbet"@en,
             "Gustave Courbet"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq221/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q34618> .
 
     <https://w3id.org/ficlitdl/person/gustave-moreau> a ecrm:E21_Person ;
         rdfs:label "Gustave Moreau"@en,
             "Gustave Moreau"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq146/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q203828> .
 
     <https://w3id.org/ficlitdl/person/henri-michaux> a ecrm:E21_Person ;
         rdfs:label "Henri Michaux"@en,
             "Henri Michaux"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq105/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q160780> .
 
     <https://w3id.org/ficlitdl/person/henry-fuseli> a ecrm:E21_Person ;
         rdfs:label "Henry Fuseli"@en,
             "Henry Fuseli"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq404/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q122382> .
 
     <https://w3id.org/ficlitdl/person/honore-daumier> a ecrm:E21_Person ;
         rdfs:label "Honoré Daumier"@en,
             "Honoré Daumier"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq141/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q187506> .
 
     <https://w3id.org/ficlitdl/person/isaak-babel> a ecrm:E21_Person ;
         rdfs:label "Isaak Babel"@en,
             "Isaak Babel"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq362/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq84/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q49080> .
 
     <https://w3id.org/ficlitdl/person/jackson-pollock> a ecrm:E21_Person ;
         rdfs:label "Jackson Pollock"@en,
             "Jackson Pollock"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq151/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q37571> .
 
     <https://w3id.org/ficlitdl/person/james-ensor> a ecrm:E21_Person ;
         rdfs:label "James Ensor"@en,
             "James Ensor"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq283/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q158840> .
 
     <https://w3id.org/ficlitdl/person/james-joyce> a ecrm:E21_Person ;
         rdfs:label "James Joyce"@en,
             "James Joyce"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq59/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q6882> .
 
     <https://w3id.org/ficlitdl/person/jan-van-eyck> a ecrm:E21_Person ;
         rdfs:label "Jan van Eyck"@en,
             "Jan van Eyck"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq50/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q102272> .
 
     <https://w3id.org/ficlitdl/person/jean-auguste-dominique-ingres> a ecrm:E21_Person ;
         rdfs:label "Jean Auguste Dominique Ingres"@en,
             "Jean Auguste Dominique Ingres"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq130/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq147/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq85/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q23380> .
 
     <https://w3id.org/ficlitdl/person/jean-baptiste-camille-corot> a ecrm:E21_Person ;
         rdfs:label "Jean-Baptiste Camille Corot"@en,
             "Jean-Baptiste Camille Corot"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq55/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q148475> .
 
     <https://w3id.org/ficlitdl/person/jean-baptiste-simeon-chardin> a ecrm:E21_Person ;
         rdfs:label "Jean-Baptiste-Siméon Chardin"@en,
             "Jean-Baptiste-Siméon Chardin"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq146/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq147/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq209/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q207447> .
 
     <https://w3id.org/ficlitdl/person/jean-cocteau> a ecrm:E21_Person ;
         rdfs:label "Jean Cocteau"@en,
             "Jean Cocteau"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq76/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q83158> .
 
     <https://w3id.org/ficlitdl/person/jean-jacques-rousseau> a ecrm:E21_Person ;
         rdfs:label "Jean-Jacques Rousseau"@en,
             "Jean-Jacques Rousseau"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq137/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q6527> .
 
     <https://w3id.org/ficlitdl/person/johann-jenet> a ecrm:E21_Person ;
         rdfs:label "Johann Jenet"@en,
             "Johann Jenet"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq372/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q21532124> .
 
     <https://w3id.org/ficlitdl/person/johann-wolfgang-von-goethe> a ecrm:E21_Person ;
         rdfs:label "Johann Wolfgang von Goethe"@en,
             "Johann Wolfgang von Goethe"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq332/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q5879> .
 
     <https://w3id.org/ficlitdl/person/joseph-conrad> a ecrm:E21_Person ;
         rdfs:label "Joseph Conrad"@en,
             "Joseph Conrad"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq20/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq387/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q82925> .
 
     <https://w3id.org/ficlitdl/person/jules-laforgue> a ecrm:E21_Person ;
         rdfs:label "Jules Laforgue"@en,
             "Jules Laforgue"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq113/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq220/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q380275> .
 
     <https://w3id.org/ficlitdl/person/jules-supervielle> a ecrm:E21_Person ;
         rdfs:label "Jules Supervielle"@en,
             "Jules Supervielle"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq124/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q732569> .
 
     <https://w3id.org/ficlitdl/person/julio-gonzalez> a ecrm:E21_Person ;
         rdfs:label "Julio González"@en,
             "Julio González"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq198/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q316531> .
 
     <https://w3id.org/ficlitdl/person/konstantinos-p-cavafy> a ecrm:E21_Person ;
         rdfs:label "Konstantinos P. Cavafy"@en,
             "Konstantinos P. Cavafy"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq84/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q216980> .
 
     <https://w3id.org/ficlitdl/person/lea-colliva> a ecrm:E21_Person ;
         rdfs:label "Lea Colliva"@en,
             "Lea Colliva"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq149/text> ;
         owl:sameAs <http://viaf.org/viaf/34155224504384372528> .
 
     <https://w3id.org/ficlitdl/person/leo-longanesi> a ecrm:E21_Person ;
         rdfs:label "Leo Longanesi"@en,
             "Leo Longanesi"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq185/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq221/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq326/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq65/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq70/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q1818677> .
 
     <https://w3id.org/ficlitdl/person/leonardo-da-vinci> a ecrm:E21_Person ;
         rdfs:label "Leonardo da Vinci"@en,
             "Leonardo da Vinci"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq377/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq400/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q762> .
 
     <https://w3id.org/ficlitdl/person/lorenzo-magalotti> a ecrm:E21_Person ;
         rdfs:label "Lorenzo Magalotti"@en,
             "Lorenzo Magalotti"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq173/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq246/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q590501> .
 
     <https://w3id.org/ficlitdl/person/lorenzo-montano> a ecrm:E21_Person ;
         rdfs:label "Lorenzo Montano"@en,
             "Lorenzo Montano"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq10/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq42/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq87/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q3837018> .
 
     <https://w3id.org/ficlitdl/person/louis-antoine-de-saint-just> a ecrm:E21_Person ;
         rdfs:label "Louis Antoine de Saint-Just"@en,
             "Louis Antoine de Saint-Just"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq403/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q27764> .
 
     <https://w3id.org/ficlitdl/person/luigi-bartolini> a ecrm:E21_Person ;
         rdfs:label "Luigi Bartolini"@en,
             "Luigi Bartolini"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq179/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q172346> .
 
     <https://w3id.org/ficlitdl/person/magalotti> a ecrm:E21_Person ;
         rdfs:label "Magalotti"@en,
-            "Magalotti"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq317/text> .
+            "Magalotti"@it .
 
     <https://w3id.org/ficlitdl/person/manara-valgimigli> a ecrm:E21_Person ;
         rdfs:label "Manara Valgimigli"@en,
             "Manara Valgimigli"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq137/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq209/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q3844245> .
 
     <https://w3id.org/ficlitdl/person/marc-chagall> a ecrm:E21_Person ;
         rdfs:label "Marc Chagall"@en,
             "Marc Chagall"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq170/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q93284> .
 
     <https://w3id.org/ficlitdl/person/marcel-jouhandeau> a ecrm:E21_Person ;
         rdfs:label "Marcel Jouhandeau"@en,
             "Marcel Jouhandeau"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq135/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q561479> .
 
     <https://w3id.org/ficlitdl/person/marcel-proust> a ecrm:E21_Person ;
         rdfs:label "Marcel Proust"@en,
             "Marcel Proust"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq214/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq319/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq368/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q7199> .
 
     <https://w3id.org/ficlitdl/person/marcel-schwob> a ecrm:E21_Person ;
         rdfs:label "Marcel Schwob"@en,
             "Marcel Schwob"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq136/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq7/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q472697> .
 
     <https://w3id.org/ficlitdl/person/mario-bacchelli> a ecrm:E21_Person ;
         rdfs:label "Mario Bacchelli"@en,
             "Mario Bacchelli"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq144/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq54/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q20735044> .
 
     <https://w3id.org/ficlitdl/person/mario-cavaglieri> a ecrm:E21_Person ;
         rdfs:label "Mario Cavaglieri"@en,
             "Mario Cavaglieri"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq322/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq372/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q3293389> .
 
     <https://w3id.org/ficlitdl/person/mario-fubini> a ecrm:E21_Person ;
         rdfs:label "Mario Fubini"@en,
             "Mario Fubini"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq258/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q3848601> .
 
     <https://w3id.org/ficlitdl/person/mario-marcucci> a ecrm:E21_Person ;
         rdfs:label "Mario Marcucci"@en,
             "Mario Marcucci"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq7/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q21208726> .
 
     <https://w3id.org/ficlitdl/person/mario-pozzati> a ecrm:E21_Person ;
         rdfs:label "Mario Pozzati"@en,
-            "Mario Pozzati"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq340/text> .
+            "Mario Pozzati"@it .
 
     <https://w3id.org/ficlitdl/person/mario-ricci> a ecrm:E21_Person ;
         rdfs:label "Mario Ricci"@en,
-            "Mario Ricci"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq184/text> .
+            "Mario Ricci"@it .
 
     <https://w3id.org/ficlitdl/person/mario-soffici> a ecrm:E21_Person ;
         rdfs:label "Mario Soffici"@en,
             "Mario Soffici"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq106/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq122/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q10752256> .
 
     <https://w3id.org/ficlitdl/person/max-ernst> a ecrm:E21_Person ;
         rdfs:label "Max Ernst"@en,
             "Max Ernst"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq225/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q154842> .
 
     <https://w3id.org/ficlitdl/person/michel-de-montaigne> a ecrm:E21_Person ;
         rdfs:label "Michel de Montaigne"@en,
             "Michel de Montaigne"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq250/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq329/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq78/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q41568> .
 
     <https://w3id.org/ficlitdl/person/michelangelo> a ecrm:E21_Person ;
         rdfs:label "Michelangelo"@en,
             "Michelangelo"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq152/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq155/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q5592> .
 
     <https://w3id.org/ficlitdl/person/michiel-sweerts> a ecrm:E21_Person ;
         rdfs:label "Michiel Sweerts"@en,
             "Michiel Sweerts"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq97/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q1342328> .
 
     <https://w3id.org/ficlitdl/person/mino-maccari> a ecrm:E21_Person ;
         rdfs:label "Mino Maccari"@en,
             "Mino Maccari"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq20/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q3858582> .
 
     <https://w3id.org/ficlitdl/person/nanni-di-banco> a ecrm:E21_Person ;
         rdfs:label "Nanni di Banco"@en,
             "Nanni di Banco"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq239/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q465917> .
 
     <https://w3id.org/ficlitdl/person/odilon-redon> a ecrm:E21_Person ;
         rdfs:label "Odilon Redon"@en,
             "Odilon Redon"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq164/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq406/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq51/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q154349> .
 
     <https://w3id.org/ficlitdl/person/oskar-kokoschka> a ecrm:E21_Person ;
         rdfs:label "Oskar Kokoschka"@en,
             "Oskar Kokoschka"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq154/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q154260> .
 
     <https://w3id.org/ficlitdl/person/ottone-rosai> a ecrm:E21_Person ;
         rdfs:label "Ottone Rosai"@en,
             "Ottone Rosai"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq131/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq32/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq436/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq460/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q719109> .
 
     <https://w3id.org/ficlitdl/person/pablo-picasso> a ecrm:E21_Person ;
         rdfs:label "Pablo Picasso"@en,
             "Pablo Picasso"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq116/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq182/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q5593> .
 
     <https://w3id.org/ficlitdl/person/palma-bucarelli> a ecrm:E21_Person ;
         rdfs:label "Palma Bucarelli"@en,
             "Palma Bucarelli"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq168/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q3892735> .
 
     <https://w3id.org/ficlitdl/person/paolo-serini> a ecrm:E21_Person ;
         rdfs:label "Paolo Serini"@en,
             "Paolo Serini"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq171/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q15918700> .
 
     <https://w3id.org/ficlitdl/person/paul-cezanne> a ecrm:E21_Person ;
         rdfs:label "Paul Cézanne"@en,
             "Paul Cézanne"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq171/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq229/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq406/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq65/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q35548> .
 
     <https://w3id.org/ficlitdl/person/paul-durand-ruel> a ecrm:E21_Person ;
         rdfs:label "Paul Durand-Ruel"@en,
             "Paul Durand-Ruel"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq125/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q649052> .
 
     <https://w3id.org/ficlitdl/person/paul-eluard> a ecrm:E21_Person ;
         rdfs:label "Paul Éluard"@en,
             "Paul Éluard"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq362/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q152176> .
 
     <https://w3id.org/ficlitdl/person/paul-klee> a ecrm:E21_Person ;
         rdfs:label "Paul Klee"@en,
             "Paul Klee"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq108/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq129/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q44007> .
 
     <https://w3id.org/ficlitdl/person/paul-louis-courier> a ecrm:E21_Person ;
         rdfs:label "Paul Louis Courier"@en,
             "Paul Louis Courier"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq364/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q1393399> .
 
     <https://w3id.org/ficlitdl/person/paul-valery> a ecrm:E21_Person ;
         rdfs:label "Paul Valéry"@en,
             "Paul Valéry"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq117/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq147/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq150/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq370/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq431/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq5/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q200639> .
 
     <https://w3id.org/ficlitdl/person/paul-verlaine> a ecrm:E21_Person ;
         rdfs:label "Paul Verlaine"@en,
             "Paul Verlaine"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq291/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq453/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q755> .
 
     <https://w3id.org/ficlitdl/person/peter-paul-rubens> a ecrm:E21_Person ;
         rdfs:label "Peter Paul Rubens"@en,
             "Peter Paul Rubens"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq50/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q5599> .
 
     <https://w3id.org/ficlitdl/person/petrus-christus> a ecrm:E21_Person ;
         rdfs:label "Petrus Christus"@en,
             "Petrus Christus"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq50/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q312616> .
 
     <https://w3id.org/ficlitdl/person/piero-jahier> a ecrm:E21_Person ;
         rdfs:label "Piero Jahier"@en,
             "Piero Jahier"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq177/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq20/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q3903278> .
 
     <https://w3id.org/ficlitdl/person/pierre-choderlos-de-laclos> a ecrm:E21_Person ;
         rdfs:label "Pierre Choderlos de Laclos"@en,
             "Pierre Choderlos de Laclos"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq169/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q212476> .
 
     <https://w3id.org/ficlitdl/person/pierre-joseph-proudhon> a ecrm:E21_Person ;
         rdfs:label "Pierre-Joseph Proudhon"@en,
             "Pierre-Joseph Proudhon"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq331/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q5749> .
 
     <https://w3id.org/ficlitdl/person/pierre-reverdy> a ecrm:E21_Person ;
         rdfs:label "Pierre Reverdy"@en,
             "Pierre Reverdy"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq137/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q379931> .
 
     <https://w3id.org/ficlitdl/person/plotino> a ecrm:E21_Person ;
         rdfs:label "Plotino"@en,
             "Plotino"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq338/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq341/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q134189> .
 
     <https://w3id.org/ficlitdl/person/pontormo> a ecrm:E21_Person ;
         rdfs:label "Pontormo"@en,
             "Pontormo"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq214/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq42/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q207929> .
 
     <https://w3id.org/ficlitdl/person/porfirio> a ecrm:E21_Person ;
         rdfs:label "Porfirio"@en,
             "Porfirio"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq338/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq341/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q203445> .
 
     <https://w3id.org/ficlitdl/person/raymond-radiguet> a ecrm:E21_Person ;
         rdfs:label "Raymond Radiguet"@en,
             "Raymond Radiguet"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq108/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq118/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq31/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q333615> .
 
     <https://w3id.org/ficlitdl/person/rembrandt> a ecrm:E21_Person ;
         rdfs:label "Rembrandt"@en,
             "Rembrandt"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq215/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq277/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q5598> .
 
     <https://w3id.org/ficlitdl/person/renato-serra> a ecrm:E21_Person ;
         rdfs:label "Renato Serra"@en,
             "Renato Serra"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq210/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq406/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q3932800> .
 
     <https://w3id.org/ficlitdl/person/rene-descartes> a ecrm:E21_Person ;
         rdfs:label "René Descartes"@en,
             "René Descartes"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq334/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq431/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q9191> .
 
     <https://w3id.org/ficlitdl/person/riccardo-bacchelli> a ecrm:E21_Person ;
         rdfs:label "Riccardo Bacchelli"@en,
             "Riccardo Bacchelli"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq357/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq427/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q650303> .
 
     <https://w3id.org/ficlitdl/person/ritratto-del-padre> a ecrm:E21_Person ;
         rdfs:label "Ritratto del padre"@en,
-            "Ritratto del padre"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq411/text> .
+            "Ritratto del padre"@it .
 
     <https://w3id.org/ficlitdl/person/roberto-longhi> a ecrm:E21_Person ;
         rdfs:label "Roberto Longhi"@en,
             "Roberto Longhi"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq174/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq302/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq454/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q1361667> .
 
     <https://w3id.org/ficlitdl/person/rodolfo-pallucchini> a ecrm:E21_Person ;
         rdfs:label "Rodolfo Pallucchini"@en,
             "Rodolfo Pallucchini"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq173/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q3438258> .
 
     <https://w3id.org/ficlitdl/person/russel-evan-l-venturina> a ecrm:E21_Person ;
         rdfs:label "Russel Evan L. Venturina"@en,
             "Russel Evan L. Venturina"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq376/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q36671253> .
 
     <https://w3id.org/ficlitdl/person/san-giovanni-genet> a ecrm:E21_Person ;
         rdfs:label "San Giovanni Genet"@en,
-            "San Giovanni Genet"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq372/text> .
+            "San Giovanni Genet"@it .
 
     <https://w3id.org/ficlitdl/person/sebastiano-filippi> a ecrm:E21_Person ;
         rdfs:label "Sebastiano Filippi"@en,
             "Sebastiano Filippi"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq189/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq30/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q3476895> .
 
     <https://w3id.org/ficlitdl/person/sebastiano-mazzoni> a ecrm:E21_Person ;
         rdfs:label "Sebastiano Mazzoni"@en,
             "Sebastiano Mazzoni"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq110/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q2327193> .
 
     <https://w3id.org/ficlitdl/person/sergio-camerani> a ecrm:E21_Person ;
         rdfs:label "Sergio Camerani"@en,
             "Sergio Camerani"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq156/text> ;
         owl:sameAs <http://viaf.org/viaf/200256858> .
 
     <https://w3id.org/ficlitdl/person/sergio-corazzini> a ecrm:E21_Person ;
         rdfs:label "Sergio Corazzini"@en,
             "Sergio Corazzini"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq112/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q1377174> .
 
     <https://w3id.org/ficlitdl/person/severino-ferrari> a ecrm:E21_Person ;
         rdfs:label "Severino Ferrari"@en,
             "Severino Ferrari"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq217/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q3958500> .
 
     <https://w3id.org/ficlitdl/person/sibilla-aleramo> a ecrm:E21_Person ;
         rdfs:label "Sibilla Aleramo"@en,
             "Sibilla Aleramo"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq74/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq76/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q287741> .
 
     <https://w3id.org/ficlitdl/person/stendhal> a ecrm:E21_Person ;
         rdfs:label "Stendhal"@en,
             "Stendhal"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq102/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq175/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq224/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq389/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq436/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q502> .
 
     <https://w3id.org/ficlitdl/person/stephane-mallarme> a ecrm:E21_Person ;
         rdfs:label "Stéphane Mallarmé"@en,
             "Stéphane Mallarmé"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq341/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq388/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq97/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q767> .
 
     <https://w3id.org/ficlitdl/person/t-e-lawrence> a ecrm:E21_Person ;
         rdfs:label "T. E. Lawrence"@en,
             "T. E. Lawrence"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq10/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q170596> .
 
     <https://w3id.org/ficlitdl/person/t-s-eliot> a ecrm:E21_Person ;
         rdfs:label "T. S. Eliot"@en,
             "T. S. Eliot"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq40/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q37767> .
 
     <https://w3id.org/ficlitdl/person/teresa-carniani> a ecrm:E21_Person ;
         rdfs:label "Teresa Carniani"@en,
             "Teresa Carniani"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq38/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq39/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q3984273> .
 
     <https://w3id.org/ficlitdl/person/theodore-gericault> a ecrm:E21_Person ;
         rdfs:label "Théodore Géricault"@en,
             "Théodore Géricault"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq147/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq150/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q184212> .
 
     <https://w3id.org/ficlitdl/person/ugo-ojetti> a ecrm:E21_Person ;
         rdfs:label "Ugo Ojetti"@en,
             "Ugo Ojetti"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq368/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q4002867> .
 
     <https://w3id.org/ficlitdl/person/ugo-valeri> a ecrm:E21_Person ;
         rdfs:label "Ugo Valeri"@en,
             "Ugo Valeri"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq166/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q4002917> .
 
     <https://w3id.org/ficlitdl/person/umberto-saba> a ecrm:E21_Person ;
         rdfs:label "Umberto Saba"@en,
             "Umberto Saba"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq27/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q451312> .
 
     <https://w3id.org/ficlitdl/person/venturino-venturi> a ecrm:E21_Person ;
         rdfs:label "Venturino Venturi"@en,
             "Venturino Venturi"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq260/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q2513051> .
 
     <https://w3id.org/ficlitdl/person/vincenzo-cardarelli> a ecrm:E21_Person ;
         rdfs:label "Vincenzo Cardarelli"@en,
             "Vincenzo Cardarelli"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq10/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq171/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq220/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq348/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq356/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq359/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq398/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq409/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq445/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq58/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q922237> .
 
     <https://w3id.org/ficlitdl/person/virgilio-giotti> a ecrm:E21_Person ;
         rdfs:label "Virgilio Giotti"@en,
             "Virgilio Giotti"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq60/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q2160344> .
 
     <https://w3id.org/ficlitdl/person/vita> a ecrm:E21_Person ;
         rdfs:label "Vita"@en,
             "Vita"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq131/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q24006244> .
 
     <https://w3id.org/ficlitdl/person/vitale-da-bologna> a ecrm:E21_Person ;
         rdfs:label "Vitale da Bologna"@en,
             "Vitale da Bologna"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq170/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q2575398> .
 
     <https://w3id.org/ficlitdl/person/vittore-carpaccio> a ecrm:E21_Person ;
         rdfs:label "Vittore Carpaccio"@en,
             "Vittore Carpaccio"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq192/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q5581> .
 
     <https://w3id.org/ficlitdl/person/william-blake> a ecrm:E21_Person ;
         rdfs:label "William Blake"@en,
             "William Blake"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq212/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q41513> .
 
     <https://w3id.org/ficlitdl/person/william-faulkner> a ecrm:E21_Person ;
         rdfs:label "William Faulkner"@en,
             "William Faulkner"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq111/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/rdq362/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q38392> .
 
     <https://w3id.org/ficlitdl/person/william-shakespeare> a ecrm:E21_Person ;
         rdfs:label "William Shakespeare"@en,
             "William Shakespeare"@it ;
-        ecrm:P67i_is_referred_to_by <https://w3id.org/giuseppe-raimondi-lod/rdq442/text> ;
         owl:sameAs <https://www.wikidata.org/wiki/Q692> .
 }
 
-ns1:provenance {
-    ns1:assertion prov:generatedAtTime "1993-03-01"^^xsd:date ;
-        prov:wasAttributedTo <https://w3id.org/ficlitdl/org/sab-ero> .
+ficlitdl-np:head {
+    <https://w3id.org/ficlitdl/nanopub/nanopub-base> a np:Nanopublication ;
+        np:hasAssertion ficlitdl-np:assertion ;
+        np:hasProvenance ficlitdl-np:provenance ;
+        np:hasPublicationInfo ficlitdl-np:pubinfo .
 }
 
-ns1:pubinfo {
+ficlitdl-np:pubinfo {
     <https://w3id.org/ficlitdl/nanopub/nanopub-base> prov:generatedAtTime "2022-02-28"^^xsd:date ;
         prov:wasAttributedTo <https://orcid.org/0000-0001-6007-9118> .
 }
 
-ns1:head {
-    <https://w3id.org/ficlitdl/nanopub/nanopub-base> a np:Nanopublication ;
-        np:hasAssertion ns1:assertion ;
-        np:hasProvenance ns1:provenance ;
-        np:hasPublicationInfo ns1:pubinfo .
+ficlitdl-np:provenance {
+    ficlitdl-np:assertion prov:generatedAtTime "1993-03-01"^^xsd:date ;
+        prov:wasAttributedTo <https://w3id.org/ficlitdl/org/sab-ero> .
 }
 

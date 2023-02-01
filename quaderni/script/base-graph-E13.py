@@ -62,7 +62,7 @@ with open('../input/quaderni.csv', mode='r') as csv_file:
 		specificazione = row['Specificazione']
 		sequenza = row['Sequenza']
 		identificativo = row['Id.']
-		descrizione_isbd = row['Descrizione isbd']
+		descrizione_isbd = row['Descrizione isbd'].replace('*', '')
 		legami = re.findall("(.+?) *$", row["Legami con titoli superiori o supplementi"])
 
 		record = URIRef(base_uri + 'notebook/' + inventario[0].lower().replace(' ', '') + '/')
@@ -79,18 +79,38 @@ with open('../input/quaderni.csv', mode='r') as csv_file:
 
 		# Add quads to base-graph
 
+
+
+
 		# Authorship attribution
 		if '[Giuseppe' in descrizione_isbd:
 
-			d.add((URIRef(record + 'author-attribution'), RDF.type, ecrm.E13_Attribute_Assignment, graph_base))
-			d.add((URIRef(record + 'author-attribution'), ecrm.P141_assigned, URIRef(rec_expression + '/author'), graph_base))
-			d.add((URIRef(record + 'author-attribution'), ecrm.P140_assigned_attribute_to, URIRef('https://w3id.org/ficlitdl/' + 'person/giuseppe-raimondi'), graph_base))
-			d.add((URIRef(record + 'author-attribution'), ecrm.P14_carried_out_by, URIRef('https://w3id.org/ficlitdl/org/sab-ero'), graph_base))
-			d.add((URIRef(record + 'author-attribution'), URIRef('http://erlangen-crm.org/current/P4_has_time-span'), URIRef(base_uri + 'time-span/' + '1993-03-07'), graph_base))
-			d.add((URIRef(record + 'author-attribution'), RDFS.label, Literal('Attribuzione della paternità del testo manoscritto ' + '"' + rec_label[0].replace('*', '') + '" a Giuseppe Raimondi', lang='it'), graph_base))
-			d.add((URIRef(record + 'author-attribution'), RDFS.label, Literal('Authorship attribution of the manuscript text ' + '"' + rec_label[0].replace('*', '') + '" to Giuseppe Raimondi', lang='en'), graph_base))
+			d.add((URIRef(rec_expression + '/author-attribution'), RDF.type, ecrm.E13_Attribute_Assignment, graph_base))
+			d.add((URIRef(rec_expression + '/author-attribution'), ecrm.P141_assigned, URIRef(rec_expression + '/author'), graph_base))
+			d.add((URIRef(rec_expression + '/author-attribution'), ecrm.P140_assigned_attribute_to, URIRef('https://w3id.org/ficlitdl/' + 'person/giuseppe-raimondi'), graph_base))
+			d.add((URIRef(rec_expression + '/author-attribution'), ecrm.P14_carried_out_by, URIRef('https://w3id.org/ficlitdl/org/sab-ero'), graph_base))
+			d.add((URIRef(rec_expression + '/author-attribution'), URIRef('http://erlangen-crm.org/current/P4_has_time-span'), URIRef(base_uri + 'time-span/' + '1993-03-07'), graph_base))
+			d.add((URIRef(rec_expression + '/author-attribution'), RDFS.label, Literal('Attribuzione della paternità del testo manoscritto ' + '"' + rec_label[0].replace('*', '') + '" a Giuseppe Raimondi', lang='it'), graph_base))
+			d.add((URIRef(rec_expression + '/author-attribution'), RDFS.label, Literal('Authorship attribution of the manuscript text ' + '"' + rec_label[0].replace('*', '') + '" to Giuseppe Raimondi', lang='en'), graph_base))
 
 
+			if ' ; ' in rec_label[0]:
+				rec_label = rec_label[0].split(' ; ')
+				i = 1
+				for title in rec_label:
+					# URI Subexpression
+					rec_subexpression = URIRef(rec_expression + '/' + str(i))
+
+					d.add((URIRef(rec_subexpression + '/author-attribution'), RDF.type, ecrm.E13_Attribute_Assignment, graph_base))
+					d.add((URIRef(rec_subexpression + '/author-attribution'), ecrm.P141_assigned, URIRef(rec_subexpression + '/author'), graph_base))
+					d.add((URIRef(rec_subexpression + '/author-attribution'), ecrm.P140_assigned_attribute_to, URIRef('https://w3id.org/ficlitdl/' + 'person/giuseppe-raimondi'), graph_base))
+					d.add((URIRef(rec_subexpression + '/author-attribution'), ecrm.P14_carried_out_by, URIRef('https://w3id.org/ficlitdl/org/sab-ero'), graph_base))
+					d.add((URIRef(rec_subexpression + '/author-attribution'), URIRef('http://erlangen-crm.org/current/P4_has_time-span'), URIRef(base_uri + 'time-span/' + '1993-03-07'), graph_base))
+					d.add((URIRef(rec_subexpression + '/author-attribution'), RDFS.label, Literal('Attribuzione della paternità del testo manoscritto ' + '"' + title.replace('[', '').replace(']', '') + '"' + '" a Giuseppe Raimondi', lang='it'), graph_base))
+					d.add((URIRef(rec_subexpression + '/author-attribution'), RDFS.label, Literal('Authorship attribution of the manuscript text ' + '"' + title.replace('[', '').replace(']', '') + '"' + '" to Giuseppe Raimondi', lang='en'), graph_base))
+
+
+					i += 1
 
 
 # TriG

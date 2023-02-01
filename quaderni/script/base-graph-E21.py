@@ -47,7 +47,7 @@ d.bind('tvc', tvc)
 base_uri = 'https://w3id.org/giuseppe-raimondi-lod/'
 
 # Declare a URI for the nanopub
-nanopub = URIRef(base_uri + 'nanopub/nanopub-base/')
+nanopub = URIRef('https://w3id.org/ficlitdl/nanopub/nanopub-base/')
 
 # Declare a Graph URI to be used to identify a Graph
 graph_base = URIRef(nanopub + 'assertion')
@@ -131,7 +131,7 @@ with open('../../quaderni/input/ner_output_person.tsv', mode='r') as csv_file:
 		my_dict[inventario] = list()
 		my_dict[inventario].append((wd, wd_code))
 
-		record = URIRef(base_uri + inventario + '/')
+		record = URIRef(base_uri + 'notebook/' + inventario + '/')
 
  		# expression URI
 		rec_expression = URIRef(record + 'text')
@@ -141,7 +141,6 @@ with open('../../quaderni/input/ner_output_person.tsv', mode='r') as csv_file:
 
 		for item in my_dict[inventario]:
 			mentioned_person = URIRef(person + item[0].lower().replace(' ', '-').replace('.', '').replace(',', '').replace('è', 'e').replace('é', 'e').replace('à', 'a').replace('á', 'a').replace('ö', 'o').replace('ç', 'c'))
-			d.add((mentioned_person, ecrm.P67i_is_referred_to_by, rec_expression, graph_base))
 			d.add((mentioned_person, RDF.type, ecrm.E21_Person, graph_base))
 			d.add((mentioned_person, RDFS.label, Literal(item[0], lang='it'), graph_base))
 			d.add((mentioned_person, RDFS.label, Literal(item[0], lang='en'), graph_base))

@@ -1,27 +1,40 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix ecrm: <http://erlangen-crm.org/current/> .
 @prefix efrbroo: <http://erlangen-crm.org/efrbroo/> .
-@prefix ficlitdl-np: <https://w3id.org/giuseppe-raimondi-lod/nanopub/nanopub2/> .
 @prefix ficlitdlo: <https://w3id.org/ficlitdl/ontology/> .
+@prefix grlod-np: <https://w3id.org/giuseppe-raimondi-lod/nanopub/nanopub2/> .
 @prefix np: <http://www.nanopub.org/nschema#> .
 @prefix prism: <http://prismstandard.org/namespaces/basic/2.0/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-ficlitdl-np:head {
-    <https://w3id.org/giuseppe-raimondi-lod/nanopub/nanopub2> a np:Nanopublication ;
-        np:hasAssertion ficlitdl-np:assertion ;
-        np:hasProvenance ficlitdl-np:provenance ;
-        np:hasPublicationInfo ficlitdl-np:pubinfo .
+grlod-np:provenance {
+    grlod-np:assertion prov:generatedAtTime "2023-01-30"^^xsd:date ;
+        prov:wasAttributedTo <https://orcid.org/0000-0001-6007-9118> .
 }
 
-ficlitdl-np:assertion {
+grlod-np:pubinfo {
+    <https://w3id.org/giuseppe-raimondi-lod/nanopub/nanopub2> prov:generatedAtTime "2023-01-30"^^xsd:date ;
+        prov:wasAttributedTo <https://orcid.org/0000-0001-6007-9118> .
+}
+
+grlod-np:head {
+    <https://w3id.org/giuseppe-raimondi-lod/nanopub/nanopub2> a np:Nanopublication ;
+        np:hasAssertion grlod-np:assertion ;
+        np:hasProvenance grlod-np:provenance ;
+        np:hasPublicationInfo grlod-np:pubinfo .
+}
+
+grlod-np:assertion {
     <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq230/text> ecrm:P67_refers_to <https://collections.louvre.fr/ark:/53355/cl010066409> .
 
-    <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq303/text/1/creation> ecrm:P4_has_time-span "1976-05-24"^^xsd:date .
+    <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq303/text> ecrm:P165_incorporates <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq303/text/1>,
+            <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq303/text/2> .
 
-    <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq303/text/2/creation> ecrm:P4_has_time-span "1976-07-03"^^xsd:date .
+    <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq303/text/creation> ecrm:P9_consists_of <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq303/text/1/creation>,
+            <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq303/text/2/creation> .
 
     <https://w3id.org/giuseppe-raimondi-lod/printed-volume/mc0571/object> ecrm:P128_carries <https://w3id.org/giuseppe-raimondi-lod/pub-text/i-tetti-sulla-citta-19731976/una-forca-per-il-poeta-francois-villon> ;
         dcterms:relation <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq303/object> .
@@ -38,21 +51,42 @@ ficlitdl-np:assertion {
     <https://w3id.org/ficlitdl/org/il-giorno> a ecrm:E40_Legal_Body ;
         rdfs:label "Il Giorno" .
 
-    <https://w3id.org/giuseppe-raimondi-lod/pub-text/gelo-invernale-e-nostalgia-di-legna-accesa-19760607> prism:publicationDate "1976-06-07"^^xsd:date ;
+    <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq303/text/1/creation> ecrm:P4_has_time-span <https://w3id.org/giuseppe-raimondi-lod/time-span/1976-05-24> ;
+        efrbroo:R17_created <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq303/text/1> .
+
+    <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq303/text/1/title> rdf:value "Una forca per il poeta François Villon"@it .
+
+    <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq303/text/2/creation> ecrm:P4_has_time-span <https://w3id.org/giuseppe-raimondi-lod/time-span/1976-07-03> ;
+        efrbroo:R17_created <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq303/text/2> .
+
+    <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq303/text/2/title> rdf:value "A proposito di tegole, di tetti e di fantasmi"@it .
+
+    <https://w3id.org/giuseppe-raimondi-lod/pub-text/gelo-invernale-e-nostalgia-di-legna-accesa-19760607/title> a ecrm:E35_Title ;
+        rdf:value "Gelo invernale e nostalgia di legna accesa" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/pub-text/i-tetti-sulla-citta-19731976/una-forca-per-il-poeta-francois-villon/title> a ecrm:E35_Title ;
+        rdf:value "Una forca per il poeta François Villon" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/time-span/1976-05-24> rdfs:label "1976-05-24"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/time-span/1976-07-03> rdfs:label "1976-07-03"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/pub-text/gelo-invernale-e-nostalgia-di-legna-accesa-19760607> ecrm:P102_has_title <https://w3id.org/giuseppe-raimondi-lod/pub-text/gelo-invernale-e-nostalgia-di-legna-accesa-19760607/title> ;
+        prism:publicationDate "1976-06-07"^^xsd:date ;
         dcterms:publisher <https://w3id.org/ficlitdl/org/il-giorno> ;
         ficlitdlo:isPublishedVersionOf <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq303/text/1> .
 
-    <https://w3id.org/giuseppe-raimondi-lod/pub-text/i-tetti-sulla-citta-19731976/una-forca-per-il-poeta-francois-villon> ecrm:P148i_is_component_of <https://w3id.org/giuseppe-raimondi-lod/pub-text/i-tetti-sulla-citta-19731976> ;
+    <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq303/object> ecrm:P128_carries <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq303/text/1>,
+            <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq303/text/2> .
+
+    <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq303/text/2> ecrm:P102_has_title <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq303/text/2/title> .
+
+    <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq303/text/1> ecrm:P102_has_title <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq303/text/1/title> ;
+        ficlitdlo:hasVariantVersion <https://w3id.org/giuseppe-raimondi-lod/pub-text/gelo-invernale-e-nostalgia-di-legna-accesa-19760607>,
+            <https://w3id.org/giuseppe-raimondi-lod/pub-text/i-tetti-sulla-citta-19731976/una-forca-per-il-poeta-francois-villon> .
+
+    <https://w3id.org/giuseppe-raimondi-lod/pub-text/i-tetti-sulla-citta-19731976/una-forca-per-il-poeta-francois-villon> ecrm:P102_has_title <https://w3id.org/giuseppe-raimondi-lod/pub-text/i-tetti-sulla-citta-19731976/una-forca-per-il-poeta-francois-villon/title> ;
+        ecrm:P148i_is_component_of <https://w3id.org/giuseppe-raimondi-lod/pub-text/i-tetti-sulla-citta-19731976> ;
         ficlitdlo:isPublishedVersionOf <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq303/text/1> .
-}
-
-ficlitdl-np:pubinfo {
-    <https://w3id.org/giuseppe-raimondi-lod/nanopub/nanopub2> prov:generatedAtTime "2023-01-30"^^xsd:date ;
-        prov:wasAttributedTo <https://orcid.org/0000-0001-6007-9118> .
-}
-
-ficlitdl-np:provenance {
-    ficlitdl-np:assertion prov:generatedAtTime "2023-01-30"^^xsd:date ;
-        prov:wasAttributedTo <https://orcid.org/0000-0001-6007-9118> .
 }
 
