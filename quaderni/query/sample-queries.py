@@ -159,12 +159,8 @@ SELECT DISTINCT ?person ?persname ?txt
 
 with open('Q5-result.csv', mode='w') as my_file:
     my_writer = csv.writer(my_file, delimiter=',', quotechar='"', quoting=csv.QUOTE_ALL)
-    # write the column names
     my_writer.writerow(['Person', 'Person name', 'Mentioned in'])
-    
-    # access the rows of the query results
     for person, persname, txt in d.query(query_5):
-        # write in the csv
         my_writer.writerow([person, persname, txt])
 
 
@@ -184,12 +180,8 @@ SELECT DISTINCT ?variant ?title ?item
 
 with open('Q6-result.csv', mode='w') as my_file:
     my_writer = csv.writer(my_file, delimiter=',', quotechar='"', quoting=csv.QUOTE_ALL)
-    # write the column names
     my_writer.writerow(['Variant text' , 'Title', 'Document'])
-    
-    # access the rows of the query results
     for variant , title , item in d.query(query_6):
-        # write in the csv
         my_writer.writerow([variant , title, item])
 
 
@@ -208,12 +200,8 @@ SELECT DISTINCT ?item ?doctype ?label
 
 with open('Q7-result.csv', mode='w') as my_file:
     my_writer = csv.writer(my_file, delimiter=',', quotechar='"', quoting=csv.QUOTE_ALL)
-    # write the column names
     my_writer.writerow(['Document', 'Document type', 'Document shelfmark'])
-    
-    # access the rows of the query results
     for item, doctype, label in d.query(query_7):
-        # write in the csv
         my_writer.writerow([item, doctype, label])
 
 # Q8 All published versions of the notebook text "Una forca per il poeta François Villon" (RDq 303)
@@ -230,13 +218,9 @@ SELECT DISTINCT ?txt ?pubtxt
 
 with open('Q8-result.csv', mode='w') as my_file:
     my_writer = csv.writer(my_file, delimiter=',', quotechar='"', quoting=csv.QUOTE_ALL)
-    # write the column names
     my_writer.writerow(['Text', 'Published version'])
-    
-    # access the rows of the query results
     for txt , pubtxt in d.query(query_8):
-        # write in the csv
-#         my_writer.writerow([txt , pubtxt])
+        my_writer.writerow([txt , pubtxt])
 
 # Q9 Relationships involving the notebook text “Una forca per il poeta François Villon”, as reconstructed by a named researcher.
 query_9 = """
@@ -257,10 +241,6 @@ SELECT DISTINCT ?s ?p ?o ?respagent
 
 with open('Q9-result.csv', mode='w') as my_file:
     my_writer = csv.writer(my_file, delimiter=',', quotechar='"', quoting=csv.QUOTE_ALL)
-    # write the column names
     my_writer.writerow(['Entity' , 'Relation' , 'Notebook text', 'Responsible agent'])
-    
-    # access the rows of the query results
     for s , p , o , respagent in d.query(query_9):
-        # write in the csv
         my_writer.writerow([s , p , o , respagent])
