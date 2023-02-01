@@ -167,15 +167,7 @@ with open('Q5-result.csv', mode='w') as my_file:
         # write in the csv
         my_writer.writerow([person, persname, txt])
 
-query_6 = """
-SELECT DISTINCT ?variant ?title
-       WHERE {
-            ?title_uri rdf:value ?title . FILTER (?title="Una forca per il poeta François Villon"^^xsd:string)
-            ?txt ecrm:P102_has_title ?title_uri .
-            ?notebook ecrm:P128_carries ?txt .
-            ?txt ficlitdlo:hasVariantVersion ?variant .
-       } 
-"""
+
 
 # Q6 Any known variants of the notebook text "Una forca per il poeta François Villon" contained in the archive
 query_6 = """
