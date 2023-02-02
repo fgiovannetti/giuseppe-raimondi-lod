@@ -131,8 +131,8 @@ with open('../input/raimondi_q1_54-70_13-07-21-MCT.csv', mode='r') as csv_file:
 
 
 		# Relationships between different expressions of the same work
-		d.add((URIRef(pub_text + 'gelo-invernale-e-nostalgia-di-legna-accesa-19760607'), RDF.type, efrbroo:F24_Publication_Expression, graph_2))
-		d.add((URIRef(pub_text + 'i-tetti-sulla-citta-19731976/una-forca-per-il-poeta-francois-villon'), RDF.type, efrbroo:F24_Publication_Expression, graph_2))
+		d.add((URIRef(pub_text + 'gelo-invernale-e-nostalgia-di-legna-accesa-19760607'), RDF.type, efrbroo.F24_Publication_Expression, graph_2))
+		d.add((URIRef(pub_text + 'i-tetti-sulla-citta-19731976/una-forca-per-il-poeta-francois-villon'), RDF.type, efrbroo.F24_Publication_Expression, graph_2))
 		
 		d.add((URIRef(pub_text + 'i-tetti-sulla-citta-19731976/una-forca-per-il-poeta-francois-villon'), ecrm.P148i_is_component_of, URIRef(pub_text + 'i-tetti-sulla-citta-19731976'), graph_2))
 		d.add((URIRef(pub_text + 'i-tetti-sulla-citta-19731976/una-forca-per-il-poeta-francois-villon'), ficlitdlo.isPublishedVersionOf, URIRef(base_uri + 'notebook/rdq303/text/1'), graph_2))
@@ -167,6 +167,7 @@ with open('../input/raimondi_q1_54-70_13-07-21-MCT.csv', mode='r') as csv_file:
 
 		# Link another notebook carrying a text about Villon to the work of art it mentions (archive-museum interchange)
 		d.add((URIRef(base_uri + 'notebook/rdq230/text'), ecrm.P67_refers_to, URIRef('https://collections.louvre.fr/ark:/53355/cl010066409'), graph_2))
+		d.add((URIRef('https://collections.louvre.fr/ark:/53355/cl010066409'), ecrm.P2_has_type, ficlitdlo.painting, graph_2))
 
 
 # TriG
