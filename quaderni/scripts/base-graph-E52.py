@@ -102,10 +102,8 @@ with open('../input/quaderni.csv', mode='r') as csv_file:
 		# Authorship attribution date
 
 		d.add((URIRef(base_uri + 'time-span/' + '1993-03-07'), RDF.type, URIRef('http://erlangen-crm.org/current/P52_Time-Span'), graph_base))
-		d.add((URIRef(base_uri + 'time-span/' + '1993-03-07'), RDFS.label, Literal('8-10 marzo 1993' , lang='it'), graph_base))
-		d.add((URIRef(base_uri + 'time-span/' + '1993-03-07'), RDFS.label, Literal('8th-10th March 1993' , lang='en'), graph_base))
-		d.add((URIRef(base_uri + 'time-span/' + '1993-03-07'), ti.hasIntervalStartDate, Literal('1993-' + '03-08', datatype=XSD.date), graph_base))
-		d.add((URIRef(base_uri + 'time-span/' + '1993-03-07'), ti.hasIntervalEndDate, Literal('1993-' + '03-10', datatype=XSD.date), graph_base))
+		d.add((URIRef(base_uri + 'time-span/' + '1993-03-07'), ti.hasIntervalStartDate, Literal('1993-' + '03-07', datatype=XSD.date), graph_base))
+		d.add((URIRef(base_uri + 'time-span/' + '1993-03-07'), ti.hasIntervalEndDate, Literal('1993-' + '03-07', datatype=XSD.date), graph_base))
 	 
 		# Transfer of custody date
 		
@@ -113,12 +111,10 @@ with open('../input/quaderni.csv', mode='r') as csv_file:
 		d.add((URIRef(base_uri + 'time-span/' + '1985-1989'), RDFS.label, Literal("Fine degli anni '80" , lang='it'), graph_base))
 		d.add((URIRef(base_uri + 'time-span/' + '1985-1989'), RDFS.label, Literal('Late 1980s' , lang='en'), graph_base))
 		d.add((URIRef(base_uri + 'time-span/' + '1985-1989'), ti.hasIntervalStartDate, Literal('1985-' + '01-01', datatype=XSD.date), graph_base))
-		d.add((URIRef(base_uri + 'time-span/' + '1985-1989'), ti.hasIntervalEndDate, Literal('1989-' + '01-01', datatype=XSD.date), graph_base))
+		d.add((URIRef(base_uri + 'time-span/' + '1985-1989'), ti.hasIntervalEndDate, Literal('1989-' + '12-31', datatype=XSD.date), graph_base))
 
 		d.add((URIRef(base_uri + 'time-span/' + '1996-05'), RDF.type, URIRef('http://erlangen-crm.org/current/P52_Time-Span'), graph_base))
-		d.add((URIRef(base_uri + 'time-span/' + '1996-05'), RDFS.label, Literal('maggio 1996' , lang='it'), graph_base))
-		d.add((URIRef(base_uri + 'time-span/' + '1996-05'), RDFS.label, Literal('May 1996' , lang='en'), graph_base))
-		d.add((URIRef(base_uri + 'time-span/' + '1996-05'), ti.hasIntervalStartDate, Literal('1996-' + '05-018', datatype=XSD.date), graph_base))
+		d.add((URIRef(base_uri + 'time-span/' + '1996-05'), ti.hasIntervalStartDate, Literal('1996-' + '05-18', datatype=XSD.date), graph_base))
 		d.add((URIRef(base_uri + 'time-span/' + '1996-05'), ti.hasIntervalEndDate, Literal('1996-' + '05-31', datatype=XSD.date), graph_base))
 
 

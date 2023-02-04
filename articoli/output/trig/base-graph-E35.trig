@@ -1,0 +1,2427 @@
+@prefix ecrm: <http://erlangen-crm.org/current/> .
+@prefix grlod-np: <https://w3id.org/giuseppe-raimondi-lod/nanopub/nanopub-base/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+grlod-np:assertion {
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda1/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Gli amici di Verona\""@en,
+            "Titolo, \"Gli amici di Verona\""@it ;
+        rdf:value "Gli amici di Verona" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda10/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Il Bronzino\""@en,
+            "Titolo, \"Il Bronzino\""@it ;
+        rdf:value "Il Bronzino" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda100/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Le meraviglie di Venezia\""@en,
+            "Titolo, \"Le meraviglie di Venezia\""@it ;
+        rdf:value "Le meraviglie di Venezia" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda101/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Le incisioni di Luciano De Vita : un visionario del nostro tempo\""@en,
+            "Titolo, \"Le incisioni di Luciano De Vita : un visionario del nostro tempo\""@it ;
+        rdf:value "Le incisioni di Luciano De Vita : un visionario del nostro tempo" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda102/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"L'anima di Morandi\""@en,
+            "Titolo, \"L'anima di Morandi\""@it ;
+        rdf:value "L'anima di Morandi" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda103/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"La polemica di P. P. Pasolini sulla lingua\""@en,
+            "Titolo, \"La polemica di P. P. Pasolini sulla lingua\""@it ;
+        rdf:value "La polemica di P. P. Pasolini sulla lingua" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda104/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Una mostra di disegni di Guttuso\""@en,
+            "Titolo, \"Una mostra di disegni di Guttuso\""@it ;
+        rdf:value "Una mostra di disegni di Guttuso" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda105/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Il catalogo dell'espressionismo\""@en,
+            "Titolo, \"Il catalogo dell'espressionismo\""@it ;
+        rdf:value "Il catalogo dell'espressionismo" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda106/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Il pittore Giannetto Fieschi al Museo civico di Bologna\""@en,
+            "Titolo, \"Il pittore Giannetto Fieschi al Museo civico di Bologna\""@it ;
+        rdf:value "Il pittore Giannetto Fieschi al Museo civico di Bologna" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda107/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Il vecchio \"Carlino\" nella prima guerra\""@en,
+            "Titolo, \"Il vecchio \"Carlino\" nella prima guerra\""@it ;
+        rdf:value "Il vecchio \"Carlino\" nella prima guerra" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda108/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"La pittura veneziana del Trecento di Rodolfo Pallucchini\""@en,
+            "Titolo, \"La pittura veneziana del Trecento di Rodolfo Pallucchini\""@it ;
+        rdf:value "La pittura veneziana del Trecento di Rodolfo Pallucchini" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda109/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"La fortuna del Ruzzante\""@en,
+            "Titolo, \"La fortuna del Ruzzante\""@it ;
+        rdf:value "La fortuna del Ruzzante" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda11/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"La pittura veneziana del Settecento\""@en,
+            "Titolo, \"La pittura veneziana del Settecento\""@it ;
+        rdf:value "La pittura veneziana del Settecento" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda110/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"La nostra guerra\""@en,
+            "Titolo, \"La nostra guerra\""@it ;
+        rdf:value "La nostra guerra" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda111/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Qualcuno fra di noi\""@en,
+            "Titolo, \"Qualcuno fra di noi\""@it ;
+        rdf:value "Qualcuno fra di noi" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda112/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Al Museo civico di Bologna la mostra del pittore Mattia Moreni\""@en,
+            "Titolo, \"Al Museo civico di Bologna la mostra del pittore Mattia Moreni\""@it ;
+        rdf:value "Al Museo civico di Bologna la mostra del pittore Mattia Moreni" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda113/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Pittori bolognesi dell'Ottocento\""@en,
+            "Titolo, \"Pittori bolognesi dell'Ottocento\""@it ;
+        rdf:value "Pittori bolognesi dell'Ottocento" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda114/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Stampe popolari italiane\""@en,
+            "Titolo, \"Stampe popolari italiane\""@it ;
+        rdf:value "Stampe popolari italiane" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda115/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Il pittore e scrittore Leonardo Castellani\""@en,
+            "Titolo, \"Il pittore e scrittore Leonardo Castellani\""@it ;
+        rdf:value "Il pittore e scrittore Leonardo Castellani" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda116/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"La cattedrale di Modena\""@en,
+            "Titolo, \"La cattedrale di Modena\""@it ;
+        rdf:value "La cattedrale di Modena" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda117/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"I disegni del Tiepolo\""@en,
+            "Titolo, \"I disegni del Tiepolo\""@it ;
+        rdf:value "I disegni del Tiepolo" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda118/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Mi ricordai della scultura di Giacometti\""@en,
+            "Titolo, \"Mi ricordai della scultura di Giacometti\""@it ;
+        rdf:value "Mi ricordai della scultura di Giacometti" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda119/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Il Dosso ferrarese\""@en,
+            "Titolo, \"Il Dosso ferrarese\""@it ;
+        rdf:value "Il Dosso ferrarese" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda12/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Gli ottanta anni di Carra\""@en,
+            "Titolo, \"Gli ottanta anni di Carra\""@it ;
+        rdf:value "Gli ottanta anni di Carra" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda120/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Il Jean Dubuffet di Lorenza Trucchi\""@en,
+            "Titolo, \"Il Jean Dubuffet di Lorenza Trucchi\""@it ;
+        rdf:value "Il Jean Dubuffet di Lorenza Trucchi" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda121/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Amico Aspertini come scultore\""@en,
+            "Titolo, \"Amico Aspertini come scultore\""@it ;
+        rdf:value "Amico Aspertini come scultore" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda122/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"L'ultimo dei pittori \"primitivi\", Achille Incerti\""@en,
+            "Titolo, \"L'ultimo dei pittori \"primitivi\", Achille Incerti\""@it ;
+        rdf:value "L'ultimo dei pittori \"primitivi\", Achille Incerti" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda123/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Perche i \"Morandi\" di Guttuso?\""@en,
+            "Titolo, \"Perche i \"Morandi\" di Guttuso?\""@it ;
+        rdf:value "Perche i \"Morandi\" di Guttuso?" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda124/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Giovanni da Milano alla Cappella Rinuccini in Santa Croce\""@en,
+            "Titolo, \"Giovanni da Milano alla Cappella Rinuccini in Santa Croce\""@it ;
+        rdf:value "Giovanni da Milano alla Cappella Rinuccini in Santa Croce" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda125/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"L'arte internazionale alla 33. Biennale di Venezia\""@en,
+            "Titolo, \"L'arte internazionale alla 33. Biennale di Venezia\""@it ;
+        rdf:value "L'arte internazionale alla 33. Biennale di Venezia" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda126/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Alla Biennale di Venezia la mostra di Giorgio Morandi\""@en,
+            "Titolo, \"Alla Biennale di Venezia la mostra di Giorgio Morandi\""@it ;
+        rdf:value "Alla Biennale di Venezia la mostra di Giorgio Morandi" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda127/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Le grandi mostre alla Biennale di Venezia, Umberto Boccioni\""@en,
+            "Titolo, \"Le grandi mostre alla Biennale di Venezia, Umberto Boccioni\""@it ;
+        rdf:value "Le grandi mostre alla Biennale di Venezia, Umberto Boccioni" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda128/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Alla Biennale di Venezia i padiglioni stranieri\""@en,
+            "Titolo, \"Alla Biennale di Venezia i padiglioni stranieri\""@it ;
+        rdf:value "Alla Biennale di Venezia i padiglioni stranieri" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda129/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Rileggendo i Canti Orfici\""@en,
+            "Titolo, \"Rileggendo i Canti Orfici\""@it ;
+        rdf:value "Rileggendo i Canti Orfici" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda13/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Libri d'arte\""@en,
+            "Titolo, \"Libri d'arte\""@it ;
+        rdf:value "Libri d'arte" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda130/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"La Grizzana di Morandi\""@en,
+            "Titolo, \"La Grizzana di Morandi\""@it ;
+        rdf:value "La Grizzana di Morandi" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda131/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Minguzzi e De Vita alle Gallerie dell'Accademia\""@en,
+            "Titolo, \"Minguzzi e De Vita alle Gallerie dell'Accademia\""@it ;
+        rdf:value "Minguzzi e De Vita alle Gallerie dell'Accademia" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda132/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"I Fiorentini dopo il Rinascimento\""@en,
+            "Titolo, \"I Fiorentini dopo il Rinascimento\""@it ;
+        rdf:value "I Fiorentini dopo il Rinascimento" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda133/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Vacanza in montagna\""@en,
+            "Titolo, \"Vacanza in montagna\""@it ;
+        rdf:value "Vacanza in montagna" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda134/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"La memoria delle cose\""@en,
+            "Titolo, \"La memoria delle cose\""@it ;
+        rdf:value "La memoria delle cose" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda135/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Lo stupefacente Bronzino\""@en,
+            "Titolo, \"Lo stupefacente Bronzino\""@it ;
+        rdf:value "Lo stupefacente Bronzino" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda136/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Amico della pittura\""@en,
+            "Titolo, \"Amico della pittura\""@it ;
+        rdf:value "Amico della pittura" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda137/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"La \"suite\" bolognese di Romagnoli\""@en,
+            "Titolo, \"La \"suite\" bolognese di Romagnoli\""@it ;
+        rdf:value "La \"suite\" bolognese di Romagnoli" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda138/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"L'arte di Carlo Corsi\""@en,
+            "Titolo, \"L'arte di Carlo Corsi\""@it ;
+        rdf:value "L'arte di Carlo Corsi" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda139/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"La gloria di Henri Rousseau\""@en,
+            "Titolo, \"La gloria di Henri Rousseau\""@it ;
+        rdf:value "La gloria di Henri Rousseau" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda14/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Sei artisti alla Galleria del Libraio\""@en,
+            "Titolo, \"Sei artisti alla Galleria del Libraio\""@it ;
+        rdf:value "Sei artisti alla Galleria del Libraio" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda140/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Mostra di Norma Mascellani\""@en,
+            "Titolo, \"Mostra di Norma Mascellani\""@it ;
+        rdf:value "Mostra di Norma Mascellani" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda141/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Il Caravaggio di Stefano Bottari\""@en,
+            "Titolo, \"Il Caravaggio di Stefano Bottari\""@it ;
+        rdf:value "Il Caravaggio di Stefano Bottari" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda142/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Le Opere di Giacomo Leopardi\""@en,
+            "Titolo, \"Le Opere di Giacomo Leopardi\""@it ;
+        rdf:value "Le Opere di Giacomo Leopardi" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda143/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Riscoperta del Seicento\""@en,
+            "Titolo, \"Riscoperta del Seicento\""@it ;
+        rdf:value "Riscoperta del Seicento" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda144/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Pittura inglese da Hogarth a Turner\""@en,
+            "Titolo, \"Pittura inglese da Hogarth a Turner\""@it ;
+        rdf:value "Pittura inglese da Hogarth a Turner" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda145/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Un paesaggio veronese\""@en,
+            "Titolo, \"Un paesaggio veronese\""@it ;
+        rdf:value "Un paesaggio veronese" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda146/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Il padre di Bertoldo\""@en,
+            "Titolo, \"Il padre di Bertoldo\""@it ;
+        rdf:value "Il padre di Bertoldo" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda147/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Marino Moretti ovvero la poesia\""@en,
+            "Titolo, \"Marino Moretti ovvero la poesia\""@it ;
+        rdf:value "Marino Moretti ovvero la poesia" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda148/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Soffici e Picasso\""@en,
+            "Titolo, \"Soffici e Picasso\""@it ;
+        rdf:value "Soffici e Picasso" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda149/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"I nostri contemporanei\""@en,
+            "Titolo, \"I nostri contemporanei\""@it ;
+        rdf:value "I nostri contemporanei" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda15/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Sinfonie e affreschi in Toscana\""@en,
+            "Titolo, \"Sinfonie e affreschi in Toscana\""@it ;
+        rdf:value "Sinfonie e affreschi in Toscana" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda150/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"I disegni del Guercino\""@en,
+            "Titolo, \"I disegni del Guercino\""@it ;
+        rdf:value "I disegni del Guercino" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda151/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"L'architettura di Leon Battista Alberti\""@en,
+            "Titolo, \"L'architettura di Leon Battista Alberti\""@it ;
+        rdf:value "L'architettura di Leon Battista Alberti" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda152/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Francis Bacon a Milano\""@en,
+            "Titolo, \"Francis Bacon a Milano\""@it ;
+        rdf:value "Francis Bacon a Milano" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda153/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Una moderna litografia fiorentina\""@en,
+            "Titolo, \"Una moderna litografia fiorentina\""@it ;
+        rdf:value "Una moderna litografia fiorentina" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda154/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"I poeti della \"Voce\"\""@en,
+            "Titolo, \"I poeti della \"Voce\"\""@it ;
+        rdf:value "I poeti della \"Voce\"" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda155/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Lo scultore Arturo Martini\""@en,
+            "Titolo, \"Lo scultore Arturo Martini\""@it ;
+        rdf:value "Lo scultore Arturo Martini" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda156/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Luigi Cavallo\""@en,
+            "Titolo, \"Luigi Cavallo\""@it ;
+        rdf:value "Luigi Cavallo" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda157/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Un pittore del \"vero\" poetico : la mostra di Gugliemo Pizzirani\""@en,
+            "Titolo, \"Un pittore del \"vero\" poetico : la mostra di Gugliemo Pizzirani\""@it ;
+        rdf:value "Un pittore del \"vero\" poetico : la mostra di Gugliemo Pizzirani" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda158/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Il figurista Bustelli\""@en,
+            "Titolo, \"Il figurista Bustelli\""@it ;
+        rdf:value "Il figurista Bustelli" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda159/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Davanti alla pittura di Lucio Saffaro\""@en,
+            "Titolo, \"Davanti alla pittura di Lucio Saffaro\""@it ;
+        rdf:value "Davanti alla pittura di Lucio Saffaro" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda16/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Contrappunti pittorici di Kandinsky\""@en,
+            "Titolo, \"Contrappunti pittorici di Kandinsky\""@it ;
+        rdf:value "Contrappunti pittorici di Kandinsky" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda160/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Manzu o la scultura\""@en,
+            "Titolo, \"Manzu o la scultura\""@it ;
+        rdf:value "Manzu o la scultura" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda161/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"L'orologio di soldato\""@en,
+            "Titolo, \"L'orologio di soldato\""@it ;
+        rdf:value "L'orologio di soldato" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda162/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Giacomo Debenedetti\""@en,
+            "Titolo, \"Giacomo Debenedetti\""@it ;
+        rdf:value "Giacomo Debenedetti" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda163/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Il Capitolo dei Domenicani\""@en,
+            "Titolo, \"Il Capitolo dei Domenicani\""@it ;
+        rdf:value "Il Capitolo dei Domenicani" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda164/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"La pittura dell'Ortolano francese\""@en,
+            "Titolo, \"La pittura dell'Ortolano francese\""@it ;
+        rdf:value "La pittura dell'Ortolano francese" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda165/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Don Giovanni dolcificato\""@en,
+            "Titolo, \"Don Giovanni dolcificato\""@it ;
+        rdf:value "Don Giovanni dolcificato" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda166/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"La mostra al Palazzo Ducale, i vedutisti veneziani del Settecento\""@en,
+            "Titolo, \"La mostra al Palazzo Ducale, i vedutisti veneziani del Settecento\""@it ;
+        rdf:value "La mostra al Palazzo Ducale, i vedutisti veneziani del Settecento" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda167/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"L'album Rimbaud\""@en,
+            "Titolo, \"L'album Rimbaud\""@it ;
+        rdf:value "L'album Rimbaud" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda168/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Giulio Barni poeta in guerra\""@en,
+            "Titolo, \"Giulio Barni poeta in guerra\""@it ;
+        rdf:value "Giulio Barni poeta in guerra" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda169/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Una biografia di Conrad\""@en,
+            "Titolo, \"Una biografia di Conrad\""@it ;
+        rdf:value "Una biografia di Conrad" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda17/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Una mostra di Carlo Corsi\""@en,
+            "Titolo, \"Una mostra di Carlo Corsi\""@it ;
+        rdf:value "Una mostra di Carlo Corsi" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda170/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Piccola fantasia piranesiana\""@en,
+            "Titolo, \"Piccola fantasia piranesiana\""@it ;
+        rdf:value "Piccola fantasia piranesiana" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda171/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Pittura a Faenza\""@en,
+            "Titolo, \"Pittura a Faenza\""@it ;
+        rdf:value "Pittura a Faenza" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda172/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Anniversario di Baudelaire\""@en,
+            "Titolo, \"Anniversario di Baudelaire\""@it ;
+        rdf:value "Anniversario di Baudelaire" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda173/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Ferragosto in citta\""@en,
+            "Titolo, \"Ferragosto in citta\""@it ;
+        rdf:value "Ferragosto in citta" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda174/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Umberto Saba : dieci anni dalla morte\""@en,
+            "Titolo, \"Umberto Saba : dieci anni dalla morte\""@it ;
+        rdf:value "Umberto Saba : dieci anni dalla morte" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda175/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"La mostra celebrativa di Arturo Martini\""@en,
+            "Titolo, \"La mostra celebrativa di Arturo Martini\""@it ;
+        rdf:value "La mostra celebrativa di Arturo Martini" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda176/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Le lettere di Carlo Porta\""@en,
+            "Titolo, \"Le lettere di Carlo Porta\""@it ;
+        rdf:value "Le lettere di Carlo Porta" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda177/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Jacopo Ceruti\""@en,
+            "Titolo, \"Jacopo Ceruti\""@it ;
+        rdf:value "Jacopo Ceruti" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda178/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Luigi Le Nain\""@en,
+            "Titolo, \"Luigi Le Nain\""@it ;
+        rdf:value "Luigi Le Nain" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda179/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Caporetto\""@en,
+            "Titolo, \"Caporetto\""@it ;
+        rdf:value "Caporetto" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda18/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Le donne di Maccari\""@en,
+            "Titolo, \"Le donne di Maccari\""@it ;
+        rdf:value "Le donne di Maccari" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda180/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Alla galleria civica d'arte moderna di Torino le Muse inquietanti del Surrealismo\""@en,
+            "Titolo, \"Alla galleria civica d'arte moderna di Torino le Muse inquietanti del Surrealismo\""@it ;
+        rdf:value "Alla galleria civica d'arte moderna di Torino le Muse inquietanti del Surrealismo" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda181/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Ricordo di Sbarbaro\""@en,
+            "Titolo, \"Ricordo di Sbarbaro\""@it ;
+        rdf:value "Ricordo di Sbarbaro" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda182/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Tempo di guerra\""@en,
+            "Titolo, \"Tempo di guerra\""@it ;
+        rdf:value "Tempo di guerra" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda183/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"La Pinacoteca nazionale di Bologna\""@en,
+            "Titolo, \"La Pinacoteca nazionale di Bologna\""@it ;
+        rdf:value "La Pinacoteca nazionale di Bologna" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda184/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Saggi e ricerche di Roberto Longhi\""@en,
+            "Titolo, \"Saggi e ricerche di Roberto Longhi\""@it ;
+        rdf:value "Saggi e ricerche di Roberto Longhi" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda185/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Una rosa per Nerval\""@en,
+            "Titolo, \"Una rosa per Nerval\""@it ;
+        rdf:value "Una rosa per Nerval" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda186/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Luca Carlevarijs\""@en,
+            "Titolo, \"Luca Carlevarijs\""@it ;
+        rdf:value "Luca Carlevarijs" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda187/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Dove va la letteratura? : ritagli\""@en,
+            "Titolo, \"Dove va la letteratura? : ritagli\""@it ;
+        rdf:value "Dove va la letteratura? : ritagli" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda188/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"La pittura di Carlo Carra\""@en,
+            "Titolo, \"La pittura di Carlo Carra\""@it ;
+        rdf:value "La pittura di Carlo Carra" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda189/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Un foglio di carta rosa\""@en,
+            "Titolo, \"Un foglio di carta rosa\""@it ;
+        rdf:value "Un foglio di carta rosa" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda19/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Mostra del ritratto\""@en,
+            "Titolo, \"Mostra del ritratto\""@it ;
+        rdf:value "Mostra del ritratto" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda190/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Lo scrittore alle corde\""@en,
+            "Titolo, \"Lo scrittore alle corde\""@it ;
+        rdf:value "Lo scrittore alle corde" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda191/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Immagine di De Pisis\""@en,
+            "Titolo, \"Immagine di De Pisis\""@it ;
+        rdf:value "Immagine di De Pisis" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda192/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Van Dongen\""@en,
+            "Titolo, \"Van Dongen\""@it ;
+        rdf:value "Van Dongen" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda193/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Dieci anni dopo\""@en,
+            "Titolo, \"Dieci anni dopo\""@it ;
+        rdf:value "Dieci anni dopo" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda194/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Bonifacio pittore\""@en,
+            "Titolo, \"Bonifacio pittore\""@it ;
+        rdf:value "Bonifacio pittore" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda195/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"La Biennale veneziana dell'arte\""@en,
+            "Titolo, \"La Biennale veneziana dell'arte\""@it ;
+        rdf:value "La Biennale veneziana dell'arte" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda196/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"L'uomo all'ospedale\""@en,
+            "Titolo, \"L'uomo all'ospedale\""@it ;
+        rdf:value "L'uomo all'ospedale" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda197/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Di altre contestazioni\""@en,
+            "Titolo, \"Di altre contestazioni\""@it ;
+        rdf:value "Di altre contestazioni" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda198/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Lo specchio di Sinisgalli\""@en,
+            "Titolo, \"Lo specchio di Sinisgalli\""@it ;
+        rdf:value "Lo specchio di Sinisgalli" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda199/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Jean-Etienne Liotard\""@en,
+            "Titolo, \"Jean-Etienne Liotard\""@it ;
+        rdf:value "Jean-Etienne Liotard" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda2/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Un pittore bolognese\""@en,
+            "Titolo, \"Un pittore bolognese\""@it ;
+        rdf:value "Un pittore bolognese" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda20/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Henry Moore\""@en,
+            "Titolo, \"Henry Moore\""@it ;
+        rdf:value "Henry Moore" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda200/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"La culla della speranza\""@en,
+            "Titolo, \"La culla della speranza\""@it ;
+        rdf:value "La culla della speranza" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda201/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"La pittura metafisica\""@en,
+            "Titolo, \"La pittura metafisica\""@it ;
+        rdf:value "La pittura metafisica" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda202/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"L'arte, la poesia del Guercino : la mostra dell'Archiginnasio di Bologna\""@en,
+            "Titolo, \"L'arte, la poesia del Guercino : la mostra dell'Archiginnasio di Bologna\""@it ;
+        rdf:value "L'arte, la poesia del Guercino : la mostra dell'Archiginnasio di Bologna" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda203/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"La Crestomazia del Leopardi\""@en,
+            "Titolo, \"La Crestomazia del Leopardi\""@it ;
+        rdf:value "La Crestomazia del Leopardi" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda204/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"I disegni del Guercino\""@en,
+            "Titolo, \"I disegni del Guercino\""@it ;
+        rdf:value "I disegni del Guercino" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda205/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"La mostra mantovana dei pittori \"chiaristi\"\""@en,
+            "Titolo, \"La mostra mantovana dei pittori \"chiaristi\"\""@it ;
+        rdf:value "La mostra mantovana dei pittori \"chiaristi\"" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda206/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Mattino dello scrittore\""@en,
+            "Titolo, \"Mattino dello scrittore\""@it ;
+        rdf:value "Mattino dello scrittore" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda207/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Gli acquerelli di Morandi\""@en,
+            "Titolo, \"Gli acquerelli di Morandi\""@it ;
+        rdf:value "Gli acquerelli di Morandi" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda208/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Oggi si dipinge ancora?\""@en,
+            "Titolo, \"Oggi si dipinge ancora?\""@it ;
+        rdf:value "Oggi si dipinge ancora?" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda209/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Lettere inedite di Baudelaire\""@en,
+            "Titolo, \"Lettere inedite di Baudelaire\""@it ;
+        rdf:value "Lettere inedite di Baudelaire" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda21/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"L'otto settembre\""@en,
+            "Titolo, \"L'otto settembre\""@it ;
+        rdf:value "L'otto settembre" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda210/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"I disegni di Claudio Lorenese\""@en,
+            "Titolo, \"I disegni di Claudio Lorenese\""@it ;
+        rdf:value "I disegni di Claudio Lorenese" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda211/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Il Caravaggio di Roberto Longhi\""@en,
+            "Titolo, \"Il Caravaggio di Roberto Longhi\""@it ;
+        rdf:value "Il Caravaggio di Roberto Longhi" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda212/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"La mostra di Antonio Mancini\""@en,
+            "Titolo, \"La mostra di Antonio Mancini\""@it ;
+        rdf:value "La mostra di Antonio Mancini" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda213/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Una fotografia fin de siecle\""@en,
+            "Titolo, \"Una fotografia fin de siecle\""@it ;
+        rdf:value "Una fotografia fin de siecle" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda214/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Morandi nel mondo\""@en,
+            "Titolo, \"Morandi nel mondo\""@it ;
+        rdf:value "Morandi nel mondo" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda215/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Mostra di Macchiaioli toscani\""@en,
+            "Titolo, \"Mostra di Macchiaioli toscani\""@it ;
+        rdf:value "Mostra di Macchiaioli toscani" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda216/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Le lettere di Dylan Thomas\""@en,
+            "Titolo, \"Le lettere di Dylan Thomas\""@it ;
+        rdf:value "Le lettere di Dylan Thomas" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda217/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"La mostra monografica di Osvaldo Licini\""@en,
+            "Titolo, \"La mostra monografica di Osvaldo Licini\""@it ;
+        rdf:value "La mostra monografica di Osvaldo Licini" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda218/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Non siamo al giudizio finale\""@en,
+            "Titolo, \"Non siamo al giudizio finale\""@it ;
+        rdf:value "Non siamo al giudizio finale" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda219/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"E tornato De Pisis\""@en,
+            "Titolo, \"E tornato De Pisis\""@it ;
+        rdf:value "E tornato De Pisis" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda22/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"La mostra postuma di Vincenzo Roda\""@en,
+            "Titolo, \"La mostra postuma di Vincenzo Roda\""@it ;
+        rdf:value "La mostra postuma di Vincenzo Roda" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda220/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Povero romanzo\""@en,
+            "Titolo, \"Povero romanzo\""@it ;
+        rdf:value "Povero romanzo" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda221/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Teatro per ridere\""@en,
+            "Titolo, \"Teatro per ridere\""@it ;
+        rdf:value "Teatro per ridere" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda222/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Michael Sweerts\""@en,
+            "Titolo, \"Michael Sweerts\""@it ;
+        rdf:value "Michael Sweerts" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda223/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"L'armata a cavallo\""@en,
+            "Titolo, \"L'armata a cavallo\""@it ;
+        rdf:value "L'armata a cavallo" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda224/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Aiuola di Francia\""@en,
+            "Titolo, \"Aiuola di Francia\""@it ;
+        rdf:value "Aiuola di Francia" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda225/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Vecchie stampe\""@en,
+            "Titolo, \"Vecchie stampe\""@it ;
+        rdf:value "Vecchie stampe" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda226/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Pittura americana dell'Ottocento\""@en,
+            "Titolo, \"Pittura americana dell'Ottocento\""@it ;
+        rdf:value "Pittura americana dell'Ottocento" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda227/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Giornalismo e letteratura\""@en,
+            "Titolo, \"Giornalismo e letteratura\""@it ;
+        rdf:value "Giornalismo e letteratura" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda228/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Nei ritagli della guerra\""@en,
+            "Titolo, \"Nei ritagli della guerra\""@it ;
+        rdf:value "Nei ritagli della guerra" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda229/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Letteratura non consumo\""@en,
+            "Titolo, \"Letteratura non consumo\""@it ;
+        rdf:value "Letteratura non consumo" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda23/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Le lettere garibaldine del Nievo\""@en,
+            "Titolo, \"Le lettere garibaldine del Nievo\""@it ;
+        rdf:value "Le lettere garibaldine del Nievo" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda230/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Joyce come pittore\""@en,
+            "Titolo, \"Joyce come pittore\""@it ;
+        rdf:value "Joyce come pittore" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda231/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Il Settecento veneziano a Palazzo Ducale\""@en,
+            "Titolo, \"Il Settecento veneziano a Palazzo Ducale\""@it ;
+        rdf:value "Il Settecento veneziano a Palazzo Ducale" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda232/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Noia delle vacanze\""@en,
+            "Titolo, \"Noia delle vacanze\""@it ;
+        rdf:value "Noia delle vacanze" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda233/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"L'eta della poesia\""@en,
+            "Titolo, \"L'eta della poesia\""@it ;
+        rdf:value "L'eta della poesia" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda234/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Firenze di Emilio Cecchi\""@en,
+            "Titolo, \"Firenze di Emilio Cecchi\""@it ;
+        rdf:value "Firenze di Emilio Cecchi" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda235/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"De Pisis alla mostra di Verona\""@en,
+            "Titolo, \"De Pisis alla mostra di Verona\""@it ;
+        rdf:value "De Pisis alla mostra di Verona" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda236/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Il diario del pittore\""@en,
+            "Titolo, \"Il diario del pittore\""@it ;
+        rdf:value "Il diario del pittore" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda237/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"La mostra di Nicolo dell'Abate all'Archiginnasio\""@en,
+            "Titolo, \"La mostra di Nicolo dell'Abate all'Archiginnasio\""@it ;
+        rdf:value "La mostra di Nicolo dell'Abate all'Archiginnasio" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda238/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"I cinquant'anni della \"Ronda\"\""@en,
+            "Titolo, \"I cinquant'anni della \"Ronda\"\""@it ;
+        rdf:value "I cinquant'anni della \"Ronda\"" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda239/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Mario Cavaglieri\""@en,
+            "Titolo, \"Mario Cavaglieri\""@it ;
+        rdf:value "Mario Cavaglieri" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda24/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Breve storia di Hemingway\""@en,
+            "Titolo, \"Breve storia di Hemingway\""@it ;
+        rdf:value "Breve storia di Hemingway" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda240/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Stretta di mano a Lorenzo Gigli\""@en,
+            "Titolo, \"Stretta di mano a Lorenzo Gigli\""@it ;
+        rdf:value "Stretta di mano a Lorenzo Gigli" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda241/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Una lettera per Hemingway\""@en,
+            "Titolo, \"Una lettera per Hemingway\""@it ;
+        rdf:value "Una lettera per Hemingway" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda242/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Gustave Courbet a Villa Medici\""@en,
+            "Titolo, \"Gustave Courbet a Villa Medici\""@it ;
+        rdf:value "Gustave Courbet a Villa Medici" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda243/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Piccolo bilancio\""@en,
+            "Titolo, \"Piccolo bilancio\""@it ;
+        rdf:value "Piccolo bilancio" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda244/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Valori plastici\""@en,
+            "Titolo, \"Valori plastici\""@it ;
+        rdf:value "Valori plastici" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda245/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Solitudine e memoria\""@en,
+            "Titolo, \"Solitudine e memoria\""@it ;
+        rdf:value "Solitudine e memoria" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda246/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Finale su Meryon\""@en,
+            "Titolo, \"Finale su Meryon\""@it ;
+        rdf:value "Finale su Meryon" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda247/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Le pitture di Bologna\""@en,
+            "Titolo, \"Le pitture di Bologna\""@it ;
+        rdf:value "Le pitture di Bologna" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda248/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Il mio dialetto\""@en,
+            "Titolo, \"Il mio dialetto\""@it ;
+        rdf:value "Il mio dialetto" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda249/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Carlo Saraceni\""@en,
+            "Titolo, \"Carlo Saraceni\""@it ;
+        rdf:value "Carlo Saraceni" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda25/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Un amico ritrovato\""@en,
+            "Titolo, \"Un amico ritrovato\""@it ;
+        rdf:value "Un amico ritrovato" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda250/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Scrittore allo specchio\""@en,
+            "Titolo, \"Scrittore allo specchio\""@it ;
+        rdf:value "Scrittore allo specchio" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda251/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Una mensola di libri\""@en,
+            "Titolo, \"Una mensola di libri\""@it ;
+        rdf:value "Una mensola di libri" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda252/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Sergio Vacchi\""@en,
+            "Titolo, \"Sergio Vacchi\""@it ;
+        rdf:value "Sergio Vacchi" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda253/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"La conchiglia di Rembrandt\""@en,
+            "Titolo, \"La conchiglia di Rembrandt\""@it ;
+        rdf:value "La conchiglia di Rembrandt" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda254/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Come un dagherrotipo\""@en,
+            "Titolo, \"Come un dagherrotipo\""@it ;
+        rdf:value "Come un dagherrotipo" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda255/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Amicizie letterarie\""@en,
+            "Titolo, \"Amicizie letterarie\""@it ;
+        rdf:value "Amicizie letterarie" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda256/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Il Tiziano di Pallucchini\""@en,
+            "Titolo, \"Il Tiziano di Pallucchini\""@it ;
+        rdf:value "Il Tiziano di Pallucchini" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda257/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Castelli in Ispagna\""@en,
+            "Titolo, \"Castelli in Ispagna\""@it ;
+        rdf:value "Castelli in Ispagna" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda258/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Letteratura e pittura\""@en,
+            "Titolo, \"Letteratura e pittura\""@it ;
+        rdf:value "Letteratura e pittura" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda259/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Apollinaire alla Montagnola\""@en,
+            "Titolo, \"Apollinaire alla Montagnola\""@it ;
+        rdf:value "Apollinaire alla Montagnola" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda26/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"La notte del giovedi\""@en,
+            "Titolo, \"La notte del giovedi\""@it ;
+        rdf:value "La notte del giovedi" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda260/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Bolognesi scrittori del 1918\""@en,
+            "Titolo, \"Bolognesi scrittori del 1918\""@it ;
+        rdf:value "Bolognesi scrittori del 1918" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda261/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Immagine di Corrado Corazza\""@en,
+            "Titolo, \"Immagine di Corrado Corazza\""@it ;
+        rdf:value "Immagine di Corrado Corazza" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda262/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"I dioscuri della pittura, De Chirico e Morandi\""@en,
+            "Titolo, \"I dioscuri della pittura, De Chirico e Morandi\""@it ;
+        rdf:value "I dioscuri della pittura, De Chirico e Morandi" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda263/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Natura ed espressione nell'arte bolognese e emiliana : la mostra all'Archiginnasio di Bologna\""@en,
+            "Titolo, \"Natura ed espressione nell'arte bolognese e emiliana : la mostra all'Archiginnasio di Bologna\""@it ;
+        rdf:value "Natura ed espressione nell'arte bolognese e emiliana : la mostra all'Archiginnasio di Bologna" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda264/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"L'arte di Henri Matisse : la mostra di Henri Matisse al Grand Palais di Parigi\""@en,
+            "Titolo, \"L'arte di Henri Matisse : la mostra di Henri Matisse al Grand Palais di Parigi\""@it ;
+        rdf:value "L'arte di Henri Matisse : la mostra di Henri Matisse al Grand Palais di Parigi" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda265/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"La mostra degli artisti di Cronache\""@en,
+            "Titolo, \"La mostra degli artisti di Cronache\""@it ;
+        rdf:value "La mostra degli artisti di Cronache" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda266/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Il ritorno di Luigi Bertelli\""@en,
+            "Titolo, \"Il ritorno di Luigi Bertelli\""@it ;
+        rdf:value "Il ritorno di Luigi Bertelli" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda267/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Mandelli e Ciangottini\""@en,
+            "Titolo, \"Mandelli e Ciangottini\""@it ;
+        rdf:value "Mandelli e Ciangottini" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda268/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"L'inflessibile Felix Vallotton\""@en,
+            "Titolo, \"L'inflessibile Felix Vallotton\""@it ;
+        rdf:value "L'inflessibile Felix Vallotton" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda269/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Giandomenico Tiepolo all'acquaforte\""@en,
+            "Titolo, \"Giandomenico Tiepolo all'acquaforte\""@it ;
+        rdf:value "Giandomenico Tiepolo all'acquaforte" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda27/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Un album di Gericault\""@en,
+            "Titolo, \"Un album di Gericault\""@it ;
+        rdf:value "Un album di Gericault" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda270/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Omaggio a Max Ernst\""@en,
+            "Titolo, \"Omaggio a Max Ernst\""@it ;
+        rdf:value "Omaggio a Max Ernst" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda271/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Le acqueforti di Carlo Leoni\""@en,
+            "Titolo, \"Le acqueforti di Carlo Leoni\""@it ;
+        rdf:value "Le acqueforti di Carlo Leoni" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda272/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"L'asino\""@en,
+            "Titolo, \"L'asino\""@it ;
+        rdf:value "L'asino" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda273/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Roma : la fine dell'arte antica\""@en,
+            "Titolo, \"Roma : la fine dell'arte antica\""@it ;
+        rdf:value "Roma : la fine dell'arte antica" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda274/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Le stampe di papa Lambertini\""@en,
+            "Titolo, \"Le stampe di papa Lambertini\""@it ;
+        rdf:value "Le stampe di papa Lambertini" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda275/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Un romantico attardato nell'Ottocento, Alessandro Guardassoni di Bologna\""@en,
+            "Titolo, \"Un romantico attardato nell'Ottocento, Alessandro Guardassoni di Bologna\""@it ;
+        rdf:value "Un romantico attardato nell'Ottocento, Alessandro Guardassoni di Bologna" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda276/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Il diario bolognese di De Pisis\""@en,
+            "Titolo, \"Il diario bolognese di De Pisis\""@it ;
+        rdf:value "Il diario bolognese di De Pisis" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda277/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Le litografie di Giuseppe Ugonia\""@en,
+            "Titolo, \"Le litografie di Giuseppe Ugonia\""@it ;
+        rdf:value "Le litografie di Giuseppe Ugonia" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda278/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Fra Galgario di Giovanni Testori : il maggior ritrattista del Settecento\""@en,
+            "Titolo, \"Fra Galgario di Giovanni Testori : il maggior ritrattista del Settecento\""@it ;
+        rdf:value "Fra Galgario di Giovanni Testori : il maggior ritrattista del Settecento" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda279/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Disegni di Leonardo Cremonini\""@en,
+            "Titolo, \"Disegni di Leonardo Cremonini\""@it ;
+        rdf:value "Disegni di Leonardo Cremonini" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda28/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Il Pinturicchio di Enzo Carli\""@en,
+            "Titolo, \"Il Pinturicchio di Enzo Carli\""@it ;
+        rdf:value "Il Pinturicchio di Enzo Carli" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda280/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Dizionario universale dell'arte e degli artisti\""@en,
+            "Titolo, \"Dizionario universale dell'arte e degli artisti\""@it ;
+        rdf:value "Dizionario universale dell'arte e degli artisti" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda281/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Ricordo di Ettore Petrolini\""@en,
+            "Titolo, \"Ricordo di Ettore Petrolini\""@it ;
+        rdf:value "Ricordo di Ettore Petrolini" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda282/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Mostra di pittura alla Galleria Sanluca, la natura morta di Pompilio Mandelli\""@en,
+            "Titolo, \"Mostra di pittura alla Galleria Sanluca, la natura morta di Pompilio Mandelli\""@it ;
+        rdf:value "Mostra di pittura alla Galleria Sanluca, la natura morta di Pompilio Mandelli" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda283/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Un ibseniano, Edvard Munch\""@en,
+            "Titolo, \"Un ibseniano, Edvard Munch\""@it ;
+        rdf:value "Un ibseniano, Edvard Munch" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda284/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Un grande scrittore italiano, gli ottant'anni di Riccardo Bacchelli\""@en,
+            "Titolo, \"Un grande scrittore italiano, gli ottant'anni di Riccardo Bacchelli\""@it ;
+        rdf:value "Un grande scrittore italiano, gli ottant'anni di Riccardo Bacchelli" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda285/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"La gloria di De Chirico\""@en,
+            "Titolo, \"La gloria di De Chirico\""@it ;
+        rdf:value "La gloria di De Chirico" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda286/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Lacerba, la gioventu\""@en,
+            "Titolo, \"Lacerba, la gioventu\""@it ;
+        rdf:value "Lacerba, la gioventu" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda287/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Alla Galleria Gradiva di Firenze la mostra di Alberto Sughi\""@en,
+            "Titolo, \"Alla Galleria Gradiva di Firenze la mostra di Alberto Sughi\""@it ;
+        rdf:value "Alla Galleria Gradiva di Firenze la mostra di Alberto Sughi" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda288/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Musei sotto chiave\""@en,
+            "Titolo, \"Musei sotto chiave\""@it ;
+        rdf:value "Musei sotto chiave" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda289/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Rimbaud, Parigi 1871\""@en,
+            "Titolo, \"Rimbaud, Parigi 1871\""@it ;
+        rdf:value "Rimbaud, Parigi 1871" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda29/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Qualcosa della \"Voce\" fiorentina\""@en,
+            "Titolo, \"Qualcosa della \"Voce\" fiorentina\""@it ;
+        rdf:value "Qualcosa della \"Voce\" fiorentina" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda290/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Il cartellonista italiano Sepo\""@en,
+            "Titolo, \"Il cartellonista italiano Sepo\""@it ;
+        rdf:value "Il cartellonista italiano Sepo" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda291/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Raffaello Sernesi fra i Macchiaioli\""@en,
+            "Titolo, \"Raffaello Sernesi fra i Macchiaioli\""@it ;
+        rdf:value "Raffaello Sernesi fra i Macchiaioli" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda292/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Eugenio Montale come pittore\""@en,
+            "Titolo, \"Eugenio Montale come pittore\""@it ;
+        rdf:value "Eugenio Montale come pittore" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda293/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Mario Marcucci alla Galleria Stivani\""@en,
+            "Titolo, \"Mario Marcucci alla Galleria Stivani\""@it ;
+        rdf:value "Mario Marcucci alla Galleria Stivani" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda294/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"L'arte italiana di un secolo : 1870-1970\""@en,
+            "Titolo, \"L'arte italiana di un secolo : 1870-1970\""@it ;
+        rdf:value "L'arte italiana di un secolo : 1870-1970" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda295/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Paolo Uccello per i letterati\""@en,
+            "Titolo, \"Paolo Uccello per i letterati\""@it ;
+        rdf:value "Paolo Uccello per i letterati" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda296/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Dipinti di cinque secoli a Milano\""@en,
+            "Titolo, \"Dipinti di cinque secoli a Milano\""@it ;
+        rdf:value "Dipinti di cinque secoli a Milano" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda297/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"La nostra citta\""@en,
+            "Titolo, \"La nostra citta\""@it ;
+        rdf:value "La nostra citta" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda298/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Cartolina postale per Longanesi\""@en,
+            "Titolo, \"Cartolina postale per Longanesi\""@it ;
+        rdf:value "Cartolina postale per Longanesi" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda299/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Lo scultore Venturino Venturi a Firenze\""@en,
+            "Titolo, \"Lo scultore Venturino Venturi a Firenze\""@it ;
+        rdf:value "Lo scultore Venturino Venturi a Firenze" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda3/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Licenza militare\""@en,
+            "Titolo, \"Licenza militare\""@it ;
+        rdf:value "Licenza militare" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda30/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"La bambina che dipinge\""@en,
+            "Titolo, \"La bambina che dipinge\""@it ;
+        rdf:value "La bambina che dipinge" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda300/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Lettere e una poesia inedita di Vincenzo Cardarelli\""@en,
+            "Titolo, \"Lettere e una poesia inedita di Vincenzo Cardarelli\""@it ;
+        rdf:value "Lettere e una poesia inedita di Vincenzo Cardarelli" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda301/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Cento opere di Carlo Carra alla mostra di Prato\""@en,
+            "Titolo, \"Cento opere di Carlo Carra alla mostra di Prato\""@it ;
+        rdf:value "Cento opere di Carlo Carra alla mostra di Prato" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda302/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Isacco Babel fucilato trent'anni fa\""@en,
+            "Titolo, \"Isacco Babel fucilato trent'anni fa\""@it ;
+        rdf:value "Isacco Babel fucilato trent'anni fa" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda303/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"L'arte di Giacomo Manzu\""@en,
+            "Titolo, \"L'arte di Giacomo Manzu\""@it ;
+        rdf:value "L'arte di Giacomo Manzu" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda304/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Al Museo civico di Bologna una singolare mostra\""@en,
+            "Titolo, \"Al Museo civico di Bologna una singolare mostra\""@it ;
+        rdf:value "Al Museo civico di Bologna una singolare mostra" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda305/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Un pastello inedito di De Pisis da Amedeo Modigliani\""@en,
+            "Titolo, \"Un pastello inedito di De Pisis da Amedeo Modigliani\""@it ;
+        rdf:value "Un pastello inedito di De Pisis da Amedeo Modigliani" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda306/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Le celebrazioni udinesi del Tiepolo\""@en,
+            "Titolo, \"Le celebrazioni udinesi del Tiepolo\""@it ;
+        rdf:value "Le celebrazioni udinesi del Tiepolo" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda307/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Affreschi toscani visti in sogno\""@en,
+            "Titolo, \"Affreschi toscani visti in sogno\""@it ;
+        rdf:value "Affreschi toscani visti in sogno" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda308/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"I Musici di Giannetto Fieschi\""@en,
+            "Titolo, \"I Musici di Giannetto Fieschi\""@it ;
+        rdf:value "I Musici di Giannetto Fieschi" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda309/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Indagine per un \"bodegon\" seicentesco sivigliano\""@en,
+            "Titolo, \"Indagine per un \"bodegon\" seicentesco sivigliano\""@it ;
+        rdf:value "Indagine per un \"bodegon\" seicentesco sivigliano" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda31/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Libri d'arte\""@en,
+            "Titolo, \"Libri d'arte\""@it ;
+        rdf:value "Libri d'arte" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda310/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Carra via Vivaio 16\""@en,
+            "Titolo, \"Carra via Vivaio 16\""@it ;
+        rdf:value "Carra via Vivaio 16" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda311/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Il benigno fantasma di Monsieur Teste\""@en,
+            "Titolo, \"Il benigno fantasma di Monsieur Teste\""@it ;
+        rdf:value "Il benigno fantasma di Monsieur Teste" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda312/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"L'Autobiografia di Monaldo Leopardi\""@en,
+            "Titolo, \"L'Autobiografia di Monaldo Leopardi\""@it ;
+        rdf:value "L'Autobiografia di Monaldo Leopardi" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda313/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Il brodetto di pesce\""@en,
+            "Titolo, \"Il brodetto di pesce\""@it ;
+        rdf:value "Il brodetto di pesce" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda314/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Le incisioni di Jacques Callot\""@en,
+            "Titolo, \"Le incisioni di Jacques Callot\""@it ;
+        rdf:value "Le incisioni di Jacques Callot" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda315/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Un veneziano in Francia: Mario Cavaglieri\""@en,
+            "Titolo, \"Un veneziano in Francia: Mario Cavaglieri\""@it ;
+        rdf:value "Un veneziano in Francia: Mario Cavaglieri" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda316/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Paul Klee fra di noi\""@en,
+            "Titolo, \"Paul Klee fra di noi\""@it ;
+        rdf:value "Paul Klee fra di noi" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda317/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Gli inediti leopardiani\""@en,
+            "Titolo, \"Gli inediti leopardiani\""@it ;
+        rdf:value "Gli inediti leopardiani" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda318/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"I pittori bolognesi del Malvasia\""@en,
+            "Titolo, \"I pittori bolognesi del Malvasia\""@it ;
+        rdf:value "I pittori bolognesi del Malvasia" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda319/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Picasso ha quasi novant'anni\""@en,
+            "Titolo, \"Picasso ha quasi novant'anni\""@it ;
+        rdf:value "Picasso ha quasi novant'anni" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda32/text/title-attribution> a ecrm:E13_Attribute_Assignment ;
+        ecrm:P141_assigned <https://w3id.org/giuseppe-raimondi-lod/article/rda32/text/title> ;
+        ecrm:P14_carried_out_by <https://w3id.org/ficlitdl/org/sab-ero> ;
+        ecrm:P4_has_time-span <https://w3id.org/giuseppe-raimondi-lod/1993-03> .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda320/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Mostra delle Nuove acquisizioni per i Musei dello stato : a Palazzo dell'Archiginnasio\""@en,
+            "Titolo, \"Mostra delle Nuove acquisizioni per i Musei dello stato : a Palazzo dell'Archiginnasio\""@it ;
+        rdf:value "Mostra delle Nuove acquisizioni per i Musei dello stato : a Palazzo dell'Archiginnasio" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda321/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Venne allora Georges Seurat\""@en,
+            "Titolo, \"Venne allora Georges Seurat\""@it ;
+        rdf:value "Venne allora Georges Seurat" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda322/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"La collezione di stampe\""@en,
+            "Titolo, \"La collezione di stampe\""@it ;
+        rdf:value "La collezione di stampe" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda323/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"L'almanacco dello Specchio\""@en,
+            "Titolo, \"L'almanacco dello Specchio\""@it ;
+        rdf:value "L'almanacco dello Specchio" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda324/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Dieci acqueforti di Carlo Leoni\""@en,
+            "Titolo, \"Dieci acqueforti di Carlo Leoni\""@it ;
+        rdf:value "Dieci acqueforti di Carlo Leoni" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda325/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Due anni della nostra vita\""@en,
+            "Titolo, \"Due anni della nostra vita\""@it ;
+        rdf:value "Due anni della nostra vita" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda326/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"I silenzi di Rosai\""@en,
+            "Titolo, \"I silenzi di Rosai\""@it ;
+        rdf:value "I silenzi di Rosai" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda327/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Il triestino Virgilio Giotti\""@en,
+            "Titolo, \"Il triestino Virgilio Giotti\""@it ;
+        rdf:value "Il triestino Virgilio Giotti" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda328/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Giuseppe Ungaretti due anni dalla morte\""@en,
+            "Titolo, \"Giuseppe Ungaretti due anni dalla morte\""@it ;
+        rdf:value "Giuseppe Ungaretti due anni dalla morte" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda329/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"L'occhio stupito di Ippolito Caffi\""@en,
+            "Titolo, \"L'occhio stupito di Ippolito Caffi\""@it ;
+        rdf:value "L'occhio stupito di Ippolito Caffi" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda33/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Neve di Natale\""@en,
+            "Titolo, \"Neve di Natale\""@it ;
+        rdf:value "Neve di Natale" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda330/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Buster Keaton e Longanesi\""@en,
+            "Titolo, \"Buster Keaton e Longanesi\""@it ;
+        rdf:value "Buster Keaton e Longanesi" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda331/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"La fodera viola\""@en,
+            "Titolo, \"La fodera viola\""@it ;
+        rdf:value "La fodera viola" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda332/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Il sacrificio di Isacco\""@en,
+            "Titolo, \"Il sacrificio di Isacco\""@it ;
+        rdf:value "Il sacrificio di Isacco" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda333/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"I fiammiferi svedesi\""@en,
+            "Titolo, \"I fiammiferi svedesi\""@it ;
+        rdf:value "I fiammiferi svedesi" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda334/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Appunti e ricordi leopardiani\""@en,
+            "Titolo, \"Appunti e ricordi leopardiani\""@it ;
+        rdf:value "Appunti e ricordi leopardiani" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda335/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Il cuscino di bocca di dama\""@en,
+            "Titolo, \"Il cuscino di bocca di dama\""@it ;
+        rdf:value "Il cuscino di bocca di dama" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda336/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Omaggio a Vincenzo Cardarelli\""@en,
+            "Titolo, \"Omaggio a Vincenzo Cardarelli\""@it ;
+        rdf:value "Omaggio a Vincenzo Cardarelli" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda337/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"I disegni di De Pisis\""@en,
+            "Titolo, \"I disegni di De Pisis\""@it ;
+        rdf:value "I disegni di De Pisis" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda338/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Jean Dubuffet ritrovato\""@en,
+            "Titolo, \"Jean Dubuffet ritrovato\""@it ;
+        rdf:value "Jean Dubuffet ritrovato" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda339/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Montagna pistoiese\""@en,
+            "Titolo, \"Montagna pistoiese\""@it ;
+        rdf:value "Montagna pistoiese" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda34/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Mostre d'arte : Leoni, Pessarelli, Roda al Museo civico di Bologna\""@en,
+            "Titolo, \"Mostre d'arte : Leoni, Pessarelli, Roda al Museo civico di Bologna\""@it ;
+        rdf:value "Mostre d'arte : Leoni, Pessarelli, Roda al Museo civico di Bologna" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda340/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Georges de La Tour\""@en,
+            "Titolo, \"Georges de La Tour\""@it ;
+        rdf:value "Georges de La Tour" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda341/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Gli amici fiorentini\""@en,
+            "Titolo, \"Gli amici fiorentini\""@it ;
+        rdf:value "Gli amici fiorentini" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda342/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Vita da colombi\""@en,
+            "Titolo, \"Vita da colombi\""@it ;
+        rdf:value "Vita da colombi" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda343/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Gli scrittori italiani dopo la guerra\""@en,
+            "Titolo, \"Gli scrittori italiani dopo la guerra\""@it ;
+        rdf:value "Gli scrittori italiani dopo la guerra" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda344/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Stefano Della Bella\""@en,
+            "Titolo, \"Stefano Della Bella\""@it ;
+        rdf:value "Stefano Della Bella" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda345/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Capriccio sul dialetto\""@en,
+            "Titolo, \"Capriccio sul dialetto\""@it ;
+        rdf:value "Capriccio sul dialetto" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda346/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Era piovuto a sangue\""@en,
+            "Titolo, \"Era piovuto a sangue\""@it ;
+        rdf:value "Era piovuto a sangue" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda347/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Incontro quotidiano\""@en,
+            "Titolo, \"Incontro quotidiano\""@it ;
+        rdf:value "Incontro quotidiano" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda348/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"L'arcangelo del simbolismo\""@en,
+            "Titolo, \"L'arcangelo del simbolismo\""@it ;
+        rdf:value "L'arcangelo del simbolismo" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda349/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Le nevi di Francois Villon\""@en,
+            "Titolo, \"Le nevi di Francois Villon\""@it ;
+        rdf:value "Le nevi di Francois Villon" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda35/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Le sculture di Alberto Sani\""@en,
+            "Titolo, \"Le sculture di Alberto Sani\""@it ;
+        rdf:value "Le sculture di Alberto Sani" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda350/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Un esercizio inutile\""@en,
+            "Titolo, \"Un esercizio inutile\""@it ;
+        rdf:value "Un esercizio inutile" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda351/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Et in Arcadia ego\""@en,
+            "Titolo, \"Et in Arcadia ego\""@it ;
+        rdf:value "Et in Arcadia ego" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda352/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Ofelia : (vecchi quaderni)\""@en,
+            "Titolo, \"Ofelia : (vecchi quaderni)\""@it ;
+        rdf:value "Ofelia : (vecchi quaderni)" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda353/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Cardarelli a Roma nell'anno '19\""@en,
+            "Titolo, \"Cardarelli a Roma nell'anno '19\""@it ;
+        rdf:value "Cardarelli a Roma nell'anno '19" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda354/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Mr. Teste, Valery, Ungaretti\""@en,
+            "Titolo, \"Mr. Teste, Valery, Ungaretti\""@it ;
+        rdf:value "Mr. Teste, Valery, Ungaretti" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda355/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Amleto e sua madre\""@en,
+            "Titolo, \"Amleto e sua madre\""@it ;
+        rdf:value "Amleto e sua madre" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda356/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Un fatto di cronaca bolognese\""@en,
+            "Titolo, \"Un fatto di cronaca bolognese\""@it ;
+        rdf:value "Un fatto di cronaca bolognese" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda357/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Neve in montagna\""@en,
+            "Titolo, \"Neve in montagna\""@it ;
+        rdf:value "Neve in montagna" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda358/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Tre domande sul Manzoni\""@en,
+            "Titolo, \"Tre domande sul Manzoni\""@it ;
+        rdf:value "Tre domande sul Manzoni" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda359/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"La voce delle campane\""@en,
+            "Titolo, \"La voce delle campane\""@it ;
+        rdf:value "La voce delle campane" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda36/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Cartoline da Cesena\""@en,
+            "Titolo, \"Cartoline da Cesena\""@it ;
+        rdf:value "Cartoline da Cesena" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda360/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Vedute di Faenza ottocentesca\""@en,
+            "Titolo, \"Vedute di Faenza ottocentesca\""@it ;
+        rdf:value "Vedute di Faenza ottocentesca" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda361/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Fantasmi di carnevale\""@en,
+            "Titolo, \"Fantasmi di carnevale\""@it ;
+        rdf:value "Fantasmi di carnevale" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda362/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Taccuini : ('41-'43)\""@en,
+            "Titolo, \"Taccuini : ('41-'43)\""@it ;
+        rdf:value "Taccuini : ('41-'43)" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda363/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Morandi dal vero\""@en,
+            "Titolo, \"Morandi dal vero\""@it ;
+        rdf:value "Morandi dal vero" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda364/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Infanzia e cortile\""@en,
+            "Titolo, \"Infanzia e cortile\""@it ;
+        rdf:value "Infanzia e cortile" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda365/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"La mostra al Museo civico di Bologna : gli incisori bolognesi ed emiliani del '600\""@en,
+            "Titolo, \"La mostra al Museo civico di Bologna : gli incisori bolognesi ed emiliani del '600\""@it ;
+        rdf:value "La mostra al Museo civico di Bologna : gli incisori bolognesi ed emiliani del '600" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda366/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Taccuini\""@en,
+            "Titolo, \"Taccuini\""@it ;
+        rdf:value "Taccuini" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda367/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Gita in tram fuori di porta\""@en,
+            "Titolo, \"Gita in tram fuori di porta\""@it ;
+        rdf:value "Gita in tram fuori di porta" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda368/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Neve d'aprile\""@en,
+            "Titolo, \"Neve d'aprile\""@it ;
+        rdf:value "Neve d'aprile" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda369/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Pontormo o dell'inquietudine\""@en,
+            "Titolo, \"Pontormo o dell'inquietudine\""@it ;
+        rdf:value "Pontormo o dell'inquietudine" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda37/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Libri d'arte : il Correggio di Stefano Bottari\""@en,
+            "Titolo, \"Libri d'arte : il Correggio di Stefano Bottari\""@it ;
+        rdf:value "Libri d'arte : il Correggio di Stefano Bottari" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda370/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"L'album di De Pisis\""@en,
+            "Titolo, \"L'album di De Pisis\""@it ;
+        rdf:value "L'album di De Pisis" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda371/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Gli scrittori russi della rivoluzione\""@en,
+            "Titolo, \"Gli scrittori russi della rivoluzione\""@it ;
+        rdf:value "Gli scrittori russi della rivoluzione" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda372/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"La favola di Dada\""@en,
+            "Titolo, \"La favola di Dada\""@it ;
+        rdf:value "La favola di Dada" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda373/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Le confessioni letterarie di Bacchelli\""@en,
+            "Titolo, \"Le confessioni letterarie di Bacchelli\""@it ;
+        rdf:value "Le confessioni letterarie di Bacchelli" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda374/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"In giro con Longanesi\""@en,
+            "Titolo, \"In giro con Longanesi\""@it ;
+        rdf:value "In giro con Longanesi" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda375/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Ricordo di Ottone Rosai\""@en,
+            "Titolo, \"Ricordo di Ottone Rosai\""@it ;
+        rdf:value "Ricordo di Ottone Rosai" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda376/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"L'arte di Giovanni Segantini\""@en,
+            "Titolo, \"L'arte di Giovanni Segantini\""@it ;
+        rdf:value "L'arte di Giovanni Segantini" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda377/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Idea dell'Italia\""@en,
+            "Titolo, \"Idea dell'Italia\""@it ;
+        rdf:value "Idea dell'Italia" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda378/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"L'ovo di Colombo : (taccuini)\""@en,
+            "Titolo, \"L'ovo di Colombo : (taccuini)\""@it ;
+        rdf:value "L'ovo di Colombo : (taccuini)" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda379/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"L'acqua brillante\""@en,
+            "Titolo, \"L'acqua brillante\""@it ;
+        rdf:value "L'acqua brillante" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda38/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"I visitatori della domenica\""@en,
+            "Titolo, \"I visitatori della domenica\""@it ;
+        rdf:value "I visitatori della domenica" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda380/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"L'officina\""@en,
+            "Titolo, \"L'officina\""@it ;
+        rdf:value "L'officina" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda381/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Un amico se ne va\""@en,
+            "Titolo, \"Un amico se ne va\""@it ;
+        rdf:value "Un amico se ne va" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda382/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Jean Cocteau fra di noi\""@en,
+            "Titolo, \"Jean Cocteau fra di noi\""@it ;
+        rdf:value "Jean Cocteau fra di noi" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda383/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Il popolo e la guerra\""@en,
+            "Titolo, \"Il popolo e la guerra\""@it ;
+        rdf:value "Il popolo e la guerra" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda384/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Mario Mafai pittore\""@en,
+            "Titolo, \"Mario Mafai pittore\""@it ;
+        rdf:value "Mario Mafai pittore" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda385/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"La nostra Pinacoteca\""@en,
+            "Titolo, \"La nostra Pinacoteca\""@it ;
+        rdf:value "La nostra Pinacoteca" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda386/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Piccolo scaffale\""@en,
+            "Titolo, \"Piccolo scaffale\""@it ;
+        rdf:value "Piccolo scaffale" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda387/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Il passo di Peguy\""@en,
+            "Titolo, \"Il passo di Peguy\""@it ;
+        rdf:value "Il passo di Peguy" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda388/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Francisco de Zurbaran\""@en,
+            "Titolo, \"Francisco de Zurbaran\""@it ;
+        rdf:value "Francisco de Zurbaran" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda389/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Sotto San Michele in Bosco\""@en,
+            "Titolo, \"Sotto San Michele in Bosco\""@it ;
+        rdf:value "Sotto San Michele in Bosco" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda39/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Caffe letterari a Bologna\""@en,
+            "Titolo, \"Caffe letterari a Bologna\""@it ;
+        rdf:value "Caffe letterari a Bologna" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda390/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"I disegni di Durer\""@en,
+            "Titolo, \"I disegni di Durer\""@it ;
+        rdf:value "I disegni di Durer" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda391/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Da Cimabue a Morandi di Roberto Longhi\""@en,
+            "Titolo, \"Da Cimabue a Morandi di Roberto Longhi\""@it ;
+        rdf:value "Da Cimabue a Morandi di Roberto Longhi" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda392/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Parlano due donne\""@en,
+            "Titolo, \"Parlano due donne\""@it ;
+        rdf:value "Parlano due donne" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda393/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"L'azalea e rifiorita\""@en,
+            "Titolo, \"L'azalea e rifiorita\""@it ;
+        rdf:value "L'azalea e rifiorita" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda394/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Appunti per un ritratto\""@en,
+            "Titolo, \"Appunti per un ritratto\""@it ;
+        rdf:value "Appunti per un ritratto" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda395/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Il mare di nebbia\""@en,
+            "Titolo, \"Il mare di nebbia\""@it ;
+        rdf:value "Il mare di nebbia" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda396/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Cento citta stendhaliana\""@en,
+            "Titolo, \"Cento citta stendhaliana\""@it ;
+        rdf:value "Cento citta stendhaliana" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda397/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Nel trigesimo della morte Francesco Arcangeli\""@en,
+            "Titolo, \"Nel trigesimo della morte Francesco Arcangeli\""@it ;
+        rdf:value "Nel trigesimo della morte Francesco Arcangeli" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda398/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Letture di Vittorio Sereni\""@en,
+            "Titolo, \"Letture di Vittorio Sereni\""@it ;
+        rdf:value "Letture di Vittorio Sereni" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda399/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Un poeta impiccato\""@en,
+            "Titolo, \"Un poeta impiccato\""@it ;
+        rdf:value "Un poeta impiccato" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda4/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Montagna pistoiese\""@en,
+            "Titolo, \"Montagna pistoiese\""@it ;
+        rdf:value "Montagna pistoiese" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda40/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Gli scrittori e la pittura\""@en,
+            "Titolo, \"Gli scrittori e la pittura\""@it ;
+        rdf:value "Gli scrittori e la pittura" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda400/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Meditazione di Nicola Poussin\""@en,
+            "Titolo, \"Meditazione di Nicola Poussin\""@it ;
+        rdf:value "Meditazione di Nicola Poussin" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda401/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"La casa del professore\""@en,
+            "Titolo, \"La casa del professore\""@it ;
+        rdf:value "La casa del professore" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda402/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Le Poesie Complete di Sergio Solmi\""@en,
+            "Titolo, \"Le Poesie Complete di Sergio Solmi\""@it ;
+        rdf:value "Le Poesie Complete di Sergio Solmi" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda403/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"La macelleria\""@en,
+            "Titolo, \"La macelleria\""@it ;
+        rdf:value "La macelleria" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda404/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Il tempo della Ronda\""@en,
+            "Titolo, \"Il tempo della Ronda\""@it ;
+        rdf:value "Il tempo della Ronda" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda405/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Un poeta e un pittore \"alessandrini\"\""@en,
+            "Titolo, \"Un poeta e un pittore \"alessandrini\"\""@it ;
+        rdf:value "Un poeta e un pittore \"alessandrini\"" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda406/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Un ostinato scrittore di prosa\""@en,
+            "Titolo, \"Un ostinato scrittore di prosa\""@it ;
+        rdf:value "Un ostinato scrittore di prosa" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda407/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Personaggi in elegia\""@en,
+            "Titolo, \"Personaggi in elegia\""@it ;
+        rdf:value "Personaggi in elegia" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda408/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Cardarelli nelle lettere d'amore a Sibilla\""@en,
+            "Titolo, \"Cardarelli nelle lettere d'amore a Sibilla\""@it ;
+        rdf:value "Cardarelli nelle lettere d'amore a Sibilla" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda409/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"La terrazza dell'albergo\""@en,
+            "Titolo, \"La terrazza dell'albergo\""@it ;
+        rdf:value "La terrazza dell'albergo" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda41/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Laforgue, chi era costui?\""@en,
+            "Titolo, \"Laforgue, chi era costui?\""@it ;
+        rdf:value "Laforgue, chi era costui?" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda410/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Mia citta\""@en,
+            "Titolo, \"Mia citta\""@it ;
+        rdf:value "Mia citta" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda411/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"L'addio di Rebora\""@en,
+            "Titolo, \"L'addio di Rebora\""@it ;
+        rdf:value "L'addio di Rebora" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda412/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Incertezze della stagione\""@en,
+            "Titolo, \"Incertezze della stagione\""@it ;
+        rdf:value "Incertezze della stagione" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda413/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Leonardo Castellani fra letteratura e incisione\""@en,
+            "Titolo, \"Leonardo Castellani fra letteratura e incisione\""@it ;
+        rdf:value "Leonardo Castellani fra letteratura e incisione" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda414/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Natura dell'emiliano\""@en,
+            "Titolo, \"Natura dell'emiliano\""@it ;
+        rdf:value "Natura dell'emiliano" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda415/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Il Miserere di Carlo Porta\""@en,
+            "Titolo, \"Il Miserere di Carlo Porta\""@it ;
+        rdf:value "Il Miserere di Carlo Porta" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda416/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Attualita della pittura di Bernardo Bellotto\""@en,
+            "Titolo, \"Attualita della pittura di Bernardo Bellotto\""@it ;
+        rdf:value "Attualita della pittura di Bernardo Bellotto" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda417/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Una biografia di Conrad\""@en,
+            "Titolo, \"Una biografia di Conrad\""@it ;
+        rdf:value "Una biografia di Conrad" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda418/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"I burattini viventi alla Nosadella\""@en,
+            "Titolo, \"I burattini viventi alla Nosadella\""@it ;
+        rdf:value "I burattini viventi alla Nosadella" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda419/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"La Tebaide degli eremiti\""@en,
+            "Titolo, \"La Tebaide degli eremiti\""@it ;
+        rdf:value "La Tebaide degli eremiti" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda42/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Un quadro di Vuillard\""@en,
+            "Titolo, \"Un quadro di Vuillard\""@it ;
+        rdf:value "Un quadro di Vuillard" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda420/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Come incontrai Giovanni Verga\""@en,
+            "Titolo, \"Come incontrai Giovanni Verga\""@it ;
+        rdf:value "Come incontrai Giovanni Verga" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda421/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Le serigrafie di Giovanni Ciangottini\""@en,
+            "Titolo, \"Le serigrafie di Giovanni Ciangottini\""@it ;
+        rdf:value "Le serigrafie di Giovanni Ciangottini" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda422/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Quella mattina del 21 aprile\""@en,
+            "Titolo, \"Quella mattina del 21 aprile\""@it ;
+        rdf:value "Quella mattina del 21 aprile" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda423/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Un libro insolito ovvero la Bologna di Umberto Saba\""@en,
+            "Titolo, \"Un libro insolito ovvero la Bologna di Umberto Saba\""@it ;
+        rdf:value "Un libro insolito ovvero la Bologna di Umberto Saba" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda424/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Per Bologna con Giorgio Morandi\""@en,
+            "Titolo, \"Per Bologna con Giorgio Morandi\""@it ;
+        rdf:value "Per Bologna con Giorgio Morandi" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda425/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Apollinaire bambino alla Montagnola di Bologna\""@en,
+            "Titolo, \"Apollinaire bambino alla Montagnola di Bologna\""@it ;
+        rdf:value "Apollinaire bambino alla Montagnola di Bologna" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda426/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Orfeo senza denti\""@en,
+            "Titolo, \"Orfeo senza denti\""@it ;
+        rdf:value "Orfeo senza denti" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda427/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Come fini un autoritratto di Giorgio Morandi\""@en,
+            "Titolo, \"Come fini un autoritratto di Giorgio Morandi\""@it ;
+        rdf:value "Come fini un autoritratto di Giorgio Morandi" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda428/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Virgilio Giotti \"elegante e amaro\"\""@en,
+            "Titolo, \"Virgilio Giotti \"elegante e amaro\"\""@it ;
+        rdf:value "Virgilio Giotti \"elegante e amaro\"" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda429/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"La rosa nel bicchiere\""@en,
+            "Titolo, \"La rosa nel bicchiere\""@it ;
+        rdf:value "La rosa nel bicchiere" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda43/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"La 21. Biennale internazionale d'arte di Venezia\""@en,
+            "Titolo, \"La 21. Biennale internazionale d'arte di Venezia\""@it ;
+        rdf:value "La 21. Biennale internazionale d'arte di Venezia" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda430/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Poeti futuristi e dadaisti italiani\""@en,
+            "Titolo, \"Poeti futuristi e dadaisti italiani\""@it ;
+        rdf:value "Poeti futuristi e dadaisti italiani" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda431/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Album di figure\""@en,
+            "Titolo, \"Album di figure\""@it ;
+        rdf:value "Album di figure" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda432/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Il passo di Dino Campana\""@en,
+            "Titolo, \"Il passo di Dino Campana\""@it ;
+        rdf:value "Il passo di Dino Campana" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda433/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Politica e pittura\""@en,
+            "Titolo, \"Politica e pittura\""@it ;
+        rdf:value "Politica e pittura" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda434/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Apparizione di Eugene Delacroix\""@en,
+            "Titolo, \"Apparizione di Eugene Delacroix\""@it ;
+        rdf:value "Apparizione di Eugene Delacroix" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda435/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"La drogheria degli incanti\""@en,
+            "Titolo, \"La drogheria degli incanti\""@it ;
+        rdf:value "La drogheria degli incanti" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda436/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Un occhio su Paul Valery italiano\""@en,
+            "Titolo, \"Un occhio su Paul Valery italiano\""@it ;
+        rdf:value "Un occhio su Paul Valery italiano" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda437/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Letture di Federico Barocci pittore\""@en,
+            "Titolo, \"Letture di Federico Barocci pittore\""@it ;
+        rdf:value "Letture di Federico Barocci pittore" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda438/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Il silenzio, il segreto di Moliere\""@en,
+            "Titolo, \"Il silenzio, il segreto di Moliere\""@it ;
+        rdf:value "Il silenzio, il segreto di Moliere" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda439/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"La bottega del lardarolo\""@en,
+            "Titolo, \"La bottega del lardarolo\""@it ;
+        rdf:value "La bottega del lardarolo" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda44/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Perche la natura morta\""@en,
+            "Titolo, \"Perche la natura morta\""@it ;
+        rdf:value "Perche la natura morta" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda440/text/title-attribution> a ecrm:E13_Attribute_Assignment ;
+        ecrm:P141_assigned <https://w3id.org/giuseppe-raimondi-lod/article/rda440/text/title> ;
+        ecrm:P14_carried_out_by <https://w3id.org/ficlitdl/org/sab-ero> ;
+        ecrm:P4_has_time-span <https://w3id.org/giuseppe-raimondi-lod/1993-03> .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda441/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"E tornata la pittura di Mario Cavaglieri\""@en,
+            "Titolo, \"E tornata la pittura di Mario Cavaglieri\""@it ;
+        rdf:value "E tornata la pittura di Mario Cavaglieri" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda442/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Una famiglia di socialisti\""@en,
+            "Titolo, \"Una famiglia di socialisti\""@it ;
+        rdf:value "Una famiglia di socialisti" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda443/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"I cliches ... di Giovanni Romagnoli\""@en,
+            "Titolo, \"I cliches ... di Giovanni Romagnoli\""@it ;
+        rdf:value "I cliches [...] di Giovanni Romagnoli" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda444/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Poesia di Sinisgalli\""@en,
+            "Titolo, \"Poesia di Sinisgalli\""@it ;
+        rdf:value "Poesia di Sinisgalli" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda445/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"L'uomo nella stanza\""@en,
+            "Titolo, \"L'uomo nella stanza\""@it ;
+        rdf:value "L'uomo nella stanza" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda446/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Chimismi lirici di Soffici in tipografia\""@en,
+            "Titolo, \"Chimismi lirici di Soffici in tipografia\""@it ;
+        rdf:value "Chimismi lirici di Soffici in tipografia" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda447/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Un ignoto poeta al caffe della Palestra\""@en,
+            "Titolo, \"Un ignoto poeta al caffe della Palestra\""@it ;
+        rdf:value "Un ignoto poeta al caffe della Palestra" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda448/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"L'economia agricola e il paesaggio emiliano\""@en,
+            "Titolo, \"L'economia agricola e il paesaggio emiliano\""@it ;
+        rdf:value "L'economia agricola e il paesaggio emiliano" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda449/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Una fotografia in gruppo\""@en,
+            "Titolo, \"Una fotografia in gruppo\""@it ;
+        rdf:value "Una fotografia in gruppo" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda45/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Castello del Malconsiglio\""@en,
+            "Titolo, \"Castello del Malconsiglio\""@it ;
+        rdf:value "Castello del Malconsiglio" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda450/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Le giornate di questa lunga estate\""@en,
+            "Titolo, \"Le giornate di questa lunga estate\""@it ;
+        rdf:value "Le giornate di questa lunga estate" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda451/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Un libro alzato trent'anni fa, una piccola bandiera\""@en,
+            "Titolo, \"Un libro alzato trent'anni fa, una piccola bandiera\""@it ;
+        rdf:value "Un libro alzato trent'anni fa, una piccola bandiera" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda452/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Antonio Mazzotti pittore\""@en,
+            "Titolo, \"Antonio Mazzotti pittore\""@it ;
+        rdf:value "Antonio Mazzotti pittore" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda453/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Una gita pittorica in bicicletta e di un quadretto antico\""@en,
+            "Titolo, \"Una gita pittorica in bicicletta e di un quadretto antico\""@it ;
+        rdf:value "Una gita pittorica in bicicletta e di un quadretto antico" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda454/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Scrittore al microfono : (Giuseppe Raimondi)\""@en,
+            "Titolo, \"Scrittore al microfono : (Giuseppe Raimondi)\""@it ;
+        rdf:value "Scrittore al microfono : (Giuseppe Raimondi)" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda455/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Casorati di Albino Galvano, 1947\""@en,
+            "Titolo, \"Casorati di Albino Galvano, 1947\""@it ;
+        rdf:value "Casorati di Albino Galvano, 1947" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda456/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Cattabriga\""@en,
+            "Titolo, \"Cattabriga\""@it ;
+        rdf:value "Cattabriga" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda457/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Lettera al mio editore\""@en,
+            "Titolo, \"Lettera al mio editore\""@it ;
+        rdf:value "Lettera al mio editore" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda458/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"La pittura di Lucio Saffaro\""@en,
+            "Titolo, \"La pittura di Lucio Saffaro\""@it ;
+        rdf:value "La pittura di Lucio Saffaro" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda459/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Mario Cavaglieri\""@en,
+            "Titolo, \"Mario Cavaglieri\""@it ;
+        rdf:value "Mario Cavaglieri" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda46/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Alla Biennale veneziana : gli artisti stranieri\""@en,
+            "Titolo, \"Alla Biennale veneziana : gli artisti stranieri\""@it ;
+        rdf:value "Alla Biennale veneziana : gli artisti stranieri" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda460/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Giovanni Romagnoli\""@en,
+            "Titolo, \"Giovanni Romagnoli\""@it ;
+        rdf:value "Giovanni Romagnoli" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda461/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Sulla poesia italiana contemporanea\""@en,
+            "Titolo, \"Sulla poesia italiana contemporanea\""@it ;
+        rdf:value "Sulla poesia italiana contemporanea" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda462/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Nature morte di Ardengo Soffici\""@en,
+            "Titolo, \"Nature morte di Ardengo Soffici\""@it ;
+        rdf:value "Nature morte di Ardengo Soffici" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda463/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Ricordo di Gigiotti Zanini\""@en,
+            "Titolo, \"Ricordo di Gigiotti Zanini\""@it ;
+        rdf:value "Ricordo di Gigiotti Zanini" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda464/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Noticina per una mostra di Biasion : 1964\""@en,
+            "Titolo, \"Noticina per una mostra di Biasion : 1964\""@it ;
+        rdf:value "Noticina per una mostra di Biasion : 1964" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda465/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Giovanni Ciangottini\""@en,
+            "Titolo, \"Giovanni Ciangottini\""@it ;
+        rdf:value "Giovanni Ciangottini" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda466/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Per una mostra del pittore Concetto Pozzati\""@en,
+            "Titolo, \"Per una mostra del pittore Concetto Pozzati\""@it ;
+        rdf:value "Per una mostra del pittore Concetto Pozzati" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda467/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Maestri italiani alla \"Loggia\"\""@en,
+            "Titolo, \"Maestri italiani alla \"Loggia\"\""@it ;
+        rdf:value "Maestri italiani alla \"Loggia\"" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda468/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Un bolognese a Roma : per una mostra di Sergio Vacchi\""@en,
+            "Titolo, \"Un bolognese a Roma : per una mostra di Sergio Vacchi\""@it ;
+        rdf:value "Un bolognese a Roma : per una mostra di Sergio Vacchi" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda469/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Nello studio di Sughi\""@en,
+            "Titolo, \"Nello studio di Sughi\""@it ;
+        rdf:value "Nello studio di Sughi" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda47/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Odilon Redon, pittore visionario\""@en,
+            "Titolo, \"Odilon Redon, pittore visionario\""@it ;
+        rdf:value "Odilon Redon, pittore visionario" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda470/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Omaggio a Gigiotti Zanini\""@en,
+            "Titolo, \"Omaggio a Gigiotti Zanini\""@it ;
+        rdf:value "Omaggio a Gigiotti Zanini" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda471/text/title-attribution> a ecrm:E13_Attribute_Assignment ;
+        ecrm:P141_assigned <https://w3id.org/giuseppe-raimondi-lod/article/rda471/text/title> ;
+        ecrm:P14_carried_out_by <https://w3id.org/ficlitdl/org/sab-ero> ;
+        ecrm:P4_has_time-span <https://w3id.org/giuseppe-raimondi-lod/1993-03> .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda472/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Soffici e il cubismo futurista\""@en,
+            "Titolo, \"Soffici e il cubismo futurista\""@it ;
+        rdf:value "Soffici e il cubismo futurista" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda473/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Fautrier\""@en,
+            "Titolo, \"Fautrier\""@it ;
+        rdf:value "Fautrier" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda474/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Il pittore Ugo Pasini\""@en,
+            "Titolo, \"Il pittore Ugo Pasini\""@it ;
+        rdf:value "Il pittore Ugo Pasini" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda475/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Saluto a Mattia Moreni\""@en,
+            "Titolo, \"Saluto a Mattia Moreni\""@it ;
+        rdf:value "Saluto a Mattia Moreni" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda476/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Pompilio Mandelli. Paesaggi dal '45 al '65\""@en,
+            "Titolo, \"Pompilio Mandelli. Paesaggi dal '45 al '65\""@it ;
+        rdf:value "Pompilio Mandelli. Paesaggi dal '45 al '65" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda477/text/title-attribution> a ecrm:E13_Attribute_Assignment ;
+        ecrm:P141_assigned <https://w3id.org/giuseppe-raimondi-lod/article/rda477/text/title> ;
+        ecrm:P14_carried_out_by <https://w3id.org/ficlitdl/org/sab-ero> ;
+        ecrm:P4_has_time-span <https://w3id.org/giuseppe-raimondi-lod/1993-03> .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda478/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Ritratto di Giorgio Morandi\""@en,
+            "Titolo, \"Ritratto di Giorgio Morandi\""@it ;
+        rdf:value "Ritratto di Giorgio Morandi" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda479/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Lettera a Sergio Vacchi : (per una sua mostra)\""@en,
+            "Titolo, \"Lettera a Sergio Vacchi : (per una sua mostra)\""@it ;
+        rdf:value "Lettera a Sergio Vacchi : (per una sua mostra)" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda48/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Cima da Conegliano : la mostra di Treviso\""@en,
+            "Titolo, \"Cima da Conegliano : la mostra di Treviso\""@it ;
+        rdf:value "Cima da Conegliano : la mostra di Treviso" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda480/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Saluto a Riccardo Bacchelli : 17 aprile 1971\""@en,
+            "Titolo, \"Saluto a Riccardo Bacchelli : 17 aprile 1971\""@it ;
+        rdf:value "Saluto a Riccardo Bacchelli : 17 aprile 1971" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda49/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"I canti popolari emiliani\""@en,
+            "Titolo, \"I canti popolari emiliani\""@it ;
+        rdf:value "I canti popolari emiliani" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda5/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Litografie di Ardengo Soffici\""@en,
+            "Titolo, \"Litografie di Ardengo Soffici\""@it ;
+        rdf:value "Litografie di Ardengo Soffici" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda50/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Arte antica e moderna : pubblicazioni d'arte\""@en,
+            "Titolo, \"Arte antica e moderna : pubblicazioni d'arte\""@it ;
+        rdf:value "Arte antica e moderna : pubblicazioni d'arte" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda51/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Ricordo di Antonio Baldini\""@en,
+            "Titolo, \"Ricordo di Antonio Baldini\""@it ;
+        rdf:value "Ricordo di Antonio Baldini" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda52/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Mondrian e l'arte del 20. secolo\""@en,
+            "Titolo, \"Mondrian e l'arte del 20. secolo\""@it ;
+        rdf:value "Mondrian e l'arte del 20. secolo" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda53/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Il pittore Felice Casorati\""@en,
+            "Titolo, \"Il pittore Felice Casorati\""@it ;
+        rdf:value "Il pittore Felice Casorati" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda54/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"L'arte in Sicilia di Stefano Bottari\""@en,
+            "Titolo, \"L'arte in Sicilia di Stefano Bottari\""@it ;
+        rdf:value "L'arte in Sicilia di Stefano Bottari" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda55/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Storia del cubismo\""@en,
+            "Titolo, \"Storia del cubismo\""@it ;
+        rdf:value "Storia del cubismo" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda56/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Bologna magra di Cristofori\""@en,
+            "Titolo, \"Bologna magra di Cristofori\""@it ;
+        rdf:value "Bologna magra di Cristofori" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda57/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Jusep Torres Campalans: chi era costui?\""@en,
+            "Titolo, \"Jusep Torres Campalans: chi era costui?\""@it ;
+        rdf:value "Jusep Torres Campalans: chi era costui?" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda58/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"La poltrona di Domenico Giordani\""@en,
+            "Titolo, \"La poltrona di Domenico Giordani\""@it ;
+        rdf:value "La poltrona di Domenico Giordani" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda59/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Il pittore Umberto Maggioli\""@en,
+            "Titolo, \"Il pittore Umberto Maggioli\""@it ;
+        rdf:value "Il pittore Umberto Maggioli" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda6/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Riflessioni su Paul Valery\""@en,
+            "Titolo, \"Riflessioni su Paul Valery\""@it ;
+        rdf:value "Riflessioni su Paul Valery" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda60/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Teodoro Gericault\""@en,
+            "Titolo, \"Teodoro Gericault\""@it ;
+        rdf:value "Teodoro Gericault" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda61/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Ricordi come bachi da seta\""@en,
+            "Titolo, \"Ricordi come bachi da seta\""@it ;
+        rdf:value "Ricordi come bachi da seta" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda62/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Due critici di letteratura\""@en,
+            "Titolo, \"Due critici di letteratura\""@it ;
+        rdf:value "Due critici di letteratura" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda63/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Disegni e stampe dell'accademia Carrara di Bergamo\""@en,
+            "Titolo, \"Disegni e stampe dell'accademia Carrara di Bergamo\""@it ;
+        rdf:value "Disegni e stampe dell'accademia Carrara di Bergamo" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda64/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Giovanni Boldini e ritornato a Ferrara\""@en,
+            "Titolo, \"Giovanni Boldini e ritornato a Ferrara\""@it ;
+        rdf:value "Giovanni Boldini e ritornato a Ferrara" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda65/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Petrarca visto in sogno\""@en,
+            "Titolo, \"Petrarca visto in sogno\""@it ;
+        rdf:value "Petrarca visto in sogno" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda66/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Gli artisti di \"Corrente\" e Renato Birolli\""@en,
+            "Titolo, \"Gli artisti di \"Corrente\" e Renato Birolli\""@it ;
+        rdf:value "Gli artisti di \"Corrente\" e Renato Birolli" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda67/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Ritrattino di Giuseppe de Robertis\""@en,
+            "Titolo, \"Ritrattino di Giuseppe de Robertis\""@it ;
+        rdf:value "Ritrattino di Giuseppe de Robertis" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda68/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Il Verde Nilo di Cesare Brandi\""@en,
+            "Titolo, \"Il Verde Nilo di Cesare Brandi\""@it ;
+        rdf:value "Il Verde Nilo di Cesare Brandi" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda69/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Desiderio da Settignano\""@en,
+            "Titolo, \"Desiderio da Settignano\""@it ;
+        rdf:value "Desiderio da Settignano" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda7/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Civilta nell'arte\""@en,
+            "Titolo, \"Civilta nell'arte\""@it ;
+        rdf:value "Civilta nell'arte" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda70/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Incisioni italiane del quattrocento\""@en,
+            "Titolo, \"Incisioni italiane del quattrocento\""@it ;
+        rdf:value "Incisioni italiane del quattrocento" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda71/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"L'adorazione del Mistico agnello\""@en,
+            "Titolo, \"L'adorazione del Mistico agnello\""@it ;
+        rdf:value "L'adorazione del Mistico agnello" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda72/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Saggi di storia dell'arte a Venezia\""@en,
+            "Titolo, \"Saggi di storia dell'arte a Venezia\""@it ;
+        rdf:value "Saggi di storia dell'arte a Venezia" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda73/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Le Dune di Cervia\""@en,
+            "Titolo, \"Le Dune di Cervia\""@it ;
+        rdf:value "Le Dune di Cervia" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda74/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Arte antica e moderna\""@en,
+            "Titolo, \"Arte antica e moderna\""@it ;
+        rdf:value "Arte antica e moderna" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda75/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Corrado Corazza alla Galleria di Foscherari\""@en,
+            "Titolo, \"Corrado Corazza alla Galleria di Foscherari\""@it ;
+        rdf:value "Corrado Corazza alla Galleria di Foscherari" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda76/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Dipinti di due secoli a Venezia\""@en,
+            "Titolo, \"Dipinti di due secoli a Venezia\""@it ;
+        rdf:value "Dipinti di due secoli a Venezia" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda77/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Gloria di Michelangelo\""@en,
+            "Titolo, \"Gloria di Michelangelo\""@it ;
+        rdf:value "Gloria di Michelangelo" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda78/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Burri: sacchi, cartoni, legni, ferri, plastiche : una nuova opera di Cesare Brandi\""@en,
+            "Titolo, \"Burri: sacchi, cartoni, legni, ferri, plastiche : una nuova opera di Cesare Brandi\""@it ;
+        rdf:value "Burri: sacchi, cartoni, legni, ferri, plastiche : una nuova opera di Cesare Brandi" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda79/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Giorgio Morandi\""@en,
+            "Titolo, \"Giorgio Morandi\""@it ;
+        rdf:value "Giorgio Morandi" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda8/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Bologna, una citta\""@en,
+            "Titolo, \"Bologna, una citta\""@it ;
+        rdf:value "Bologna, una citta" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda80/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Scrittori di romanzo\""@en,
+            "Titolo, \"Scrittori di romanzo\""@it ;
+        rdf:value "Scrittori di romanzo" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda81/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Due monografie su Delacroix\""@en,
+            "Titolo, \"Due monografie su Delacroix\""@it ;
+        rdf:value "Due monografie su Delacroix" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda82/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Ancora sugli scrittori di romanzo\""@en,
+            "Titolo, \"Ancora sugli scrittori di romanzo\""@it ;
+        rdf:value "Ancora sugli scrittori di romanzo" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda83/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Il tramonto dell'arte etrusca\""@en,
+            "Titolo, \"Il tramonto dell'arte etrusca\""@it ;
+        rdf:value "Il tramonto dell'arte etrusca" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda84/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"La polemica letteraria in Italia : qualche conclusione provvisoria\""@en,
+            "Titolo, \"La polemica letteraria in Italia : qualche conclusione provvisoria\""@it ;
+        rdf:value "La polemica letteraria in Italia : qualche conclusione provvisoria" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda85/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Gli espressionisti a Palazzo Strozzi\""@en,
+            "Titolo, \"Gli espressionisti a Palazzo Strozzi\""@it ;
+        rdf:value "Gli espressionisti a Palazzo Strozzi" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda86/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"La mostra antologica del pittore Carlo Corsi\""@en,
+            "Titolo, \"La mostra antologica del pittore Carlo Corsi\""@it ;
+        rdf:value "La mostra antologica del pittore Carlo Corsi" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda87/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"La 32. Biennale internazionale d'arte di Venezia\""@en,
+            "Titolo, \"La 32. Biennale internazionale d'arte di Venezia\""@it ;
+        rdf:value "La 32. Biennale internazionale d'arte di Venezia" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda88/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"La mostra: lo \"Spettacolo Dubuffet\" a Venezia\""@en,
+            "Titolo, \"La mostra: lo \"Spettacolo Dubuffet\" a Venezia\""@it ;
+        rdf:value "La mostra: lo \"Spettacolo Dubuffet\" a Venezia" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda89/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Gli italiani alla Biennale di Venezia : (dalla \"pop art\" al gruppo dei bolognesi)\""@en,
+            "Titolo, \"Gli italiani alla Biennale di Venezia : (dalla \"pop art\" al gruppo dei bolognesi)\""@it ;
+        rdf:value "Gli italiani alla Biennale di Venezia : (dalla \"pop art\" al gruppo dei bolognesi)" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda9/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Pitture e disegni di Guglielmo Pizzirani\""@en,
+            "Titolo, \"Pitture e disegni di Guglielmo Pizzirani\""@it ;
+        rdf:value "Pitture e disegni di Guglielmo Pizzirani" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda90/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"La Festa mobile di Hemingway\""@en,
+            "Titolo, \"La Festa mobile di Hemingway\""@it ;
+        rdf:value "La Festa mobile di Hemingway" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda91/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Gli stranieri alla Biennale di Venezia\""@en,
+            "Titolo, \"Gli stranieri alla Biennale di Venezia\""@it ;
+        rdf:value "Gli stranieri alla Biennale di Venezia" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda92/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Un suono di fisarmonica\""@en,
+            "Titolo, \"Un suono di fisarmonica\""@it ;
+        rdf:value "Un suono di fisarmonica" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda93/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"La mostra di disegni di Emilio Greco a Pisa\""@en,
+            "Titolo, \"La mostra di disegni di Emilio Greco a Pisa\""@it ;
+        rdf:value "La mostra di disegni di Emilio Greco a Pisa" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda94/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"L'abito di nozze\""@en,
+            "Titolo, \"L'abito di nozze\""@it ;
+        rdf:value "L'abito di nozze" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda95/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"La Cappella Portinari in Sant'Ambrogio a Milano\""@en,
+            "Titolo, \"La Cappella Portinari in Sant'Ambrogio a Milano\""@it ;
+        rdf:value "La Cappella Portinari in Sant'Ambrogio a Milano" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda96/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Una mostra che si legge come un libro : arte ferrarese a Palazzo dei Diamanti\""@en,
+            "Titolo, \"Una mostra che si legge come un libro : arte ferrarese a Palazzo dei Diamanti\""@it ;
+        rdf:value "Una mostra che si legge come un libro : arte ferrarese a Palazzo dei Diamanti" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda97/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Due pittori friulani, Sebastiano Bombelli e Antonio Carneo\""@en,
+            "Titolo, \"Due pittori friulani, Sebastiano Bombelli e Antonio Carneo\""@it ;
+        rdf:value "Due pittori friulani, Sebastiano Bombelli e Antonio Carneo" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda98/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Picasso sempre Picasso : recenti pubblicazioni picassiane\""@en,
+            "Titolo, \"Picasso sempre Picasso : recenti pubblicazioni picassiane\""@it ;
+        rdf:value "Picasso sempre Picasso : recenti pubblicazioni picassiane" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda99/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Una monografia di Virgilio Guidi\""@en,
+            "Titolo, \"Una monografia di Virgilio Guidi\""@it ;
+        rdf:value "Una monografia di Virgilio Guidi" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda32/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Verga nel paesaggio siciliano\""@en,
+            "Titolo, \"Verga nel paesaggio siciliano\""@it ;
+        rdf:value "[Verga nel paesaggio siciliano]" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda440/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Una scrittura da giapponese\""@en,
+            "Titolo, \"Una scrittura da giapponese\""@it ;
+        rdf:value "[Una scrittura da giapponese]" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda471/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Intervista a G. R. : servizio Rai TV : 1965\""@en,
+            "Titolo, \"Intervista a G. R. : servizio Rai TV : 1965\""@it ;
+        rdf:value "[Intervista a G. R. : servizio Rai TV : 1965]" .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda477/text/title> a ecrm:E35_Title ;
+        rdfs:label "Title, \"Per catalogo mostra di Pulga a Bologna\""@en,
+            "Titolo, \"Per catalogo mostra di Pulga a Bologna\""@it ;
+        rdf:value "[Per catalogo mostra di Pulga a Bologna]" .
+}
+

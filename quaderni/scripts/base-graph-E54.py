@@ -109,21 +109,21 @@ with open('../input/quaderni.csv', mode='r') as csv_file:
 			d.add((URIRef(base_uri + 'height/' + height[0] + 'cm'), RDFS.label, Literal('Altezza ' + height[0] + ' cm', lang='it'), graph_base))
 			d.add((URIRef(base_uri + 'height/' + height[0] + 'cm'), RDFS.label, Literal('Height ' + height[0] + ' cm' , lang='en'), graph_base))
 			d.add((URIRef(base_uri + 'height/' + height[0] + 'cm'), ecrm.P91_has_unit, ficlitdlo.centimetre, graph_base))
-			d.add((URIRef(base_uri + 'height/' + height[0] + 'cm'), ecrm.P90_has_value, Literal(height[0], datatype=XSD.decimal), graph_base))
+			d.add((URIRef(base_uri + 'height/' + height[0] + 'cm'), ecrm.P90_has_value, Literal(height[0], datatype=XSD.integer), graph_base))
 			d.add((URIRef(base_uri + 'height/' + height[0] + 'cm'), ecrm.P2_has_type, ficlitdlo.height, graph_base))
 			
 			d.add((URIRef(base_uri + 'extent/' + extent_pages[0] + 'p'), RDF.type, ecrm.E54_Dimension, graph_base))
 			d.add((URIRef(base_uri + 'extent/' + extent_pages[0] + 'p'), RDFS.label, Literal(extent_pages[0] + ' pagine', lang='it'), graph_base))
 			d.add((URIRef(base_uri + 'extent/' + extent_pages[0] + 'p'), RDFS.label, Literal(extent_pages[0] + ' pages', lang='en'), graph_base))
 			d.add((URIRef(base_uri + 'extent/' + extent_pages[0] + 'p'), ecrm.P91_has_unit, ficlitdlo.page, graph_base))
-			d.add((URIRef(base_uri + 'extent/' + extent_pages[0] + 'p'), ecrm.P90_has_value, Literal(extent_pages[0], datatype=XSD.decimal), graph_base))
+			d.add((URIRef(base_uri + 'extent/' + extent_pages[0] + 'p'), ecrm.P90_has_value, Literal(extent_pages[0], datatype=XSD.integer), graph_base))
 			d.add((URIRef(base_uri + 'extent/' + extent_pages[0] + 'p'), ecrm.P2_has_type, ficlitdlo.extent, graph_base))
 
 			d.add((URIRef(base_uri + 'extent/' + extent_leaves[0] + 'c'), RDF.type, ecrm.E54_Dimension, graph_base))
 			d.add((URIRef(base_uri + 'extent/' + extent_leaves[0] + 'c'), RDFS.label, Literal(extent_leaves[0] + ' carte', lang='it'), graph_base))
 			d.add((URIRef(base_uri + 'extent/' + extent_leaves[0] + 'c'), RDFS.label, Literal(extent_leaves[0] + ' leaves', lang='en'), graph_base))
 			d.add((URIRef(base_uri + 'extent/' + extent_leaves[0] + 'c'), ecrm.P91_has_unit, ficlitdlo.leaf, graph_base))
-			d.add((URIRef(base_uri + 'extent/' + extent_leaves[0] + 'c'), ecrm.P90_has_value, Literal(extent_leaves[0], datatype=XSD.decimal), graph_base))
+			d.add((URIRef(base_uri + 'extent/' + extent_leaves[0] + 'c'), ecrm.P90_has_value, Literal(extent_leaves[0], datatype=XSD.integer), graph_base))
 			d.add((URIRef(base_uri + 'extent/' + extent_leaves[0] + 'c'), ecrm.P2_has_type, ficlitdlo.extent, graph_base))
 
 

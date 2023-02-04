@@ -1,0 +1,3927 @@
+@prefix ecrm: <http://erlangen-crm.org/current/> .
+@prefix ficlitdlo: <https://w3id.org/ficlitdl/ontology/> .
+@prefix grlod-np: <https://w3id.org/giuseppe-raimondi-lod/nanopub/nanopub-base/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+grlod-np:assertion {
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda1/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 1" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda1/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1960 04.20 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda10/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 10" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda10/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1961 01.31 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda100/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 100" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda100/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1964 12.09 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda101/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 101" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda101/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1964 12.14 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda102/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 102" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda102/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1965 01.04 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda103/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 103" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda103/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1965 01.23 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda104/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 104" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda104/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1965 02.22 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda105/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 105" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda105/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1965 02.24 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda106/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 106" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda106/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1965 02.25 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda107/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 107" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda107/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1965 03.05 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda108/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 108" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda108/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1965 03.24 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda109/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 109" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda109/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1965 04.09 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda11/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 11" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda11/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1961 02.07 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda110/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 110" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda110/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1965 05.26 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda111/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 111" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda111/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1965 08.28 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda112/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 112" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda112/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1965 09.20 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda113/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 113" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda113/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1965 11.12 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda114/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 114" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda114/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1965 12.22 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda115/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 115" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda115/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1966 01.18 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda116/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 116" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda116/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1966 01.29 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda117/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 117" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda117/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1966 02.02 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda118/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 118" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda118/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1966 02.09 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda119/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 119" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda119/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1966 02.16 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda12/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 12" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda12/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1961 03.02 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda120/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 120" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda120/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1966 02.28 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda121/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 121" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda121/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1966 03.26 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda122/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 122" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda122/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1966 04.04 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda123/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 123" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda123/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1966 05.27 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda124/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 124" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda124/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1966 06.04 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda125/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 125" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda125/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1966 06.15 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda126/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 126" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda126/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1966 06.20 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda127/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 127" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda127/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1966 06.26 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda128/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 128" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda128/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1966 07.01 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda129/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 129" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda129/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1966 07.05 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda13/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 13" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda13/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1961 03.14 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda130/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 130" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda130/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1966 07.12 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda131/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 131" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda131/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1966 07.22 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda132/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 132" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda132/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1966 07.30 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda133/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 133" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda133/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1966 08.03 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda134/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 134" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda134/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1966 08.06 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda135/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 135" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda135/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1966 08.18 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda136/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 136" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda136/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1966 08.26 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda137/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 137" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda137/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1966 08.29 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda138/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 138" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda138/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1966 09.12 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda139/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 139" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda139/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1966 09.18 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda14/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 14" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda14/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1961 03.25 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda140/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 140" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda140/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1966 10.00" ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda141/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 141" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda141/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1966 10.10 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda142/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 142" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda142/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1966 11.13 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda143/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 143" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda143/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1966 11.23 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda144/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 144" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda144/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1966 12.02 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda145/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 145" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda145/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1966 12.04 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda146/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 146" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda146/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1966 12.15 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda147/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 147" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda147/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1967 01.03 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda148/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 148" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda148/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1967 01.05 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda149/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 149" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda149/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1967 01.09 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda15/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 15" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda15/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1961 04.10 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda150/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 150" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda150/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1967 01.12 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda151/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 151" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda151/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1967 02.01 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda152/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 152" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda152/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1967 02.23 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda153/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 153" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda153/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1967 02.28 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda154/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 154" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda154/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1967 03.02 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda155/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 155" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda155/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1967 03.12 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda156/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 156" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda156/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1967 03.14 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda157/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 157" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda157/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1967 03.14 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda158/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 158" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda158/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1967 03.21 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda159/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 159" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda159/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1967 04.04 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda16/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 16" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda16/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1961 04.19 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda160/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 160" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda160/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1967 04.07 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda161/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 161" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda161/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1967 04.10 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda162/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 162" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda162/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1967 04.15 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda163/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 163" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda163/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1967 04.21 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda164/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 164" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda164/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1967 05.03 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda165/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 165" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda165/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1967 05.17 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda166/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 166" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda166/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1967 06.11 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda167/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 167" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda167/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1967 06.19 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda168/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 168" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda168/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1967 06.26 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda169/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 169" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda169/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1967 07.05 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda17/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 17" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda17/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1961 05.04 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda170/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 170" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda170/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1967 07.05 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda171/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 171" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda171/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1967 07.17 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda172/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 172" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda172/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1967 07.25 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda173/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 173" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda173/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1967 08.15 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda174/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 174" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda174/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1967 09.02 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda175/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 175" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda175/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1967 09.10 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda176/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 176" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda176/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1967 09.18 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda177/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 177" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda177/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1967 09.24 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda178/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 178" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda178/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1967 10.19 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda179/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 179" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda179/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1967 10.23 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda18/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 18" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda18/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1961 05.10 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda180/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 180" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda180/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1967 11.10 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda181/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 181" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda181/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1967 11.14 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda182/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 182" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda182/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1967 12.01 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda183/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 183" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda183/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1967 12.14 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda184/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 184" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda184/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1967 12.28 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda185/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 185" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda185/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1968 01.02 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda186/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 186" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda186/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1968 02.04 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda187/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 187" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda187/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1968 04.04 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda188/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 188" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda188/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1968 04.06 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda189/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 189" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda189/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1968 04.17 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda19/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 19" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda19/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1961 06.06 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda190/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 190" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda190/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1968 05.09 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda191/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 191" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda191/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1968 05.21 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda192/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 192" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda192/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1968 05.31 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda193/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 193" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda193/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1968 06.03 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda194/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 194" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda194/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1968 06.06 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda195/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 195" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda195/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1968 06.22 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda196/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 196" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda196/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1968 06.25 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda197/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 197" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda197/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1968 07.02 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda198/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 198" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda198/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1968 07.07 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda199/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 199" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda199/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1968 07.17 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda2/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 2" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda2/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1960 05.12 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda20/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 20" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda20/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1961 06.18 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda200/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 200" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda200/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1968 07.30 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda201/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 201" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda201/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1968 08.12 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda202/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 202" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda202/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1968 08.27 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda203/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 203" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda203/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1968 09.05 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda204/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 204" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda204/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1968 09.15 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda205/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 205" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda205/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1968 09.23 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda206/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 206" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda206/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1968 10.10 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda207/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 207" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda207/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1968 10.28 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda208/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 208" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda208/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1968 11.18 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda209/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 209" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda209/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1968 11.22 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda21/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 21" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda21/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1961 06.23 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda210/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 210" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda210/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1968 11.29 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda211/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 211" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda211/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1968 12.12 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda212/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 212" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda212/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1968 12.20 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda213/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 213" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda213/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1969 01.15 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda214/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 214" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda214/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1969 01.09 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda215/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 215" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda215/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1969 01.24 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda216/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 216" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda216/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1969 02.12 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda217/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 217" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda217/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1969 02.06 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda218/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 218" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda218/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1969 02.26 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda219/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 219" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda219/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1969 02.19 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda22/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 22" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda22/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1961 06.26 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda220/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 220" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda220/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1969 03.13 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda221/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 221" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda221/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1969 03.18 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda222/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 222" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda222/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1969 04.09 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda223/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 223" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda223/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1969 04.11 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda224/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 224" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda224/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1969 04.23 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda225/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 225" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda225/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1969 05.08 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda226/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 226" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda226/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1969 04.05 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda227/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 227" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda227/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1969 05.19 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda228/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 228" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda228/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1969 05.30 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda229/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 229" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda229/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1969 06.17 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda23/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 23" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda23/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1961 07.15 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda230/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 230" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda230/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1969 06.26 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda231/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 231" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda231/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1969 06.29 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda232/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 232" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda232/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1969 06.12 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda233/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 233" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda233/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1969 06.30 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda234/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 234" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda234/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1969 08.06 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda235/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 235" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda235/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1969 07.03 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda236/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 236" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda236/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1969 08.25 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda237/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 237" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda237/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1969 09.03 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda238/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 238" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda238/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1969 09.13 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda239/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 239" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda239/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1969 10.06 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda24/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 24" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda24/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1961 07.23 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda240/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 240" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda240/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1969 10.07 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda241/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 241" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda241/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1969 10.25 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda242/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 242" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda242/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1969 10.31 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda243/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 243" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda243/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1969 11.08 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda244/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 244" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda244/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1969 11.18 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda245/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 245" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda245/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1969 12.09 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda246/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 246" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda246/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1970 02.07 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda247/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 247" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda247/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1969 12.22 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda248/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 248" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda248/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1970 01.09 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda249/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 249" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda249/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1970 01.21 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda25/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 25" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda25/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1961 07.27 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda250/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 250" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda250/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1970 01.28 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda251/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 251" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda251/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1970 02.10 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda252/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 252" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda252/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1970 02.15 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda253/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 253" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda253/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1970 03.26 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda254/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 254" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda254/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1970 04.08 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda255/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 255" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda255/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1970 04.15 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda256/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 256" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda256/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1970 05.04 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda257/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 257" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda257/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1970 05.25 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda258/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 258" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda258/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1970 06.03 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda259/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 259" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda259/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1970 07.01 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda26/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 26" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda26/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1961 07.30 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda260/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 260" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda260/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1970 07.28 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda261/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 261" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda261/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1970 08.01 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda262/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 262" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda262/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1970 08.22 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda263/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 263" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda263/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1970 09.07 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda264/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 264" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda264/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1970 09.29 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda265/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 265" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda265/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1970 10.10 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda266/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 266" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda266/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1970 10.13 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda267/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 267" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda267/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1970 10.30 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda268/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 268" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda268/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1970 11.17 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda269/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 269" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda269/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1970 11.20 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda27/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 27" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda27/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1961 08.01 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda270/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 270" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda270/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1970 12.08 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda271/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 271" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda271/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1970 12.22 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda272/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 272" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda272/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1970 12.16 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda273/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 273" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda273/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1970 11.23 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda274/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 274" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda274/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1970 12.30 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda275/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 275" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda275/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1971 01.31 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda276/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 276" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda276/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1971 02.04 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda277/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 277" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda277/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1971 02.12 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda278/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 278" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda278/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1971 01.19 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda279/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 279" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda279/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1971 02.15 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda28/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 28" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda28/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1961 08.03 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda280/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 280" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda280/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1971 01.25 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda281/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 281" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda281/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1971 02.25 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda282/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 282" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda282/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1971 02.26 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda283/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 283" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda283/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1971 01.11 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda284/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 284" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda284/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1971 02.21 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda285/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 285" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda285/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1971 03.09 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda286/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 286" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda286/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1971 01.27 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda287/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 287" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda287/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1971 03.20 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda288/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 288" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda288/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1971 03.31 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda289/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 289" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda289/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1971 03.21 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda29/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 29" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda29/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1961 08.09 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda290/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 290" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda290/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1971 03.24 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda291/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 291" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda291/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1971 03.12 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda292/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 292" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda292/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1971 04.09 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda293/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 293" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda293/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1971 04.02 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda294/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 294" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda294/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1971 05.12 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda295/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 295" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda295/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1971 05.13 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda296/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 296" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda296/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1971 05.17 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda297/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 297" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda297/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1971 04.26 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda298/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 298" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda298/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1971 05.23 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda299/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 299" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda299/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1971 05.19 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda3/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 3" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda3/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1960 07.24 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda30/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 30" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda30/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1961 08.20 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda300/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 300" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda300/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1971 05.30 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda301/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 301" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda301/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1971 06.09 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda302/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 302" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda302/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1971 06.12 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda303/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 303" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda303/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1971 06.30 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda304/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 304" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda304/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1971 07.01 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda305/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 305" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda305/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1971 07.04 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda306/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 306" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda306/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1971 08.03 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda307/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 307" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda307/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1971 08.10 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda308/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 308" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda308/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1971 09.03 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda309/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 309" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda309/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1971 10.05 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda31/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 31" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda31/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1961 12.14 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda310/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 310" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda310/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1971 10.17 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda311/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 311" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda311/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1971 10.28 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda312/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 312" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda312/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1971 10.26 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda313/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 313" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda313/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1971 11.05 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda314/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 314" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda314/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1971 11.16 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda315/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 315" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda315/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1971 11.28 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda316/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 316" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda316/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1971 11.24 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda317/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 317" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda317/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1971 12.14 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda318/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 318" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda318/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1971 12.28 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda319/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 319" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda319/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1971 06.26 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda32/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 32" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda32/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1961 12.22 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda320/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 320" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda320/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1971 09.28 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda321/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 321" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda321/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1972 01.04 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda322/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 322" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda322/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1972 01.18 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda323/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 323" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda323/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1972 01.21 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda324/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 324" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda324/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1972 01.26 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda325/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 325" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda325/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1972 03.14 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda326/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 326" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda326/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1972 03.18 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda327/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 327" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda327/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1972 04.11 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda328/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 328" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda328/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1972 06.14 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda329/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 329" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda329/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1972 07.00" ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda33/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 33" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda33/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1961 12.27 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda330/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 330" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda330/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1972 07.08 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda331/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 331" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda331/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1972 08.05 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda332/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 332" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda332/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1972 08.18 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda333/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 333" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda333/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1972 08.24 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda334/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 334" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda334/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1972 08.29 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda335/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 335" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda335/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1972 09.04 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda336/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 336" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda336/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1972 02.18 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda337/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 337" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda337/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1972 01.05 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda338/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 338" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda338/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1972 09.12 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda339/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 339" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda339/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1972 09.21 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda34/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 34" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda34/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1962 01.05 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda340/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 340" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda340/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1972 10.03 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda341/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 341" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda341/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1972 10.17 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda342/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 342" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda342/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1972 10.26 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda343/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 343" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda343/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1972 10.28 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda344/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 344" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda344/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1972 11.03 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda345/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 345" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda345/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1972 11.25 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda346/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 346" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda346/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1972 12.04 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda347/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 347" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda347/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1972 12.11 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda348/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 348" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda348/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1972 12.18 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda349/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 349" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda349/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1972 12.22 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda35/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 35" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda35/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1962 01.06 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda350/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 350" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda350/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1972 12.26 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda351/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 351" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda351/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1973 01.00" ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda352/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 352" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda352/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1973 01.10 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda353/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 353" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda353/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1973 01.15 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda354/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 354" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda354/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1973 01.21 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda355/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 355" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda355/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1973 01.23 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda356/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 356" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda356/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1973 01.31 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda357/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 357" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda357/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1973 02.08 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda358/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 358" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda358/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1973 02.15 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda359/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 359" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda359/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1973 02.24 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda36/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 36" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda36/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1962 01.11 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda360/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 360" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda360/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1973 03.03 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda361/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 361" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda361/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1973 03.23 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda362/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 362" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda362/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1973 03.30 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda363/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 363" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda363/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1973 04.05 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda364/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 364" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda364/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1973 04.05 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda365/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 365" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda365/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1973 04.10 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda366/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 366" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda366/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1973 04.12 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda367/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 367" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda367/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1973 04.18 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda368/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 368" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda368/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1973 04.20 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda369/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 369" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda369/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1973 05.25 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda37/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 37" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda37/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1962 02.16 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda370/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 370" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda370/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1973 06.18 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda371/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 371" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda371/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1973 06.27 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda372/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 372" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda372/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1973 07.01 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda373/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 373" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda373/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1973 07.09 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda374/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 374" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda374/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1973 07.09 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda375/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 375" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda375/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1973 07.18 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda376/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 376" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda376/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1973 07.26 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda377/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 377" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda377/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1973 08.03 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda378/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 378" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda378/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1973 08.10 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda379/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 379" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda379/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1973 08.25 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda38/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 38" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda38/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1962 03.06 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda380/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 380" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda380/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1973 08.27 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda381/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 381" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda381/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1973 09.04 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda382/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 382" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda382/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1973 09.15 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda383/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 383" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda383/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1973 09.29 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda384/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 384" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda384/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1973 10.08 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda385/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 385" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda385/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1973 10.16 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda386/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 386" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda386/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1973 10.25 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda387/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 387" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda387/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1973 10.30 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda388/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 388" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda388/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1973 11.03 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda389/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 389" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda389/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1973 11.08 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda39/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 39" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda39/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1962 05.10 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda390/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 390" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda390/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1973 11.23 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda391/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 391" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda391/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1973 11.30 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda392/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 392" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda392/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1973 12.07 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda393/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 393" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda393/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1974 01.13 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda394/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 394" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda394/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1974 01.24 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda395/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 395" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda395/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1974 02.01 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda396/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 396" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda396/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1974 03.02 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda397/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 397" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda397/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1974 03.07 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda398/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 398" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda398/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1974 03.12 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda399/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 399" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda399/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1974 03.30 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda4/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 4" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda4/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1960 07.30 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda40/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 40" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda40/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1962 05.13 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda400/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 400" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda400/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1974 04.08 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda401/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 401" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda401/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1974 04.12 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda402/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 402" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda402/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1974 05.02 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda403/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 403" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda403/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1974 05.24 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda404/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 404" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda404/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1974 05.31 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda405/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 405" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda405/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1974 06.18 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda406/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 406" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda406/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1974 09.13 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda407/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 407" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda407/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1974 09.19 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda408/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 408" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda408/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1974 09.25 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda409/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 409" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda409/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1974 10.08 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda41/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 41" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda41/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1962 05.31 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda410/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 410" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda410/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1974 11.01 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda411/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 411" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda411/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1974 11.04 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda412/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 412" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda412/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1974 11.19 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda413/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 413" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda413/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1974 11.28 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda414/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 414" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda414/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1975 01.13 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda415/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 415" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda415/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1975 02.02 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda416/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 416" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda416/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1975 02.24 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda417/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 417" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda417/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1975 01.05 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda418/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 418" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda418/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1974 12.27 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda419/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 419" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda419/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1975 03.13 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda42/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 42" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda42/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1962 06.06 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda420/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 420" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda420/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1975 02.11 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda421/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 421" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda421/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1975 04.17 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda422/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 422" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda422/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1975 04.20 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda423/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 423" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda423/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1975 05.06 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda424/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 424" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda424/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1975 02.19 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda425/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 425" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda425/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1975 05.25 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda426/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 426" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda426/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1975 05.27 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda427/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 427" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda427/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1975 06.11 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda428/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 428" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda428/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1975 06.13 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda429/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 429" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda429/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1975 06.18 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda43/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 43" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda43/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1962 06.15 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda430/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 430" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda430/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1975 07.01 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda431/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 431" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda431/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1974 12.07 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda432/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 432" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda432/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1975 01.01 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda433/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 433" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda433/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1975 07.14 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda434/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 434" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda434/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1975 08.09 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda435/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 435" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda435/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1975 09.16 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda436/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 436" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda436/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1975 09.18 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda437/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 437" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda437/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1975 09.02 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda438/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 438" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda438/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1975 10.14 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda439/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 439" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda439/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1975 11.05 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda44/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 44" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda44/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1962 06.28 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda440/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 440" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda440/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1975 10.28 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda441/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 441" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda441/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1975 11.13 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda442/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 442" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda442/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1975 11.17 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda443/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 443" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda443/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1975 11.12 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda444/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 444" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda444/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1975 12.02 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda445/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 445" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda445/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1975 09.21 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda446/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 446" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda446/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1975 12.10 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda447/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 447" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda447/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1975 12.29 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda448/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 448" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda448/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1975 02.13 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda449/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 449" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda449/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1976 04.14 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda45/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 45" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda45/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1962 07.10 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda450/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 450" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda450/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1976 07.10 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda451/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 451" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda451/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1976 08.07 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda452/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 452" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda452/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1976 12.12 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda453/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 453" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda453/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1976 03.22 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda454/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 454" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda454/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI2 1954? 00.00" ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda455/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 455" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda455/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI2 1947 00.00" ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda456/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 456" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda456/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI2 1960 05.14 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda457/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 457" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda457/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI2 1960 03.31 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda458/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 458" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda458/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI2 1962 10.25 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda459/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 459" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda459/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI2 1962 00.00" ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda46/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 46" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda46/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1962 07.23 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda460/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 460" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda460/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI2 1962 00.00" ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda461/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 461" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda461/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI2 1962 00.00" ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda462/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 462" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda462/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI2 1962 00.00" ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda463/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 463" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda463/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI2 1962 00.00" ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda464/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 464" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda464/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI2 1964 00.00" ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda465/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 465" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda465/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI2 1964 04.24 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda466/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 466" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda466/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI2 1964 00.00" ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda467/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 467" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda467/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI2 1964 00.00" ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda468/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 468" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda468/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI2 1964 11.06 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda469/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 469" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda469/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI2 1964 00.00" ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda47/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 47" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda47/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1962 08.01 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda470/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 470" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda470/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI2 1965 12.15 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda471/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 471" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda471/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI2 1965 00.00" ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda472/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 472" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda472/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI2 1967 11.20 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda473/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 473" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda473/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI2 1968 10.18 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda474/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 474" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda474/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI2 1969 01.20 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda475/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 475" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda475/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI2 1970 05.10 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda476/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 476" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda476/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI2 1970 11.04 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda477/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 477" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda477/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI2 1970 09.22 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda478/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 478" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda478/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI2 1971 06.24 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda479/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 479" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda479/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI2 1971 10.22 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda48/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 48" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda48/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1962 08.25 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda480/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 480" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda480/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI2 1971 03.13 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda49/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 49" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda49/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1962 10.06 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda5/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 5" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda5/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1960 11.12 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda50/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 50" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda50/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1962 10.14 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda51/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 51" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda51/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1962 11.07 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda52/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 52" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda52/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1962 11.14 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda53/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 53" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda53/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1961 06.14 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda54/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 54" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda54/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1963 03.27 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda55/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 55" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda55/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1963 05.10 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda56/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 56" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda56/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1963 06.05 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda57/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 57" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda57/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1963 06.07 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda58/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 58" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda58/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1963 07.05 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda59/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 59" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda59/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1963 06.22 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda6/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 6" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda6/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1960 11.29 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda60/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 60" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda60/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1963 07.13 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda61/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 61" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda61/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1963 07.15 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda62/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 62" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda62/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1963 07.26 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda63/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 63" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda63/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1963 07.28 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda64/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 64" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda64/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1963 07.29 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda65/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 65" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda65/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1963 08.21 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda66/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 66" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda66/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1963 08.28 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda67/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 67" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda67/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1963 09.15 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda68/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 68" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda68/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1963 10.02 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda69/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 69" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda69/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1963 10.16 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda7/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 7" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda7/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1960 12.20 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda70/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 70" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda70/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1963 12.04 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda71/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 71" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda71/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1963 12.30 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda72/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 72" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda72/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1964 01.22 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda73/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 73" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda73/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1964 02.14 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda74/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 74" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda74/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1964 02.21 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda75/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 75" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda75/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1964 02.24 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda76/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 76" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda76/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1964 04.06 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda77/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 77" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda77/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1964 04.11 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda78/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 78" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda78/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1964 04.16 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda79/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 79" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda79/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1964 04.28 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda8/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 8" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda8/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1960 12.29 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda80/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 80" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda80/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1964 04.28 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda81/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 81" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda81/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1964 05.04 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda82/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 82" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda82/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1964 05.13 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda83/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 83" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda83/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1964 05.15 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda84/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 84" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda84/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1964 05.26 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda85/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 85" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda85/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1964 06.05 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda86/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 86" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda86/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1964 06.10 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda87/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 87" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda87/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1964 06.19 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda88/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 88" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda88/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1964 06.22 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda89/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 89" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda89/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1964 06.30 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda9/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 9" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda9/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1961 01.28 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda90/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 90" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda90/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1964 07.21 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda91/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 91" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda91/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1964 07.28 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda92/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 92" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda92/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1964 08.11 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda93/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 93" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda93/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1964 08.12 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda94/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 94" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda94/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1964 08.16 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda95/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 95" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda95/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1964 09.02 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda96/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 96" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda96/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1964 09.23 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda97/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 97" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda97/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1964 10.29 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda98/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 98" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda98/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1964 11.25 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda99/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDa 99" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/article/rda99/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1964 11.27 " ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/record-set/articles-1/1960/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1960" ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/record-set/articles-1/1961/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1961" ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/record-set/articles-1/1962/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1962" ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/record-set/articles-1/1963/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1963" ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/record-set/articles-1/1964/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1964" ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/record-set/articles-1/1965/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1965" ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/record-set/articles-1/1966/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1966" ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/record-set/articles-1/1967/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1967" ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/record-set/articles-1/1968/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1968" ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/record-set/articles-1/1969/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1969" ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/record-set/articles-1/1970/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1970" ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/record-set/articles-1/1971/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1971" ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/record-set/articles-1/1972/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1972" ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/record-set/articles-1/1973/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1973" ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/record-set/articles-1/1974/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1974" ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/record-set/articles-1/1975/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1975" ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/record-set/articles-1/1976/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1 1976" ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/record-set/articles-1/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI1" ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/record-set/articles-2/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI2" ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/record-set/articles/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ARTICOLI" ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+}
+

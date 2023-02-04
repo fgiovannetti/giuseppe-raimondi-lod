@@ -374,19 +374,15 @@ grlod-np:assertion {
     <https://w3id.org/giuseppe-raimondi-lod/time-span/1985-1989> a ecrm:P52_Time-Span ;
         rdfs:label "Late 1980s"@en,
             "Fine degli anni '80"@it ;
-        ti:hasIntervalEndDate "1989-01-01"^^xsd:date ;
+        ti:hasIntervalEndDate "1989-12-31"^^xsd:date ;
         ti:hasIntervalStartDate "1985-01-01"^^xsd:date .
 
     <https://w3id.org/giuseppe-raimondi-lod/time-span/1993-03-07> a ecrm:P52_Time-Span ;
-        rdfs:label "8th-10th March 1993"@en,
-            "8-10 marzo 1993"@it ;
-        ti:hasIntervalEndDate "1993-03-10"^^xsd:date ;
-        ti:hasIntervalStartDate "1993-03-08"^^xsd:date .
+        ti:hasIntervalEndDate "1993-03-07"^^xsd:date ;
+        ti:hasIntervalStartDate "1993-03-07"^^xsd:date .
 
     <https://w3id.org/giuseppe-raimondi-lod/time-span/1996-05> a ecrm:P52_Time-Span ;
-        rdfs:label "May 1996"@en,
-            "maggio 1996"@it ;
         ti:hasIntervalEndDate "1996-05-31"^^xsd:date ;
-        ti:hasIntervalStartDate "1996-05-01"^^xsd:date .
+        ti:hasIntervalStartDate "1996-05-18"^^xsd:date .
 }
 

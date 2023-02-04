@@ -164,13 +164,13 @@ with open('../input/quaderni.csv', mode='r') as csv_file:
 				i += 1
 
 		# Expression realises Work
-				s = title.replace(' ', 'x')
+				s = title.replace(' ', 'x').replace("'", "x")
 				w = ''.join(ch for ch in s if ch.isalpha())
 				rec_work = URIRef(base_uri + 'work/' + w.lower().replace('x' , '-'))
 				d.add((rec_work, efrbroo.R3_is_realised_in, rec_expression, graph_base))
 				d.add((rec_work, RDF.type, efrbroo.F1_Work, graph_base))
 		else:
-			s = rec_label[0].replace(' ', 'x')
+			s = rec_label[0].replace(' ', 'x').replace("'", "x")
 			w = ''.join(ch for ch in s if ch.isalpha())
 			rec_work = URIRef(base_uri + 'work/' + w.lower().replace('x' , '-'))
 			d.add((rec_work, efrbroo.R3_is_realised_in, rec_expression, graph_base))

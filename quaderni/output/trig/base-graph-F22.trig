@@ -8,7 +8,7 @@ grlod-np:assertion {
     <https://w3id.org/giuseppe-raimondi-lod/work/--appunti-e-abbozzi-diversi> a efrbroo:F1_Work ;
         efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq324/text> .
 
-    <https://w3id.org/giuseppe-raimondi-lod/work/-linverno-di-dante-> a efrbroo:F1_Work ;
+    <https://w3id.org/giuseppe-raimondi-lod/work/-l-inverno-di-dante-> a efrbroo:F1_Work ;
         efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq226/text> .
 
     <https://w3id.org/giuseppe-raimondi-lod/work/-nota-su-carlo-porta-romantico-e-realista-> a efrbroo:F1_Work ;
@@ -41,13 +41,13 @@ grlod-np:assertion {
     <https://w3id.org/giuseppe-raimondi-lod/work/almanacchi-almanacchi-nuovi-lunari-nuovi-> a efrbroo:F1_Work ;
         efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq131/text> .
 
-    <https://w3id.org/giuseppe-raimondi-lod/work/andare-allosteria-> a efrbroo:F1_Work ;
+    <https://w3id.org/giuseppe-raimondi-lod/work/andare-all-osteria-> a efrbroo:F1_Work ;
         efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq409/text> .
 
-    <https://w3id.org/giuseppe-raimondi-lod/work/andare-verso-il-fuoco-dellofficina--diverse-versioni> a efrbroo:F1_Work ;
+    <https://w3id.org/giuseppe-raimondi-lod/work/andare-verso-il-fuoco-dell-officina--diverse-versioni> a efrbroo:F1_Work ;
         efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq441/text> .
 
-    <https://w3id.org/giuseppe-raimondi-lod/work/andare-verso-il-fuoco-dellofficina--versione-definitiva> a efrbroo:F1_Work ;
+    <https://w3id.org/giuseppe-raimondi-lod/work/andare-verso-il-fuoco-dell-officina--versione-definitiva> a efrbroo:F1_Work ;
         efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq396/text> .
 
     <https://w3id.org/giuseppe-raimondi-lod/work/angela-> a efrbroo:F1_Work ;
@@ -188,7 +188,7 @@ grlod-np:assertion {
     <https://w3id.org/giuseppe-raimondi-lod/work/canti-popolari-emiliani-> a efrbroo:F1_Work ;
         efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq166/text> .
 
-    <https://w3id.org/giuseppe-raimondi-lod/work/capitolo-sullemilia-> a efrbroo:F1_Work ;
+    <https://w3id.org/giuseppe-raimondi-lod/work/capitolo-sull-emilia-> a efrbroo:F1_Work ;
         efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq177/text> .
 
     <https://w3id.org/giuseppe-raimondi-lod/work/capriccio-sulle-conchiglie-> a efrbroo:F1_Work ;
@@ -339,7 +339,7 @@ grlod-np:assertion {
     <https://w3id.org/giuseppe-raimondi-lod/work/diario-fiammingo> a efrbroo:F1_Work ;
         efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq64/text> .
 
-    <https://w3id.org/giuseppe-raimondi-lod/work/dino-campana-quarantanni-dopo--la-fortuna-di-campana-pasqua-aprile-> a efrbroo:F1_Work ;
+    <https://w3id.org/giuseppe-raimondi-lod/work/dino-campana-quarant-anni-dopo--la-fortuna-di-campana-pasqua-aprile-> a efrbroo:F1_Work ;
         efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq56/text> .
 
     <https://w3id.org/giuseppe-raimondi-lod/work/disegni-e-poesia-di-michelangelo-> a efrbroo:F1_Work ;
@@ -351,7 +351,7 @@ grlod-np:assertion {
     <https://w3id.org/giuseppe-raimondi-lod/work/domenica-di-maggio-> a efrbroo:F1_Work ;
         efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq222/text> .
 
-    <https://w3id.org/giuseppe-raimondi-lod/work/domenica-di-maggio--bruges-> a efrbroo:F1_Work ;
+    <https://w3id.org/giuseppe-raimondi-lod/work/domenica-di-maggio--bruges--> a efrbroo:F1_Work ;
         efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq459/text> .
 
     <https://w3id.org/giuseppe-raimondi-lod/work/domenico-giordani---quaderno> a efrbroo:F1_Work ;
@@ -363,7 +363,7 @@ grlod-np:assertion {
     <https://w3id.org/giuseppe-raimondi-lod/work/dopo-il-cinema-racconto-agosto-> a efrbroo:F1_Work ;
         efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq371/text> .
 
-    <https://w3id.org/giuseppe-raimondi-lod/work/dopo-parigi--appunti-ottobre-> a efrbroo:F1_Work ;
+    <https://w3id.org/giuseppe-raimondi-lod/work/dopo-parigi--appunti-ottobre--> a efrbroo:F1_Work ;
         efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq147/text> .
 
     <https://w3id.org/giuseppe-raimondi-lod/work/dove-incomincia-il-reno-> a efrbroo:F1_Work ;
@@ -438,7 +438,7 @@ grlod-np:assertion {
     <https://w3id.org/giuseppe-raimondi-lod/work/gerard-de-nerval-> a efrbroo:F1_Work ;
         efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq19/text> .
 
-    <https://w3id.org/giuseppe-raimondi-lod/work/giacobbe-e-langelo-> a efrbroo:F1_Work ;
+    <https://w3id.org/giuseppe-raimondi-lod/work/giacobbe-e-l-angelo-> a efrbroo:F1_Work ;
         efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq240/text> .
 
     <https://w3id.org/giuseppe-raimondi-lod/work/giacobbe-e-le-sue-donne> a efrbroo:F1_Work ;
@@ -480,7 +480,7 @@ grlod-np:assertion {
         efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq335/text>,
             <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq426/text> .
 
-    <https://w3id.org/giuseppe-raimondi-lod/work/giuseppe-raimondi-e-i-suoi-amici--mostra-di-manoscritti-lettere-disegni-e-pitture-albi-riviste-fotografie-e-curiosita-varie-da-servire-come-storia-di-una-generazione-di-scrittori-e-artisti-del-nostro-tempo-da-tenersi-in-bologna-per-linteresse-dei-cittadini-e-della-gente-di-studio-nellanno---lingresso-e-libero-a-tutti> a efrbroo:F1_Work ;
+    <https://w3id.org/giuseppe-raimondi-lod/work/giuseppe-raimondi-e-i-suoi-amici--mostra-di-manoscritti-lettere-disegni-e-pitture-albi-riviste-fotografie-e-curiosita-varie-da-servire-come-storia-di-una-generazione-di-scrittori-e-artisti-del-nostro-tempo-da-tenersi-in-bologna-per-l-interesse-dei-cittadini-e-della-gente-di-studio-nell-anno---l-ingresso-e-libero-a-tutti> a efrbroo:F1_Work ;
         efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq290/text> .
 
     <https://w3id.org/giuseppe-raimondi-lod/work/giuseppina--racconto-> a efrbroo:F1_Work ;
@@ -498,7 +498,7 @@ grlod-np:assertion {
     <https://w3id.org/giuseppe-raimondi-lod/work/gli-amici-di-mio-padre-> a efrbroo:F1_Work ;
         efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq384/text> .
 
-    <https://w3id.org/giuseppe-raimondi-lod/work/gli-angeli-sono-fra-di-noi--nuova-versione-giugno-> a efrbroo:F1_Work ;
+    <https://w3id.org/giuseppe-raimondi-lod/work/gli-angeli-sono-fra-di-noi--nuova-versione-giugno--> a efrbroo:F1_Work ;
         efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq383/text> .
 
     <https://w3id.org/giuseppe-raimondi-lod/work/gli-anni-del-ginnasio-> a efrbroo:F1_Work ;
@@ -564,10 +564,10 @@ grlod-np:assertion {
     <https://w3id.org/giuseppe-raimondi-lod/work/i-camaleonti-in-farmacia-> a efrbroo:F1_Work ;
         efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq107/text> .
 
-    <https://w3id.org/giuseppe-raimondi-lod/work/i-cinquantanni-di-lacerba-> a efrbroo:F1_Work ;
+    <https://w3id.org/giuseppe-raimondi-lod/work/i-cinquant-anni-di-lacerba-> a efrbroo:F1_Work ;
         efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq178/text> .
 
-    <https://w3id.org/giuseppe-raimondi-lod/work/i-cordai-di-porta-galliera-> a efrbroo:F1_Work ;
+    <https://w3id.org/giuseppe-raimondi-lod/work/i-cordai-di-porta-galliera--> a efrbroo:F1_Work ;
         efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq150/text> .
 
     <https://w3id.org/giuseppe-raimondi-lod/work/i-disegni-anatomici-di-leonardo--inedito> a efrbroo:F1_Work ;
@@ -594,7 +594,7 @@ grlod-np:assertion {
     <https://w3id.org/giuseppe-raimondi-lod/work/i-francesi-di-emilio-cecchi--saggio-per-la-miscellanea-in-onore-di-m-fubini-dicembre-> a efrbroo:F1_Work ;
         efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq258/text> .
 
-    <https://w3id.org/giuseppe-raimondi-lod/work/i-grandi-maestri-dellincisione> a efrbroo:F1_Work ;
+    <https://w3id.org/giuseppe-raimondi-lod/work/i-grandi-maestri-dell-incisione> a efrbroo:F1_Work ;
         efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq216/text> .
 
     <https://w3id.org/giuseppe-raimondi-lod/work/i-grandi-romantici-inglesi-> a efrbroo:F1_Work ;
@@ -618,7 +618,7 @@ grlod-np:assertion {
     <https://w3id.org/giuseppe-raimondi-lod/work/i-primi-eroi--i-fumetti-> a efrbroo:F1_Work ;
         efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq178/text> .
 
-    <https://w3id.org/giuseppe-raimondi-lod/work/i-quarantanni-della-ronda-> a efrbroo:F1_Work ;
+    <https://w3id.org/giuseppe-raimondi-lod/work/i-quarant-anni-della-ronda-> a efrbroo:F1_Work ;
         efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq95/text> .
 
     <https://w3id.org/giuseppe-raimondi-lod/work/i-ragazzi-di-san-gessoli-> a efrbroo:F1_Work ;
@@ -639,7 +639,7 @@ grlod-np:assertion {
     <https://w3id.org/giuseppe-raimondi-lod/work/id-id-id-> a efrbroo:F1_Work ;
         efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq199/text> .
 
-    <https://w3id.org/giuseppe-raimondi-lod/work/idea-dellitalia-> a efrbroo:F1_Work ;
+    <https://w3id.org/giuseppe-raimondi-lod/work/idea-dell-italia-> a efrbroo:F1_Work ;
         efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq288/text> .
 
     <https://w3id.org/giuseppe-raimondi-lod/work/il-barocci-a-via-della-lungara> a efrbroo:F1_Work ;
@@ -660,7 +660,7 @@ grlod-np:assertion {
     <https://w3id.org/giuseppe-raimondi-lod/work/il-caffe-di-petronio> a efrbroo:F1_Work ;
         efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq435/text> .
 
-    <https://w3id.org/giuseppe-raimondi-lod/work/il-caffe-di-petronio-rivista-di-giuseppe-raimondi-per-lanno---la-valigia-delle-indie> a efrbroo:F1_Work ;
+    <https://w3id.org/giuseppe-raimondi-lod/work/il-caffe-di-petronio-rivista-di-giuseppe-raimondi-per-l-anno---la-valigia-delle-indie> a efrbroo:F1_Work ;
         efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq378/text> .
 
     <https://w3id.org/giuseppe-raimondi-lod/work/il-canditaio--racconto> a efrbroo:F1_Work ;
@@ -750,7 +750,7 @@ grlod-np:assertion {
     <https://w3id.org/giuseppe-raimondi-lod/work/il-mostro-francois-villon-> a efrbroo:F1_Work ;
         efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq222/text> .
 
-    <https://w3id.org/giuseppe-raimondi-lod/work/il-nero-e-lazzurro--racconto-> a efrbroo:F1_Work ;
+    <https://w3id.org/giuseppe-raimondi-lod/work/il-nero-e-l-azzurro--racconto-> a efrbroo:F1_Work ;
         efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq253/text> .
 
     <https://w3id.org/giuseppe-raimondi-lod/work/il-nominato-domenico-giordani> a efrbroo:F1_Work ;
@@ -777,10 +777,10 @@ grlod-np:assertion {
     <https://w3id.org/giuseppe-raimondi-lod/work/il-pontormo> a efrbroo:F1_Work ;
         efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq42/text> .
 
-    <https://w3id.org/giuseppe-raimondi-lod/work/il-postiglione-deuropa--magalotti-> a efrbroo:F1_Work ;
+    <https://w3id.org/giuseppe-raimondi-lod/work/il-postiglione-d-europa--magalotti-> a efrbroo:F1_Work ;
         efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq246/text> .
 
-    <https://w3id.org/giuseppe-raimondi-lod/work/il-primo-giorno-dellanno-> a efrbroo:F1_Work ;
+    <https://w3id.org/giuseppe-raimondi-lod/work/il-primo-giorno-dell-anno-> a efrbroo:F1_Work ;
         efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq130/text> .
 
     <https://w3id.org/giuseppe-raimondi-lod/work/il-quartiere-di-pascal> a efrbroo:F1_Work ;
@@ -843,7 +843,7 @@ grlod-np:assertion {
     <https://w3id.org/giuseppe-raimondi-lod/work/il-vitale-da-bologna-di-gnudi-> a efrbroo:F1_Work ;
         efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq170/text> .
 
-    <https://w3id.org/giuseppe-raimondi-lod/work/immagine-dellacqua--racconto-> a efrbroo:F1_Work ;
+    <https://w3id.org/giuseppe-raimondi-lod/work/immagine-dell-acqua--racconto-> a efrbroo:F1_Work ;
         efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq278/text> .
 
     <https://w3id.org/giuseppe-raimondi-lod/work/incontri-bolognesi-con-dino-campana> a efrbroo:F1_Work ;
@@ -879,6 +879,121 @@ grlod-np:assertion {
     <https://w3id.org/giuseppe-raimondi-lod/work/kobilek-di-ardengo-soffici-> a efrbroo:F1_Work ;
         efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq224/text> .
 
+    <https://w3id.org/giuseppe-raimondi-lod/work/l-abito-di-felicita> a efrbroo:F1_Work ;
+        efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq392/text> .
+
+    <https://w3id.org/giuseppe-raimondi-lod/work/l-abito-di-nozze> a efrbroo:F1_Work ;
+        efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq197/text> .
+
+    <https://w3id.org/giuseppe-raimondi-lod/work/l-africa-di-rimbaud-> a efrbroo:F1_Work ;
+        efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq138/text> .
+
+    <https://w3id.org/giuseppe-raimondi-lod/work/l-alba-del-memoriale--> a efrbroo:F1_Work ;
+        efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq87/text> .
+
+    <https://w3id.org/giuseppe-raimondi-lod/work/l-album-dei-mille-giugno-> a efrbroo:F1_Work ;
+        efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq82/text> .
+
+    <https://w3id.org/giuseppe-raimondi-lod/work/l-album-del-belgio--il-lago-d-amore> a efrbroo:F1_Work ;
+        efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq382/text> .
+
+    <https://w3id.org/giuseppe-raimondi-lod/work/l-album-proust-> a efrbroo:F1_Work ;
+        efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq214/text> .
+
+    <https://w3id.org/giuseppe-raimondi-lod/work/l-album-wildenstein-di-claude-lorrain-> a efrbroo:F1_Work ;
+        efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq182/text> .
+
+    <https://w3id.org/giuseppe-raimondi-lod/work/l-altare-di-gries-> a efrbroo:F1_Work ;
+        efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq194/text> .
+
+    <https://w3id.org/giuseppe-raimondi-lod/work/l-anno-di-delacroi--il---> a efrbroo:F1_Work ;
+        efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq187/text> .
+
+    <https://w3id.org/giuseppe-raimondi-lod/work/l-arcangelo-del-terrore--prefazione-e-rimbaud> a efrbroo:F1_Work ;
+        efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq447/text> .
+
+    <https://w3id.org/giuseppe-raimondi-lod/work/l-arcangelo-del-terrore-luglio-> a efrbroo:F1_Work ;
+        efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq413/text> .
+
+    <https://w3id.org/giuseppe-raimondi-lod/work/l-armeno-arshile-gorky-> a efrbroo:F1_Work ;
+        efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq164/text> .
+
+    <https://w3id.org/giuseppe-raimondi-lod/work/l-arte-italiana-in-belgio> a efrbroo:F1_Work ;
+        efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq421/text> .
+
+    <https://w3id.org/giuseppe-raimondi-lod/work/l-autunno-di-montaigne-aprile-> a efrbroo:F1_Work ;
+        efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq78/text> .
+
+    <https://w3id.org/giuseppe-raimondi-lod/work/l-enciclopedia-di-diderot-> a efrbroo:F1_Work ;
+        efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq211/text> .
+
+    <https://w3id.org/giuseppe-raimondi-lod/work/l-eredita-di-giotto-> a efrbroo:F1_Work ;
+        efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq228/text> .
+
+    <https://w3id.org/giuseppe-raimondi-lod/work/l-esame-di-coscienza-di-un-letterato> a efrbroo:F1_Work ;
+        efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq210/text> .
+
+    <https://w3id.org/giuseppe-raimondi-lod/work/l-estate-di-san-martino-> a efrbroo:F1_Work ;
+        efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq235/text> .
+
+    <https://w3id.org/giuseppe-raimondi-lod/work/l-estetica-del-camaleonte-> a efrbroo:F1_Work ;
+        efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq153/text> .
+
+    <https://w3id.org/giuseppe-raimondi-lod/work/l-inferno-di-dostoiewski-> a efrbroo:F1_Work ;
+        efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq401/text> .
+
+    <https://w3id.org/giuseppe-raimondi-lod/work/l-inverno-> a efrbroo:F1_Work ;
+        efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq192/text> .
+
+    <https://w3id.org/giuseppe-raimondi-lod/work/l-irlanda-e-un-isola-di-poeti--gennaio-> a efrbroo:F1_Work ;
+        efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq403/text> .
+
+    <https://w3id.org/giuseppe-raimondi-lod/work/l-officina-> a efrbroo:F1_Work ;
+        efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq288/text>,
+            <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq379/text> .
+
+    <https://w3id.org/giuseppe-raimondi-lod/work/l-opera-di-cardarelli-> a efrbroo:F1_Work ;
+        efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq171/text> .
+
+    <https://w3id.org/giuseppe-raimondi-lod/work/l-oro-di-pasqua-> a efrbroo:F1_Work ;
+        efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq195/text> .
+
+    <https://w3id.org/giuseppe-raimondi-lod/work/l-orologiaio-di-blaise-pascal-> a efrbroo:F1_Work ;
+        efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq389/text> .
+
+    <https://w3id.org/giuseppe-raimondi-lod/work/l-orologio-del-soldato-> a efrbroo:F1_Work ;
+        efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq276/text> .
+
+    <https://w3id.org/giuseppe-raimondi-lod/work/l-ospizio> a efrbroo:F1_Work ;
+        efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq245/text> .
+
+    <https://w3id.org/giuseppe-raimondi-lod/work/l-osteria-di-paderno--racconti-> a efrbroo:F1_Work ;
+        efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq6/text> .
+
+    <https://w3id.org/giuseppe-raimondi-lod/work/l-otto-di-spade-> a efrbroo:F1_Work ;
+        efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq95/text> .
+
+    <https://w3id.org/giuseppe-raimondi-lod/work/l-ovo-di-colombo--taccuini> a efrbroo:F1_Work ;
+        efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq288/text> .
+
+    <https://w3id.org/giuseppe-raimondi-lod/work/l-ufficiale-tedesco--racconto-dic--> a efrbroo:F1_Work ;
+        efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq14/text> .
+
+    <https://w3id.org/giuseppe-raimondi-lod/work/l-ultimo-poeta-maudit-d-italia--dino-campana-> a efrbroo:F1_Work ;
+        efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq391/text> .
+
+    <https://w3id.org/giuseppe-raimondi-lod/work/l-uomo-all-ospedale-> a efrbroo:F1_Work ;
+        efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq242/text> .
+
+    <https://w3id.org/giuseppe-raimondi-lod/work/l-uomo-dal-bicchiere-di-vino--villon-> a efrbroo:F1_Work ;
+        efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq230/text> .
+
+    <https://w3id.org/giuseppe-raimondi-lod/work/l-uomo-per-terra--cristo> a efrbroo:F1_Work ;
+        efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq285/text> .
+
+    <https://w3id.org/giuseppe-raimondi-lod/work/l-uomo-sotto-il-portico-> a efrbroo:F1_Work ;
+        efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq194/text> .
+
     <https://w3id.org/giuseppe-raimondi-lod/work/la-bambina-che-dipinge--racconto-> a efrbroo:F1_Work ;
         efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq284/text> .
 
@@ -904,7 +1019,7 @@ grlod-np:assertion {
     <https://w3id.org/giuseppe-raimondi-lod/work/la-casa-di-ensor-a-ostenda-> a efrbroo:F1_Work ;
         efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq283/text> .
 
-    <https://w3id.org/giuseppe-raimondi-lod/work/la-casa-di-mallarme-a-valvins-marzo-> a efrbroo:F1_Work ;
+    <https://w3id.org/giuseppe-raimondi-lod/work/la-casa-di-mallarme-a-valvins-marzo--> a efrbroo:F1_Work ;
         efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq97/text> .
 
     <https://w3id.org/giuseppe-raimondi-lod/work/la-casa-vecchia-> a efrbroo:F1_Work ;
@@ -952,7 +1067,7 @@ grlod-np:assertion {
     <https://w3id.org/giuseppe-raimondi-lod/work/la-fiera-di-santa-lucia-> a efrbroo:F1_Work ;
         efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq169/text> .
 
-    <https://w3id.org/giuseppe-raimondi-lod/work/la-fine-dellinverno--magalotti-> a efrbroo:F1_Work ;
+    <https://w3id.org/giuseppe-raimondi-lod/work/la-fine-dell-inverno--magalotti-> a efrbroo:F1_Work ;
         efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq173/text> .
 
     <https://w3id.org/giuseppe-raimondi-lod/work/la-fine-di-qualcosa--racconto-> a efrbroo:F1_Work ;
@@ -970,7 +1085,7 @@ grlod-np:assertion {
     <https://w3id.org/giuseppe-raimondi-lod/work/la-montagna-dietro-la-stazione-> a efrbroo:F1_Work ;
         efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq106/text> .
 
-    <https://w3id.org/giuseppe-raimondi-lod/work/la-morte-delleroe> a efrbroo:F1_Work ;
+    <https://w3id.org/giuseppe-raimondi-lod/work/la-morte-dell-eroe> a efrbroo:F1_Work ;
         efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq166/text> .
 
     <https://w3id.org/giuseppe-raimondi-lod/work/la-morte-di-pascal-> a efrbroo:F1_Work ;
@@ -1042,10 +1157,10 @@ grlod-np:assertion {
     <https://w3id.org/giuseppe-raimondi-lod/work/la-scarpetta-di-porcellana--racconto-> a efrbroo:F1_Work ;
         efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq262/text> .
 
-    <https://w3id.org/giuseppe-raimondi-lod/work/la-scultura-francese-del--> a efrbroo:F1_Work ;
+    <https://w3id.org/giuseppe-raimondi-lod/work/la-scultura-francese-del---> a efrbroo:F1_Work ;
         efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq246/text> .
 
-    <https://w3id.org/giuseppe-raimondi-lod/work/la-sera-dottobre-con-charles-baudelaire--ultima-versione-> a efrbroo:F1_Work ;
+    <https://w3id.org/giuseppe-raimondi-lod/work/la-sera-d-ottobre-con-charles-baudelaire--ultima-versione-> a efrbroo:F1_Work ;
         efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq304/text> .
 
     <https://w3id.org/giuseppe-raimondi-lod/work/la-signora-la-fayette> a efrbroo:F1_Work ;
@@ -1114,59 +1229,14 @@ grlod-np:assertion {
     <https://w3id.org/giuseppe-raimondi-lod/work/la-vita-di-galileo-di-brecht> a efrbroo:F1_Work ;
         efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq193/text> .
 
-    <https://w3id.org/giuseppe-raimondi-lod/work/labito-di-felicita> a efrbroo:F1_Work ;
-        efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq392/text> .
-
-    <https://w3id.org/giuseppe-raimondi-lod/work/labito-di-nozze> a efrbroo:F1_Work ;
-        efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq197/text> .
-
     <https://w3id.org/giuseppe-raimondi-lod/work/lady-macbeth--racconto-> a efrbroo:F1_Work ;
         efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq241/text> .
 
     <https://w3id.org/giuseppe-raimondi-lod/work/laforgue-celibataire-> a efrbroo:F1_Work ;
         efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq113/text> .
 
-    <https://w3id.org/giuseppe-raimondi-lod/work/lafrica-di-rimbaud-> a efrbroo:F1_Work ;
-        efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq138/text> .
-
-    <https://w3id.org/giuseppe-raimondi-lod/work/lalba-del-memoriale--> a efrbroo:F1_Work ;
-        efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq87/text> .
-
-    <https://w3id.org/giuseppe-raimondi-lod/work/lalbum-dei-mille-giugno-> a efrbroo:F1_Work ;
-        efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq82/text> .
-
-    <https://w3id.org/giuseppe-raimondi-lod/work/lalbum-del-belgio--il-lago-damore> a efrbroo:F1_Work ;
-        efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq382/text> .
-
-    <https://w3id.org/giuseppe-raimondi-lod/work/lalbum-proust-> a efrbroo:F1_Work ;
-        efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq214/text> .
-
-    <https://w3id.org/giuseppe-raimondi-lod/work/lalbum-wildenstein-di-claude-lorrain-> a efrbroo:F1_Work ;
-        efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq182/text> .
-
-    <https://w3id.org/giuseppe-raimondi-lod/work/laltare-di-gries-> a efrbroo:F1_Work ;
-        efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq194/text> .
-
-    <https://w3id.org/giuseppe-raimondi-lod/work/lanno-di-delacroi--il--> a efrbroo:F1_Work ;
-        efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq187/text> .
-
-    <https://w3id.org/giuseppe-raimondi-lod/work/larcangelo-del-terrore--prefazione-e-rimbaud> a efrbroo:F1_Work ;
-        efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq447/text> .
-
-    <https://w3id.org/giuseppe-raimondi-lod/work/larcangelo-del-terrore-luglio-> a efrbroo:F1_Work ;
-        efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq413/text> .
-
-    <https://w3id.org/giuseppe-raimondi-lod/work/larmeno-arshile-gorky-> a efrbroo:F1_Work ;
-        efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq164/text> .
-
-    <https://w3id.org/giuseppe-raimondi-lod/work/larte-italiana-in-belgio> a efrbroo:F1_Work ;
-        efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq421/text> .
-
     <https://w3id.org/giuseppe-raimondi-lod/work/lautreamont--lhermaphrodite> a efrbroo:F1_Work ;
         efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq75/text> .
-
-    <https://w3id.org/giuseppe-raimondi-lod/work/lautunno-di-montaigne-aprile-> a efrbroo:F1_Work ;
-        efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq78/text> .
 
     <https://w3id.org/giuseppe-raimondi-lod/work/lavori-al-casello-due--racconto-febbraio-> a efrbroo:F1_Work ;
         efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq36/text> .
@@ -1201,7 +1271,7 @@ grlod-np:assertion {
     <https://w3id.org/giuseppe-raimondi-lod/work/le-memorie-di-casanova-marzo-> a efrbroo:F1_Work ;
         efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq98/text> .
 
-    <https://w3id.org/giuseppe-raimondi-lod/work/le-notti-dellarchiginnasio> a efrbroo:F1_Work ;
+    <https://w3id.org/giuseppe-raimondi-lod/work/le-notti-dell-archiginnasio> a efrbroo:F1_Work ;
         efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq104/text> .
 
     <https://w3id.org/giuseppe-raimondi-lod/work/le-opere-di-barilli-> a efrbroo:F1_Work ;
@@ -1234,93 +1304,23 @@ grlod-np:assertion {
     <https://w3id.org/giuseppe-raimondi-lod/work/leda--una-favola-antica--> a efrbroo:F1_Work ;
         efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq456/text> .
 
-    <https://w3id.org/giuseppe-raimondi-lod/work/lenciclopedia-di-diderot-> a efrbroo:F1_Work ;
-        efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq211/text> .
-
-    <https://w3id.org/giuseppe-raimondi-lod/work/leredita-di-giotto-> a efrbroo:F1_Work ;
-        efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq228/text> .
-
-    <https://w3id.org/giuseppe-raimondi-lod/work/lesame-di-coscienza-di-un-letterato> a efrbroo:F1_Work ;
-        efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq210/text> .
-
-    <https://w3id.org/giuseppe-raimondi-lod/work/lestate-di-san-martino-> a efrbroo:F1_Work ;
-        efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq235/text> .
-
-    <https://w3id.org/giuseppe-raimondi-lod/work/lestetica-del-camaleonte-> a efrbroo:F1_Work ;
-        efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq153/text> .
-
     <https://w3id.org/giuseppe-raimondi-lod/work/lettera-ad-alberto-mondadori> a efrbroo:F1_Work ;
         efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq116/text> .
-
-    <https://w3id.org/giuseppe-raimondi-lod/work/linferno-di-dostoiewski-> a efrbroo:F1_Work ;
-        efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq401/text> .
-
-    <https://w3id.org/giuseppe-raimondi-lod/work/linverno-> a efrbroo:F1_Work ;
-        efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq192/text> .
-
-    <https://w3id.org/giuseppe-raimondi-lod/work/lirlanda-e-unisola-di-poeti--gennaio-> a efrbroo:F1_Work ;
-        efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq403/text> .
 
     <https://w3id.org/giuseppe-raimondi-lod/work/lo-scultore-toscano--v-venturi-> a efrbroo:F1_Work ;
         efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq260/text> .
 
-    <https://w3id.org/giuseppe-raimondi-lod/work/lofficina-> a efrbroo:F1_Work ;
-        efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq288/text>,
-            <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq379/text> .
-
     <https://w3id.org/giuseppe-raimondi-lod/work/longanesi-a-tolentino-> a efrbroo:F1_Work ;
         efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq185/text> .
 
-    <https://w3id.org/giuseppe-raimondi-lod/work/lopera-di-cardarelli-> a efrbroo:F1_Work ;
-        efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq171/text> .
-
-    <https://w3id.org/giuseppe-raimondi-lod/work/lorenzo-montano--aprile---maggio-> a efrbroo:F1_Work ;
+    <https://w3id.org/giuseppe-raimondi-lod/work/lorenzo-montano--aprile----maggio--> a efrbroo:F1_Work ;
         efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq42/text> .
 
     <https://w3id.org/giuseppe-raimondi-lod/work/lorenzo-montano-un-ricordo-> a efrbroo:F1_Work ;
         efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq87/text> .
 
-    <https://w3id.org/giuseppe-raimondi-lod/work/loro-di-pasqua-> a efrbroo:F1_Work ;
-        efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq195/text> .
-
-    <https://w3id.org/giuseppe-raimondi-lod/work/lorologiaio-di-blaise-pascal-> a efrbroo:F1_Work ;
-        efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq389/text> .
-
-    <https://w3id.org/giuseppe-raimondi-lod/work/lorologio-del-soldato-> a efrbroo:F1_Work ;
-        efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq276/text> .
-
-    <https://w3id.org/giuseppe-raimondi-lod/work/lospizio> a efrbroo:F1_Work ;
-        efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq245/text> .
-
-    <https://w3id.org/giuseppe-raimondi-lod/work/losteria-di-paderno--racconti-> a efrbroo:F1_Work ;
-        efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq6/text> .
-
-    <https://w3id.org/giuseppe-raimondi-lod/work/lotto-di-spade-> a efrbroo:F1_Work ;
-        efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq95/text> .
-
-    <https://w3id.org/giuseppe-raimondi-lod/work/lovo-di-colombo--taccuini> a efrbroo:F1_Work ;
-        efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq288/text> .
-
     <https://w3id.org/giuseppe-raimondi-lod/work/luca-orologiaio--racconto-> a efrbroo:F1_Work ;
         efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq254/text> .
-
-    <https://w3id.org/giuseppe-raimondi-lod/work/lufficiale-tedesco--racconto-dic-> a efrbroo:F1_Work ;
-        efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq14/text> .
-
-    <https://w3id.org/giuseppe-raimondi-lod/work/lultimo-poeta-maudit-ditalia--dino-campana-> a efrbroo:F1_Work ;
-        efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq391/text> .
-
-    <https://w3id.org/giuseppe-raimondi-lod/work/luomo-allospedale-> a efrbroo:F1_Work ;
-        efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq242/text> .
-
-    <https://w3id.org/giuseppe-raimondi-lod/work/luomo-dal-bicchiere-di-vino--villon-> a efrbroo:F1_Work ;
-        efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq230/text> .
-
-    <https://w3id.org/giuseppe-raimondi-lod/work/luomo-per-terra--cristo> a efrbroo:F1_Work ;
-        efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq285/text> .
-
-    <https://w3id.org/giuseppe-raimondi-lod/work/luomo-sotto-il-portico-> a efrbroo:F1_Work ;
-        efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq194/text> .
 
     <https://w3id.org/giuseppe-raimondi-lod/work/mallarme-attraverso-un-paesaggio-di-vuillard-> a efrbroo:F1_Work ;
         efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq388/text> .
@@ -1358,7 +1358,7 @@ grlod-np:assertion {
     <https://w3id.org/giuseppe-raimondi-lod/work/michael-sweerts-febbr-> a efrbroo:F1_Work ;
         efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq97/text> .
 
-    <https://w3id.org/giuseppe-raimondi-lod/work/miscellanea-dellagosto-> a efrbroo:F1_Work ;
+    <https://w3id.org/giuseppe-raimondi-lod/work/miscellanea-dell-agosto-> a efrbroo:F1_Work ;
         efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq62/text> .
 
     <https://w3id.org/giuseppe-raimondi-lod/work/monsieur-ingres-> a efrbroo:F1_Work ;
@@ -1379,7 +1379,7 @@ grlod-np:assertion {
     <https://w3id.org/giuseppe-raimondi-lod/work/mostra-de-pisis--firenze-> a efrbroo:F1_Work ;
         efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq458/text> .
 
-    <https://w3id.org/giuseppe-raimondi-lod/work/mostra-dellarte-romana-nellitalia-settentrionale-> a efrbroo:F1_Work ;
+    <https://w3id.org/giuseppe-raimondi-lod/work/mostra-dell-arte-romana-nell-italia-settentrionale-> a efrbroo:F1_Work ;
         efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq199/text> .
 
     <https://w3id.org/giuseppe-raimondi-lod/work/motivi-per-un-diario--il-mese-di-febbraio-> a efrbroo:F1_Work ;
@@ -1391,7 +1391,7 @@ grlod-np:assertion {
     <https://w3id.org/giuseppe-raimondi-lod/work/natale-fuori-di-casa--il-collaudo> a efrbroo:F1_Work ;
         efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq112/text> .
 
-    <https://w3id.org/giuseppe-raimondi-lod/work/nerval-discende-allinferno> a efrbroo:F1_Work ;
+    <https://w3id.org/giuseppe-raimondi-lod/work/nerval-discende-all-inferno> a efrbroo:F1_Work ;
         efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq393/text> .
 
     <https://w3id.org/giuseppe-raimondi-lod/work/neve-che-si-scioglie-> a efrbroo:F1_Work ;
@@ -1409,7 +1409,7 @@ grlod-np:assertion {
     <https://w3id.org/giuseppe-raimondi-lod/work/noterella-su-diego-valeri> a efrbroo:F1_Work ;
         efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq121/text> .
 
-    <https://w3id.org/giuseppe-raimondi-lod/work/notizie-dallemilia> a efrbroo:F1_Work ;
+    <https://w3id.org/giuseppe-raimondi-lod/work/notizie-dall-emilia> a efrbroo:F1_Work ;
         efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq450/text> .
 
     <https://w3id.org/giuseppe-raimondi-lod/work/notizie-per-un-mantovano--racconto--maggio-> a efrbroo:F1_Work ;
@@ -1511,7 +1511,7 @@ grlod-np:assertion {
     <https://w3id.org/giuseppe-raimondi-lod/work/prefazione-a-mignon-gennaio-> a efrbroo:F1_Work ;
         efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq16/text> .
 
-    <https://w3id.org/giuseppe-raimondi-lod/work/prefazione-per-larlecchino--> a efrbroo:F1_Work ;
+    <https://w3id.org/giuseppe-raimondi-lod/work/prefazione-per-l-arlecchino--> a efrbroo:F1_Work ;
         efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq415/text> .
 
     <https://w3id.org/giuseppe-raimondi-lod/work/preparativi-per-un-collaudo--racconto-> a efrbroo:F1_Work ;
@@ -1520,7 +1520,7 @@ grlod-np:assertion {
     <https://w3id.org/giuseppe-raimondi-lod/work/preparativi-per-un-collaudo--racconto-aprile-> a efrbroo:F1_Work ;
         efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq266/text> .
 
-    <https://w3id.org/giuseppe-raimondi-lod/work/presagi-dellautunno> a efrbroo:F1_Work ;
+    <https://w3id.org/giuseppe-raimondi-lod/work/presagi-dell-autunno> a efrbroo:F1_Work ;
         efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq124/text> .
 
     <https://w3id.org/giuseppe-raimondi-lod/work/presentazione-mostra-di-de-pisis-a-torino-maggio-> a efrbroo:F1_Work ;
@@ -1529,7 +1529,7 @@ grlod-np:assertion {
     <https://w3id.org/giuseppe-raimondi-lod/work/prima-di-sera-> a efrbroo:F1_Work ;
         efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq300/text> .
 
-    <https://w3id.org/giuseppe-raimondi-lod/work/principio-dellautunno-> a efrbroo:F1_Work ;
+    <https://w3id.org/giuseppe-raimondi-lod/work/principio-dell-autunno-> a efrbroo:F1_Work ;
         efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq231/text> .
 
     <https://w3id.org/giuseppe-raimondi-lod/work/progetti-di-novelle-o-racconti--gennaio-> a efrbroo:F1_Work ;
@@ -1580,7 +1580,7 @@ grlod-np:assertion {
     <https://w3id.org/giuseppe-raimondi-lod/work/quattro-litografie-di-soffici> a efrbroo:F1_Work ;
         efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq122/text> .
 
-    <https://w3id.org/giuseppe-raimondi-lod/work/racconto-degli-anni-tra-il--e-il--giugno-> a efrbroo:F1_Work ;
+    <https://w3id.org/giuseppe-raimondi-lod/work/racconto-degli-anni-tra-il--e-il---giugno-> a efrbroo:F1_Work ;
         efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq374/text> .
 
     <https://w3id.org/giuseppe-raimondi-lod/work/racconto-di-natale> a efrbroo:F1_Work ;
@@ -1589,7 +1589,7 @@ grlod-np:assertion {
     <https://w3id.org/giuseppe-raimondi-lod/work/racconto-di-notte--aprile-> a efrbroo:F1_Work ;
         efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq252/text> .
 
-    <https://w3id.org/giuseppe-raimondi-lod/work/radiguet-in-abito-da-sera-> a efrbroo:F1_Work ;
+    <https://w3id.org/giuseppe-raimondi-lod/work/radiguet-in-abito-da-sera--> a efrbroo:F1_Work ;
         efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq108/text> .
 
     <https://w3id.org/giuseppe-raimondi-lod/work/radiguet-o-del-disegno> a efrbroo:F1_Work ;
@@ -1619,10 +1619,10 @@ grlod-np:assertion {
     <https://w3id.org/giuseppe-raimondi-lod/work/ricordo-di-supervielle> a efrbroo:F1_Work ;
         efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq124/text> .
 
-    <https://w3id.org/giuseppe-raimondi-lod/work/rileggere-lesame-di-coscienza-di-serra> a efrbroo:F1_Work ;
+    <https://w3id.org/giuseppe-raimondi-lod/work/rileggere-l-esame-di-coscienza-di-serra> a efrbroo:F1_Work ;
         efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq443/text> .
 
-    <https://w3id.org/giuseppe-raimondi-lod/work/rileggiamo-lesame-di-coscienza-di-renato-serra-> a efrbroo:F1_Work ;
+    <https://w3id.org/giuseppe-raimondi-lod/work/rileggiamo-l-esame-di-coscienza-di-renato-serra-> a efrbroo:F1_Work ;
         efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq406/text> .
 
     <https://w3id.org/giuseppe-raimondi-lod/work/rimbaud--compagnia--germain-nouveau-paul-verlaine-charles-cros-etc> a efrbroo:F1_Work ;
@@ -1679,7 +1679,7 @@ grlod-np:assertion {
     <https://w3id.org/giuseppe-raimondi-lod/work/rosai-> a efrbroo:F1_Work ;
         efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq32/text> .
 
-    <https://w3id.org/giuseppe-raimondi-lod/work/saintjust-larcangelo-del-terrore--versione> a efrbroo:F1_Work ;
+    <https://w3id.org/giuseppe-raimondi-lod/work/saintjust-l-arcangelo-del-terrore--versione> a efrbroo:F1_Work ;
         efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq403/text> .
 
     <https://w3id.org/giuseppe-raimondi-lod/work/saluto-a-carlo-carra-> a efrbroo:F1_Work ;
@@ -1739,10 +1739,10 @@ grlod-np:assertion {
     <https://w3id.org/giuseppe-raimondi-lod/work/storia-di-una-cedola-di-carta-gialla--racconto-maggio-> a efrbroo:F1_Work ;
         efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq271/text> .
 
-    <https://w3id.org/giuseppe-raimondi-lod/work/storie-damore-> a efrbroo:F1_Work ;
+    <https://w3id.org/giuseppe-raimondi-lod/work/storie-d-amore-> a efrbroo:F1_Work ;
         efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq105/text> .
 
-    <https://w3id.org/giuseppe-raimondi-lod/work/strenne-e-libri-darte-bolaffi-> a efrbroo:F1_Work ;
+    <https://w3id.org/giuseppe-raimondi-lod/work/strenne-e-libri-d-arte-bolaffi-> a efrbroo:F1_Work ;
         efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq216/text> .
 
     <https://w3id.org/giuseppe-raimondi-lod/work/studio-sui-disegni> a efrbroo:F1_Work ;
@@ -1769,7 +1769,7 @@ grlod-np:assertion {
     <https://w3id.org/giuseppe-raimondi-lod/work/taccuini> a efrbroo:F1_Work ;
         efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq449/text> .
 
-    <https://w3id.org/giuseppe-raimondi-lod/work/taccuino-nuovo--le-nevi-dellaltro-anno-la-strada-di-marradi--maggio-> a efrbroo:F1_Work ;
+    <https://w3id.org/giuseppe-raimondi-lod/work/taccuino-nuovo--le-nevi-dell-altro-anno-la-strada-di-marradi--maggio-> a efrbroo:F1_Work ;
         efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq244/text> .
 
     <https://w3id.org/giuseppe-raimondi-lod/work/tempo-di-guerra-> a efrbroo:F1_Work ;
@@ -1853,7 +1853,7 @@ grlod-np:assertion {
     <https://w3id.org/giuseppe-raimondi-lod/work/un-pittore-a-bologna--germano-passarelli-> a efrbroo:F1_Work ;
         efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq49/text> .
 
-    <https://w3id.org/giuseppe-raimondi-lod/work/un-pittore-e-un-poeta-alessandrino--de-pisis-e-cavafis--luglio-> a efrbroo:F1_Work ;
+    <https://w3id.org/giuseppe-raimondi-lod/work/un-pittore-e-un-poeta-alessandrino--de-pisis-e-cavafis--luglio--> a efrbroo:F1_Work ;
         efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq84/text> .
 
     <https://w3id.org/giuseppe-raimondi-lod/work/un-poco-di-neve--racconto-> a efrbroo:F1_Work ;
@@ -1868,10 +1868,10 @@ grlod-np:assertion {
     <https://w3id.org/giuseppe-raimondi-lod/work/un-ritratto-a-pastello-> a efrbroo:F1_Work ;
         efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq257/text> .
 
-    <https://w3id.org/giuseppe-raimondi-lod/work/un-sogno-del---febbr-> a efrbroo:F1_Work ;
+    <https://w3id.org/giuseppe-raimondi-lod/work/un-sogno-del----febbr-> a efrbroo:F1_Work ;
         efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq242/text> .
 
-    <https://w3id.org/giuseppe-raimondi-lod/work/un-sogno-dellanno----al-mi-papa-le-anda-a-la-fira> a efrbroo:F1_Work ;
+    <https://w3id.org/giuseppe-raimondi-lod/work/un-sogno-dell-anno-----al-mi-papa-l-e-anda-a-la-fira> a efrbroo:F1_Work ;
         efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq19/text> .
 
     <https://w3id.org/giuseppe-raimondi-lod/work/un-tramonto--racconto-> a efrbroo:F1_Work ;
@@ -1880,7 +1880,7 @@ grlod-np:assertion {
     <https://w3id.org/giuseppe-raimondi-lod/work/un-uomo-intraprendente-> a efrbroo:F1_Work ;
         efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq141/text> .
 
-    <https://w3id.org/giuseppe-raimondi-lod/work/un-vecchio-generale-dartiglieria--laclos-> a efrbroo:F1_Work ;
+    <https://w3id.org/giuseppe-raimondi-lod/work/un-vecchio-generale-d-artiglieria--laclos-> a efrbroo:F1_Work ;
         efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq169/text> .
 
     <https://w3id.org/giuseppe-raimondi-lod/work/una-domenica-di-febbraio-> a efrbroo:F1_Work ;
@@ -1922,14 +1922,14 @@ grlod-np:assertion {
     <https://w3id.org/giuseppe-raimondi-lod/work/una-rosa-per-nerval-> a efrbroo:F1_Work ;
         efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq234/text> .
 
+    <https://w3id.org/giuseppe-raimondi-lod/work/una-sera-d-ottobre> a efrbroo:F1_Work ;
+        efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq200/text> .
+
     <https://w3id.org/giuseppe-raimondi-lod/work/una-sera-di-carnevale-> a efrbroo:F1_Work ;
         efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq114/text> .
 
     <https://w3id.org/giuseppe-raimondi-lod/work/una-sera-di-dicembre-dicembre-> a efrbroo:F1_Work ;
         efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq269/text> .
-
-    <https://w3id.org/giuseppe-raimondi-lod/work/una-sera-dottobre> a efrbroo:F1_Work ;
-        efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq200/text> .
 
     <https://w3id.org/giuseppe-raimondi-lod/work/una-traduzione-di-pascal-> a efrbroo:F1_Work ;
         efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq171/text> .
@@ -1958,10 +1958,10 @@ grlod-np:assertion {
     <https://w3id.org/giuseppe-raimondi-lod/work/uno-scrittore-come-un-pesce--> a efrbroo:F1_Work ;
         efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq391/text> .
 
-    <https://w3id.org/giuseppe-raimondi-lod/work/uno-scrittore-nella-condizione-italiana-dellanno--> a efrbroo:F1_Work ;
+    <https://w3id.org/giuseppe-raimondi-lod/work/uno-scrittore-nella-condizione-italiana-dell-anno--> a efrbroo:F1_Work ;
         efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq302/text> .
 
-    <https://w3id.org/giuseppe-raimondi-lod/work/valigia--lamleto-di-bacchelli> a efrbroo:F1_Work ;
+    <https://w3id.org/giuseppe-raimondi-lod/work/valigia--l-amleto-di-bacchelli> a efrbroo:F1_Work ;
         efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq54/text> .
 
     <https://w3id.org/giuseppe-raimondi-lod/work/valigia-delle-indie> a efrbroo:F1_Work ;
@@ -2053,7 +2053,7 @@ grlod-np:assertion {
         efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq375/text>,
             <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq58/text> .
 
-    <https://w3id.org/giuseppe-raimondi-lod/work/varie-giugno---elegia-allitalia> a efrbroo:F1_Work ;
+    <https://w3id.org/giuseppe-raimondi-lod/work/varie-giugno---elegia-all-italia> a efrbroo:F1_Work ;
         efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq380/text> .
 
     <https://w3id.org/giuseppe-raimondi-lod/work/varie-giugno---manet> a efrbroo:F1_Work ;
