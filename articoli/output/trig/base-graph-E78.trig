@@ -23,9 +23,7 @@ grlod-np:assertion {
         ecrm:P50_has_current_keeper <https://w3id.org/ficlitdl/org/unibo> ;
         ecrm:P52_has_current_owner <https://w3id.org/ficlitdl/org/ibc> ;
         ecrm:P55_has_current_location <https://w3id.org/ficlitdl/place/biblioteca-ezio-raimondi> ;
-        dcterms:bibliographicCitation "Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A ARTICOLI1 1960.",
-            "Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A ARTICOLI1.",
-            "Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A." .
+        dcterms:bibliographicCitation "Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A ARTICOLI1 1960." .
 
     <https://w3id.org/giuseppe-raimondi-lod/record-set/articles-1/1961/object> a ecrm:E78_Curated_Holding ;
         rdfs:label "Giuseppe Raimondi Fonds, Archive, Manuscripts, Manuscripts 1960–1976, 1961"@en,
@@ -63,9 +61,7 @@ grlod-np:assertion {
         ecrm:P50_has_current_keeper <https://w3id.org/ficlitdl/org/unibo> ;
         ecrm:P52_has_current_owner <https://w3id.org/ficlitdl/org/ibc> ;
         ecrm:P55_has_current_location <https://w3id.org/ficlitdl/place/biblioteca-ezio-raimondi> ;
-        dcterms:bibliographicCitation "Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A ARTICOLI1 1961.",
-            "Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A ARTICOLI1.",
-            "Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A." .
+        dcterms:bibliographicCitation "Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A ARTICOLI1 1961." .
 
     <https://w3id.org/giuseppe-raimondi-lod/record-set/articles-1/1962/object> a ecrm:E78_Curated_Holding ;
         rdfs:label "Giuseppe Raimondi Fonds, Archive, Manuscripts, Manuscripts 1960–1976, 1962"@en,
@@ -96,9 +92,7 @@ grlod-np:assertion {
         ecrm:P50_has_current_keeper <https://w3id.org/ficlitdl/org/unibo> ;
         ecrm:P52_has_current_owner <https://w3id.org/ficlitdl/org/ibc> ;
         ecrm:P55_has_current_location <https://w3id.org/ficlitdl/place/biblioteca-ezio-raimondi> ;
-        dcterms:bibliographicCitation "Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A ARTICOLI1 1962.",
-            "Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A ARTICOLI1.",
-            "Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A." .
+        dcterms:bibliographicCitation "Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A ARTICOLI1 1962." .
 
     <https://w3id.org/giuseppe-raimondi-lod/record-set/articles-1/1963/object> a ecrm:E78_Curated_Holding ;
         rdfs:label "Giuseppe Raimondi Fonds, Archive, Manuscripts, Manuscripts 1960–1976, 1963"@en,
@@ -128,9 +122,7 @@ grlod-np:assertion {
         ecrm:P50_has_current_keeper <https://w3id.org/ficlitdl/org/unibo> ;
         ecrm:P52_has_current_owner <https://w3id.org/ficlitdl/org/ibc> ;
         ecrm:P55_has_current_location <https://w3id.org/ficlitdl/place/biblioteca-ezio-raimondi> ;
-        dcterms:bibliographicCitation "Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A ARTICOLI1 1963.",
-            "Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A ARTICOLI1.",
-            "Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A." .
+        dcterms:bibliographicCitation "Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A ARTICOLI1 1963." .
 
     <https://w3id.org/giuseppe-raimondi-lod/record-set/articles-1/1964/object> a ecrm:E78_Curated_Holding ;
         rdfs:label "Giuseppe Raimondi Fonds, Archive, Manuscripts, Manuscripts 1960–1976, 1964"@en,
@@ -172,9 +164,7 @@ grlod-np:assertion {
         ecrm:P50_has_current_keeper <https://w3id.org/ficlitdl/org/unibo> ;
         ecrm:P52_has_current_owner <https://w3id.org/ficlitdl/org/ibc> ;
         ecrm:P55_has_current_location <https://w3id.org/ficlitdl/place/biblioteca-ezio-raimondi> ;
-        dcterms:bibliographicCitation "Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A ARTICOLI1 1964.",
-            "Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A ARTICOLI1.",
-            "Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A." .
+        dcterms:bibliographicCitation "Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A ARTICOLI1 1964." .
 
     <https://w3id.org/giuseppe-raimondi-lod/record-set/articles-1/1965/object> a ecrm:E78_Curated_Holding ;
         rdfs:label "Giuseppe Raimondi Fonds, Archive, Manuscripts, Manuscripts 1960–1976, 1965"@en,
@@ -199,9 +189,7 @@ grlod-np:assertion {
         ecrm:P50_has_current_keeper <https://w3id.org/ficlitdl/org/unibo> ;
         ecrm:P52_has_current_owner <https://w3id.org/ficlitdl/org/ibc> ;
         ecrm:P55_has_current_location <https://w3id.org/ficlitdl/place/biblioteca-ezio-raimondi> ;
-        dcterms:bibliographicCitation "Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A ARTICOLI1 1965.",
-            "Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A ARTICOLI1.",
-            "Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A." .
+        dcterms:bibliographicCitation "Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A ARTICOLI1 1965." .
 
     <https://w3id.org/giuseppe-raimondi-lod/record-set/articles-1/1966/object> a ecrm:E78_Curated_Holding ;
         rdfs:label "Giuseppe Raimondi Fonds, Archive, Manuscripts, Manuscripts 1960–1976, 1966"@en,
@@ -245,9 +233,7 @@ grlod-np:assertion {
         ecrm:P50_has_current_keeper <https://w3id.org/ficlitdl/org/unibo> ;
         ecrm:P52_has_current_owner <https://w3id.org/ficlitdl/org/ibc> ;
         ecrm:P55_has_current_location <https://w3id.org/ficlitdl/place/biblioteca-ezio-raimondi> ;
-        dcterms:bibliographicCitation "Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A ARTICOLI1 1966.",
-            "Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A ARTICOLI1.",
-            "Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A." .
+        dcterms:bibliographicCitation "Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A ARTICOLI1 1966." .
 
     <https://w3id.org/giuseppe-raimondi-lod/record-set/articles-1/1967/object> a ecrm:E78_Curated_Holding ;
         rdfs:label "Giuseppe Raimondi Fonds, Archive, Manuscripts, Manuscripts 1960–1976, 1967"@en,
@@ -297,9 +283,7 @@ grlod-np:assertion {
         ecrm:P50_has_current_keeper <https://w3id.org/ficlitdl/org/unibo> ;
         ecrm:P52_has_current_owner <https://w3id.org/ficlitdl/org/ibc> ;
         ecrm:P55_has_current_location <https://w3id.org/ficlitdl/place/biblioteca-ezio-raimondi> ;
-        dcterms:bibliographicCitation "Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A ARTICOLI1 1967.",
-            "Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A ARTICOLI1.",
-            "Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A." .
+        dcterms:bibliographicCitation "Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A ARTICOLI1 1967." .
 
     <https://w3id.org/giuseppe-raimondi-lod/record-set/articles-1/1968/object> a ecrm:E78_Curated_Holding ;
         rdfs:label "Giuseppe Raimondi Fonds, Archive, Manuscripts, Manuscripts 1960–1976, 1968"@en,
@@ -339,9 +323,7 @@ grlod-np:assertion {
         ecrm:P50_has_current_keeper <https://w3id.org/ficlitdl/org/unibo> ;
         ecrm:P52_has_current_owner <https://w3id.org/ficlitdl/org/ibc> ;
         ecrm:P55_has_current_location <https://w3id.org/ficlitdl/place/biblioteca-ezio-raimondi> ;
-        dcterms:bibliographicCitation "Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A ARTICOLI1 1968.",
-            "Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A ARTICOLI1.",
-            "Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A." .
+        dcterms:bibliographicCitation "Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A ARTICOLI1 1968." .
 
     <https://w3id.org/giuseppe-raimondi-lod/record-set/articles-1/1969/object> a ecrm:E78_Curated_Holding ;
         rdfs:label "Giuseppe Raimondi Fonds, Archive, Manuscripts, Manuscripts 1960–1976, 1969"@en,
@@ -387,9 +369,7 @@ grlod-np:assertion {
         ecrm:P50_has_current_keeper <https://w3id.org/ficlitdl/org/unibo> ;
         ecrm:P52_has_current_owner <https://w3id.org/ficlitdl/org/ibc> ;
         ecrm:P55_has_current_location <https://w3id.org/ficlitdl/place/biblioteca-ezio-raimondi> ;
-        dcterms:bibliographicCitation "Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A ARTICOLI1 1969.",
-            "Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A ARTICOLI1.",
-            "Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A." .
+        dcterms:bibliographicCitation "Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A ARTICOLI1 1969." .
 
     <https://w3id.org/giuseppe-raimondi-lod/record-set/articles-1/1970/object> a ecrm:E78_Curated_Holding ;
         rdfs:label "Giuseppe Raimondi Fonds, Archive, Manuscripts, Manuscripts 1960–1976, 1970"@en,
@@ -429,9 +409,7 @@ grlod-np:assertion {
         ecrm:P50_has_current_keeper <https://w3id.org/ficlitdl/org/unibo> ;
         ecrm:P52_has_current_owner <https://w3id.org/ficlitdl/org/ibc> ;
         ecrm:P55_has_current_location <https://w3id.org/ficlitdl/place/biblioteca-ezio-raimondi> ;
-        dcterms:bibliographicCitation "Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A ARTICOLI1 1970.",
-            "Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A ARTICOLI1.",
-            "Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A." .
+        dcterms:bibliographicCitation "Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A ARTICOLI1 1970." .
 
     <https://w3id.org/giuseppe-raimondi-lod/record-set/articles-1/1971/object> a ecrm:E78_Curated_Holding ;
         rdfs:label "Giuseppe Raimondi Fonds, Archive, Manuscripts, Manuscripts 1960–1976, 1971"@en,
@@ -489,9 +467,7 @@ grlod-np:assertion {
         ecrm:P50_has_current_keeper <https://w3id.org/ficlitdl/org/unibo> ;
         ecrm:P52_has_current_owner <https://w3id.org/ficlitdl/org/ibc> ;
         ecrm:P55_has_current_location <https://w3id.org/ficlitdl/place/biblioteca-ezio-raimondi> ;
-        dcterms:bibliographicCitation "Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A ARTICOLI1 1971.",
-            "Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A ARTICOLI1.",
-            "Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A." .
+        dcterms:bibliographicCitation "Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A ARTICOLI1 1971." .
 
     <https://w3id.org/giuseppe-raimondi-lod/record-set/articles-1/1972/object> a ecrm:E78_Curated_Holding ;
         rdfs:label "Giuseppe Raimondi Fonds, Archive, Manuscripts, Manuscripts 1960–1976, 1972"@en,
@@ -533,9 +509,7 @@ grlod-np:assertion {
         ecrm:P50_has_current_keeper <https://w3id.org/ficlitdl/org/unibo> ;
         ecrm:P52_has_current_owner <https://w3id.org/ficlitdl/org/ibc> ;
         ecrm:P55_has_current_location <https://w3id.org/ficlitdl/place/biblioteca-ezio-raimondi> ;
-        dcterms:bibliographicCitation "Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A ARTICOLI1 1972.",
-            "Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A ARTICOLI1.",
-            "Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A." .
+        dcterms:bibliographicCitation "Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A ARTICOLI1 1972." .
 
     <https://w3id.org/giuseppe-raimondi-lod/record-set/articles-1/1973/object> a ecrm:E78_Curated_Holding ;
         rdfs:label "Giuseppe Raimondi Fonds, Archive, Manuscripts, Manuscripts 1960–1976, 1973"@en,
@@ -589,9 +563,7 @@ grlod-np:assertion {
         ecrm:P50_has_current_keeper <https://w3id.org/ficlitdl/org/unibo> ;
         ecrm:P52_has_current_owner <https://w3id.org/ficlitdl/org/ibc> ;
         ecrm:P55_has_current_location <https://w3id.org/ficlitdl/place/biblioteca-ezio-raimondi> ;
-        dcterms:bibliographicCitation "Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A ARTICOLI1 1973.",
-            "Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A ARTICOLI1.",
-            "Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A." .
+        dcterms:bibliographicCitation "Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A ARTICOLI1 1973." .
 
     <https://w3id.org/giuseppe-raimondi-lod/record-set/articles-1/1974/object> a ecrm:E78_Curated_Holding ;
         rdfs:label "Giuseppe Raimondi Fonds, Archive, Manuscripts, Manuscripts 1960–1976, 1974"@en,
@@ -626,9 +598,7 @@ grlod-np:assertion {
         ecrm:P50_has_current_keeper <https://w3id.org/ficlitdl/org/unibo> ;
         ecrm:P52_has_current_owner <https://w3id.org/ficlitdl/org/ibc> ;
         ecrm:P55_has_current_location <https://w3id.org/ficlitdl/place/biblioteca-ezio-raimondi> ;
-        dcterms:bibliographicCitation "Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A ARTICOLI1 1974.",
-            "Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A ARTICOLI1.",
-            "Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A." .
+        dcterms:bibliographicCitation "Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A ARTICOLI1 1974." .
 
     <https://w3id.org/giuseppe-raimondi-lod/record-set/articles-1/1975/object> a ecrm:E78_Curated_Holding ;
         rdfs:label "Giuseppe Raimondi Fonds, Archive, Manuscripts, Manuscripts 1960–1976, 1975"@en,
@@ -673,9 +643,7 @@ grlod-np:assertion {
         ecrm:P50_has_current_keeper <https://w3id.org/ficlitdl/org/unibo> ;
         ecrm:P52_has_current_owner <https://w3id.org/ficlitdl/org/ibc> ;
         ecrm:P55_has_current_location <https://w3id.org/ficlitdl/place/biblioteca-ezio-raimondi> ;
-        dcterms:bibliographicCitation "Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A ARTICOLI1 1975.",
-            "Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A ARTICOLI1.",
-            "Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A." .
+        dcterms:bibliographicCitation "Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A ARTICOLI1 1975." .
 
     <https://w3id.org/giuseppe-raimondi-lod/record-set/articles-1/1976/object> a ecrm:E78_Curated_Holding ;
         rdfs:label "Giuseppe Raimondi Fonds, Archive, Manuscripts, Manuscripts 1960–1976, 1976"@en,
@@ -721,7 +689,6 @@ grlod-np:assertion {
         ecrm:P52_has_current_owner <https://w3id.org/ficlitdl/org/ibc> ;
         ecrm:P55_has_current_location <https://w3id.org/ficlitdl/place/biblioteca-ezio-raimondi> ;
         dcterms:bibliographicCitation "Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A ARTICOLI1 1976.",
-            "Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A ARTICOLI1.",
             "Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A ARTICOLI2 1947.",
             "Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A ARTICOLI2 1954?.",
             "Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A ARTICOLI2 1960.",
@@ -732,9 +699,7 @@ grlod-np:assertion {
             "Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A ARTICOLI2 1968.",
             "Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A ARTICOLI2 1969.",
             "Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A ARTICOLI2 1970.",
-            "Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A ARTICOLI2 1971.",
-            "Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A ARTICOLI2.",
-            "Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A." .
+            "Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A ARTICOLI2 1971." .
 
     <https://w3id.org/giuseppe-raimondi-lod/record-set/articles-2/object> a ecrm:E78_Curated_Holding ;
         rdfs:label "Giuseppe Raimondi Fonds, Archive, Manuscripts, Manuscripts 1947–1971"@en,
@@ -746,7 +711,8 @@ grlod-np:assertion {
         ecrm:P46i_forms_part_of <https://w3id.org/giuseppe-raimondi-lod/record-set/articles/object> ;
         ecrm:P50_has_current_keeper <https://w3id.org/ficlitdl/org/unibo> ;
         ecrm:P52_has_current_owner <https://w3id.org/ficlitdl/org/ibc> ;
-        ecrm:P55_has_current_location <https://w3id.org/ficlitdl/place/biblioteca-ezio-raimondi> .
+        ecrm:P55_has_current_location <https://w3id.org/ficlitdl/place/biblioteca-ezio-raimondi> ;
+        dcterms:bibliographicCitation "Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A ARTICOLI2." .
 
     <https://w3id.org/giuseppe-raimondi-lod/record-set/articles/object> a ecrm:E78_Curated_Holding ;
         rdfs:label "Giuseppe Raimondi Fonds, Archive, Manuscripts"@en,
@@ -759,7 +725,8 @@ grlod-np:assertion {
         ecrm:P46i_forms_part_of <https://w3id.org/giuseppe-raimondi-lod/record-set/giuseppe-raimondi-archive/object> ;
         ecrm:P50_has_current_keeper <https://w3id.org/ficlitdl/org/unibo> ;
         ecrm:P52_has_current_owner <https://w3id.org/ficlitdl/org/ibc> ;
-        ecrm:P55_has_current_location <https://w3id.org/ficlitdl/place/biblioteca-ezio-raimondi> .
+        ecrm:P55_has_current_location <https://w3id.org/ficlitdl/place/biblioteca-ezio-raimondi> ;
+        dcterms:bibliographicCitation "Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A." .
 
     <https://w3id.org/giuseppe-raimondi-lod/record-set/articles-1/object> a ecrm:E78_Curated_Holding ;
         rdfs:label "Giuseppe Raimondi Fonds, Archive, Manuscripts, Manuscripts 1960–1976"@en,
@@ -788,6 +755,7 @@ grlod-np:assertion {
         ecrm:P46i_forms_part_of <https://w3id.org/giuseppe-raimondi-lod/record-set/articles/object> ;
         ecrm:P50_has_current_keeper <https://w3id.org/ficlitdl/org/unibo> ;
         ecrm:P52_has_current_owner <https://w3id.org/ficlitdl/org/ibc> ;
-        ecrm:P55_has_current_location <https://w3id.org/ficlitdl/place/biblioteca-ezio-raimondi> .
+        ecrm:P55_has_current_location <https://w3id.org/ficlitdl/place/biblioteca-ezio-raimondi> ;
+        dcterms:bibliographicCitation "Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna. FR.A ARTICOLI1." .
 }
 

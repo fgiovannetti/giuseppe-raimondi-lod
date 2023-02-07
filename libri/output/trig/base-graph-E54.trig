@@ -1,0 +1,246 @@
+@prefix ecrm: <http://erlangen-crm.org/current/> .
+@prefix ficlitdlo: <https://w3id.org/ficlitdl/ontology/> .
+@prefix grlod-np: <https://w3id.org/giuseppe-raimondi-lod/nanopub/nanopub-base/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+grlod-np:assertion {
+    <https://w3id.org/giuseppe-raimondi-lod/extent/102p> a ecrm:E54_Dimension ;
+        rdfs:label "102 pages"@en,
+            "102 pagine"@it ;
+        ecrm:P2_has_type ficlitdlo:extent ;
+        ecrm:P90_has_value 102 ;
+        ecrm:P91_has_unit ficlitdlo:page .
+
+    <https://w3id.org/giuseppe-raimondi-lod/extent/104p> a ecrm:E54_Dimension ;
+        rdfs:label "104 pages"@en,
+            "104 pagine"@it ;
+        ecrm:P2_has_type ficlitdlo:extent ;
+        ecrm:P90_has_value 104 ;
+        ecrm:P91_has_unit ficlitdlo:page .
+
+    <https://w3id.org/giuseppe-raimondi-lod/extent/114p> a ecrm:E54_Dimension ;
+        rdfs:label "114 pages"@en,
+            "114 pagine"@it ;
+        ecrm:P2_has_type ficlitdlo:extent ;
+        ecrm:P90_has_value 114 ;
+        ecrm:P91_has_unit ficlitdlo:page .
+
+    <https://w3id.org/giuseppe-raimondi-lod/extent/132p> a ecrm:E54_Dimension ;
+        rdfs:label "132 pages"@en,
+            "132 pagine"@it ;
+        ecrm:P2_has_type ficlitdlo:extent ;
+        ecrm:P90_has_value 132 ;
+        ecrm:P91_has_unit ficlitdlo:page .
+
+    <https://w3id.org/giuseppe-raimondi-lod/extent/145p> a ecrm:E54_Dimension ;
+        rdfs:label "145 pages"@en,
+            "145 pagine"@it ;
+        ecrm:P2_has_type ficlitdlo:extent ;
+        ecrm:P90_has_value 145 ;
+        ecrm:P91_has_unit ficlitdlo:page .
+
+    <https://w3id.org/giuseppe-raimondi-lod/extent/151p> a ecrm:E54_Dimension ;
+        rdfs:label "151 pages"@en,
+            "151 pagine"@it ;
+        ecrm:P2_has_type ficlitdlo:extent ;
+        ecrm:P90_has_value 151 ;
+        ecrm:P91_has_unit ficlitdlo:page .
+
+    <https://w3id.org/giuseppe-raimondi-lod/extent/154p> a ecrm:E54_Dimension ;
+        rdfs:label "154 pages"@en,
+            "154 pagine"@it ;
+        ecrm:P2_has_type ficlitdlo:extent ;
+        ecrm:P90_has_value 154 ;
+        ecrm:P91_has_unit ficlitdlo:page .
+
+    <https://w3id.org/giuseppe-raimondi-lod/extent/165p> a ecrm:E54_Dimension ;
+        rdfs:label "165 pages"@en,
+            "165 pagine"@it ;
+        ecrm:P2_has_type ficlitdlo:extent ;
+        ecrm:P90_has_value 165 ;
+        ecrm:P91_has_unit ficlitdlo:page .
+
+    <https://w3id.org/giuseppe-raimondi-lod/extent/166p> a ecrm:E54_Dimension ;
+        rdfs:label "166 pages"@en,
+            "166 pagine"@it ;
+        ecrm:P2_has_type ficlitdlo:extent ;
+        ecrm:P90_has_value 166 ;
+        ecrm:P91_has_unit ficlitdlo:page .
+
+    <https://w3id.org/giuseppe-raimondi-lod/extent/167p> a ecrm:E54_Dimension ;
+        rdfs:label "167 pages"@en,
+            "167 pagine"@it ;
+        ecrm:P2_has_type ficlitdlo:extent ;
+        ecrm:P90_has_value 167 ;
+        ecrm:P91_has_unit ficlitdlo:page .
+
+    <https://w3id.org/giuseppe-raimondi-lod/extent/193p> a ecrm:E54_Dimension ;
+        rdfs:label "193 pages"@en,
+            "193 pagine"@it ;
+        ecrm:P2_has_type ficlitdlo:extent ;
+        ecrm:P90_has_value 193 ;
+        ecrm:P91_has_unit ficlitdlo:page .
+
+    <https://w3id.org/giuseppe-raimondi-lod/extent/194p> a ecrm:E54_Dimension ;
+        rdfs:label "194 pages"@en,
+            "194 pagine"@it ;
+        ecrm:P2_has_type ficlitdlo:extent ;
+        ecrm:P90_has_value 194 ;
+        ecrm:P91_has_unit ficlitdlo:page .
+
+    <https://w3id.org/giuseppe-raimondi-lod/extent/202p> a ecrm:E54_Dimension ;
+        rdfs:label "202 pages"@en,
+            "202 pagine"@it ;
+        ecrm:P2_has_type ficlitdlo:extent ;
+        ecrm:P90_has_value 202 ;
+        ecrm:P91_has_unit ficlitdlo:page .
+
+    <https://w3id.org/giuseppe-raimondi-lod/extent/203p> a ecrm:E54_Dimension ;
+        rdfs:label "203 pages"@en,
+            "203 pagine"@it ;
+        ecrm:P2_has_type ficlitdlo:extent ;
+        ecrm:P90_has_value 203 ;
+        ecrm:P91_has_unit ficlitdlo:page .
+
+    <https://w3id.org/giuseppe-raimondi-lod/extent/224p> a ecrm:E54_Dimension ;
+        rdfs:label "224 pages"@en,
+            "224 pagine"@it ;
+        ecrm:P2_has_type ficlitdlo:extent ;
+        ecrm:P90_has_value 224 ;
+        ecrm:P91_has_unit ficlitdlo:page .
+
+    <https://w3id.org/giuseppe-raimondi-lod/extent/274p> a ecrm:E54_Dimension ;
+        rdfs:label "274 pages"@en,
+            "274 pagine"@it ;
+        ecrm:P2_has_type ficlitdlo:extent ;
+        ecrm:P90_has_value 274 ;
+        ecrm:P91_has_unit ficlitdlo:page .
+
+    <https://w3id.org/giuseppe-raimondi-lod/extent/310p> a ecrm:E54_Dimension ;
+        rdfs:label "310 pages"@en,
+            "310 pagine"@it ;
+        ecrm:P2_has_type ficlitdlo:extent ;
+        ecrm:P90_has_value 310 ;
+        ecrm:P91_has_unit ficlitdlo:page .
+
+    <https://w3id.org/giuseppe-raimondi-lod/extent/359p> a ecrm:E54_Dimension ;
+        rdfs:label "359 pages"@en,
+            "359 pagine"@it ;
+        ecrm:P2_has_type ficlitdlo:extent ;
+        ecrm:P90_has_value 359 ;
+        ecrm:P91_has_unit ficlitdlo:page .
+
+    <https://w3id.org/giuseppe-raimondi-lod/extent/375p> a ecrm:E54_Dimension ;
+        rdfs:label "375 pages"@en,
+            "375 pagine"@it ;
+        ecrm:P2_has_type ficlitdlo:extent ;
+        ecrm:P90_has_value 375 ;
+        ecrm:P91_has_unit ficlitdlo:page .
+
+    <https://w3id.org/giuseppe-raimondi-lod/extent/413p> a ecrm:E54_Dimension ;
+        rdfs:label "413 pages"@en,
+            "413 pagine"@it ;
+        ecrm:P2_has_type ficlitdlo:extent ;
+        ecrm:P90_has_value 413 ;
+        ecrm:P91_has_unit ficlitdlo:page .
+
+    <https://w3id.org/giuseppe-raimondi-lod/extent/61p> a ecrm:E54_Dimension ;
+        rdfs:label "61 pages"@en,
+            "61 pagine"@it ;
+        ecrm:P2_has_type ficlitdlo:extent ;
+        ecrm:P90_has_value 61 ;
+        ecrm:P91_has_unit ficlitdlo:page .
+
+    <https://w3id.org/giuseppe-raimondi-lod/extent/64p> a ecrm:E54_Dimension ;
+        rdfs:label "64 pages"@en,
+            "64 pagine"@it ;
+        ecrm:P2_has_type ficlitdlo:extent ;
+        ecrm:P90_has_value 64 ;
+        ecrm:P91_has_unit ficlitdlo:page .
+
+    <https://w3id.org/giuseppe-raimondi-lod/extent/70p> a ecrm:E54_Dimension ;
+        rdfs:label "70 pages"@en,
+            "70 pagine"@it ;
+        ecrm:P2_has_type ficlitdlo:extent ;
+        ecrm:P90_has_value 70 ;
+        ecrm:P91_has_unit ficlitdlo:page .
+
+    <https://w3id.org/giuseppe-raimondi-lod/extent/74p> a ecrm:E54_Dimension ;
+        rdfs:label "74 pages"@en,
+            "74 pagine"@it ;
+        ecrm:P2_has_type ficlitdlo:extent ;
+        ecrm:P90_has_value 74 ;
+        ecrm:P91_has_unit ficlitdlo:page .
+
+    <https://w3id.org/giuseppe-raimondi-lod/extent/75p> a ecrm:E54_Dimension ;
+        rdfs:label "75 pages"@en,
+            "75 pagine"@it ;
+        ecrm:P2_has_type ficlitdlo:extent ;
+        ecrm:P90_has_value 75 ;
+        ecrm:P91_has_unit ficlitdlo:page .
+
+    <https://w3id.org/giuseppe-raimondi-lod/extent/92p> a ecrm:E54_Dimension ;
+        rdfs:label "92 pages"@en,
+            "92 pagine"@it ;
+        ecrm:P2_has_type ficlitdlo:extent ;
+        ecrm:P90_has_value 92 ;
+        ecrm:P91_has_unit ficlitdlo:page .
+
+    <https://w3id.org/giuseppe-raimondi-lod/height/16cm> a ecrm:E54_Dimension ;
+        rdfs:label "Height 16 cm"@en,
+            "Altezza 16 cm"@it ;
+        ecrm:P2_has_type ficlitdlo:height ;
+        ecrm:P90_has_value 16 ;
+        ecrm:P91_has_unit ficlitdlo:centimetre .
+
+    <https://w3id.org/giuseppe-raimondi-lod/height/18cm> a ecrm:E54_Dimension ;
+        rdfs:label "Height 18 cm"@en,
+            "Altezza 18 cm"@it ;
+        ecrm:P2_has_type ficlitdlo:height ;
+        ecrm:P90_has_value 18 ;
+        ecrm:P91_has_unit ficlitdlo:centimetre .
+
+    <https://w3id.org/giuseppe-raimondi-lod/height/19cm> a ecrm:E54_Dimension ;
+        rdfs:label "Height 19 cm"@en,
+            "Altezza 19 cm"@it ;
+        ecrm:P2_has_type ficlitdlo:height ;
+        ecrm:P90_has_value 19 ;
+        ecrm:P91_has_unit ficlitdlo:centimetre .
+
+    <https://w3id.org/giuseppe-raimondi-lod/height/20cm> a ecrm:E54_Dimension ;
+        rdfs:label "Height 20 cm"@en,
+            "Altezza 20 cm"@it ;
+        ecrm:P2_has_type ficlitdlo:height ;
+        ecrm:P90_has_value 20 ;
+        ecrm:P91_has_unit ficlitdlo:centimetre .
+
+    <https://w3id.org/giuseppe-raimondi-lod/height/21cm> a ecrm:E54_Dimension ;
+        rdfs:label "Height 21 cm"@en,
+            "Altezza 21 cm"@it ;
+        ecrm:P2_has_type ficlitdlo:height ;
+        ecrm:P90_has_value 21 ;
+        ecrm:P91_has_unit ficlitdlo:centimetre .
+
+    <https://w3id.org/giuseppe-raimondi-lod/height/22cm> a ecrm:E54_Dimension ;
+        rdfs:label "Height 22 cm"@en,
+            "Altezza 22 cm"@it ;
+        ecrm:P2_has_type ficlitdlo:height ;
+        ecrm:P90_has_value 22 ;
+        ecrm:P91_has_unit ficlitdlo:centimetre .
+
+    <https://w3id.org/giuseppe-raimondi-lod/height/23cm> a ecrm:E54_Dimension ;
+        rdfs:label "Height 23 cm"@en,
+            "Altezza 23 cm"@it ;
+        ecrm:P2_has_type ficlitdlo:height ;
+        ecrm:P90_has_value 23 ;
+        ecrm:P91_has_unit ficlitdlo:centimetre .
+
+    <https://w3id.org/giuseppe-raimondi-lod/height/26cm> a ecrm:E54_Dimension ;
+        rdfs:label "Height 26 cm"@en,
+            "Altezza 26 cm"@it ;
+        ecrm:P2_has_type ficlitdlo:height ;
+        ecrm:P90_has_value 26 ;
+        ecrm:P91_has_unit ficlitdlo:centimetre .
+}
+

@@ -1,0 +1,107 @@
+@prefix ecrm: <http://erlangen-crm.org/current/> .
+@prefix ficlitdlo: <https://w3id.org/ficlitdl/ontology/> .
+@prefix grlod-np: <https://w3id.org/giuseppe-raimondi-lod/nanopub/nanopub-base/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+grlod-np:assertion {
+    <https://w3id.org/giuseppe-raimondi-lod/record-set/album-apolli/rdm837/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDm 837" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/record-set/album-apolli/rdm837/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ALBUM APOLLI" ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/record-set/album-bacche/rdm840/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDm 840" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/record-set/album-bacche/rdm840/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ALBUM BACCHE" ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/record-set/album-cardar/rdm841/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDm 841" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/record-set/album-cardar/rdm841/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ALBUM CARDAR" ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/record-set/album-carra/rdm833/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDm 833" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/record-set/album-carra/rdm833/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ALBUM CARRA" ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/record-set/album-cecchi/rdm830/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDm 830" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/record-set/album-cecchi/rdm830/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ALBUM CECCHI" ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/record-set/album-dada/rdm836/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDm 836" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/record-set/album-dada/rdm836/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ALBUM DADA" ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/record-set/album-depisi/rdm835/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDm 835" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/record-set/album-depisi/rdm835/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ALBUM DEPISI" ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/record-set/album-longan/rdm834/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDm 834" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/record-set/album-longan/rdm834/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ALBUM LONGAN" ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/record-set/album-rebora/rdm838/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDm 838" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/record-set/album-rebora/rdm838/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ALBUM REBORA" ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/record-set/album-rosai/rdm839/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDm 839" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/record-set/album-rosai/rdm839/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ALBUM ROSAI" ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/record-set/album-ungare/rdm832/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDm 832" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/record-set/album-ungare/rdm832/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ALBUM UNGARE" ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/record-set/album-valery/rdm831/inventory-number> a ecrm:E42_Identifier ;
+        rdfs:label "RDm 831" ;
+        ecrm:P2_has_type ficlitdlo:inventory-number .
+
+    <https://w3id.org/giuseppe-raimondi-lod/record-set/album-valery/rdm831/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A ALBUM VALERY" ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+
+    <https://w3id.org/giuseppe-raimondi-lod/record-set/album/shelfmark> a ecrm:E42_Identifier ;
+        rdfs:label "FR.A Corrispondenza" ;
+        ecrm:P2_has_type ficlitdlo:shelfmark .
+}
+

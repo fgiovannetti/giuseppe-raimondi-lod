@@ -4,11 +4,11 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 grlod-np:assertion {
-    <https://w3id.org/giuseppe-raimondi-lod/1947-01-01-1947-12-31> a ecrm:P52_Time-Span ;
+    <https://w3id.org/giuseppe-raimondi-lod/1947-01-01-1947-12-31> a ecrm:E52_Time-Span ;
         ti:hasIntervalEndDate "1947-12-31"^^xsd:date ;
         ti:hasIntervalStartDate "1947-01-01"^^xsd:date .
 
-    <https://w3id.org/giuseppe-raimondi-lod/1954-01-01-1954-12-31> a ecrm:P52_Time-Span ;
+    <https://w3id.org/giuseppe-raimondi-lod/1954-01-01-1954-12-31> a ecrm:E52_Time-Span ;
         ti:hasIntervalEndDate "1954-12-31"^^xsd:date ;
         ti:hasIntervalStartDate "1954-01-01"^^xsd:date .
 
@@ -156,7 +156,7 @@ grlod-np:assertion {
         ti:hasIntervalEndDate "1961-12-27"^^xsd:date ;
         ti:hasIntervalStartDate "1961-12-27"^^xsd:date .
 
-    <https://w3id.org/giuseppe-raimondi-lod/1962-01-01-1962-12-31> a ecrm:P52_Time-Span ;
+    <https://w3id.org/giuseppe-raimondi-lod/1962-01-01-1962-12-31> a ecrm:E52_Time-Span ;
         ti:hasIntervalEndDate "1962-12-31"^^xsd:date ;
         ti:hasIntervalStartDate "1962-01-01"^^xsd:date .
 
@@ -312,7 +312,7 @@ grlod-np:assertion {
         ti:hasIntervalEndDate "1963-12-30"^^xsd:date ;
         ti:hasIntervalStartDate "1963-12-30"^^xsd:date .
 
-    <https://w3id.org/giuseppe-raimondi-lod/1964-01-01-1964-12-31> a ecrm:P52_Time-Span ;
+    <https://w3id.org/giuseppe-raimondi-lod/1964-01-01-1964-12-31> a ecrm:E52_Time-Span ;
         ti:hasIntervalEndDate "1964-12-31"^^xsd:date ;
         ti:hasIntervalStartDate "1964-01-01"^^xsd:date .
 
@@ -440,7 +440,7 @@ grlod-np:assertion {
         ti:hasIntervalEndDate "1964-12-14"^^xsd:date ;
         ti:hasIntervalStartDate "1964-12-14"^^xsd:date .
 
-    <https://w3id.org/giuseppe-raimondi-lod/1965-01-01-1965-12-31> a ecrm:P52_Time-Span ;
+    <https://w3id.org/giuseppe-raimondi-lod/1965-01-01-1965-12-31> a ecrm:E52_Time-Span ;
         ti:hasIntervalEndDate "1965-12-31"^^xsd:date ;
         ti:hasIntervalStartDate "1965-01-01"^^xsd:date .
 

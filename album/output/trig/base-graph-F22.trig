@@ -1,0 +1,78 @@
+@prefix ecrm: <http://erlangen-crm.org/current/> .
+@prefix efrbroo: <http://erlangen-crm.org/efrbroo/> .
+@prefix grlod-np: <https://w3id.org/giuseppe-raimondi-lod/nanopub/nanopub-base/> .
+
+grlod-np:assertion {
+    <https://w3id.org/giuseppe-raimondi-lod/record-set/album-apolli/rdm837/text> a efrbroo:F22_Self-Contained_Expression ;
+        ecrm:P102_has_title <https://w3id.org/giuseppe-raimondi-lod/record-set/album-apolli/rdm837/text/title> ;
+        ecrm:P104_is_subject_to <https://w3id.org/ficlitdl/right/all-rights-reserved> ;
+        ecrm:P128i_is_carried_by <https://w3id.org/giuseppe-raimondi-lod/record-set/album-apolli/rdm837/object> ;
+        efrbroo:R17i_was_created_by <https://w3id.org/giuseppe-raimondi-lod/record-set/album-apolli/rdm837/text/creation> .
+
+    <https://w3id.org/giuseppe-raimondi-lod/record-set/album-bacche/rdm840/text> a efrbroo:F22_Self-Contained_Expression ;
+        ecrm:P102_has_title <https://w3id.org/giuseppe-raimondi-lod/record-set/album-bacche/rdm840/text/title> ;
+        ecrm:P104_is_subject_to <https://w3id.org/ficlitdl/right/all-rights-reserved> ;
+        ecrm:P128i_is_carried_by <https://w3id.org/giuseppe-raimondi-lod/record-set/album-bacche/rdm840/object> ;
+        efrbroo:R17i_was_created_by <https://w3id.org/giuseppe-raimondi-lod/record-set/album-bacche/rdm840/text/creation> .
+
+    <https://w3id.org/giuseppe-raimondi-lod/record-set/album-cardar/rdm841/text> a efrbroo:F22_Self-Contained_Expression ;
+        ecrm:P102_has_title <https://w3id.org/giuseppe-raimondi-lod/record-set/album-cardar/rdm841/text/title> ;
+        ecrm:P104_is_subject_to <https://w3id.org/ficlitdl/right/all-rights-reserved> ;
+        ecrm:P128i_is_carried_by <https://w3id.org/giuseppe-raimondi-lod/record-set/album-cardar/rdm841/object> ;
+        efrbroo:R17i_was_created_by <https://w3id.org/giuseppe-raimondi-lod/record-set/album-cardar/rdm841/text/creation> .
+
+    <https://w3id.org/giuseppe-raimondi-lod/record-set/album-carra/rdm833/text> a efrbroo:F22_Self-Contained_Expression ;
+        ecrm:P102_has_title <https://w3id.org/giuseppe-raimondi-lod/record-set/album-carra/rdm833/text/title> ;
+        ecrm:P104_is_subject_to <https://w3id.org/ficlitdl/right/all-rights-reserved> ;
+        ecrm:P128i_is_carried_by <https://w3id.org/giuseppe-raimondi-lod/record-set/album-carra/rdm833/object> ;
+        efrbroo:R17i_was_created_by <https://w3id.org/giuseppe-raimondi-lod/record-set/album-carra/rdm833/text/creation> .
+
+    <https://w3id.org/giuseppe-raimondi-lod/record-set/album-cecchi/rdm830/text> a efrbroo:F22_Self-Contained_Expression ;
+        ecrm:P102_has_title <https://w3id.org/giuseppe-raimondi-lod/record-set/album-cecchi/rdm830/text/title> ;
+        ecrm:P104_is_subject_to <https://w3id.org/ficlitdl/right/all-rights-reserved> ;
+        ecrm:P128i_is_carried_by <https://w3id.org/giuseppe-raimondi-lod/record-set/album-cecchi/rdm830/object> ;
+        efrbroo:R17i_was_created_by <https://w3id.org/giuseppe-raimondi-lod/record-set/album-cecchi/rdm830/text/creation> .
+
+    <https://w3id.org/giuseppe-raimondi-lod/record-set/album-dada/rdm836/text> a efrbroo:F22_Self-Contained_Expression ;
+        ecrm:P102_has_title <https://w3id.org/giuseppe-raimondi-lod/record-set/album-dada/rdm836/text/title> ;
+        ecrm:P104_is_subject_to <https://w3id.org/ficlitdl/right/all-rights-reserved> ;
+        ecrm:P128i_is_carried_by <https://w3id.org/giuseppe-raimondi-lod/record-set/album-dada/rdm836/object> ;
+        efrbroo:R17i_was_created_by <https://w3id.org/giuseppe-raimondi-lod/record-set/album-dada/rdm836/text/creation> .
+
+    <https://w3id.org/giuseppe-raimondi-lod/record-set/album-depisi/rdm835/text> a efrbroo:F22_Self-Contained_Expression ;
+        ecrm:P102_has_title <https://w3id.org/giuseppe-raimondi-lod/record-set/album-depisi/rdm835/text/title> ;
+        ecrm:P104_is_subject_to <https://w3id.org/ficlitdl/right/all-rights-reserved> ;
+        ecrm:P128i_is_carried_by <https://w3id.org/giuseppe-raimondi-lod/record-set/album-depisi/rdm835/object> ;
+        efrbroo:R17i_was_created_by <https://w3id.org/giuseppe-raimondi-lod/record-set/album-depisi/rdm835/text/creation> .
+
+    <https://w3id.org/giuseppe-raimondi-lod/record-set/album-longan/rdm834/text> a efrbroo:F22_Self-Contained_Expression ;
+        ecrm:P102_has_title <https://w3id.org/giuseppe-raimondi-lod/record-set/album-longan/rdm834/text/title> ;
+        ecrm:P104_is_subject_to <https://w3id.org/ficlitdl/right/all-rights-reserved> ;
+        ecrm:P128i_is_carried_by <https://w3id.org/giuseppe-raimondi-lod/record-set/album-longan/rdm834/object> ;
+        efrbroo:R17i_was_created_by <https://w3id.org/giuseppe-raimondi-lod/record-set/album-longan/rdm834/text/creation> .
+
+    <https://w3id.org/giuseppe-raimondi-lod/record-set/album-rebora/rdm838/text> a efrbroo:F22_Self-Contained_Expression ;
+        ecrm:P102_has_title <https://w3id.org/giuseppe-raimondi-lod/record-set/album-rebora/rdm838/text/title> ;
+        ecrm:P104_is_subject_to <https://w3id.org/ficlitdl/right/all-rights-reserved> ;
+        ecrm:P128i_is_carried_by <https://w3id.org/giuseppe-raimondi-lod/record-set/album-rebora/rdm838/object> ;
+        efrbroo:R17i_was_created_by <https://w3id.org/giuseppe-raimondi-lod/record-set/album-rebora/rdm838/text/creation> .
+
+    <https://w3id.org/giuseppe-raimondi-lod/record-set/album-rosai/rdm839/text> a efrbroo:F22_Self-Contained_Expression ;
+        ecrm:P102_has_title <https://w3id.org/giuseppe-raimondi-lod/record-set/album-rosai/rdm839/text/title> ;
+        ecrm:P104_is_subject_to <https://w3id.org/ficlitdl/right/all-rights-reserved> ;
+        ecrm:P128i_is_carried_by <https://w3id.org/giuseppe-raimondi-lod/record-set/album-rosai/rdm839/object> ;
+        efrbroo:R17i_was_created_by <https://w3id.org/giuseppe-raimondi-lod/record-set/album-rosai/rdm839/text/creation> .
+
+    <https://w3id.org/giuseppe-raimondi-lod/record-set/album-ungare/rdm832/text> a efrbroo:F22_Self-Contained_Expression ;
+        ecrm:P102_has_title <https://w3id.org/giuseppe-raimondi-lod/record-set/album-ungare/rdm832/text/title> ;
+        ecrm:P104_is_subject_to <https://w3id.org/ficlitdl/right/all-rights-reserved> ;
+        ecrm:P128i_is_carried_by <https://w3id.org/giuseppe-raimondi-lod/record-set/album-ungare/rdm832/object> ;
+        efrbroo:R17i_was_created_by <https://w3id.org/giuseppe-raimondi-lod/record-set/album-ungare/rdm832/text/creation> .
+
+    <https://w3id.org/giuseppe-raimondi-lod/record-set/album-valery/rdm831/text> a efrbroo:F22_Self-Contained_Expression ;
+        ecrm:P102_has_title <https://w3id.org/giuseppe-raimondi-lod/record-set/album-valery/rdm831/text/title> ;
+        ecrm:P104_is_subject_to <https://w3id.org/ficlitdl/right/all-rights-reserved> ;
+        ecrm:P128i_is_carried_by <https://w3id.org/giuseppe-raimondi-lod/record-set/album-valery/rdm831/object> ;
+        efrbroo:R17i_was_created_by <https://w3id.org/giuseppe-raimondi-lod/record-set/album-valery/rdm831/text/creation> .
+}
+

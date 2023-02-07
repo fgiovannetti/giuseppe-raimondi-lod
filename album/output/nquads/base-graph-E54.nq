@@ -1,0 +1,25 @@
+<https://w3id.org/giuseppe-raimondi-lod/height/25cm> <http://www.w3.org/2000/01/rdf-schema#label> "Height 25 cm"@en <https://w3id.org/giuseppe-raimondi-lod/nanopub/nanopub-base/assertion> .
+<https://w3id.org/giuseppe-raimondi-lod/height/31cm> <http://www.w3.org/2000/01/rdf-schema#label> "Altezza 31 cm"@it <https://w3id.org/giuseppe-raimondi-lod/nanopub/nanopub-base/assertion> .
+<https://w3id.org/giuseppe-raimondi-lod/height/25cm> <http://erlangen-crm.org/current/P91_has_unit> <https://w3id.org/ficlitdl/ontology/centimetre> <https://w3id.org/giuseppe-raimondi-lod/nanopub/nanopub-base/assertion> .
+<https://w3id.org/giuseppe-raimondi-lod/height/31cm> <http://www.w3.org/2000/01/rdf-schema#label> "Height 31 cm"@en <https://w3id.org/giuseppe-raimondi-lod/nanopub/nanopub-base/assertion> .
+<https://w3id.org/giuseppe-raimondi-lod/height/26cm> <http://erlangen-crm.org/current/P91_has_unit> <https://w3id.org/ficlitdl/ontology/centimetre> <https://w3id.org/giuseppe-raimondi-lod/nanopub/nanopub-base/assertion> .
+<https://w3id.org/giuseppe-raimondi-lod/height/37cm> <http://erlangen-crm.org/current/P91_has_unit> <https://w3id.org/ficlitdl/ontology/centimetre> <https://w3id.org/giuseppe-raimondi-lod/nanopub/nanopub-base/assertion> .
+<https://w3id.org/giuseppe-raimondi-lod/height/37cm> <http://erlangen-crm.org/current/P2_has_type> <https://w3id.org/ficlitdl/ontology/height> <https://w3id.org/giuseppe-raimondi-lod/nanopub/nanopub-base/assertion> .
+<https://w3id.org/giuseppe-raimondi-lod/height/31cm> <http://erlangen-crm.org/current/P2_has_type> <https://w3id.org/ficlitdl/ontology/height> <https://w3id.org/giuseppe-raimondi-lod/nanopub/nanopub-base/assertion> .
+<https://w3id.org/giuseppe-raimondi-lod/height/25cm> <http://www.w3.org/2000/01/rdf-schema#label> "Altezza 25 cm"@it <https://w3id.org/giuseppe-raimondi-lod/nanopub/nanopub-base/assertion> .
+<https://w3id.org/giuseppe-raimondi-lod/height/26cm> <http://www.w3.org/2000/01/rdf-schema#label> "Altezza 26 cm"@it <https://w3id.org/giuseppe-raimondi-lod/nanopub/nanopub-base/assertion> .
+<https://w3id.org/giuseppe-raimondi-lod/height/26cm> <http://erlangen-crm.org/current/P2_has_type> <https://w3id.org/ficlitdl/ontology/height> <https://w3id.org/giuseppe-raimondi-lod/nanopub/nanopub-base/assertion> .
+<https://w3id.org/giuseppe-raimondi-lod/height/31cm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://erlangen-crm.org/current/E54_Dimension> <https://w3id.org/giuseppe-raimondi-lod/nanopub/nanopub-base/assertion> .
+<https://w3id.org/giuseppe-raimondi-lod/height/25cm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://erlangen-crm.org/current/E54_Dimension> <https://w3id.org/giuseppe-raimondi-lod/nanopub/nanopub-base/assertion> .
+<https://w3id.org/giuseppe-raimondi-lod/height/31cm> <http://erlangen-crm.org/current/P91_has_unit> <https://w3id.org/ficlitdl/ontology/centimetre> <https://w3id.org/giuseppe-raimondi-lod/nanopub/nanopub-base/assertion> .
+<https://w3id.org/giuseppe-raimondi-lod/height/26cm> <http://erlangen-crm.org/current/P90_has_value> "26 cm"^^<http://www.w3.org/2001/XMLSchema#integer> <https://w3id.org/giuseppe-raimondi-lod/nanopub/nanopub-base/assertion> .
+<https://w3id.org/giuseppe-raimondi-lod/height/37cm> <http://www.w3.org/2000/01/rdf-schema#label> "Height 37 cm"@en <https://w3id.org/giuseppe-raimondi-lod/nanopub/nanopub-base/assertion> .
+<https://w3id.org/giuseppe-raimondi-lod/height/37cm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://erlangen-crm.org/current/E54_Dimension> <https://w3id.org/giuseppe-raimondi-lod/nanopub/nanopub-base/assertion> .
+<https://w3id.org/giuseppe-raimondi-lod/height/25cm> <http://erlangen-crm.org/current/P2_has_type> <https://w3id.org/ficlitdl/ontology/height> <https://w3id.org/giuseppe-raimondi-lod/nanopub/nanopub-base/assertion> .
+<https://w3id.org/giuseppe-raimondi-lod/height/26cm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://erlangen-crm.org/current/E54_Dimension> <https://w3id.org/giuseppe-raimondi-lod/nanopub/nanopub-base/assertion> .
+<https://w3id.org/giuseppe-raimondi-lod/height/31cm> <http://erlangen-crm.org/current/P90_has_value> "31 cm"^^<http://www.w3.org/2001/XMLSchema#integer> <https://w3id.org/giuseppe-raimondi-lod/nanopub/nanopub-base/assertion> .
+<https://w3id.org/giuseppe-raimondi-lod/height/26cm> <http://www.w3.org/2000/01/rdf-schema#label> "Height 26 cm"@en <https://w3id.org/giuseppe-raimondi-lod/nanopub/nanopub-base/assertion> .
+<https://w3id.org/giuseppe-raimondi-lod/height/25cm> <http://erlangen-crm.org/current/P90_has_value> "25 cm"^^<http://www.w3.org/2001/XMLSchema#integer> <https://w3id.org/giuseppe-raimondi-lod/nanopub/nanopub-base/assertion> .
+<https://w3id.org/giuseppe-raimondi-lod/height/37cm> <http://erlangen-crm.org/current/P90_has_value> "37 cm"^^<http://www.w3.org/2001/XMLSchema#integer> <https://w3id.org/giuseppe-raimondi-lod/nanopub/nanopub-base/assertion> .
+<https://w3id.org/giuseppe-raimondi-lod/height/37cm> <http://www.w3.org/2000/01/rdf-schema#label> "Altezza 37 cm"@it <https://w3id.org/giuseppe-raimondi-lod/nanopub/nanopub-base/assertion> .
+

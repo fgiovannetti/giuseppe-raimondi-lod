@@ -93,7 +93,7 @@ with open('../input/quaderni.csv', mode='r') as csv_file:
 		# Add quads to base-graph
 
 
-		d.add((time_span, RDF.type, URIRef('http://erlangen-crm.org/current/P52_Time-Span'), graph_base))
+		d.add((time_span, RDF.type, URIRef('http://erlangen-crm.org/current/E52_Time-Span'), graph_base))
 		d.add((time_span, RDFS.label, Literal(time_span_label , lang='it'), graph_base))
 		d.add((time_span, RDFS.label, Literal(time_span_label , lang='en'), graph_base))
 		d.add((time_span, ti.hasIntervalStartDate, Literal(time_span_label, datatype=XSD.date), graph_base))
