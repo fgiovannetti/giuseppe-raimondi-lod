@@ -176,7 +176,7 @@ with open('../input/articoli.csv', mode='r') as csv_file:
 
 		# Keeper, owner, location, and rights
 		d.add((rec_object, ecrm.P50_has_current_keeper, URIRef('https://w3id.org/ficlitdl/org/unibo'), graph_base))
-		d.add((rec_object, ecrm.P52_has_current_owner, URIRef('https://w3id.org/ficlitdl/org/sab-ero'), graph_base))
+		d.add((rec_object, ecrm.P52_has_current_owner, URIRef('https://w3id.org/ficlitdl/org/ibc'), graph_base))
 		d.add((rec_object, ecrm.P55_has_current_location, URIRef('https://w3id.org/ficlitdl/place/biblioteca-ezio-raimondi'), graph_base))
 		d.add((rec_object, ecrm.P104_is_subject_to, URIRef('https://w3id.org/ficlitdl/right/' + 'all-rights-reserved'), graph_base))
 		# Link to expression
