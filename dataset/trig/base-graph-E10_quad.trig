@@ -1,0 +1,21 @@
+@prefix ecrm: <http://erlangen-crm.org/current/> .
+@prefix grlod-np: <https://w3id.org/giuseppe-raimondi-lod/nanopub/nanopub-base/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+grlod-np:assertion {
+    <https://w3id.org/giuseppe-raimondi-lod/record-set/giuseppe-raimondi-fonds/object/custody-transfer-1> a ecrm:E10_Transfer_Of_Custody ;
+        rdfs:label "Purchase of the Giuseppe Raimondi Archive by the Soprintendenza archivistica e bibliografica dell'Emilia-Romagna (SAB ERO) in the late 1980s"@en,
+            "Acquisto dell'Archivio Giuseppe Raimondi da parte della Soprintendenza archivistica e bibliografica dell'Emilia-Romagna (SAB ERO) alla fine degli anni '80"@it ;
+        ecrm:P29_custody_received_by <https://w3id.org/ficlitdl/org/sab-ero> ;
+        ecrm:P30_transferred_custody_of <https://w3id.org/giuseppe-raimondi-lod/record-set/giuseppe-raimondi-fonds/object> ;
+        ecrm:P4_has_time-span <https://w3id.org/giuseppe-raimondi-lod/time-span/1985-1989> .
+
+    <https://w3id.org/giuseppe-raimondi-lod/record-set/giuseppe-raimondi-fonds/object/custody-transfer-2> a ecrm:E10_Transfer_Of_Custody ;
+        rdfs:label "Transfer of custody of the Giuseppe Raimondi Archive from the Soprintendenza archivistica e bibliografica dell'Emilia-Romagna (SAB ERO) to the Department of Italian Studies of the University of Bologna in May 1996"@en,
+            "Trasferimento dell'Archivio Giuseppe Raimondi dallaSoprintendenza archivistica e bibliografica dell'Emilia-Romagna (SAB ERO) al Dipartimento di Italianistica dell'Università di Bologna nel maggio 1996"@it ;
+        ecrm:P28_custody_surrendered_by <https://w3id.org/ficlitdl/org/sab-ero> ;
+        ecrm:P29_custody_received_by <https://w3id.org/ficlitdl/org/unibo> ;
+        ecrm:P30_transferred_custody_of <https://w3id.org/giuseppe-raimondi-lod/record-set/giuseppe-raimondi-fonds/object> ;
+        ecrm:P4_has_time-span <https://w3id.org/giuseppe-raimondi-lod/time-span/1996-05> .
+}
+

@@ -1,0 +1,1879 @@
+@prefix ecrm: <http://erlangen-crm.org/current/> .
+@prefix grlod-np: <https://w3id.org/giuseppe-raimondi-lod/nanopub/nanopub-base/> .
+@prefix ti: <http://www.ontologydesignpatterns.org/cp/owl/timeinterval.owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+grlod-np:assertion {
+    <https://w3id.org/giuseppe-raimondi-lod/1947-01-01-1947-12-31> a ecrm:E52_Time-Span ;
+        ti:hasIntervalEndDate "1947-12-31"^^xsd:date ;
+        ti:hasIntervalStartDate "1947-01-01"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1954-01-01-1954-12-31> a ecrm:E52_Time-Span ;
+        ti:hasIntervalEndDate "1954-12-31"^^xsd:date ;
+        ti:hasIntervalStartDate "1954-01-01"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1960-03-31> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1960-03-31"^^xsd:date ;
+        ti:hasIntervalStartDate "1960-03-31"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1960-04-20> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1960-04-20"^^xsd:date ;
+        ti:hasIntervalStartDate "1960-04-20"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1960-05-12> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1960-05-12"^^xsd:date ;
+        ti:hasIntervalStartDate "1960-05-12"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1960-05-14> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1960-05-14"^^xsd:date ;
+        ti:hasIntervalStartDate "1960-05-14"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1960-07-24> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1960-07-24"^^xsd:date ;
+        ti:hasIntervalStartDate "1960-07-24"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1960-07-30> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1960-07-30"^^xsd:date ;
+        ti:hasIntervalStartDate "1960-07-30"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1960-11-12> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1960-11-12"^^xsd:date ;
+        ti:hasIntervalStartDate "1960-11-12"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1960-11-29> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1960-11-29"^^xsd:date ;
+        ti:hasIntervalStartDate "1960-11-29"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1960-12-20> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1960-12-20"^^xsd:date ;
+        ti:hasIntervalStartDate "1960-12-20"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1960-12-29> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1960-12-29"^^xsd:date ;
+        ti:hasIntervalStartDate "1960-12-29"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1961-01-28> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1961-01-28"^^xsd:date ;
+        ti:hasIntervalStartDate "1961-01-28"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1961-01-31> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1961-01-31"^^xsd:date ;
+        ti:hasIntervalStartDate "1961-01-31"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1961-02-07> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1961-02-07"^^xsd:date ;
+        ti:hasIntervalStartDate "1961-02-07"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1961-03-02> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1961-03-02"^^xsd:date ;
+        ti:hasIntervalStartDate "1961-03-02"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1961-03-14> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1961-03-14"^^xsd:date ;
+        ti:hasIntervalStartDate "1961-03-14"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1961-03-25> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1961-03-25"^^xsd:date ;
+        ti:hasIntervalStartDate "1961-03-25"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1961-04-10> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1961-04-10"^^xsd:date ;
+        ti:hasIntervalStartDate "1961-04-10"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1961-04-19> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1961-04-19"^^xsd:date ;
+        ti:hasIntervalStartDate "1961-04-19"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1961-05-04> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1961-05-04"^^xsd:date ;
+        ti:hasIntervalStartDate "1961-05-04"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1961-05-10> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1961-05-10"^^xsd:date ;
+        ti:hasIntervalStartDate "1961-05-10"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1961-06-06> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1961-06-06"^^xsd:date ;
+        ti:hasIntervalStartDate "1961-06-06"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1961-06-14> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1961-06-14"^^xsd:date ;
+        ti:hasIntervalStartDate "1961-06-14"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1961-06-18> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1961-06-18"^^xsd:date ;
+        ti:hasIntervalStartDate "1961-06-18"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1961-06-23> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1961-06-23"^^xsd:date ;
+        ti:hasIntervalStartDate "1961-06-23"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1961-06-26> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1961-06-26"^^xsd:date ;
+        ti:hasIntervalStartDate "1961-06-26"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1961-07-15> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1961-07-15"^^xsd:date ;
+        ti:hasIntervalStartDate "1961-07-15"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1961-07-23> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1961-07-23"^^xsd:date ;
+        ti:hasIntervalStartDate "1961-07-23"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1961-07-27> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1961-07-27"^^xsd:date ;
+        ti:hasIntervalStartDate "1961-07-27"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1961-07-30> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1961-07-30"^^xsd:date ;
+        ti:hasIntervalStartDate "1961-07-30"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1961-08-01> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1961-08-01"^^xsd:date ;
+        ti:hasIntervalStartDate "1961-08-01"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1961-08-03> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1961-08-03"^^xsd:date ;
+        ti:hasIntervalStartDate "1961-08-03"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1961-08-09> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1961-08-09"^^xsd:date ;
+        ti:hasIntervalStartDate "1961-08-09"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1961-08-20> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1961-08-20"^^xsd:date ;
+        ti:hasIntervalStartDate "1961-08-20"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1961-12-14> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1961-12-14"^^xsd:date ;
+        ti:hasIntervalStartDate "1961-12-14"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1961-12-22> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1961-12-22"^^xsd:date ;
+        ti:hasIntervalStartDate "1961-12-22"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1961-12-27> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1961-12-27"^^xsd:date ;
+        ti:hasIntervalStartDate "1961-12-27"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1962-01-01-1962-12-31> a ecrm:E52_Time-Span ;
+        ti:hasIntervalEndDate "1962-12-31"^^xsd:date ;
+        ti:hasIntervalStartDate "1962-01-01"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1962-01-05> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1962-01-05"^^xsd:date ;
+        ti:hasIntervalStartDate "1962-01-05"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1962-01-06> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1962-01-06"^^xsd:date ;
+        ti:hasIntervalStartDate "1962-01-06"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1962-01-11> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1962-01-11"^^xsd:date ;
+        ti:hasIntervalStartDate "1962-01-11"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1962-02-16> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1962-02-16"^^xsd:date ;
+        ti:hasIntervalStartDate "1962-02-16"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1962-03-06> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1962-03-06"^^xsd:date ;
+        ti:hasIntervalStartDate "1962-03-06"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1962-05-10> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1962-05-10"^^xsd:date ;
+        ti:hasIntervalStartDate "1962-05-10"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1962-05-13> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1962-05-13"^^xsd:date ;
+        ti:hasIntervalStartDate "1962-05-13"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1962-05-31> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1962-05-31"^^xsd:date ;
+        ti:hasIntervalStartDate "1962-05-31"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1962-06-06> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1962-06-06"^^xsd:date ;
+        ti:hasIntervalStartDate "1962-06-06"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1962-06-15> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1962-06-15"^^xsd:date ;
+        ti:hasIntervalStartDate "1962-06-15"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1962-06-28> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1962-06-28"^^xsd:date ;
+        ti:hasIntervalStartDate "1962-06-28"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1962-07-10> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1962-07-10"^^xsd:date ;
+        ti:hasIntervalStartDate "1962-07-10"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1962-07-23> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1962-07-23"^^xsd:date ;
+        ti:hasIntervalStartDate "1962-07-23"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1962-08-01> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1962-08-01"^^xsd:date ;
+        ti:hasIntervalStartDate "1962-08-01"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1962-08-25> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1962-08-25"^^xsd:date ;
+        ti:hasIntervalStartDate "1962-08-25"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1962-10-06> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1962-10-06"^^xsd:date ;
+        ti:hasIntervalStartDate "1962-10-06"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1962-10-14> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1962-10-14"^^xsd:date ;
+        ti:hasIntervalStartDate "1962-10-14"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1962-10-25> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1962-10-25"^^xsd:date ;
+        ti:hasIntervalStartDate "1962-10-25"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1962-11-07> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1962-11-07"^^xsd:date ;
+        ti:hasIntervalStartDate "1962-11-07"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1962-11-14> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1962-11-14"^^xsd:date ;
+        ti:hasIntervalStartDate "1962-11-14"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1963-03-27> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1963-03-27"^^xsd:date ;
+        ti:hasIntervalStartDate "1963-03-27"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1963-05-10> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1963-05-10"^^xsd:date ;
+        ti:hasIntervalStartDate "1963-05-10"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1963-06-05> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1963-06-05"^^xsd:date ;
+        ti:hasIntervalStartDate "1963-06-05"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1963-06-07> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1963-06-07"^^xsd:date ;
+        ti:hasIntervalStartDate "1963-06-07"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1963-06-22> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1963-06-22"^^xsd:date ;
+        ti:hasIntervalStartDate "1963-06-22"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1963-07-05> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1963-07-05"^^xsd:date ;
+        ti:hasIntervalStartDate "1963-07-05"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1963-07-13> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1963-07-13"^^xsd:date ;
+        ti:hasIntervalStartDate "1963-07-13"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1963-07-15> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1963-07-15"^^xsd:date ;
+        ti:hasIntervalStartDate "1963-07-15"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1963-07-26> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1963-07-26"^^xsd:date ;
+        ti:hasIntervalStartDate "1963-07-26"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1963-07-28> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1963-07-28"^^xsd:date ;
+        ti:hasIntervalStartDate "1963-07-28"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1963-07-29> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1963-07-29"^^xsd:date ;
+        ti:hasIntervalStartDate "1963-07-29"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1963-08-21> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1963-08-21"^^xsd:date ;
+        ti:hasIntervalStartDate "1963-08-21"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1963-08-28> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1963-08-28"^^xsd:date ;
+        ti:hasIntervalStartDate "1963-08-28"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1963-09-15> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1963-09-15"^^xsd:date ;
+        ti:hasIntervalStartDate "1963-09-15"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1963-10-02> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1963-10-02"^^xsd:date ;
+        ti:hasIntervalStartDate "1963-10-02"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1963-10-16> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1963-10-16"^^xsd:date ;
+        ti:hasIntervalStartDate "1963-10-16"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1963-12-04> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1963-12-04"^^xsd:date ;
+        ti:hasIntervalStartDate "1963-12-04"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1963-12-30> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1963-12-30"^^xsd:date ;
+        ti:hasIntervalStartDate "1963-12-30"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1964-01-01-1964-12-31> a ecrm:E52_Time-Span ;
+        ti:hasIntervalEndDate "1964-12-31"^^xsd:date ;
+        ti:hasIntervalStartDate "1964-01-01"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1964-01-22> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1964-01-22"^^xsd:date ;
+        ti:hasIntervalStartDate "1964-01-22"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1964-02-14> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1964-02-14"^^xsd:date ;
+        ti:hasIntervalStartDate "1964-02-14"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1964-02-21> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1964-02-21"^^xsd:date ;
+        ti:hasIntervalStartDate "1964-02-21"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1964-02-24> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1964-02-24"^^xsd:date ;
+        ti:hasIntervalStartDate "1964-02-24"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1964-04-06> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1964-04-06"^^xsd:date ;
+        ti:hasIntervalStartDate "1964-04-06"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1964-04-11> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1964-04-11"^^xsd:date ;
+        ti:hasIntervalStartDate "1964-04-11"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1964-04-16> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1964-04-16"^^xsd:date ;
+        ti:hasIntervalStartDate "1964-04-16"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1964-04-24> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1964-04-24"^^xsd:date ;
+        ti:hasIntervalStartDate "1964-04-24"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1964-04-28> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1964-04-28"^^xsd:date ;
+        ti:hasIntervalStartDate "1964-04-28"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1964-05-04> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1964-05-04"^^xsd:date ;
+        ti:hasIntervalStartDate "1964-05-04"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1964-05-13> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1964-05-13"^^xsd:date ;
+        ti:hasIntervalStartDate "1964-05-13"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1964-05-15> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1964-05-15"^^xsd:date ;
+        ti:hasIntervalStartDate "1964-05-15"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1964-05-26> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1964-05-26"^^xsd:date ;
+        ti:hasIntervalStartDate "1964-05-26"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1964-06-05> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1964-06-05"^^xsd:date ;
+        ti:hasIntervalStartDate "1964-06-05"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1964-06-10> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1964-06-10"^^xsd:date ;
+        ti:hasIntervalStartDate "1964-06-10"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1964-06-19> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1964-06-19"^^xsd:date ;
+        ti:hasIntervalStartDate "1964-06-19"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1964-06-22> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1964-06-22"^^xsd:date ;
+        ti:hasIntervalStartDate "1964-06-22"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1964-06-30> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1964-06-30"^^xsd:date ;
+        ti:hasIntervalStartDate "1964-06-30"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1964-07-21> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1964-07-21"^^xsd:date ;
+        ti:hasIntervalStartDate "1964-07-21"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1964-07-28> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1964-07-28"^^xsd:date ;
+        ti:hasIntervalStartDate "1964-07-28"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1964-08-11> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1964-08-11"^^xsd:date ;
+        ti:hasIntervalStartDate "1964-08-11"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1964-08-12> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1964-08-12"^^xsd:date ;
+        ti:hasIntervalStartDate "1964-08-12"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1964-08-16> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1964-08-16"^^xsd:date ;
+        ti:hasIntervalStartDate "1964-08-16"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1964-09-02> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1964-09-02"^^xsd:date ;
+        ti:hasIntervalStartDate "1964-09-02"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1964-09-23> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1964-09-23"^^xsd:date ;
+        ti:hasIntervalStartDate "1964-09-23"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1964-10-29> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1964-10-29"^^xsd:date ;
+        ti:hasIntervalStartDate "1964-10-29"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1964-11-06> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1964-11-06"^^xsd:date ;
+        ti:hasIntervalStartDate "1964-11-06"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1964-11-25> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1964-11-25"^^xsd:date ;
+        ti:hasIntervalStartDate "1964-11-25"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1964-11-27> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1964-11-27"^^xsd:date ;
+        ti:hasIntervalStartDate "1964-11-27"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1964-12-09> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1964-12-09"^^xsd:date ;
+        ti:hasIntervalStartDate "1964-12-09"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1964-12-14> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1964-12-14"^^xsd:date ;
+        ti:hasIntervalStartDate "1964-12-14"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1965-01-01-1965-12-31> a ecrm:E52_Time-Span ;
+        ti:hasIntervalEndDate "1965-12-31"^^xsd:date ;
+        ti:hasIntervalStartDate "1965-01-01"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1965-01-04> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1965-01-04"^^xsd:date ;
+        ti:hasIntervalStartDate "1965-01-04"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1965-01-23> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1965-01-23"^^xsd:date ;
+        ti:hasIntervalStartDate "1965-01-23"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1965-02-22> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1965-02-22"^^xsd:date ;
+        ti:hasIntervalStartDate "1965-02-22"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1965-02-24> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1965-02-24"^^xsd:date ;
+        ti:hasIntervalStartDate "1965-02-24"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1965-02-25> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1965-02-25"^^xsd:date ;
+        ti:hasIntervalStartDate "1965-02-25"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1965-03-05> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1965-03-05"^^xsd:date ;
+        ti:hasIntervalStartDate "1965-03-05"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1965-03-24> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1965-03-24"^^xsd:date ;
+        ti:hasIntervalStartDate "1965-03-24"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1965-04-09> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1965-04-09"^^xsd:date ;
+        ti:hasIntervalStartDate "1965-04-09"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1965-05-26> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1965-05-26"^^xsd:date ;
+        ti:hasIntervalStartDate "1965-05-26"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1965-08-28> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1965-08-28"^^xsd:date ;
+        ti:hasIntervalStartDate "1965-08-28"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1965-09-20> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1965-09-20"^^xsd:date ;
+        ti:hasIntervalStartDate "1965-09-20"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1965-11-12> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1965-11-12"^^xsd:date ;
+        ti:hasIntervalStartDate "1965-11-12"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1965-12-15> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1965-12-15"^^xsd:date ;
+        ti:hasIntervalStartDate "1965-12-15"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1965-12-22> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1965-12-22"^^xsd:date ;
+        ti:hasIntervalStartDate "1965-12-22"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1966-01-18> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1966-01-18"^^xsd:date ;
+        ti:hasIntervalStartDate "1966-01-18"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1966-01-29> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1966-01-29"^^xsd:date ;
+        ti:hasIntervalStartDate "1966-01-29"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1966-02-02> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1966-02-02"^^xsd:date ;
+        ti:hasIntervalStartDate "1966-02-02"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1966-02-09> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1966-02-09"^^xsd:date ;
+        ti:hasIntervalStartDate "1966-02-09"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1966-02-16> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1966-02-16"^^xsd:date ;
+        ti:hasIntervalStartDate "1966-02-16"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1966-02-28> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1966-02-28"^^xsd:date ;
+        ti:hasIntervalStartDate "1966-02-28"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1966-03-26> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1966-03-26"^^xsd:date ;
+        ti:hasIntervalStartDate "1966-03-26"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1966-04-04> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1966-04-04"^^xsd:date ;
+        ti:hasIntervalStartDate "1966-04-04"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1966-05-27> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1966-05-27"^^xsd:date ;
+        ti:hasIntervalStartDate "1966-05-27"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1966-06-04> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1966-06-04"^^xsd:date ;
+        ti:hasIntervalStartDate "1966-06-04"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1966-06-15> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1966-06-15"^^xsd:date ;
+        ti:hasIntervalStartDate "1966-06-15"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1966-06-20> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1966-06-20"^^xsd:date ;
+        ti:hasIntervalStartDate "1966-06-20"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1966-06-26> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1966-06-26"^^xsd:date ;
+        ti:hasIntervalStartDate "1966-06-26"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1966-07-01> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1966-07-01"^^xsd:date ;
+        ti:hasIntervalStartDate "1966-07-01"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1966-07-05> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1966-07-05"^^xsd:date ;
+        ti:hasIntervalStartDate "1966-07-05"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1966-07-12> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1966-07-12"^^xsd:date ;
+        ti:hasIntervalStartDate "1966-07-12"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1966-07-22> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1966-07-22"^^xsd:date ;
+        ti:hasIntervalStartDate "1966-07-22"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1966-07-30> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1966-07-30"^^xsd:date ;
+        ti:hasIntervalStartDate "1966-07-30"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1966-08-03> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1966-08-03"^^xsd:date ;
+        ti:hasIntervalStartDate "1966-08-03"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1966-08-06> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1966-08-06"^^xsd:date ;
+        ti:hasIntervalStartDate "1966-08-06"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1966-08-18> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1966-08-18"^^xsd:date ;
+        ti:hasIntervalStartDate "1966-08-18"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1966-08-26> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1966-08-26"^^xsd:date ;
+        ti:hasIntervalStartDate "1966-08-26"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1966-08-29> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1966-08-29"^^xsd:date ;
+        ti:hasIntervalStartDate "1966-08-29"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1966-09-12> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1966-09-12"^^xsd:date ;
+        ti:hasIntervalStartDate "1966-09-12"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1966-09-18> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1966-09-18"^^xsd:date ;
+        ti:hasIntervalStartDate "1966-09-18"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1966-10-00> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1966-10-00"^^xsd:date ;
+        ti:hasIntervalStartDate "1966-10-00"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1966-10-10> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1966-10-10"^^xsd:date ;
+        ti:hasIntervalStartDate "1966-10-10"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1966-11-13> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1966-11-13"^^xsd:date ;
+        ti:hasIntervalStartDate "1966-11-13"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1966-11-23> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1966-11-23"^^xsd:date ;
+        ti:hasIntervalStartDate "1966-11-23"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1966-12-02> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1966-12-02"^^xsd:date ;
+        ti:hasIntervalStartDate "1966-12-02"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1966-12-04> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1966-12-04"^^xsd:date ;
+        ti:hasIntervalStartDate "1966-12-04"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1966-12-15> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1966-12-15"^^xsd:date ;
+        ti:hasIntervalStartDate "1966-12-15"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1967-01-03> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1967-01-03"^^xsd:date ;
+        ti:hasIntervalStartDate "1967-01-03"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1967-01-05> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1967-01-05"^^xsd:date ;
+        ti:hasIntervalStartDate "1967-01-05"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1967-01-09> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1967-01-09"^^xsd:date ;
+        ti:hasIntervalStartDate "1967-01-09"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1967-01-12> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1967-01-12"^^xsd:date ;
+        ti:hasIntervalStartDate "1967-01-12"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1967-02-01> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1967-02-01"^^xsd:date ;
+        ti:hasIntervalStartDate "1967-02-01"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1967-02-23> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1967-02-23"^^xsd:date ;
+        ti:hasIntervalStartDate "1967-02-23"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1967-02-28> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1967-02-28"^^xsd:date ;
+        ti:hasIntervalStartDate "1967-02-28"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1967-03-02> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1967-03-02"^^xsd:date ;
+        ti:hasIntervalStartDate "1967-03-02"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1967-03-12> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1967-03-12"^^xsd:date ;
+        ti:hasIntervalStartDate "1967-03-12"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1967-03-14> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1967-03-14"^^xsd:date ;
+        ti:hasIntervalStartDate "1967-03-14"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1967-03-21> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1967-03-21"^^xsd:date ;
+        ti:hasIntervalStartDate "1967-03-21"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1967-04-04> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1967-04-04"^^xsd:date ;
+        ti:hasIntervalStartDate "1967-04-04"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1967-04-07> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1967-04-07"^^xsd:date ;
+        ti:hasIntervalStartDate "1967-04-07"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1967-04-10> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1967-04-10"^^xsd:date ;
+        ti:hasIntervalStartDate "1967-04-10"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1967-04-15> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1967-04-15"^^xsd:date ;
+        ti:hasIntervalStartDate "1967-04-15"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1967-04-21> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1967-04-21"^^xsd:date ;
+        ti:hasIntervalStartDate "1967-04-21"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1967-05-03> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1967-05-03"^^xsd:date ;
+        ti:hasIntervalStartDate "1967-05-03"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1967-05-17> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1967-05-17"^^xsd:date ;
+        ti:hasIntervalStartDate "1967-05-17"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1967-06-11> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1967-06-11"^^xsd:date ;
+        ti:hasIntervalStartDate "1967-06-11"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1967-06-19> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1967-06-19"^^xsd:date ;
+        ti:hasIntervalStartDate "1967-06-19"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1967-06-26> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1967-06-26"^^xsd:date ;
+        ti:hasIntervalStartDate "1967-06-26"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1967-07-05> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1967-07-05"^^xsd:date ;
+        ti:hasIntervalStartDate "1967-07-05"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1967-07-17> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1967-07-17"^^xsd:date ;
+        ti:hasIntervalStartDate "1967-07-17"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1967-07-25> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1967-07-25"^^xsd:date ;
+        ti:hasIntervalStartDate "1967-07-25"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1967-08-15> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1967-08-15"^^xsd:date ;
+        ti:hasIntervalStartDate "1967-08-15"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1967-09-02> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1967-09-02"^^xsd:date ;
+        ti:hasIntervalStartDate "1967-09-02"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1967-09-10> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1967-09-10"^^xsd:date ;
+        ti:hasIntervalStartDate "1967-09-10"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1967-09-18> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1967-09-18"^^xsd:date ;
+        ti:hasIntervalStartDate "1967-09-18"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1967-09-24> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1967-09-24"^^xsd:date ;
+        ti:hasIntervalStartDate "1967-09-24"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1967-10-19> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1967-10-19"^^xsd:date ;
+        ti:hasIntervalStartDate "1967-10-19"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1967-10-23> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1967-10-23"^^xsd:date ;
+        ti:hasIntervalStartDate "1967-10-23"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1967-11-10> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1967-11-10"^^xsd:date ;
+        ti:hasIntervalStartDate "1967-11-10"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1967-11-14> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1967-11-14"^^xsd:date ;
+        ti:hasIntervalStartDate "1967-11-14"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1967-11-20> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1967-11-20"^^xsd:date ;
+        ti:hasIntervalStartDate "1967-11-20"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1967-12-01> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1967-12-01"^^xsd:date ;
+        ti:hasIntervalStartDate "1967-12-01"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1967-12-14> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1967-12-14"^^xsd:date ;
+        ti:hasIntervalStartDate "1967-12-14"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1967-12-28> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1967-12-28"^^xsd:date ;
+        ti:hasIntervalStartDate "1967-12-28"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1968-01-02> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1968-01-02"^^xsd:date ;
+        ti:hasIntervalStartDate "1968-01-02"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1968-02-04> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1968-02-04"^^xsd:date ;
+        ti:hasIntervalStartDate "1968-02-04"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1968-04-04> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1968-04-04"^^xsd:date ;
+        ti:hasIntervalStartDate "1968-04-04"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1968-04-06> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1968-04-06"^^xsd:date ;
+        ti:hasIntervalStartDate "1968-04-06"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1968-04-17> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1968-04-17"^^xsd:date ;
+        ti:hasIntervalStartDate "1968-04-17"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1968-05-09> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1968-05-09"^^xsd:date ;
+        ti:hasIntervalStartDate "1968-05-09"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1968-05-21> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1968-05-21"^^xsd:date ;
+        ti:hasIntervalStartDate "1968-05-21"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1968-05-31> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1968-05-31"^^xsd:date ;
+        ti:hasIntervalStartDate "1968-05-31"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1968-06-03> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1968-06-03"^^xsd:date ;
+        ti:hasIntervalStartDate "1968-06-03"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1968-06-06> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1968-06-06"^^xsd:date ;
+        ti:hasIntervalStartDate "1968-06-06"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1968-06-22> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1968-06-22"^^xsd:date ;
+        ti:hasIntervalStartDate "1968-06-22"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1968-06-25> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1968-06-25"^^xsd:date ;
+        ti:hasIntervalStartDate "1968-06-25"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1968-07-02> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1968-07-02"^^xsd:date ;
+        ti:hasIntervalStartDate "1968-07-02"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1968-07-07> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1968-07-07"^^xsd:date ;
+        ti:hasIntervalStartDate "1968-07-07"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1968-07-17> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1968-07-17"^^xsd:date ;
+        ti:hasIntervalStartDate "1968-07-17"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1968-07-30> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1968-07-30"^^xsd:date ;
+        ti:hasIntervalStartDate "1968-07-30"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1968-08-12> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1968-08-12"^^xsd:date ;
+        ti:hasIntervalStartDate "1968-08-12"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1968-08-27> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1968-08-27"^^xsd:date ;
+        ti:hasIntervalStartDate "1968-08-27"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1968-09-05> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1968-09-05"^^xsd:date ;
+        ti:hasIntervalStartDate "1968-09-05"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1968-09-15> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1968-09-15"^^xsd:date ;
+        ti:hasIntervalStartDate "1968-09-15"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1968-09-23> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1968-09-23"^^xsd:date ;
+        ti:hasIntervalStartDate "1968-09-23"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1968-10-10> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1968-10-10"^^xsd:date ;
+        ti:hasIntervalStartDate "1968-10-10"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1968-10-18> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1968-10-18"^^xsd:date ;
+        ti:hasIntervalStartDate "1968-10-18"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1968-10-28> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1968-10-28"^^xsd:date ;
+        ti:hasIntervalStartDate "1968-10-28"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1968-11-18> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1968-11-18"^^xsd:date ;
+        ti:hasIntervalStartDate "1968-11-18"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1968-11-22> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1968-11-22"^^xsd:date ;
+        ti:hasIntervalStartDate "1968-11-22"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1968-11-29> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1968-11-29"^^xsd:date ;
+        ti:hasIntervalStartDate "1968-11-29"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1968-12-12> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1968-12-12"^^xsd:date ;
+        ti:hasIntervalStartDate "1968-12-12"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1968-12-20> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1968-12-20"^^xsd:date ;
+        ti:hasIntervalStartDate "1968-12-20"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1969-01-09> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1969-01-09"^^xsd:date ;
+        ti:hasIntervalStartDate "1969-01-09"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1969-01-15> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1969-01-15"^^xsd:date ;
+        ti:hasIntervalStartDate "1969-01-15"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1969-01-20> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1969-01-20"^^xsd:date ;
+        ti:hasIntervalStartDate "1969-01-20"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1969-01-24> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1969-01-24"^^xsd:date ;
+        ti:hasIntervalStartDate "1969-01-24"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1969-02-06> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1969-02-06"^^xsd:date ;
+        ti:hasIntervalStartDate "1969-02-06"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1969-02-12> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1969-02-12"^^xsd:date ;
+        ti:hasIntervalStartDate "1969-02-12"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1969-02-19> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1969-02-19"^^xsd:date ;
+        ti:hasIntervalStartDate "1969-02-19"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1969-02-26> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1969-02-26"^^xsd:date ;
+        ti:hasIntervalStartDate "1969-02-26"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1969-03-13> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1969-03-13"^^xsd:date ;
+        ti:hasIntervalStartDate "1969-03-13"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1969-03-18> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1969-03-18"^^xsd:date ;
+        ti:hasIntervalStartDate "1969-03-18"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1969-04-05> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1969-04-05"^^xsd:date ;
+        ti:hasIntervalStartDate "1969-04-05"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1969-04-09> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1969-04-09"^^xsd:date ;
+        ti:hasIntervalStartDate "1969-04-09"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1969-04-11> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1969-04-11"^^xsd:date ;
+        ti:hasIntervalStartDate "1969-04-11"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1969-04-23> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1969-04-23"^^xsd:date ;
+        ti:hasIntervalStartDate "1969-04-23"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1969-05-08> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1969-05-08"^^xsd:date ;
+        ti:hasIntervalStartDate "1969-05-08"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1969-05-19> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1969-05-19"^^xsd:date ;
+        ti:hasIntervalStartDate "1969-05-19"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1969-05-30> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1969-05-30"^^xsd:date ;
+        ti:hasIntervalStartDate "1969-05-30"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1969-06-12> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1969-06-12"^^xsd:date ;
+        ti:hasIntervalStartDate "1969-06-12"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1969-06-17> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1969-06-17"^^xsd:date ;
+        ti:hasIntervalStartDate "1969-06-17"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1969-06-26> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1969-06-26"^^xsd:date ;
+        ti:hasIntervalStartDate "1969-06-26"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1969-06-29> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1969-06-29"^^xsd:date ;
+        ti:hasIntervalStartDate "1969-06-29"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1969-06-30> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1969-06-30"^^xsd:date ;
+        ti:hasIntervalStartDate "1969-06-30"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1969-07-03> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1969-07-03"^^xsd:date ;
+        ti:hasIntervalStartDate "1969-07-03"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1969-08-06> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1969-08-06"^^xsd:date ;
+        ti:hasIntervalStartDate "1969-08-06"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1969-08-25> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1969-08-25"^^xsd:date ;
+        ti:hasIntervalStartDate "1969-08-25"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1969-09-03> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1969-09-03"^^xsd:date ;
+        ti:hasIntervalStartDate "1969-09-03"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1969-09-13> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1969-09-13"^^xsd:date ;
+        ti:hasIntervalStartDate "1969-09-13"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1969-10-06> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1969-10-06"^^xsd:date ;
+        ti:hasIntervalStartDate "1969-10-06"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1969-10-07> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1969-10-07"^^xsd:date ;
+        ti:hasIntervalStartDate "1969-10-07"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1969-10-25> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1969-10-25"^^xsd:date ;
+        ti:hasIntervalStartDate "1969-10-25"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1969-10-31> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1969-10-31"^^xsd:date ;
+        ti:hasIntervalStartDate "1969-10-31"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1969-11-08> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1969-11-08"^^xsd:date ;
+        ti:hasIntervalStartDate "1969-11-08"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1969-11-18> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1969-11-18"^^xsd:date ;
+        ti:hasIntervalStartDate "1969-11-18"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1969-12-09> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1969-12-09"^^xsd:date ;
+        ti:hasIntervalStartDate "1969-12-09"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1969-12-22> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1969-12-22"^^xsd:date ;
+        ti:hasIntervalStartDate "1969-12-22"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1970-01-09> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1970-01-09"^^xsd:date ;
+        ti:hasIntervalStartDate "1970-01-09"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1970-01-21> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1970-01-21"^^xsd:date ;
+        ti:hasIntervalStartDate "1970-01-21"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1970-01-28> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1970-01-28"^^xsd:date ;
+        ti:hasIntervalStartDate "1970-01-28"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1970-02-07> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1970-02-07"^^xsd:date ;
+        ti:hasIntervalStartDate "1970-02-07"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1970-02-10> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1970-02-10"^^xsd:date ;
+        ti:hasIntervalStartDate "1970-02-10"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1970-02-15> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1970-02-15"^^xsd:date ;
+        ti:hasIntervalStartDate "1970-02-15"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1970-03-26> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1970-03-26"^^xsd:date ;
+        ti:hasIntervalStartDate "1970-03-26"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1970-04-08> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1970-04-08"^^xsd:date ;
+        ti:hasIntervalStartDate "1970-04-08"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1970-04-15> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1970-04-15"^^xsd:date ;
+        ti:hasIntervalStartDate "1970-04-15"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1970-05-04> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1970-05-04"^^xsd:date ;
+        ti:hasIntervalStartDate "1970-05-04"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1970-05-10> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1970-05-10"^^xsd:date ;
+        ti:hasIntervalStartDate "1970-05-10"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1970-05-25> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1970-05-25"^^xsd:date ;
+        ti:hasIntervalStartDate "1970-05-25"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1970-06-03> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1970-06-03"^^xsd:date ;
+        ti:hasIntervalStartDate "1970-06-03"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1970-07-01> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1970-07-01"^^xsd:date ;
+        ti:hasIntervalStartDate "1970-07-01"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1970-07-28> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1970-07-28"^^xsd:date ;
+        ti:hasIntervalStartDate "1970-07-28"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1970-08-01> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1970-08-01"^^xsd:date ;
+        ti:hasIntervalStartDate "1970-08-01"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1970-08-22> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1970-08-22"^^xsd:date ;
+        ti:hasIntervalStartDate "1970-08-22"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1970-09-07> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1970-09-07"^^xsd:date ;
+        ti:hasIntervalStartDate "1970-09-07"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1970-09-22> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1970-09-22"^^xsd:date ;
+        ti:hasIntervalStartDate "1970-09-22"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1970-09-29> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1970-09-29"^^xsd:date ;
+        ti:hasIntervalStartDate "1970-09-29"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1970-10-10> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1970-10-10"^^xsd:date ;
+        ti:hasIntervalStartDate "1970-10-10"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1970-10-13> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1970-10-13"^^xsd:date ;
+        ti:hasIntervalStartDate "1970-10-13"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1970-10-30> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1970-10-30"^^xsd:date ;
+        ti:hasIntervalStartDate "1970-10-30"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1970-11-04> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1970-11-04"^^xsd:date ;
+        ti:hasIntervalStartDate "1970-11-04"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1970-11-17> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1970-11-17"^^xsd:date ;
+        ti:hasIntervalStartDate "1970-11-17"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1970-11-20> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1970-11-20"^^xsd:date ;
+        ti:hasIntervalStartDate "1970-11-20"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1970-11-23> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1970-11-23"^^xsd:date ;
+        ti:hasIntervalStartDate "1970-11-23"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1970-12-08> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1970-12-08"^^xsd:date ;
+        ti:hasIntervalStartDate "1970-12-08"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1970-12-16> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1970-12-16"^^xsd:date ;
+        ti:hasIntervalStartDate "1970-12-16"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1970-12-22> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1970-12-22"^^xsd:date ;
+        ti:hasIntervalStartDate "1970-12-22"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1970-12-30> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1970-12-30"^^xsd:date ;
+        ti:hasIntervalStartDate "1970-12-30"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1971-01-11> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1971-01-11"^^xsd:date ;
+        ti:hasIntervalStartDate "1971-01-11"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1971-01-19> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1971-01-19"^^xsd:date ;
+        ti:hasIntervalStartDate "1971-01-19"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1971-01-25> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1971-01-25"^^xsd:date ;
+        ti:hasIntervalStartDate "1971-01-25"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1971-01-27> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1971-01-27"^^xsd:date ;
+        ti:hasIntervalStartDate "1971-01-27"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1971-01-31> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1971-01-31"^^xsd:date ;
+        ti:hasIntervalStartDate "1971-01-31"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1971-02-04> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1971-02-04"^^xsd:date ;
+        ti:hasIntervalStartDate "1971-02-04"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1971-02-12> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1971-02-12"^^xsd:date ;
+        ti:hasIntervalStartDate "1971-02-12"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1971-02-15> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1971-02-15"^^xsd:date ;
+        ti:hasIntervalStartDate "1971-02-15"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1971-02-21> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1971-02-21"^^xsd:date ;
+        ti:hasIntervalStartDate "1971-02-21"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1971-02-25> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1971-02-25"^^xsd:date ;
+        ti:hasIntervalStartDate "1971-02-25"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1971-02-26> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1971-02-26"^^xsd:date ;
+        ti:hasIntervalStartDate "1971-02-26"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1971-03-09> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1971-03-09"^^xsd:date ;
+        ti:hasIntervalStartDate "1971-03-09"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1971-03-12> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1971-03-12"^^xsd:date ;
+        ti:hasIntervalStartDate "1971-03-12"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1971-03-13> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1971-03-13"^^xsd:date ;
+        ti:hasIntervalStartDate "1971-03-13"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1971-03-20> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1971-03-20"^^xsd:date ;
+        ti:hasIntervalStartDate "1971-03-20"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1971-03-21> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1971-03-21"^^xsd:date ;
+        ti:hasIntervalStartDate "1971-03-21"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1971-03-24> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1971-03-24"^^xsd:date ;
+        ti:hasIntervalStartDate "1971-03-24"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1971-03-31> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1971-03-31"^^xsd:date ;
+        ti:hasIntervalStartDate "1971-03-31"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1971-04-02> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1971-04-02"^^xsd:date ;
+        ti:hasIntervalStartDate "1971-04-02"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1971-04-09> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1971-04-09"^^xsd:date ;
+        ti:hasIntervalStartDate "1971-04-09"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1971-04-26> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1971-04-26"^^xsd:date ;
+        ti:hasIntervalStartDate "1971-04-26"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1971-05-12> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1971-05-12"^^xsd:date ;
+        ti:hasIntervalStartDate "1971-05-12"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1971-05-13> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1971-05-13"^^xsd:date ;
+        ti:hasIntervalStartDate "1971-05-13"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1971-05-17> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1971-05-17"^^xsd:date ;
+        ti:hasIntervalStartDate "1971-05-17"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1971-05-19> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1971-05-19"^^xsd:date ;
+        ti:hasIntervalStartDate "1971-05-19"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1971-05-23> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1971-05-23"^^xsd:date ;
+        ti:hasIntervalStartDate "1971-05-23"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1971-05-30> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1971-05-30"^^xsd:date ;
+        ti:hasIntervalStartDate "1971-05-30"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1971-06-09> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1971-06-09"^^xsd:date ;
+        ti:hasIntervalStartDate "1971-06-09"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1971-06-12> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1971-06-12"^^xsd:date ;
+        ti:hasIntervalStartDate "1971-06-12"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1971-06-24> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1971-06-24"^^xsd:date ;
+        ti:hasIntervalStartDate "1971-06-24"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1971-06-26> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1971-06-26"^^xsd:date ;
+        ti:hasIntervalStartDate "1971-06-26"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1971-06-30> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1971-06-30"^^xsd:date ;
+        ti:hasIntervalStartDate "1971-06-30"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1971-07-01> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1971-07-01"^^xsd:date ;
+        ti:hasIntervalStartDate "1971-07-01"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1971-07-04> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1971-07-04"^^xsd:date ;
+        ti:hasIntervalStartDate "1971-07-04"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1971-08-03> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1971-08-03"^^xsd:date ;
+        ti:hasIntervalStartDate "1971-08-03"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1971-08-10> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1971-08-10"^^xsd:date ;
+        ti:hasIntervalStartDate "1971-08-10"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1971-09-03> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1971-09-03"^^xsd:date ;
+        ti:hasIntervalStartDate "1971-09-03"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1971-09-28> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1971-09-28"^^xsd:date ;
+        ti:hasIntervalStartDate "1971-09-28"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1971-10-05> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1971-10-05"^^xsd:date ;
+        ti:hasIntervalStartDate "1971-10-05"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1971-10-17> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1971-10-17"^^xsd:date ;
+        ti:hasIntervalStartDate "1971-10-17"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1971-10-22> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1971-10-22"^^xsd:date ;
+        ti:hasIntervalStartDate "1971-10-22"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1971-10-26> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1971-10-26"^^xsd:date ;
+        ti:hasIntervalStartDate "1971-10-26"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1971-10-28> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1971-10-28"^^xsd:date ;
+        ti:hasIntervalStartDate "1971-10-28"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1971-11-05> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1971-11-05"^^xsd:date ;
+        ti:hasIntervalStartDate "1971-11-05"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1971-11-16> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1971-11-16"^^xsd:date ;
+        ti:hasIntervalStartDate "1971-11-16"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1971-11-24> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1971-11-24"^^xsd:date ;
+        ti:hasIntervalStartDate "1971-11-24"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1971-11-28> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1971-11-28"^^xsd:date ;
+        ti:hasIntervalStartDate "1971-11-28"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1971-12-14> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1971-12-14"^^xsd:date ;
+        ti:hasIntervalStartDate "1971-12-14"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1971-12-28> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1971-12-28"^^xsd:date ;
+        ti:hasIntervalStartDate "1971-12-28"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1972-01-04> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1972-01-04"^^xsd:date ;
+        ti:hasIntervalStartDate "1972-01-04"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1972-01-05> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1972-01-05"^^xsd:date ;
+        ti:hasIntervalStartDate "1972-01-05"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1972-01-18> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1972-01-18"^^xsd:date ;
+        ti:hasIntervalStartDate "1972-01-18"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1972-01-21> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1972-01-21"^^xsd:date ;
+        ti:hasIntervalStartDate "1972-01-21"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1972-01-26> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1972-01-26"^^xsd:date ;
+        ti:hasIntervalStartDate "1972-01-26"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1972-02-18> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1972-02-18"^^xsd:date ;
+        ti:hasIntervalStartDate "1972-02-18"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1972-03-14> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1972-03-14"^^xsd:date ;
+        ti:hasIntervalStartDate "1972-03-14"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1972-03-18> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1972-03-18"^^xsd:date ;
+        ti:hasIntervalStartDate "1972-03-18"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1972-04-11> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1972-04-11"^^xsd:date ;
+        ti:hasIntervalStartDate "1972-04-11"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1972-06-14> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1972-06-14"^^xsd:date ;
+        ti:hasIntervalStartDate "1972-06-14"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1972-07-00> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1972-07-00"^^xsd:date ;
+        ti:hasIntervalStartDate "1972-07-00"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1972-07-08> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1972-07-08"^^xsd:date ;
+        ti:hasIntervalStartDate "1972-07-08"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1972-08-05> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1972-08-05"^^xsd:date ;
+        ti:hasIntervalStartDate "1972-08-05"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1972-08-18> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1972-08-18"^^xsd:date ;
+        ti:hasIntervalStartDate "1972-08-18"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1972-08-24> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1972-08-24"^^xsd:date ;
+        ti:hasIntervalStartDate "1972-08-24"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1972-08-29> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1972-08-29"^^xsd:date ;
+        ti:hasIntervalStartDate "1972-08-29"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1972-09-04> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1972-09-04"^^xsd:date ;
+        ti:hasIntervalStartDate "1972-09-04"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1972-09-12> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1972-09-12"^^xsd:date ;
+        ti:hasIntervalStartDate "1972-09-12"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1972-09-21> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1972-09-21"^^xsd:date ;
+        ti:hasIntervalStartDate "1972-09-21"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1972-10-03> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1972-10-03"^^xsd:date ;
+        ti:hasIntervalStartDate "1972-10-03"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1972-10-17> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1972-10-17"^^xsd:date ;
+        ti:hasIntervalStartDate "1972-10-17"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1972-10-26> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1972-10-26"^^xsd:date ;
+        ti:hasIntervalStartDate "1972-10-26"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1972-10-28> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1972-10-28"^^xsd:date ;
+        ti:hasIntervalStartDate "1972-10-28"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1972-11-03> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1972-11-03"^^xsd:date ;
+        ti:hasIntervalStartDate "1972-11-03"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1972-11-25> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1972-11-25"^^xsd:date ;
+        ti:hasIntervalStartDate "1972-11-25"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1972-12-04> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1972-12-04"^^xsd:date ;
+        ti:hasIntervalStartDate "1972-12-04"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1972-12-11> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1972-12-11"^^xsd:date ;
+        ti:hasIntervalStartDate "1972-12-11"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1972-12-18> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1972-12-18"^^xsd:date ;
+        ti:hasIntervalStartDate "1972-12-18"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1972-12-22> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1972-12-22"^^xsd:date ;
+        ti:hasIntervalStartDate "1972-12-22"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1972-12-26> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1972-12-26"^^xsd:date ;
+        ti:hasIntervalStartDate "1972-12-26"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1973-01-00> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1973-01-00"^^xsd:date ;
+        ti:hasIntervalStartDate "1973-01-00"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1973-01-10> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1973-01-10"^^xsd:date ;
+        ti:hasIntervalStartDate "1973-01-10"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1973-01-15> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1973-01-15"^^xsd:date ;
+        ti:hasIntervalStartDate "1973-01-15"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1973-01-21> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1973-01-21"^^xsd:date ;
+        ti:hasIntervalStartDate "1973-01-21"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1973-01-23> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1973-01-23"^^xsd:date ;
+        ti:hasIntervalStartDate "1973-01-23"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1973-01-31> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1973-01-31"^^xsd:date ;
+        ti:hasIntervalStartDate "1973-01-31"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1973-02-08> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1973-02-08"^^xsd:date ;
+        ti:hasIntervalStartDate "1973-02-08"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1973-02-15> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1973-02-15"^^xsd:date ;
+        ti:hasIntervalStartDate "1973-02-15"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1973-02-24> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1973-02-24"^^xsd:date ;
+        ti:hasIntervalStartDate "1973-02-24"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1973-03-03> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1973-03-03"^^xsd:date ;
+        ti:hasIntervalStartDate "1973-03-03"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1973-03-23> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1973-03-23"^^xsd:date ;
+        ti:hasIntervalStartDate "1973-03-23"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1973-03-30> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1973-03-30"^^xsd:date ;
+        ti:hasIntervalStartDate "1973-03-30"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1973-04-05> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1973-04-05"^^xsd:date ;
+        ti:hasIntervalStartDate "1973-04-05"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1973-04-10> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1973-04-10"^^xsd:date ;
+        ti:hasIntervalStartDate "1973-04-10"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1973-04-12> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1973-04-12"^^xsd:date ;
+        ti:hasIntervalStartDate "1973-04-12"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1973-04-18> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1973-04-18"^^xsd:date ;
+        ti:hasIntervalStartDate "1973-04-18"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1973-04-20> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1973-04-20"^^xsd:date ;
+        ti:hasIntervalStartDate "1973-04-20"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1973-05-25> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1973-05-25"^^xsd:date ;
+        ti:hasIntervalStartDate "1973-05-25"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1973-06-18> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1973-06-18"^^xsd:date ;
+        ti:hasIntervalStartDate "1973-06-18"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1973-06-27> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1973-06-27"^^xsd:date ;
+        ti:hasIntervalStartDate "1973-06-27"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1973-07-01> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1973-07-01"^^xsd:date ;
+        ti:hasIntervalStartDate "1973-07-01"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1973-07-09> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1973-07-09"^^xsd:date ;
+        ti:hasIntervalStartDate "1973-07-09"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1973-07-18> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1973-07-18"^^xsd:date ;
+        ti:hasIntervalStartDate "1973-07-18"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1973-07-26> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1973-07-26"^^xsd:date ;
+        ti:hasIntervalStartDate "1973-07-26"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1973-08-03> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1973-08-03"^^xsd:date ;
+        ti:hasIntervalStartDate "1973-08-03"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1973-08-10> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1973-08-10"^^xsd:date ;
+        ti:hasIntervalStartDate "1973-08-10"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1973-08-25> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1973-08-25"^^xsd:date ;
+        ti:hasIntervalStartDate "1973-08-25"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1973-08-27> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1973-08-27"^^xsd:date ;
+        ti:hasIntervalStartDate "1973-08-27"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1973-09-04> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1973-09-04"^^xsd:date ;
+        ti:hasIntervalStartDate "1973-09-04"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1973-09-15> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1973-09-15"^^xsd:date ;
+        ti:hasIntervalStartDate "1973-09-15"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1973-09-29> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1973-09-29"^^xsd:date ;
+        ti:hasIntervalStartDate "1973-09-29"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1973-10-08> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1973-10-08"^^xsd:date ;
+        ti:hasIntervalStartDate "1973-10-08"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1973-10-16> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1973-10-16"^^xsd:date ;
+        ti:hasIntervalStartDate "1973-10-16"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1973-10-25> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1973-10-25"^^xsd:date ;
+        ti:hasIntervalStartDate "1973-10-25"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1973-10-30> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1973-10-30"^^xsd:date ;
+        ti:hasIntervalStartDate "1973-10-30"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1973-11-03> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1973-11-03"^^xsd:date ;
+        ti:hasIntervalStartDate "1973-11-03"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1973-11-08> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1973-11-08"^^xsd:date ;
+        ti:hasIntervalStartDate "1973-11-08"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1973-11-23> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1973-11-23"^^xsd:date ;
+        ti:hasIntervalStartDate "1973-11-23"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1973-11-30> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1973-11-30"^^xsd:date ;
+        ti:hasIntervalStartDate "1973-11-30"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1973-12-07> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1973-12-07"^^xsd:date ;
+        ti:hasIntervalStartDate "1973-12-07"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1974-01-13> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1974-01-13"^^xsd:date ;
+        ti:hasIntervalStartDate "1974-01-13"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1974-01-24> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1974-01-24"^^xsd:date ;
+        ti:hasIntervalStartDate "1974-01-24"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1974-02-01> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1974-02-01"^^xsd:date ;
+        ti:hasIntervalStartDate "1974-02-01"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1974-03-02> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1974-03-02"^^xsd:date ;
+        ti:hasIntervalStartDate "1974-03-02"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1974-03-07> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1974-03-07"^^xsd:date ;
+        ti:hasIntervalStartDate "1974-03-07"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1974-03-12> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1974-03-12"^^xsd:date ;
+        ti:hasIntervalStartDate "1974-03-12"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1974-03-30> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1974-03-30"^^xsd:date ;
+        ti:hasIntervalStartDate "1974-03-30"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1974-04-08> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1974-04-08"^^xsd:date ;
+        ti:hasIntervalStartDate "1974-04-08"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1974-04-12> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1974-04-12"^^xsd:date ;
+        ti:hasIntervalStartDate "1974-04-12"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1974-05-02> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1974-05-02"^^xsd:date ;
+        ti:hasIntervalStartDate "1974-05-02"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1974-05-24> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1974-05-24"^^xsd:date ;
+        ti:hasIntervalStartDate "1974-05-24"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1974-05-31> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1974-05-31"^^xsd:date ;
+        ti:hasIntervalStartDate "1974-05-31"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1974-06-18> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1974-06-18"^^xsd:date ;
+        ti:hasIntervalStartDate "1974-06-18"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1974-09-13> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1974-09-13"^^xsd:date ;
+        ti:hasIntervalStartDate "1974-09-13"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1974-09-19> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1974-09-19"^^xsd:date ;
+        ti:hasIntervalStartDate "1974-09-19"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1974-09-25> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1974-09-25"^^xsd:date ;
+        ti:hasIntervalStartDate "1974-09-25"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1974-10-08> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1974-10-08"^^xsd:date ;
+        ti:hasIntervalStartDate "1974-10-08"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1974-11-01> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1974-11-01"^^xsd:date ;
+        ti:hasIntervalStartDate "1974-11-01"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1974-11-04> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1974-11-04"^^xsd:date ;
+        ti:hasIntervalStartDate "1974-11-04"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1974-11-19> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1974-11-19"^^xsd:date ;
+        ti:hasIntervalStartDate "1974-11-19"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1974-11-28> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1974-11-28"^^xsd:date ;
+        ti:hasIntervalStartDate "1974-11-28"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1974-12-07> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1974-12-07"^^xsd:date ;
+        ti:hasIntervalStartDate "1974-12-07"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1974-12-27> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1974-12-27"^^xsd:date ;
+        ti:hasIntervalStartDate "1974-12-27"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1975-01-01> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1975-01-01"^^xsd:date ;
+        ti:hasIntervalStartDate "1975-01-01"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1975-01-05> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1975-01-05"^^xsd:date ;
+        ti:hasIntervalStartDate "1975-01-05"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1975-01-13> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1975-01-13"^^xsd:date ;
+        ti:hasIntervalStartDate "1975-01-13"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1975-02-02> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1975-02-02"^^xsd:date ;
+        ti:hasIntervalStartDate "1975-02-02"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1975-02-11> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1975-02-11"^^xsd:date ;
+        ti:hasIntervalStartDate "1975-02-11"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1975-02-13> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1975-02-13"^^xsd:date ;
+        ti:hasIntervalStartDate "1975-02-13"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1975-02-19> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1975-02-19"^^xsd:date ;
+        ti:hasIntervalStartDate "1975-02-19"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1975-02-24> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1975-02-24"^^xsd:date ;
+        ti:hasIntervalStartDate "1975-02-24"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1975-03-13> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1975-03-13"^^xsd:date ;
+        ti:hasIntervalStartDate "1975-03-13"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1975-04-17> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1975-04-17"^^xsd:date ;
+        ti:hasIntervalStartDate "1975-04-17"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1975-04-20> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1975-04-20"^^xsd:date ;
+        ti:hasIntervalStartDate "1975-04-20"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1975-05-06> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1975-05-06"^^xsd:date ;
+        ti:hasIntervalStartDate "1975-05-06"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1975-05-25> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1975-05-25"^^xsd:date ;
+        ti:hasIntervalStartDate "1975-05-25"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1975-05-27> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1975-05-27"^^xsd:date ;
+        ti:hasIntervalStartDate "1975-05-27"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1975-06-11> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1975-06-11"^^xsd:date ;
+        ti:hasIntervalStartDate "1975-06-11"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1975-06-13> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1975-06-13"^^xsd:date ;
+        ti:hasIntervalStartDate "1975-06-13"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1975-06-18> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1975-06-18"^^xsd:date ;
+        ti:hasIntervalStartDate "1975-06-18"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1975-07-01> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1975-07-01"^^xsd:date ;
+        ti:hasIntervalStartDate "1975-07-01"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1975-07-14> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1975-07-14"^^xsd:date ;
+        ti:hasIntervalStartDate "1975-07-14"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1975-08-09> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1975-08-09"^^xsd:date ;
+        ti:hasIntervalStartDate "1975-08-09"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1975-09-02> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1975-09-02"^^xsd:date ;
+        ti:hasIntervalStartDate "1975-09-02"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1975-09-16> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1975-09-16"^^xsd:date ;
+        ti:hasIntervalStartDate "1975-09-16"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1975-09-18> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1975-09-18"^^xsd:date ;
+        ti:hasIntervalStartDate "1975-09-18"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1975-09-21> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1975-09-21"^^xsd:date ;
+        ti:hasIntervalStartDate "1975-09-21"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1975-10-14> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1975-10-14"^^xsd:date ;
+        ti:hasIntervalStartDate "1975-10-14"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1975-10-28> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1975-10-28"^^xsd:date ;
+        ti:hasIntervalStartDate "1975-10-28"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1975-11-05> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1975-11-05"^^xsd:date ;
+        ti:hasIntervalStartDate "1975-11-05"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1975-11-12> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1975-11-12"^^xsd:date ;
+        ti:hasIntervalStartDate "1975-11-12"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1975-11-13> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1975-11-13"^^xsd:date ;
+        ti:hasIntervalStartDate "1975-11-13"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1975-11-17> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1975-11-17"^^xsd:date ;
+        ti:hasIntervalStartDate "1975-11-17"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1975-12-02> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1975-12-02"^^xsd:date ;
+        ti:hasIntervalStartDate "1975-12-02"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1975-12-10> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1975-12-10"^^xsd:date ;
+        ti:hasIntervalStartDate "1975-12-10"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1975-12-29> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1975-12-29"^^xsd:date ;
+        ti:hasIntervalStartDate "1975-12-29"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1976-03-22> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1976-03-22"^^xsd:date ;
+        ti:hasIntervalStartDate "1976-03-22"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1976-04-14> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1976-04-14"^^xsd:date ;
+        ti:hasIntervalStartDate "1976-04-14"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1976-07-10> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1976-07-10"^^xsd:date ;
+        ti:hasIntervalStartDate "1976-07-10"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1976-08-07> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1976-08-07"^^xsd:date ;
+        ti:hasIntervalStartDate "1976-08-07"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/1976-12-12> a ecrm:P52_Time-Span ;
+        ti:hasIntervalEndDate "1976-12-12"^^xsd:date ;
+        ti:hasIntervalStartDate "1976-12-12"^^xsd:date .
+}
+
