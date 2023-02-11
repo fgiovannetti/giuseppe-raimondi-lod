@@ -1,4 +1,0 @@
-<https://w3id.org/ficlitdl/address/via-zamboni-32-40126-Bologna-BO> <http://www.w3.org/2000/01/rdf-schema#label> "Via Zamboni 32, 40126, Bologna (BO), Italy"@en <https://w3id.org/ficlitdl/nanopub/nanopub-base/assertion> .
-<https://w3id.org/ficlitdl/address/via-zamboni-32-40126-Bologna-BO> <http://www.w3.org/2000/01/rdf-schema#label> "Via Zamboni 32, 40126, Bologna (BO), Italia"@it <https://w3id.org/ficlitdl/nanopub/nanopub-base/assertion> .
-<https://w3id.org/ficlitdl/address/via-zamboni-32-40126-Bologna-BO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://erlangen-crm.org/current/E45_Address> <https://w3id.org/ficlitdl/nanopub/nanopub-base/assertion> .
-
