@@ -133,7 +133,7 @@ with open('../../input/libri.csv', mode='r') as csv_file:
 
 
 # TriG
-d.serialize(destination="../../dataset/trig/base-graph-E78_art.trig", format='trig')
+d.serialize(destination="../../dataset/trig/libri_base-graph-E78.trig", format='trig')
 
 # N-Quads
-d.serialize(destination="../../dataset/nquads/base-graph-E78_art.nq", format='nquads')
+d.serialize(destination="../../dataset/nquads/libri_base-graph-E78.nq", format='nquads')

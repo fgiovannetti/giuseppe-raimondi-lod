@@ -84,7 +84,7 @@ d.add((URIRef(base_uri + 'place/' + 'bologna'), OWL.sameAs, URIRef('http://dbped
 
 
 # TriG
-d.serialize(destination="../../dataset/trig/base-graph-E53_quad.trig", format='trig')
+d.serialize(destination="../../dataset/trig/quaderni_base-graph-E53.trig", format='trig')
 
 # N-Quads
-d.serialize(destination="../../dataset/nquads/base-graph-E53_quad.nq", format='nquads')
+d.serialize(destination="../../dataset/nquads/quaderni_base-graph-E53.nq", format='nquads')

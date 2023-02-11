@@ -72,7 +72,7 @@ d.add((URIRef(base_uri + 'address/' + 'via-zamboni-32-40126-Bologna-BO'), RDFS.l
 
 
 # TriG
-d.serialize(destination="../../dataset/trig/base-graph-E45_quad.trig", format='trig')
+d.serialize(destination="../../dataset/trig/quaderni_base-graph-E45.trig", format='trig')
 
 # N-Quads
-d.serialize(destination="../../dataset/nquads/base-graph-E45_quad.nq", format='nquads')
+d.serialize(destination="../../dataset/nquads/quaderni_base-graph-E45.nq", format='nquads')

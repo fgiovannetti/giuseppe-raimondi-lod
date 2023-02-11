@@ -105,7 +105,7 @@ with open('../../input/album.csv', mode='r') as csv_file:
 
 
 # TriG
-d.serialize(destination="../../dataset/trig/base-graph-E52_alb.trig", format='trig')
+d.serialize(destination="../../dataset/trig/album_base-graph-E52.trig", format='trig')
 
 # N-Quads
-d.serialize(destination="../../dataset/nquads/base-graph-E52_alb.nq", format='nquads')
+d.serialize(destination="../../dataset/nquads/album_base-graph-E52.nq", format='nquads')

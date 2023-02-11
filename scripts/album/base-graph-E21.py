@@ -130,7 +130,7 @@ with open('../../input/corrispondenza.csv', mode='r') as csv_file:
 
 
 # TriG
-d.serialize(destination="../../dataset/trig/base-graph-E21_alb.trig", format='trig')
+d.serialize(destination="../../dataset/trig/album_base-graph-E21.trig", format='trig')
 
 # N-Quads
-d.serialize(destination="../../dataset/nquads/base-graph-E21_alb.nq", format='nquads')
+d.serialize(destination="../../dataset/nquads/album_base-graph-E21.nq", format='nquads')

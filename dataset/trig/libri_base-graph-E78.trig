@@ -1,0 +1,47 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ecrm: <http://erlangen-crm.org/current/> .
+@prefix ficlitdlo: <https://w3id.org/ficlitdl/ontology/> .
+@prefix grlod-np: <https://w3id.org/giuseppe-raimondi-lod/nanopub/nanopub-base/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+grlod-np:assertion {
+    <https://w3id.org/giuseppe-raimondi-lod/record-set/printed-volumes/archivio/object> a ecrm:E78_Curated_Holding ;
+        rdfs:label "Giuseppe Raimondi Fonds, Library , Archive"@en,
+            "Fondo Giuseppe Raimondi, Biblioteca , Archivio "@it ;
+        ecrm:P104_is_subject_to <https://w3id.org/ficlitdl/right/all-rights-reserved> ;
+        ecrm:P1_is_identified_by <https://w3id.org/giuseppe-raimondi-lod/record-set/printed-volumes/archivio/shelfmark> ;
+        ecrm:P2_has_type ficlitdlo:series ;
+        ecrm:P46_is_composed_of <https://w3id.org/giuseppe-raimondi-lod/printed-volume/rl7119/object>,
+            <https://w3id.org/giuseppe-raimondi-lod/printed-volume/rl7120/object>,
+            <https://w3id.org/giuseppe-raimondi-lod/printed-volume/rl7121/object>,
+            <https://w3id.org/giuseppe-raimondi-lod/printed-volume/rl7122/object>,
+            <https://w3id.org/giuseppe-raimondi-lod/printed-volume/rl7123/object>,
+            <https://w3id.org/giuseppe-raimondi-lod/printed-volume/rl7124/object>,
+            <https://w3id.org/giuseppe-raimondi-lod/printed-volume/rl7125/object>,
+            <https://w3id.org/giuseppe-raimondi-lod/printed-volume/rl7126/object>,
+            <https://w3id.org/giuseppe-raimondi-lod/printed-volume/rl7127/object>,
+            <https://w3id.org/giuseppe-raimondi-lod/printed-volume/rl7128/object>,
+            <https://w3id.org/giuseppe-raimondi-lod/printed-volume/rl7129/object>,
+            <https://w3id.org/giuseppe-raimondi-lod/printed-volume/rl7130/object>,
+            <https://w3id.org/giuseppe-raimondi-lod/printed-volume/rl7131/object>,
+            <https://w3id.org/giuseppe-raimondi-lod/printed-volume/rl7132/object>,
+            <https://w3id.org/giuseppe-raimondi-lod/printed-volume/rl7133/object>,
+            <https://w3id.org/giuseppe-raimondi-lod/printed-volume/rl7134/object>,
+            <https://w3id.org/giuseppe-raimondi-lod/printed-volume/rl7135/object>,
+            <https://w3id.org/giuseppe-raimondi-lod/printed-volume/rl7136/object>,
+            <https://w3id.org/giuseppe-raimondi-lod/printed-volume/rl7137/object>,
+            <https://w3id.org/giuseppe-raimondi-lod/printed-volume/rl7138/object>,
+            <https://w3id.org/giuseppe-raimondi-lod/printed-volume/rl7139/object>,
+            <https://w3id.org/giuseppe-raimondi-lod/printed-volume/rl7140/object>,
+            <https://w3id.org/giuseppe-raimondi-lod/printed-volume/rl7141/object>,
+            <https://w3id.org/giuseppe-raimondi-lod/printed-volume/rl7142/object>,
+            <https://w3id.org/giuseppe-raimondi-lod/printed-volume/rl7143/object>,
+            <https://w3id.org/giuseppe-raimondi-lod/printed-volume/rl7144/object>,
+            <https://w3id.org/giuseppe-raimondi-lod/printed-volume/rl7145/object> ;
+        ecrm:P46i_forms_part_of <https://w3id.org/giuseppe-raimondi-lod/record-set/giuseppe-raimondi-library/object> ;
+        ecrm:P50_has_current_keeper <https://w3id.org/ficlitdl/org/unibo> ;
+        ecrm:P52_has_current_owner <https://w3id.org/ficlitdl/org/ibc> ;
+        ecrm:P55_has_current_location <https://w3id.org/ficlitdl/place/biblioteca-ezio-raimondi> ;
+        dcterms:bibliographicCitation "Fondo Giuseppe Raimondi, Biblioteca Ezio Raimondi, Università di Bologna.FR, Biblioteca, Archivio." .
+}
+

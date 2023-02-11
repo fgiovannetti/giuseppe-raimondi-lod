@@ -88,7 +88,7 @@ d.add((URIRef(fonds + '/object/custody-transfer-2'), RDFS.label, Literal("Transf
 
 
 # TriG
-d.serialize(destination="../../dataset/trig/base-graph-E10_quad.trig", format='trig')
+d.serialize(destination="../../dataset/trig/quaderni_base-graph-E10.trig", format='trig')
 
 # N-Quads
-d.serialize(destination="../../dataset/nquads/base-graph-E10_quad.nq", format='nquads')
+d.serialize(destination="../../dataset/nquads/quaderni_base-graph-E10.nq", format='nquads')

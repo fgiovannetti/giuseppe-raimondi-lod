@@ -65,7 +65,7 @@ d.add((URIRef(base_uri + 'right/all-rights-reserved'), RDFS.label, Literal('All 
 
 
 # TriG
-d.serialize(destination="../../dataset/trig/base-graph-E30_quad.trig", format='trig')
+d.serialize(destination="../../dataset/trig/quaderni_base-graph-E30.trig", format='trig')
 
 # N-Quads
-d.serialize(destination="../../dataset/nquads/base-graph-E30_quad.nq", format='nquads')
+d.serialize(destination="../../dataset/nquads/quaderni_base-graph-E30.nq", format='nquads')

@@ -1,0 +1,4 @@
+"Variant reading","XPath selector","XML/TEI transcription"
+"I piccioni di Santa Lucia","//line[@xml:id=""ln-6""]","https://w3id.org/giuseppe-raimondi-lod/notebook/rdq2/text/xml-tei"
+"Dei colombi in una facciata","//line[@xml:id=""ln-226""]","https://w3id.org/giuseppe-raimondi-lod/notebook/rdq2/text/xml-tei"
+"L'anno '43","//line[@xml:id=""ln-227""]","https://w3id.org/giuseppe-raimondi-lod/notebook/rdq2/text/xml-tei"

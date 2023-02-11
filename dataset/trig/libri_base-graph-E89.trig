@@ -1,0 +1,40 @@
+@prefix ecrm: <http://erlangen-crm.org/current/> .
+@prefix ficlitdlo: <https://w3id.org/ficlitdl/ontology/> .
+@prefix grlod-np: <https://w3id.org/giuseppe-raimondi-lod/nanopub/nanopub-base/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+grlod-np:assertion {
+    <https://w3id.org/giuseppe-raimondi-lod/record-set/printed-volumes/archivio> a ecrm:E78_Curated_Holding ;
+        rdfs:label "Giuseppe Raimondi Fonds, Library , Archive"@en,
+            "Fondo Giuseppe Raimondi, Biblioteca , Archivio "@it ;
+        ecrm:P2_has_type ficlitdlo:series ;
+        ficlitdlo:formsConceptuallyPartOf <https://w3id.org/giuseppe-raimondi-lod/record-set/giuseppe-raimondi-library/object> ;
+        ficlitdlo:isConceptuallyComposedOf <https://w3id.org/giuseppe-raimondi-lod/printed-volume/rl7119/object>,
+            <https://w3id.org/giuseppe-raimondi-lod/printed-volume/rl7120/object>,
+            <https://w3id.org/giuseppe-raimondi-lod/printed-volume/rl7121/object>,
+            <https://w3id.org/giuseppe-raimondi-lod/printed-volume/rl7122/object>,
+            <https://w3id.org/giuseppe-raimondi-lod/printed-volume/rl7123/object>,
+            <https://w3id.org/giuseppe-raimondi-lod/printed-volume/rl7124/object>,
+            <https://w3id.org/giuseppe-raimondi-lod/printed-volume/rl7125/object>,
+            <https://w3id.org/giuseppe-raimondi-lod/printed-volume/rl7126/object>,
+            <https://w3id.org/giuseppe-raimondi-lod/printed-volume/rl7127/object>,
+            <https://w3id.org/giuseppe-raimondi-lod/printed-volume/rl7128/object>,
+            <https://w3id.org/giuseppe-raimondi-lod/printed-volume/rl7129/object>,
+            <https://w3id.org/giuseppe-raimondi-lod/printed-volume/rl7130/object>,
+            <https://w3id.org/giuseppe-raimondi-lod/printed-volume/rl7131/object>,
+            <https://w3id.org/giuseppe-raimondi-lod/printed-volume/rl7132/object>,
+            <https://w3id.org/giuseppe-raimondi-lod/printed-volume/rl7133/object>,
+            <https://w3id.org/giuseppe-raimondi-lod/printed-volume/rl7134/object>,
+            <https://w3id.org/giuseppe-raimondi-lod/printed-volume/rl7135/object>,
+            <https://w3id.org/giuseppe-raimondi-lod/printed-volume/rl7136/object>,
+            <https://w3id.org/giuseppe-raimondi-lod/printed-volume/rl7137/object>,
+            <https://w3id.org/giuseppe-raimondi-lod/printed-volume/rl7138/object>,
+            <https://w3id.org/giuseppe-raimondi-lod/printed-volume/rl7139/object>,
+            <https://w3id.org/giuseppe-raimondi-lod/printed-volume/rl7140/object>,
+            <https://w3id.org/giuseppe-raimondi-lod/printed-volume/rl7141/object>,
+            <https://w3id.org/giuseppe-raimondi-lod/printed-volume/rl7142/object>,
+            <https://w3id.org/giuseppe-raimondi-lod/printed-volume/rl7143/object>,
+            <https://w3id.org/giuseppe-raimondi-lod/printed-volume/rl7144/object>,
+            <https://w3id.org/giuseppe-raimondi-lod/printed-volume/rl7145/object> .
+}
+

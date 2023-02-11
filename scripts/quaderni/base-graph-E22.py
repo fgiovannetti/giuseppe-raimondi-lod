@@ -239,7 +239,7 @@ with open('../../input/quaderni.csv', mode='r') as csv_file:
 
 
 # TriG
-d.serialize(destination="../../dataset/trig/base-graph-E22_quad.trig", format='trig')
+d.serialize(destination="../../dataset/trig/quaderni_base-graph-E22.trig", format='trig')
 
 # N-Quads
-d.serialize(destination="../../dataset/nquads/base-graph-E22_quad.nq", format='nquads')
+d.serialize(destination="../../dataset/nquads/quaderni_base-graph-E22.nq", format='nquads')

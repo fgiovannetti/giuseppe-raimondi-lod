@@ -134,7 +134,7 @@ with open('../../input/articoli.csv', mode='r') as csv_file:
 
 
 # TriG
-d.serialize(destination="../../dataset/trig/base-graph-E54_art.trig", format='trig')
+d.serialize(destination="../../dataset/trig/articoli_base-graph-E54.trig", format='trig')
 
 # N-Quads
-d.serialize(destination="../../dataset/nquads/base-graph-E54_art.nq", format='nquads')
+d.serialize(destination="../../dataset/nquads/articoli_base-graph-E54.nq", format='nquads')

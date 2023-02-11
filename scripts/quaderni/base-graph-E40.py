@@ -87,7 +87,7 @@ d.add((URIRef(org + 'sab-ero'), FOAF.homepage, URIRef('https://sab-ero.cultura.g
 
 
 # TriG
-d.serialize(destination="../../dataset/trig/base-graph-E40_quad.trig", format='trig')
+d.serialize(destination="../../dataset/trig/quaderni_base-graph-E40.trig", format='trig')
 
 # N-Quads
-d.serialize(destination="../../dataset/nquads/base-graph-E40_quad.nq", format='nquads')
+d.serialize(destination="../../dataset/nquads/quaderni_base-graph-E40.nq", format='nquads')

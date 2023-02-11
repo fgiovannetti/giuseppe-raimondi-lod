@@ -154,7 +154,7 @@ with open('../../input/quaderni_ner_person.tsv', mode='r') as csv_file:
 
 
 # TriG
-d.serialize(destination="../../dataset/trig/base-graph-E21_quad.trig", format='trig')
+d.serialize(destination="../../dataset/trig/quaderni_base-graph-E21.trig", format='trig')
 
 # N-Quads
-d.serialize(destination="../../dataset/nquads/base-graph-E21_quad.nq", format='nquads')
+d.serialize(destination="../../dataset/nquads/quaderni_base-graph-E21.nq", format='nquads')

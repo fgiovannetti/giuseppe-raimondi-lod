@@ -181,7 +181,7 @@ with open('../../input/quaderni.csv', mode='r') as csv_file:
 			d.add((rec_work, RDF.type, efrbroo.F1_Work, graph_base))
 
 # TriG
-d.serialize(destination="../../dataset/trig/base-graph-F22_quad.trig", format='trig')
+d.serialize(destination="../../dataset/trig/quaderni_base-graph-F22.trig", format='trig')
 
 # N-Quads
-d.serialize(destination="../../dataset/nquads/base-graph-F22_quad.nq", format='nquads')
+d.serialize(destination="../../dataset/nquads/quaderni_base-graph-F22.nq", format='nquads')
