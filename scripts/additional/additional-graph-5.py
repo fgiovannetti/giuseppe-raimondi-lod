@@ -90,6 +90,8 @@ d.add((URIRef('https://w3id.org/giuseppe-raimondi-lod/pub-text/divagazioni-intor
 d.add((URIRef('https://w3id.org/giuseppe-raimondi-lod/pub-text/divagazioni-intorno-a-paul-valery-1925' + '/author'), pro.relatesToEntity, URIRef('https://w3id.org/giuseppe-raimondi-lod/pub-text/divagazioni-intorno-a-paul-valery-1925'), graph_5))
 d.add((URIRef(person + 'giuseppe-raimondi'), pro.holdsRoleInTime, URIRef('https://w3id.org/giuseppe-raimondi-lod/pub-text/divagazioni-intorno-a-paul-valery-1925' + '/author'), graph_5))
 
+d.add((URIRef(base_uri + 'pub-text/divagazioni-intorno-a-paul-valery-1925/creation') , RDF.type , efrbroo.E28_Expression_Creation, graph_5))
+
 
 
 # Giuseppe Raimondi, Ringraziamento a Commerce, «Il Convegno», 9, 1925, p. 487-491.
@@ -107,6 +109,7 @@ d.add((URIRef('https://w3id.org/giuseppe-raimondi-lod/pub-text/ringraziamento-a-
 d.add((URIRef('https://w3id.org/giuseppe-raimondi-lod/pub-text/ringraziamento-a-commerce-1925' + '/author'), pro.relatesToEntity, URIRef('https://w3id.org/giuseppe-raimondi-lod/pub-text/ringraziamento-a-commerce-1925'), graph_5))
 d.add((URIRef(person + 'giuseppe-raimondi'), pro.holdsRoleInTime, URIRef('https://w3id.org/giuseppe-raimondi-lod/pub-text/ringraziamento-a-commerce-1925' + '/author'), graph_5))
 
+d.add((URIRef(base_uri + 'pub-text/ringraziamento-a-commerce-1925/creation') , RDF.type , efrbroo.E28_Expression_Creation, graph_5))
 
 
 # Giuseppe Raimondi, Il cartesiano signor Teste. Firenze: Edizioni di Solaria, 1928.
@@ -124,6 +127,7 @@ d.add((URIRef('https://w3id.org/giuseppe-raimondi-lod/pub-text/il-cartesiano-sig
 d.add((URIRef('https://w3id.org/giuseppe-raimondi-lod/pub-text/il-cartesiano-signor-teste-1928' + '/author'), pro.relatesToEntity, URIRef('https://w3id.org/giuseppe-raimondi-lod/pub-text/il-cartesiano-signor-teste-1928'), graph_5))
 d.add((URIRef(person + 'giuseppe-raimondi'), pro.holdsRoleInTime, URIRef('https://w3id.org/giuseppe-raimondi-lod/pub-text/il-cartesiano-signor-teste-1928' + '/author'), graph_5))
 
+d.add((URIRef(base_uri + 'pub-text/il-cartesiano-signor-teste-1928/creation') , RDF.type , efrbroo.E28_Expression_Creation, graph_5))
 
 
 # Giuseppe Raimondi, Mostro a due Teste, «Corriere della Sera», 28 ottobre 1971.
@@ -141,6 +145,9 @@ d.add((URIRef('https://w3id.org/giuseppe-raimondi-lod/pub-text/mostro-a-due-test
 d.add((URIRef('https://w3id.org/giuseppe-raimondi-lod/pub-text/mostro-a-due-teste-1971' + '/author'), pro.withRole, pro.author, graph_5))
 d.add((URIRef('https://w3id.org/giuseppe-raimondi-lod/pub-text/mostro-a-due-teste-1971' + '/author'), pro.relatesToEntity, URIRef('https://w3id.org/giuseppe-raimondi-lod/pub-text/mostro-a-due-teste-1971'), graph_5))
 d.add((URIRef(person + 'giuseppe-raimondi'), pro.holdsRoleInTime, URIRef('https://w3id.org/giuseppe-raimondi-lod/pub-text/mostro-a-due-teste-1971' + '/author'), graph_5))
+
+d.add((URIRef(base_uri + 'pub-text/mostro-a-due-teste-1971/creation') , RDF.type , efrbroo.E28_Expression_Creation, graph_5))
+
 
 
 
