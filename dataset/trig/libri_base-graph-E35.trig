@@ -9,7 +9,7 @@ grlod-np:assertion {
             "Titolo, \"Anni di Bologna : 1924-1943\""@it ;
         rdf:value "Anni di Bologna : 1924-1943" .
 
-    <https://w3id.org/giuseppe-raimondi-lod/pub-text/domenico-giordani-avventure-di-un-uomo-casalingo-[1928]/title> a ecrm:E35_Title ;
+    <https://w3id.org/giuseppe-raimondi-lod/pub-text/domenico-giordani-avventure-di-un-uomo-casalingo-1928/title> a ecrm:E35_Title ;
         rdfs:label "Title, \"Domenico Giordani : avventure di un uomo casalingo\""@en,
             "Titolo, \"Domenico Giordani : avventure di un uomo casalingo\""@it ;
         rdf:value "Domenico Giordani : avventure di un uomo casalingo" .
@@ -79,7 +79,7 @@ grlod-np:assertion {
             "Titolo, \"La lanterna magica : racconto e memoria\""@it ;
         rdf:value "La lanterna magica : racconto e memoria" .
 
-    <https://w3id.org/giuseppe-raimondi-lod/pub-text/la-valigia-delle-indie-[1955]/title> a ecrm:E35_Title ;
+    <https://w3id.org/giuseppe-raimondi-lod/pub-text/la-valigia-delle-indie-1955/title> a ecrm:E35_Title ;
         rdfs:label "Title, \"La valigia delle Indie\""@en,
             "Titolo, \"La valigia delle Indie\""@it ;
         rdf:value "La valigia delle Indie" .
@@ -124,7 +124,7 @@ grlod-np:assertion {
             "Titolo, \"Racconti\""@it ;
         rdf:value "Racconti" .
 
-    <https://w3id.org/giuseppe-raimondi-lod/pub-text/ritorno-in-citta-8-capitoli-e-due-canti-del-popolo-bolognese-[1958]/title> a ecrm:E35_Title ;
+    <https://w3id.org/giuseppe-raimondi-lod/pub-text/ritorno-in-citta-8-capitoli-e-due-canti-del-popolo-bolognese-1958/title> a ecrm:E35_Title ;
         rdfs:label "Title, \"Ritorno in citta : 8 capitoli e due canti del popolo bolognese\""@en,
             "Titolo, \"Ritorno in citta : 8 capitoli e due canti del popolo bolognese\""@it ;
         rdf:value "Ritorno in citta : 8 capitoli e due canti del popolo bolognese" .

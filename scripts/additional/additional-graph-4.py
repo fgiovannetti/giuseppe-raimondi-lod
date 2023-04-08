@@ -72,7 +72,8 @@ d.add((URIRef('https://w3id.org/giuseppe-raimondi-lod/nanopub/nanopub4'), PROV.w
 # Description of three alternative titles of short story as witnessed by the notebook
 # E35 Title specialises E90 Symbolic Object
 
-d.add((URIRef(base_uri + 'notebook/rdq2' + '/text/2') , RDF.type , URIRef('http://erlangen-crm.org/efrbroo/F22_Self-Contained_Expression'), graph_4)) 
+d.add((URIRef(base_uri + 'notebook/rdq2' + '/text/2') , RDF.type , URIRef('http://erlangen-crm.org/efrbroo/F22_Self-Contained_Expression'), graph_4))
+d.add((URIRef(base_uri + 'notebook/rdq2' + '/text/2') , DCTERMS.identifier , URIRef(base_uri + 'notebook/rdq2' + '/text/2'), graph_4))
 d.add((URIRef(base_uri + 'notebook/rdq2' + '/text/2') , ecrm.P2_has_type , URIRef('https://w3id.org/ficlitdl/ontology/short-story'), graph_4)) 
 d.add((URIRef(base_uri + 'notebook/rdq2' + '/text/2') , ecrm.P165i_is_incorporated_in , URIRef(base_uri + 'notebook/rdq2' + '/text'), graph_4)) 
 d.add((URIRef(base_uri + 'notebook/rdq2' + '/text/2') , ecrm.P102_has_title, URIRef(base_uri + 'notebook/rdq2' + '/text/2/title/1'), graph_4)) 
@@ -86,6 +87,9 @@ d.add((URIRef(base_uri + 'notebook/rdq2' + '/text') , ficlitdlo.hasTrascription,
 
 # Titles/Variants description
 d.add((URIRef(base_uri + 'notebook/rdq2' + '/text/2/title/1') , RDF.value, Literal("L'anno '43"), graph_4))
+d.add((URIRef(base_uri + 'notebook/rdq2' + '/text/2/title/1') , RDF.type, ecrm.E35_Title, graph_4))
+d.add((URIRef(base_uri + 'notebook/rdq2' + '/text/2/title/1') , RDF.type, ecrm.E90_Symbolic_Object, graph_4))
+
 # Locating the variant within the text
 d.add((URIRef(base_uri + 'notebook/rdq2' + '/text/2/title/1') , ecrm.P106i_forms_part_of, URIRef(base_uri + 'notebook/rdq2' + '/text/2'), graph_4))
 d.add((URIRef(base_uri + 'notebook/rdq2' + '/text/2/title/1') , oa.hasSource, URIRef(base_uri + 'notebook/rdq2' + '/text/xml-tei'), graph_4))
@@ -94,7 +98,12 @@ d.add((URIRef(base_uri + 'notebook/rdq2' + '/text/2/title/1') , oa.hasSelector, 
 d.add((var1_selector , RDF.type, oa.XPathSelector, graph_4))
 d.add((var1_selector , RDF.value, Literal('//line[@xml:id="ln-227"]'), graph_4))
 
+
+
+
 d.add((URIRef(base_uri + 'notebook/rdq2' + '/text/2/title/2') , RDF.value, Literal("I piccioni di Santa Lucia"), graph_4))
+d.add((URIRef(base_uri + 'notebook/rdq2' + '/text/2/title/2') , RDF.type, ecrm.E35_Title, graph_4))
+d.add((URIRef(base_uri + 'notebook/rdq2' + '/text/2/title/2') , RDF.type, ecrm.E90_Symbolic_Object, graph_4))
 d.add((URIRef(base_uri + 'notebook/rdq2' + '/text/2/title/2') , ecrm.P106i_forms_part_of, URIRef(base_uri + 'notebook/rdq2' + '/text/2'), graph_4))
 d.add((URIRef(base_uri + 'notebook/rdq2' + '/text/2/title/2') , oa.hasSource, URIRef(base_uri + 'notebook/rdq2' + '/text/xml-tei'), graph_4))
 var2_selector = BNode()
@@ -103,6 +112,8 @@ d.add((var2_selector , RDF.type, oa.XPathSelector, graph_4))
 d.add((var2_selector , RDF.value, Literal('//line[@xml:id="ln-6"]'), graph_4))
 
 d.add((URIRef(base_uri + 'notebook/rdq2' + '/text/2/title/3') , RDF.value, Literal("Dei colombi in una facciata"), graph_4))
+d.add((URIRef(base_uri + 'notebook/rdq2' + '/text/2/title/3') , RDF.type, ecrm.E35_Title, graph_4))
+d.add((URIRef(base_uri + 'notebook/rdq2' + '/text/2/title/3') , RDF.type, ecrm.E90_Symbolic_Object, graph_4))
 d.add((URIRef(base_uri + 'notebook/rdq2' + '/text/2/title/3') , ecrm.P2_has_note, Literal("Tit. a c. [9]."), graph_4))
 d.add((URIRef(base_uri + 'notebook/rdq2' + '/text/2/title/3') , ecrm.P106i_forms_part_of, URIRef(base_uri + 'notebook/rdq2' + '/text/2'), graph_4))
 d.add((URIRef(base_uri + 'notebook/rdq2' + '/text/2/title/3') , oa.hasSource, URIRef(base_uri + 'notebook/rdq2' + '/text/xml-tei'), graph_4))
@@ -153,6 +164,8 @@ d.add((URIRef(base_uri + 'textrev-2') , seq.follows, URIRef(base_uri + 'textrev-
 d.add((URIRef('https://w3id.org/giuseppe-raimondi-lod/pub-text/comunita-1954-25/dei-colombi-in-una-facciata') , RDF.type , efrbroo.E24_Publication_Expression, graph_4))
 d.add((URIRef('https://w3id.org/giuseppe-raimondi-lod/pub-text/comunita-1954-25/dei-colombi-in-una-facciata') , ecrm.P165i_is_incorporated_in , URIRef('https://w3id.org/giuseppe-raimondi-lod/pub-text/comunita-1954-25'), graph_4))
 d.add((URIRef('https://w3id.org/giuseppe-raimondi-lod/pub-text/comunita-1954-25/dei-colombi-in-una-facciata') , ecrm.P102_has_title , URIRef('https://w3id.org/giuseppe-raimondi-lod/pub-text/comunita-1954-25/dei-colombi-in-una-facciata/title'), graph_4))
+d.add((URIRef('https://w3id.org/giuseppe-raimondi-lod/pub-text/comunita-1954-25/dei-colombi-in-una-facciata') , DCTERMS.identifier , URIRef('https://w3id.org/giuseppe-raimondi-lod/pub-text/comunita-1954-25/dei-colombi-in-una-facciata'), graph_4))
+
 
 d.add((URIRef('https://w3id.org/giuseppe-raimondi-lod/pub-text/comunita-1954-25/dei-colombi-in-una-facciata/title') , RDF.type , ecrm.E35_Title, graph_4))
 d.add((URIRef('https://w3id.org/giuseppe-raimondi-lod/pub-text/comunita-1954-25/dei-colombi-in-una-facciata/title') , RDF.value , Literal('Dei colombi in una facciata'), graph_4))
@@ -188,5 +201,6 @@ d.add((URIRef('https://w3id.org/giuseppe-raimondi-lod/pub-text/mignon-racconti-1
 # TriG
 d.serialize(destination="../../dataset/trig/additional-graph-4.trig", format='trig')
 
+
 # N-Quads
-d.serialize(destination="../../dataset/nquads/additional-graph-4.nq", format='nquads')
+#d.serialize(destination="../../dataset/nquads/additional-graph-4.nq", format='nquads')

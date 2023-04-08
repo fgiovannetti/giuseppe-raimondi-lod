@@ -12,7 +12,7 @@ grlod-np:assertion {
         efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/pub-text/anni-di-bologna-19241943-1946> .
 
     <https://w3id.org/giuseppe-raimondi-lod/work/domenico-giordani-avventure-di-un-uomo-casalingo> a efrbroo:F1_Work ;
-        efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/pub-text/domenico-giordani-avventure-di-un-uomo-casalingo-[1928]> .
+        efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/pub-text/domenico-giordani-avventure-di-un-uomo-casalingo-1928> .
 
     <https://w3id.org/giuseppe-raimondi-lod/work/galileo-ovvero-dell-aria> a efrbroo:F1_Work ;
         efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/pub-text/galileo-ovvero-dell-aria-1926> .
@@ -50,7 +50,7 @@ grlod-np:assertion {
         efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/pub-text/la-lanterna-magica-racconto-e-memoria-1975> .
 
     <https://w3id.org/giuseppe-raimondi-lod/work/la-valigia-delle-indie> a efrbroo:F1_Work ;
-        efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/pub-text/la-valigia-delle-indie-[1955]> .
+        efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/pub-text/la-valigia-delle-indie-1955> .
 
     <https://w3id.org/giuseppe-raimondi-lod/work/le-domeniche-d-estate> a efrbroo:F1_Work ;
         efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/pub-text/le-domeniche-d-estate-1963> .
@@ -77,7 +77,7 @@ grlod-np:assertion {
         efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/pub-text/racconti-1973> .
 
     <https://w3id.org/giuseppe-raimondi-lod/work/ritorno-in-citta-8-capitoli-e-due-canti-del-popolo-bolognese> a efrbroo:F1_Work ;
-        efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/pub-text/ritorno-in-citta-8-capitoli-e-due-canti-del-popolo-bolognese-[1958]> .
+        efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/pub-text/ritorno-in-citta-8-capitoli-e-due-canti-del-popolo-bolognese-1958> .
 
     <https://w3id.org/giuseppe-raimondi-lod/work/stagioni-seguite-da-orfeo-all-inferno-e-altre-favole> a efrbroo:F1_Work ;
         efrbroo:R3_is_realised_in <https://w3id.org/giuseppe-raimondi-lod/pub-text/stagioni-seguite-da-orfeo-all-inferno-e-altre-favole-1922> .
@@ -124,10 +124,10 @@ grlod-np:assertion {
         prism:publicationDate "1946-01-01"^^xsd:gYear ;
         dcterms:publisher ficlitdl:edizioni-del-milione .
 
-    <https://w3id.org/giuseppe-raimondi-lod/pub-text/domenico-giordani-avventure-di-un-uomo-casalingo-[1928]> a efrbroo:F24_Publication_Expression ;
+    <https://w3id.org/giuseppe-raimondi-lod/pub-text/domenico-giordani-avventure-di-un-uomo-casalingo-1928> a efrbroo:F24_Publication_Expression ;
         rdfs:label "Raimondi, Giuseppe. Printed text, \"Domenico Giordani : avventure di un uomo casalingo\""@en,
             "Raimondi, Giuseppe. Testo a stampa, \"Domenico Giordani : avventure di un uomo casalingo\""@it ;
-        ecrm:P102_has_title <https://w3id.org/giuseppe-raimondi-lod/pub-text/domenico-giordani-avventure-di-un-uomo-casalingo-[1928]/title> ;
+        ecrm:P102_has_title <https://w3id.org/giuseppe-raimondi-lod/pub-text/domenico-giordani-avventure-di-un-uomo-casalingo-1928/title> ;
         ecrm:P128i_is_carried_by <https://w3id.org/giuseppe-raimondi-lod/printed-volume/rl7131/object> ;
         ecrm:P72_has_language <http://id.loc.gov/vocabulary/iso639-2/ita> ;
         prism:publicationDate "[1928]"^^xsd:gYear ;
@@ -250,10 +250,10 @@ grlod-np:assertion {
         prism:publicationDate "1975-01-01"^^xsd:gYear ;
         dcterms:publisher ficlitdl:a-mondadori .
 
-    <https://w3id.org/giuseppe-raimondi-lod/pub-text/la-valigia-delle-indie-[1955]> a efrbroo:F24_Publication_Expression ;
+    <https://w3id.org/giuseppe-raimondi-lod/pub-text/la-valigia-delle-indie-1955> a efrbroo:F24_Publication_Expression ;
         rdfs:label "Raimondi, Giuseppe. Printed text, \"La valigia delle Indie\""@en,
             "Raimondi, Giuseppe. Testo a stampa, \"La valigia delle Indie\""@it ;
-        ecrm:P102_has_title <https://w3id.org/giuseppe-raimondi-lod/pub-text/la-valigia-delle-indie-[1955]/title> ;
+        ecrm:P102_has_title <https://w3id.org/giuseppe-raimondi-lod/pub-text/la-valigia-delle-indie-1955/title> ;
         ecrm:P128i_is_carried_by <https://w3id.org/giuseppe-raimondi-lod/printed-volume/rl7136/object> ;
         ecrm:P72_has_language <http://id.loc.gov/vocabulary/iso639-2/ita> ;
         prism:publicationDate "[1955]"^^xsd:gYear ;
@@ -331,10 +331,10 @@ grlod-np:assertion {
         prism:publicationDate "1973-01-01"^^xsd:gYear ;
         dcterms:publisher ficlitdl:a-mondadori .
 
-    <https://w3id.org/giuseppe-raimondi-lod/pub-text/ritorno-in-citta-8-capitoli-e-due-canti-del-popolo-bolognese-[1958]> a efrbroo:F24_Publication_Expression ;
+    <https://w3id.org/giuseppe-raimondi-lod/pub-text/ritorno-in-citta-8-capitoli-e-due-canti-del-popolo-bolognese-1958> a efrbroo:F24_Publication_Expression ;
         rdfs:label "Raimondi, Giuseppe. Printed text, \"Ritorno in citta : 8 capitoli e due canti del popolo bolognese\""@en,
             "Raimondi, Giuseppe. Testo a stampa, \"Ritorno in citta : 8 capitoli e due canti del popolo bolognese\""@it ;
-        ecrm:P102_has_title <https://w3id.org/giuseppe-raimondi-lod/pub-text/ritorno-in-citta-8-capitoli-e-due-canti-del-popolo-bolognese-[1958]/title> ;
+        ecrm:P102_has_title <https://w3id.org/giuseppe-raimondi-lod/pub-text/ritorno-in-citta-8-capitoli-e-due-canti-del-popolo-bolognese-1958/title> ;
         ecrm:P128i_is_carried_by <https://w3id.org/giuseppe-raimondi-lod/printed-volume/rl7125/object> ;
         ecrm:P72_has_language <http://id.loc.gov/vocabulary/iso639-2/ita> ;
         prism:publicationDate "[1958]"^^xsd:gYear ;

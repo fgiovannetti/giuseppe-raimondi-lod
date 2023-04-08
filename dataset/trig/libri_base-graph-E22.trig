@@ -131,7 +131,7 @@ grlod-np:assertion {
         rdfs:label "Raimondi, Giuseppe. Libro moderno, \"Ritorno in citta : 8 capitoli e due canti del popolo bolognese\""@en,
             "Raimondi, Giuseppe. Libro moderno, \"Ritorno in citta : 8 capitoli e due canti del popolo bolognese\""@it ;
         ecrm:P104_is_subject_to <https://w3id.org/ficlitdl/right/all-rights-reserved> ;
-        ecrm:P128_carries <https://w3id.org/giuseppe-raimondi-lod/pub-text/ritorno-in-citta-8-capitoli-e-due-canti-del-popolo-bolognese-[1958]> ;
+        ecrm:P128_carries <https://w3id.org/giuseppe-raimondi-lod/pub-text/ritorno-in-citta-8-capitoli-e-due-canti-del-popolo-bolognese-1958> ;
         ecrm:P1_is_identified_by <https://w3id.org/giuseppe-raimondi-lod/printed-volume/rl7125/inventory-number>,
             <https://w3id.org/giuseppe-raimondi-lod/printed-volume/rl7125/shelfmark> ;
         ecrm:P2_has_type ficlitdlo:printed-volume ;
@@ -251,7 +251,7 @@ grlod-np:assertion {
         rdfs:label "Raimondi, Giuseppe. Libro moderno, \"Domenico Giordani : avventure di un uomo casalingo\""@en,
             "Raimondi, Giuseppe. Libro moderno, \"Domenico Giordani : avventure di un uomo casalingo\""@it ;
         ecrm:P104_is_subject_to <https://w3id.org/ficlitdl/right/all-rights-reserved> ;
-        ecrm:P128_carries <https://w3id.org/giuseppe-raimondi-lod/pub-text/domenico-giordani-avventure-di-un-uomo-casalingo-[1928]> ;
+        ecrm:P128_carries <https://w3id.org/giuseppe-raimondi-lod/pub-text/domenico-giordani-avventure-di-un-uomo-casalingo-1928> ;
         ecrm:P1_is_identified_by <https://w3id.org/giuseppe-raimondi-lod/printed-volume/rl7131/inventory-number>,
             <https://w3id.org/giuseppe-raimondi-lod/printed-volume/rl7131/shelfmark> ;
         ecrm:P2_has_type ficlitdlo:printed-volume ;
@@ -351,7 +351,7 @@ grlod-np:assertion {
         rdfs:label "Raimondi, Giuseppe. Libro moderno, \"La valigia delle Indie\""@en,
             "Raimondi, Giuseppe. Libro moderno, \"La valigia delle Indie\""@it ;
         ecrm:P104_is_subject_to <https://w3id.org/ficlitdl/right/all-rights-reserved> ;
-        ecrm:P128_carries <https://w3id.org/giuseppe-raimondi-lod/pub-text/la-valigia-delle-indie-[1955]> ;
+        ecrm:P128_carries <https://w3id.org/giuseppe-raimondi-lod/pub-text/la-valigia-delle-indie-1955> ;
         ecrm:P1_is_identified_by <https://w3id.org/giuseppe-raimondi-lod/printed-volume/rl7136/inventory-number>,
             <https://w3id.org/giuseppe-raimondi-lod/printed-volume/rl7136/shelfmark> ;
         ecrm:P2_has_type ficlitdlo:printed-volume ;
