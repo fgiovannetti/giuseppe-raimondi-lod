@@ -3,6 +3,7 @@
 @prefix grlod-np: <https://w3id.org/giuseppe-raimondi-lod/nanopub/nanopub6/> .
 @prefix np: <http://www.nanopub.org/nschema#> .
 @prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix prism: <http://prismstandard.org/namespaces/basic/2.0/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
@@ -19,16 +20,20 @@ grlod-np:provenance {
 
 grlod-np:assertion {
     <https://w3id.org/giuseppe-raimondi-lod/annotation/preface-1925/anno1> a oa:Annotation ;
+        prism:hasEndingPage 100 ;
+        prism:hasStartingPage 100 ;
         dcterms:creator <https://w3id.org/ficlitdl/person/giuseppe-raimondi> ;
         oa:hasBody [ a oa:TextualBody ;
                 rdf:value "Mostri, prodotti dei pensieri"^^xsd:string ] ;
-        oa:hasTarget <https://w3id.org/giuseppe-raimondi-lod/pub-text/preface-1925/page100> .
+        oa:hasTarget <https://w3id.org/giuseppe-raimondi-lod/pub-text/preface-1925> .
 
     <https://w3id.org/giuseppe-raimondi-lod/annotation/preface-1925/anno2> a oa:Annotation ;
+        prism:hasEndingPage 100 ;
+        prism:hasStartingPage 100 ;
         dcterms:creator <https://w3id.org/ficlitdl/person/giuseppe-raimondi> ;
         oa:hasBody [ a oa:TextualBody ;
                 rdf:value "Idee mostri"^^xsd:string ] ;
-        oa:hasTarget <https://w3id.org/giuseppe-raimondi-lod/pub-text/preface-1925/page100> .
+        oa:hasTarget <https://w3id.org/giuseppe-raimondi-lod/pub-text/preface-1925> .
 
     <https://w3id.org/giuseppe-raimondi-lod/pub-text/mostro-a-due-teste-1971/creation> ecrm:P15_was_influenced_by <https://w3id.org/giuseppe-raimondi-lod/pub-text/preface-1925> ;
         ecrm:P3_has_note "The newspaper article 'Mostro a due Teste' by Giuseppe Raimondi (in «Corriere della Sera», 28 ottobre 1971), was influence by Paul Valéry's 'Préface pour une nouvelle traduction de La Soiréè avec M. Teste' (in «Commerce», 1925, n. 4). Supporting evidence for this connection is provided by the presence of handwritten annotations by Giuseppe Raimondi on his copy of the 'Préface' (BIFICLIT, FR PER COMMER 1925, p. 100). Such annotations read 'Mostri, prodotti dei pensieri' and 'Idee mostri'. The article title 'Mostro a due Teste' is a possible reworking of these notes."^^xsd:string .

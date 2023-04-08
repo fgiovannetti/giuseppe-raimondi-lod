@@ -247,25 +247,22 @@ d.add((URIRef(person + 'paul-valery'), pro.holdsRoleInTime, URIRef('https://w3id
 
 
 
-
-
-
-
-# [Raffaello Franchi sending G.R. a copy of J. Prévost's La pensée de P.V. oppure scambio GR e PV]
+# TODO
 
 # Aggiorna diagrammi su GraphDB sulla base delle triple effettivamente create.
 
-# Queries per verificare correttezza dati.
+# Per UC4 Crea diagramma e triple: [Raffaello Franchi sending G.R. a copy of J. Prévost's La pensée de P.V. oppure scambio GR e PV]
+
+# Queries per verificare correttezza dati per ciascun UC (UC3 e UC4)
 
 # Modifiche generali a dataset
 # NB holds role in time per tutti gli item che non sono quaderni mi pare che manchi dal dataset generale, aggiungi
 # NB manca base_uri + 'time-span/' etichetta time-span in alcuni casi, aggiungi (e usa underscore per time intervals)
 # NB appunta in tesi di ricontrollare ontologia sulla base dell'UC3
 
+# Aggiungi UC3 e UC4 a Evaluation Chapter
 
-
-
-
+# Aggiorna capitolo modello
 
 
 
