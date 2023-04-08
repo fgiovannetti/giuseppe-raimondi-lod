@@ -248,18 +248,16 @@ d.add((URIRef(person + 'paul-valery'), pro.holdsRoleInTime, URIRef('https://w3id
 
 
 
-# (Vedi se esistono collegamenti a articoli manoscritti)
 
-# OK Crea triple dei ricercatori (anche in più grafi, n.b. la parte sopra fino a 235 dovrebbe far parte del base graph o comunque di un graph a parte da me creato). 
 
-# Crea expression creation per ciascun testo sia di GR che di PV.
 
 # [Raffaello Franchi sending G.R. a copy of J. Prévost's La pensée de P.V. oppure scambio GR e PV]
 
-# Aggiorna diagrammi su GraphDB.
+# Aggiorna diagrammi su GraphDB sulla base delle triple effettivamente create.
 
 # Queries per verificare correttezza dati.
 
+# Modifiche generali a dataset
 # NB holds role in time per tutti gli item che non sono quaderni mi pare che manchi dal dataset generale, aggiungi
 # NB manca base_uri + 'time-span/' etichetta time-span in alcuni casi, aggiungi (e usa underscore per time intervals)
 # NB appunta in tesi di ricontrollare ontologia sulla base dell'UC3
@@ -283,4 +281,4 @@ d.serialize(destination="../../dataset/trig/additional-graph-5.trig", format='tr
 
 
 # N-Quads
-#d.serialize(destination="../../dataset/nquads/additional-graph-5.nq", format='nquads')
+d.serialize(destination="../../dataset/nquads/additional-graph-5.nq", format='nquads')
