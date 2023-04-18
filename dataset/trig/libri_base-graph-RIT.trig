@@ -3,16 +3,16 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
 grlod-np:assertion {
-    <https://w3id.org/giuseppe-raimondi-lod/pub-text/anni-di-bologna-19241943-1946/author> a pro:RoleInTime ;
+    <https://w3id.org/giuseppe-raimondi-lod/pub-text/anni-di-bologna-1946/author> a pro:RoleInTime ;
         rdfs:label "Giuseppe Raimondi, author of  \"Anni di Bologna : 1924-1943\""@en,
             "Giuseppe Raimondi, autore di  \"Anni di Bologna : 1924-1943\""@it ;
-        pro:relatesToEntity <https://w3id.org/giuseppe-raimondi-lod/pub-text/anni-di-bologna-19241943-1946> ;
+        pro:relatesToEntity <https://w3id.org/giuseppe-raimondi-lod/pub-text/anni-di-bologna-1946> ;
         pro:withRole pro:author .
 
-    <https://w3id.org/giuseppe-raimondi-lod/pub-text/domenico-giordani-avventure-di-un-uomo-casalingo-[1928]/author> a pro:RoleInTime ;
+    <https://w3id.org/giuseppe-raimondi-lod/pub-text/domenico-giordani-1928/author> a pro:RoleInTime ;
         rdfs:label "Giuseppe Raimondi, author of  \"Domenico Giordani : avventure di un uomo casalingo\""@en,
             "Giuseppe Raimondi, autore di  \"Domenico Giordani : avventure di un uomo casalingo\""@it ;
-        pro:relatesToEntity <https://w3id.org/giuseppe-raimondi-lod/pub-text/domenico-giordani-avventure-di-un-uomo-casalingo-[1928]> ;
+        pro:relatesToEntity <https://w3id.org/giuseppe-raimondi-lod/pub-text/domenico-giordani-1928> ;
         pro:withRole pro:author .
 
     <https://w3id.org/giuseppe-raimondi-lod/pub-text/galileo-ovvero-dell-aria-1926/author> a pro:RoleInTime ;
@@ -21,10 +21,10 @@ grlod-np:assertion {
         pro:relatesToEntity <https://w3id.org/giuseppe-raimondi-lod/pub-text/galileo-ovvero-dell-aria-1926> ;
         pro:withRole pro:author .
 
-    <https://w3id.org/giuseppe-raimondi-lod/pub-text/giornale-ossia-taccuino-19251930-1942/author> a pro:RoleInTime ;
+    <https://w3id.org/giuseppe-raimondi-lod/pub-text/giornale-ossia-taccuino-1942/author> a pro:RoleInTime ;
         rdfs:label "Giuseppe Raimondi, author of  \"Giornale ossia Taccuino : (1925-1930)\""@en,
             "Giuseppe Raimondi, autore di  \"Giornale ossia Taccuino : (1925-1930)\""@it ;
-        pro:relatesToEntity <https://w3id.org/giuseppe-raimondi-lod/pub-text/giornale-ossia-taccuino-19251930-1942> ;
+        pro:relatesToEntity <https://w3id.org/giuseppe-raimondi-lod/pub-text/giornale-ossia-taccuino-1942> ;
         pro:withRole pro:author .
 
     <https://w3id.org/giuseppe-raimondi-lod/pub-text/giuseppe-in-italia-1957/author> a pro:RoleInTime ;
@@ -45,10 +45,10 @@ grlod-np:assertion {
         pro:relatesToEntity <https://w3id.org/giuseppe-raimondi-lod/pub-text/giuseppe-in-italia-1973> ;
         pro:withRole pro:author .
 
-    <https://w3id.org/giuseppe-raimondi-lod/pub-text/grande-compianto-della-citta-di-parigi-19601962-1963/author> a pro:RoleInTime ;
+    <https://w3id.org/giuseppe-raimondi-lod/pub-text/grande-compianto-della-citta-di-parigi-1963/author> a pro:RoleInTime ;
         rdfs:label "Giuseppe Raimondi, author of  \"Grande compianto della citta di Parigi : 1960-1962\""@en,
             "Giuseppe Raimondi, autore di  \"Grande compianto della citta di Parigi : 1960-1962\""@it ;
-        pro:relatesToEntity <https://w3id.org/giuseppe-raimondi-lod/pub-text/grande-compianto-della-citta-di-parigi-19601962-1963> ;
+        pro:relatesToEntity <https://w3id.org/giuseppe-raimondi-lod/pub-text/grande-compianto-della-citta-di-parigi-1963> ;
         pro:withRole pro:author .
 
     <https://w3id.org/giuseppe-raimondi-lod/pub-text/i-bachi-da-seta-1984/author> a pro:RoleInTime ;
@@ -57,22 +57,22 @@ grlod-np:assertion {
         pro:relatesToEntity <https://w3id.org/giuseppe-raimondi-lod/pub-text/i-bachi-da-seta-1984> ;
         pro:withRole pro:author .
 
-    <https://w3id.org/giuseppe-raimondi-lod/pub-text/i-divertimenti-letterari-19151925-1966/author> a pro:RoleInTime ;
+    <https://w3id.org/giuseppe-raimondi-lod/pub-text/i-divertimenti-letterari-1966/author> a pro:RoleInTime ;
         rdfs:label "Giuseppe Raimondi, author of  \"I divertimenti letterari : 1915-1925\""@en,
             "Giuseppe Raimondi, autore di  \"I divertimenti letterari : 1915-1925\""@it ;
-        pro:relatesToEntity <https://w3id.org/giuseppe-raimondi-lod/pub-text/i-divertimenti-letterari-19151925-1966> ;
+        pro:relatesToEntity <https://w3id.org/giuseppe-raimondi-lod/pub-text/i-divertimenti-letterari-1966> ;
         pro:withRole pro:author .
 
-    <https://w3id.org/giuseppe-raimondi-lod/pub-text/i-tetti-sulla-città-19731976-1977/author> a pro:RoleInTime ;
+    <https://w3id.org/giuseppe-raimondi-lod/pub-text/i-tetti-sulla-città-1977/author> a pro:RoleInTime ;
         rdfs:label "Giuseppe Raimondi, author of  \"I tetti sulla città : 1973-1976\""@en,
             "Giuseppe Raimondi, autore di  \"I tetti sulla città : 1973-1976\""@it ;
-        pro:relatesToEntity <https://w3id.org/giuseppe-raimondi-lod/pub-text/i-tetti-sulla-città-19731976-1977> ;
+        pro:relatesToEntity <https://w3id.org/giuseppe-raimondi-lod/pub-text/i-tetti-sulla-città-1977> ;
         pro:withRole pro:author .
 
-    <https://w3id.org/giuseppe-raimondi-lod/pub-text/il-nero-e-l-azzurro-racconti-19681969-1970/author> a pro:RoleInTime ;
+    <https://w3id.org/giuseppe-raimondi-lod/pub-text/il-nero-e-l-azzurro-1970/author> a pro:RoleInTime ;
         rdfs:label "Giuseppe Raimondi, author of  \"Il nero e l'azzurro : racconti 1968-1969\""@en,
             "Giuseppe Raimondi, autore di  \"Il nero e l'azzurro : racconti 1968-1969\""@it ;
-        pro:relatesToEntity <https://w3id.org/giuseppe-raimondi-lod/pub-text/il-nero-e-l-azzurro-racconti-19681969-1970> ;
+        pro:relatesToEntity <https://w3id.org/giuseppe-raimondi-lod/pub-text/il-nero-e-l-azzurro-1970> ;
         pro:withRole pro:author .
 
     <https://w3id.org/giuseppe-raimondi-lod/pub-text/l-arcangelo-del-terrore-1981/author> a pro:RoleInTime ;
@@ -87,16 +87,16 @@ grlod-np:assertion {
         pro:relatesToEntity <https://w3id.org/giuseppe-raimondi-lod/pub-text/l-ingiustizia-1965> ;
         pro:withRole pro:author .
 
-    <https://w3id.org/giuseppe-raimondi-lod/pub-text/la-lanterna-magica-racconto-e-memoria-1975/author> a pro:RoleInTime ;
+    <https://w3id.org/giuseppe-raimondi-lod/pub-text/la-lanterna-magica-1975/author> a pro:RoleInTime ;
         rdfs:label "Giuseppe Raimondi, author of  \"La lanterna magica : racconto e memoria\""@en,
             "Giuseppe Raimondi, autore di  \"La lanterna magica : racconto e memoria\""@it ;
-        pro:relatesToEntity <https://w3id.org/giuseppe-raimondi-lod/pub-text/la-lanterna-magica-racconto-e-memoria-1975> ;
+        pro:relatesToEntity <https://w3id.org/giuseppe-raimondi-lod/pub-text/la-lanterna-magica-1975> ;
         pro:withRole pro:author .
 
-    <https://w3id.org/giuseppe-raimondi-lod/pub-text/la-valigia-delle-indie-[1955]/author> a pro:RoleInTime ;
+    <https://w3id.org/giuseppe-raimondi-lod/pub-text/la-valigia-delle-indie-1955/author> a pro:RoleInTime ;
         rdfs:label "Giuseppe Raimondi, author of  \"La valigia delle Indie\""@en,
             "Giuseppe Raimondi, autore di  \"La valigia delle Indie\""@it ;
-        pro:relatesToEntity <https://w3id.org/giuseppe-raimondi-lod/pub-text/la-valigia-delle-indie-[1955]> ;
+        pro:relatesToEntity <https://w3id.org/giuseppe-raimondi-lod/pub-text/la-valigia-delle-indie-1955> ;
         pro:withRole pro:author .
 
     <https://w3id.org/giuseppe-raimondi-lod/pub-text/le-domeniche-d-estate-1963/author> a pro:RoleInTime ;
@@ -105,16 +105,16 @@ grlod-np:assertion {
         pro:relatesToEntity <https://w3id.org/giuseppe-raimondi-lod/pub-text/le-domeniche-d-estate-1963> ;
         pro:withRole pro:author .
 
-    <https://w3id.org/giuseppe-raimondi-lod/pub-text/le-linee-della-mano-saggi-letterari-19561970-1972/author> a pro:RoleInTime ;
+    <https://w3id.org/giuseppe-raimondi-lod/pub-text/le-linee-della-mano-1972/author> a pro:RoleInTime ;
         rdfs:label "Giuseppe Raimondi, author of  \"Le linee della mano : saggi letterari, 1956-1970\""@en,
             "Giuseppe Raimondi, autore di  \"Le linee della mano : saggi letterari, 1956-1970\""@it ;
-        pro:relatesToEntity <https://w3id.org/giuseppe-raimondi-lod/pub-text/le-linee-della-mano-saggi-letterari-19561970-1972> ;
+        pro:relatesToEntity <https://w3id.org/giuseppe-raimondi-lod/pub-text/le-linee-della-mano-1972> ;
         pro:withRole pro:author .
 
-    <https://w3id.org/giuseppe-raimondi-lod/pub-text/ligabue-come-un-cavallo-romanzo-1971/author> a pro:RoleInTime ;
+    <https://w3id.org/giuseppe-raimondi-lod/pub-text/ligabue-come-un-cavallo-1971/author> a pro:RoleInTime ;
         rdfs:label "Giuseppe Raimondi, author of  \"Ligabue come un cavallo : romanzo\""@en,
             "Giuseppe Raimondi, autore di  \"Ligabue come un cavallo : romanzo\""@it ;
-        pro:relatesToEntity <https://w3id.org/giuseppe-raimondi-lod/pub-text/ligabue-come-un-cavallo-romanzo-1971> ;
+        pro:relatesToEntity <https://w3id.org/giuseppe-raimondi-lod/pub-text/ligabue-come-un-cavallo-1971> ;
         pro:withRole pro:author .
 
     <https://w3id.org/giuseppe-raimondi-lod/pub-text/lo-scrittoio-1960/author> a pro:RoleInTime ;
@@ -129,10 +129,10 @@ grlod-np:assertion {
         pro:relatesToEntity <https://w3id.org/giuseppe-raimondi-lod/pub-text/magalotti-1929> ;
         pro:withRole pro:author .
 
-    <https://w3id.org/giuseppe-raimondi-lod/pub-text/mignon-racconti-1955/author> a pro:RoleInTime ;
+    <https://w3id.org/giuseppe-raimondi-lod/pub-text/mignon-1955/author> a pro:RoleInTime ;
         rdfs:label "Giuseppe Raimondi, author of  \"Mignon : racconti\""@en,
             "Giuseppe Raimondi, autore di  \"Mignon : racconti\""@it ;
-        pro:relatesToEntity <https://w3id.org/giuseppe-raimondi-lod/pub-text/mignon-racconti-1955> ;
+        pro:relatesToEntity <https://w3id.org/giuseppe-raimondi-lod/pub-text/mignon-1955> ;
         pro:withRole pro:author .
 
     <https://w3id.org/giuseppe-raimondi-lod/pub-text/notizia-su-baudelaire-1924/author> a pro:RoleInTime ;
@@ -147,16 +147,16 @@ grlod-np:assertion {
         pro:relatesToEntity <https://w3id.org/giuseppe-raimondi-lod/pub-text/racconti-1973> ;
         pro:withRole pro:author .
 
-    <https://w3id.org/giuseppe-raimondi-lod/pub-text/ritorno-in-citta-8-capitoli-e-due-canti-del-popolo-bolognese-[1958]/author> a pro:RoleInTime ;
+    <https://w3id.org/giuseppe-raimondi-lod/pub-text/ritorno-in-citta-1958/author> a pro:RoleInTime ;
         rdfs:label "Giuseppe Raimondi, author of  \"Ritorno in citta : 8 capitoli e due canti del popolo bolognese\""@en,
             "Giuseppe Raimondi, autore di  \"Ritorno in citta : 8 capitoli e due canti del popolo bolognese\""@it ;
-        pro:relatesToEntity <https://w3id.org/giuseppe-raimondi-lod/pub-text/ritorno-in-citta-8-capitoli-e-due-canti-del-popolo-bolognese-[1958]> ;
+        pro:relatesToEntity <https://w3id.org/giuseppe-raimondi-lod/pub-text/ritorno-in-citta-1958> ;
         pro:withRole pro:author .
 
-    <https://w3id.org/giuseppe-raimondi-lod/pub-text/stagioni-seguite-da-orfeo-all-inferno-e-altre-favole-1922/author> a pro:RoleInTime ;
+    <https://w3id.org/giuseppe-raimondi-lod/pub-text/stagioni-1922/author> a pro:RoleInTime ;
         rdfs:label "Giuseppe Raimondi, author of  \"Stagioni : seguite da Orfeo all'Inferno e altre favole\""@en,
             "Giuseppe Raimondi, autore di  \"Stagioni : seguite da Orfeo all'Inferno e altre favole\""@it ;
-        pro:relatesToEntity <https://w3id.org/giuseppe-raimondi-lod/pub-text/stagioni-seguite-da-orfeo-all-inferno-e-altre-favole-1922> ;
+        pro:relatesToEntity <https://w3id.org/giuseppe-raimondi-lod/pub-text/stagioni-1922> ;
         pro:withRole pro:author .
 
     <https://w3id.org/giuseppe-raimondi-lod/pub-text/testa-o-croce-1928/author> a pro:RoleInTime ;

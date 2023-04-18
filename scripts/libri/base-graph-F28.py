@@ -1,7 +1,7 @@
 # coding: utf-8
 
 """ Base graph :
-Libri, E52 Time-Span
+Quaderni, F28 Expression Creation
 """
 
 from rdflib import Dataset, URIRef, Literal, Namespace
@@ -52,7 +52,6 @@ graph_base = URIRef(nanopub + 'assertion')
 # Add an empty Graph, identified by graph_base, to the Dataset
 d.graph(identifier=graph_base)
 
-
 with open('../../input/libri.csv', mode='r') as csv_file:
 	csv_reader = csv.DictReader(csv_file , delimiter=';')
 	for row in csv_reader:
@@ -64,7 +63,8 @@ with open('../../input/libri.csv', mode='r') as csv_file:
 		precisazione = row['Precisazione inventario']
 		descrizione_isbd = row['Descrizione isbd'].replace('*', '')
 
-		series = URIRef(base_uri + 'record-set' + '/' + 'printed-volumes/archivio')
+		series = URIRef(base_uri + 'record-set' + '/' + 'printed-volumes')
+		subseries = URIRef(base_uri + 'record-set' + '/' + 'printed-volumes/archivio')
 		pubdate = re.findall(', (\[?\d+\]?)\.', descrizione_isbd)
 		publisher = re.findall('\. - .+? : (.+?),', descrizione_isbd)
 		pubplace = re.findall('\. - (\[?\S+?\]?) : .+?,', descrizione_isbd)
@@ -82,31 +82,40 @@ with open('../../input/libri.csv', mode='r') as csv_file:
 		# Declare a URI for each pub text
 		rec_expression = URIRef(record + 'text')
 		pub_text = URIRef(base_uri + 'pub-text/' )
-		# https://w3id.org/giuseppe-raimondi-lod/pub-text/i-tetti-sulla-citta-19731976
+		
+	
+		rec_label = re.findall('^(.+?) \/', descrizione_isbd)[0]
+
+		rec_label_short = rec_label.split(' :')[0]
 		
 	
 
+		s = rec_label_short.replace(' ', 'x').replace("'", "x")
+		w = ''.join(ch for ch in s if ch.isalnum())
+		w = w.replace('x' , '-')
+		w = w.replace('--' , '-')
+		rec_work = URIRef(base_uri + 'work/' + w.lower())
+		pub_text = URIRef(base_uri + 'pub-text/' + w.lower().replace('x' , '-') + '-' + pubdate[0].replace('[', '').replace(']', ''))
 
- 		# Dimensions of physical object (height in cm, extent in number of pages and number of leaves)
-		height = re.findall(" (\d+) cm\.", row["Descrizione isbd"])
-		extent_pages = re.findall("(\d+) p\.", row["Descrizione isbd"])
+	
+		pub = publisher[0].replace(' ', 'x').replace("'", "x")
+		pub_id = ''.join(ch for ch in pub if ch.isalpha())
+
+		person = URIRef('https://w3id.org/ficlitdl/' + 'person/') 
 
 		# Add quads to base-graph
 
 
-		rec_time_span = pubdate[0].replace('[', '').replace(']', '')
-		time_span = URIRef(base_uri + 'time-span/' + rec_time_span)
-		d.add((time_span, RDF.type, URIRef('http://erlangen-crm.org/current/E52_Time-Span'), graph_base))
-		d.add((time_span, ti.hasIntervalStartDate, Literal(rec_time_span, datatype=XSD.date), graph_base))
-		d.add((time_span, ti.hasIntervalEndDate, Literal(rec_time_span + '-12-31', datatype=XSD.date), graph_base))
+		d.add((URIRef(pub_text + '/creation'), RDF.type, efrbroo.F28_Expression_Creation, graph_base))
+		d.add((URIRef(pub_text + '/creation'), RDFS.label, Literal('Raimondi, Giuseppe. Testo a stampa, "' + rec_label[0].replace('*', '') + '", creazione.' , lang='it'), graph_base))
+		d.add((URIRef(pub_text + '/creation'), RDFS.label, Literal('Raimondi, Giuseppe. Testo a stampa, "' + rec_label[0].replace('*', '') + '", creation.' , lang='en'), graph_base))
+		d.add((URIRef(pub_text + '/creation'), ecrm.P14_carried_out_by, URIRef(person + 'giuseppe-raimondi'), graph_base))
+		d.add((URIRef(pub_text + '/creation'), efrbroo.R17_created, pub_text, graph_base))
 
-
-
-	 
 
 
 # TriG
-d.serialize(destination="../../dataset/trig/libri_base-graph-E52.trig", format='trig')
+d.serialize(destination="../../dataset/trig/libri_base-graph-F28.trig", format='trig')
 
 # N-Quads
-d.serialize(destination="../../dataset/nquads/libri_base-graph-E52.nq", format='nquads')
+d.serialize(destination="../../dataset/nquads/libri_base-graph-F28.nq", format='nquads')

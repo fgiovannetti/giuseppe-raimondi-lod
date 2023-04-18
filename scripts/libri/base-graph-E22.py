@@ -81,16 +81,16 @@ with open('../../input/libri.csv', mode='r') as csv_file:
 	
 		rec_label = re.findall('^(.+?) \/', descrizione_isbd)[0]
 
-	
+		rec_label_short = rec_label.split(' :')[0]
 
-		s = rec_label.replace(' ', 'x').replace("'", "x")
+		s = rec_label_short.replace(' ', 'x').replace("'", "x")
 		w = ''.join(ch for ch in s if ch.isalnum())
 
 
 		w = w.replace('x' , '-')
 		w = w.replace('--' , '-')
 		rec_work = URIRef(base_uri + 'work/' + w.lower())
-		pub_text = URIRef(base_uri + 'pub-text/' + w.lower().replace('x' , '-') + '-' + pubdate[0])
+		pub_text = URIRef(base_uri + 'pub-text/' + w.lower().replace('x' , '-') + '-' + pubdate[0].replace('[', '').replace(']', ''))
 
 
  		# Dimensions of physical object (height in cm, extent in number of pages and number of leaves)

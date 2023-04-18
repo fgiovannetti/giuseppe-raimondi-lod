@@ -6,7 +6,7 @@ By: Francesca Giovannetti, 8 February 2023.
 """
 
 from rdflib import Dataset, URIRef, Literal, Namespace, BNode
-from rdflib.namespace import RDF, RDFS, XSD, DCTERMS, PROV
+from rdflib.namespace import RDF, RDFS, XSD, DCTERMS, PROV, RDFS
 import csv
 import re
 
@@ -77,7 +77,7 @@ d.add((URIRef('https://w3id.org/giuseppe-raimondi-lod/nanopub/nanopub5'), PROV.w
 
 # Giuseppe Raimondi, Divagazioni intorno a Paul Valéry, «Il Convegno», 2/3, 1925, p. 90-97.
 
-d.add((URIRef('https://w3id.org/giuseppe-raimondi-lod/pub-text/divagazioni-intorno-a-paul-valery-1925') , RDF.type , efrbroo.E24_Publication_Expression, graph_5))
+d.add((URIRef('https://w3id.org/giuseppe-raimondi-lod/pub-text/divagazioni-intorno-a-paul-valery-1925') , RDF.type , efrbroo.F24_Publication_Expression, graph_5))
 d.add((URIRef('https://w3id.org/giuseppe-raimondi-lod/pub-text/divagazioni-intorno-a-paul-valery-1925') , ecrm.P102_has_title , URIRef('https://w3id.org/giuseppe-raimondi-lod/pub-text/divagazioni-intorno-a-paul-valery-1925/title'), graph_5))
 d.add((URIRef('https://w3id.org/giuseppe-raimondi-lod/pub-text/divagazioni-intorno-a-paul-valery-1925') , prism.publicationDate , Literal('1925-03-30', datatype=XSD.date), graph_5))
 d.add((URIRef('https://w3id.org/giuseppe-raimondi-lod/pub-text/divagazioni-intorno-a-paul-valery-1925') , ecrm.P165i_is_incorporated_in , URIRef('https://w3id.org/giuseppe-raimondi-lod/pub-text/il-convegno-1925-2-3'), graph_5))
@@ -91,12 +91,13 @@ d.add((URIRef('https://w3id.org/giuseppe-raimondi-lod/pub-text/divagazioni-intor
 d.add((URIRef(person + 'giuseppe-raimondi'), pro.holdsRoleInTime, URIRef('https://w3id.org/giuseppe-raimondi-lod/pub-text/divagazioni-intorno-a-paul-valery-1925' + '/author'), graph_5))
 
 d.add((URIRef(base_uri + 'pub-text/divagazioni-intorno-a-paul-valery-1925/creation') , RDF.type , efrbroo.E28_Expression_Creation, graph_5))
+d.add((URIRef(base_uri + 'pub-text/divagazioni-intorno-a-paul-valery-1925/creation') , efrbroo.R17_created , URIRef(base_uri + 'pub-text/divagazioni-intorno-a-paul-valery-1925'), graph_5))
 
 
 
 # Giuseppe Raimondi, Ringraziamento a Commerce, «Il Convegno», 9, 1925, p. 487-491.
 
-d.add((URIRef('https://w3id.org/giuseppe-raimondi-lod/pub-text/ringraziamento-a-commerce-1925') , RDF.type , efrbroo.E24_Publication_Expression, graph_5))
+d.add((URIRef('https://w3id.org/giuseppe-raimondi-lod/pub-text/ringraziamento-a-commerce-1925') , RDF.type , efrbroo.F24_Publication_Expression, graph_5))
 d.add((URIRef('https://w3id.org/giuseppe-raimondi-lod/pub-text/ringraziamento-a-commerce-1925') , ecrm.P102_has_title , URIRef('https://w3id.org/giuseppe-raimondi-lod/pub-text/ringraziamento-a-commerce-1925/title'), graph_5))
 d.add((URIRef('https://w3id.org/giuseppe-raimondi-lod/pub-text/ringraziamento-a-commerce-1925') , prism.publicationDate , Literal('1925-10-30', datatype=XSD.date), graph_5))
 d.add((URIRef('https://w3id.org/giuseppe-raimondi-lod/pub-text/ringraziamento-a-commerce-1925') , ecrm.P165i_is_incorporated_in , URIRef('https://w3id.org/giuseppe-raimondi-lod/pub-text/il-convegno-1925-9'), graph_5))
@@ -110,14 +111,15 @@ d.add((URIRef('https://w3id.org/giuseppe-raimondi-lod/pub-text/ringraziamento-a-
 d.add((URIRef(person + 'giuseppe-raimondi'), pro.holdsRoleInTime, URIRef('https://w3id.org/giuseppe-raimondi-lod/pub-text/ringraziamento-a-commerce-1925' + '/author'), graph_5))
 
 d.add((URIRef(base_uri + 'pub-text/ringraziamento-a-commerce-1925/creation') , RDF.type , efrbroo.E28_Expression_Creation, graph_5))
+d.add((URIRef(base_uri + 'pub-text/ringraziamento-a-commerce-1925/creation') , efrbroo.R17_created , URIRef(base_uri + 'pub-text/ringraziamento-a-commerce-1925'), graph_5))
 
 
 # Giuseppe Raimondi, Il cartesiano signor Teste. Firenze: Edizioni di Solaria, 1928.
 
-d.add((URIRef('https://w3id.org/giuseppe-raimondi-lod/pub-text/il-cartesiano-signor-teste-1928') , RDF.type , efrbroo.E24_Publication_Expression, graph_5))
+d.add((URIRef('https://w3id.org/giuseppe-raimondi-lod/pub-text/il-cartesiano-signor-teste-1928') , RDF.type , efrbroo.F24_Publication_Expression, graph_5))
 d.add((URIRef('https://w3id.org/giuseppe-raimondi-lod/pub-text/il-cartesiano-signor-teste-1928') , ecrm.P102_has_title , URIRef('https://w3id.org/giuseppe-raimondi-lod/pub-text/il-cartesiano-signor-teste-1928/title'), graph_5))
 d.add((URIRef('https://w3id.org/giuseppe-raimondi-lod/pub-text/il-cartesiano-signor-teste-1928') , DCTERMS.publisher , URIRef('https://w3id.org/ficlitdl/org/edizioni-di-solaria'), graph_5))
-d.add((URIRef('https://w3id.org/giuseppe-raimondi-lod/pub-text/il-cartesiano-signor-teste-1928') , prism.publicationDate , Literal('1928', datatype=XSD.date), graph_5))
+d.add((URIRef('https://w3id.org/giuseppe-raimondi-lod/pub-text/il-cartesiano-signor-teste-1928') , prism.publicationDate , Literal('1928', datatype=XSD.gYear), graph_5))
 
 d.add((URIRef('https://w3id.org/giuseppe-raimondi-lod/pub-text/il-cartesiano-signor-teste-1928/title') , RDF.type , ecrm.E35_Title, graph_5))
 d.add((URIRef('https://w3id.org/giuseppe-raimondi-lod/pub-text/il-cartesiano-signor-teste-1928/title') , RDF.value , Literal('Il cartesiano signor Teste'), graph_5))
@@ -128,11 +130,12 @@ d.add((URIRef('https://w3id.org/giuseppe-raimondi-lod/pub-text/il-cartesiano-sig
 d.add((URIRef(person + 'giuseppe-raimondi'), pro.holdsRoleInTime, URIRef('https://w3id.org/giuseppe-raimondi-lod/pub-text/il-cartesiano-signor-teste-1928' + '/author'), graph_5))
 
 d.add((URIRef(base_uri + 'pub-text/il-cartesiano-signor-teste-1928/creation') , RDF.type , efrbroo.E28_Expression_Creation, graph_5))
+d.add((URIRef(base_uri + 'pub-text/il-cartesiano-signor-teste-1928/creation') , efrbroo.R17_created , URIRef(base_uri + 'pub-text/il-cartesiano-signor-teste-1928'), graph_5))
 
 
 # Giuseppe Raimondi, Mostro a due Teste, «Corriere della Sera», 28 ottobre 1971.
 
-d.add((URIRef('https://w3id.org/giuseppe-raimondi-lod/pub-text/mostro-a-due-teste-1971') , RDF.type , efrbroo.E24_Publication_Expression, graph_5))
+d.add((URIRef('https://w3id.org/giuseppe-raimondi-lod/pub-text/mostro-a-due-teste-1971') , RDF.type , efrbroo.F24_Publication_Expression, graph_5))
 d.add((URIRef('https://w3id.org/giuseppe-raimondi-lod/pub-text/mostro-a-due-teste-1971') , ecrm.P102_has_title , URIRef('https://w3id.org/giuseppe-raimondi-lod/pub-text/mostro-a-due-teste-1971/title'), graph_5))
 d.add((URIRef('https://w3id.org/giuseppe-raimondi-lod/pub-text/mostro-a-due-teste-1971') , DCTERMS.publisher , URIRef('https://w3id.org/ficlitdl/org/corriere-della-sera'), graph_5))
 d.add((URIRef('https://w3id.org/giuseppe-raimondi-lod/pub-text/mostro-a-due-teste-1971') , prism.publicationDate , Literal('1971-10-28', datatype=XSD.date), graph_5))
@@ -147,6 +150,7 @@ d.add((URIRef('https://w3id.org/giuseppe-raimondi-lod/pub-text/mostro-a-due-test
 d.add((URIRef(person + 'giuseppe-raimondi'), pro.holdsRoleInTime, URIRef('https://w3id.org/giuseppe-raimondi-lod/pub-text/mostro-a-due-teste-1971' + '/author'), graph_5))
 
 d.add((URIRef(base_uri + 'pub-text/mostro-a-due-teste-1971/creation') , RDF.type , efrbroo.E28_Expression_Creation, graph_5))
+d.add((URIRef(base_uri + 'pub-text/mostro-a-due-teste-1971/creation') , efrbroo.R17_created , URIRef(base_uri + 'pub-text/mostro-a-due-teste-1971'), graph_5))
 
 
 
@@ -155,7 +159,7 @@ d.add((URIRef(base_uri + 'pub-text/mostro-a-due-teste-1971/creation') , RDF.type
 
 # Paul Valéry, Préface pour une nouvelle traduction de La Soiréè avec M. Teste in «Commerce», 4, 1925, p. 93-102, BIFICLIT, FR PER COMMER 1925, RL 7034
 
-d.add((URIRef('https://w3id.org/giuseppe-raimondi-lod/pub-text/preface-1925') , RDF.type , efrbroo.E24_Publication_Expression, graph_5))
+d.add((URIRef('https://w3id.org/giuseppe-raimondi-lod/pub-text/preface-1925') , RDF.type , efrbroo.F24_Publication_Expression, graph_5))
 d.add((URIRef('https://w3id.org/giuseppe-raimondi-lod/pub-text/preface-1925') , ecrm.P165i_is_incorporated_in , URIRef('https://w3id.org/giuseppe-raimondi-lod/pub-text/commerce-1925-4'), graph_5))
 d.add((URIRef('https://w3id.org/giuseppe-raimondi-lod/pub-text/preface-1925') , ecrm.P102_has_title , URIRef('https://w3id.org/giuseppe-raimondi-lod/pub-text/preface-1925/title'), graph_5))
 
@@ -167,7 +171,7 @@ d.add((URIRef('https://w3id.org/giuseppe-raimondi-lod/pub-text/preface-1925' + '
 d.add((URIRef('https://w3id.org/giuseppe-raimondi-lod/pub-text/preface-1925' + '/author'), pro.relatesToEntity, URIRef('https://w3id.org/giuseppe-raimondi-lod/pub-text/preface-1925'), graph_5))
 d.add((URIRef(person + 'paul-valery'), pro.holdsRoleInTime, URIRef('https://w3id.org/giuseppe-raimondi-lod/pub-text/preface-1925' + '/author'), graph_5))
 
-d.add((URIRef('https://w3id.org/giuseppe-raimondi-lod/pub-text/commerce-1925-4') , prism.publicationDate , Literal('1925', datatype=XSD.date), graph_5))
+d.add((URIRef('https://w3id.org/giuseppe-raimondi-lod/pub-text/commerce-1925-4') , prism.publicationDate , Literal('1925', datatype=XSD.gYear), graph_5))
 d.add((URIRef('https://w3id.org/giuseppe-raimondi-lod/pub-text/commerce-1925-4') , ecrm.P102_has_title , URIRef('https://w3id.org/giuseppe-raimondi-lod/pub-text/commerce-1925-4/title'), graph_5))
 d.add((URIRef('https://w3id.org/giuseppe-raimondi-lod/pub-text/commerce-1925-4') , ecrm.P128i_is_carried_by , URIRef('https://w3id.org/giuseppe-raimondi-lod/periodical/rl7034/object'), graph_5))
 
@@ -183,7 +187,7 @@ d.add((URIRef('https://w3id.org/giuseppe-raimondi-lod/pub-text/commerce-1925-4/t
 
 # Paul Valéry, La Soiréè avec Monsieur Teste, «Vers et Prose», 4 (décembre 1905, janvier-février 1906), p. 69-83, BFICLIT, FR LS 2085 dic 1905, RL 4472 (Dono di Giuseppe Ungaretti a G.R.)
 
-d.add((URIRef('https://w3id.org/giuseppe-raimondi-lod/pub-text/la-soiréè-avec-monsieur-teste-1906') , RDF.type , efrbroo.E24_Publication_Expression, graph_5))
+d.add((URIRef('https://w3id.org/giuseppe-raimondi-lod/pub-text/la-soiréè-avec-monsieur-teste-1906') , RDF.type , efrbroo.F24_Publication_Expression, graph_5))
 d.add((URIRef('https://w3id.org/giuseppe-raimondi-lod/pub-text/la-soiréè-avec-monsieur-teste-1906') , ecrm.P165i_is_incorporated_in , URIRef('https://w3id.org/giuseppe-raimondi-lod/pub-text/verse-et-prose-1906-4'), graph_5))
 d.add((URIRef('https://w3id.org/giuseppe-raimondi-lod/pub-text/la-soiréè-avec-monsieur-teste-1906') , ecrm.P102_has_title , URIRef('https://w3id.org/giuseppe-raimondi-lod/pub-text/la-soiréè-avec-monsieur-teste-1906/title'), graph_5))
 
@@ -195,7 +199,7 @@ d.add((URIRef('https://w3id.org/giuseppe-raimondi-lod/pub-text/la-soiréè-avec-
 d.add((URIRef('https://w3id.org/giuseppe-raimondi-lod/pub-text/la-soiréè-avec-monsieur-teste-1906' + '/author'), pro.relatesToEntity, URIRef('https://w3id.org/giuseppe-raimondi-lod/pub-text/la-soiréè-avec-monsieur-teste-1906'), graph_5))
 d.add((URIRef(person + 'paul-valery'), pro.holdsRoleInTime, URIRef('https://w3id.org/giuseppe-raimondi-lod/pub-text/la-soiréè-avec-monsieur-teste-1906' + '/author'), graph_5))
 
-d.add((URIRef('https://w3id.org/giuseppe-raimondi-lod/pub-text/verse-et-prose-1906-4') , prism.publicationDate , Literal('1905-1906', datatype=XSD.date), graph_5))
+d.add((URIRef('https://w3id.org/giuseppe-raimondi-lod/pub-text/verse-et-prose-1906-4') , prism.publicationDate , Literal('1906', datatype=XSD.gYear), graph_5))
 d.add((URIRef('https://w3id.org/giuseppe-raimondi-lod/pub-text/verse-et-prose-1906-4') , ecrm.P102_has_title , URIRef('https://w3id.org/giuseppe-raimondi-lod/pub-text/verse-et-prose-1906-4/title'), graph_5))
 d.add((URIRef('https://w3id.org/giuseppe-raimondi-lod/pub-text/verse-et-prose-1906-4') , ecrm.P128i_is_carried_by , URIRef('https://w3id.org/giuseppe-raimondi-lod/periodical/rl4472/object'), graph_5))
 
@@ -211,10 +215,10 @@ d.add((URIRef('https://w3id.org/giuseppe-raimondi-lod/pub-text/verse-et-prose-19
 
 # Jean Prévost, La pensée de Paul Valéry, Nimes: Fabre, 1926, BIFICLIT, FR LS 1872, RL 4251 (Inviato da R. Franchi a G. R.)
 
-d.add((URIRef('https://w3id.org/giuseppe-raimondi-lod/pub-text/la-pensee-de-paul-valery-1926') , RDF.type , efrbroo.E24_Publication_Expression, graph_5))
+d.add((URIRef('https://w3id.org/giuseppe-raimondi-lod/pub-text/la-pensee-de-paul-valery-1926') , RDF.type , efrbroo.F24_Publication_Expression, graph_5))
 d.add((URIRef('https://w3id.org/giuseppe-raimondi-lod/pub-text/la-pensee-de-paul-valery-1926') , ecrm.P102_has_title , URIRef('https://w3id.org/giuseppe-raimondi-lod/pub-text/la-pensee-de-paul-valery-1926/title'), graph_5))
 d.add((URIRef('https://w3id.org/giuseppe-raimondi-lod/pub-text/la-pensee-de-paul-valery-1926') ,DCTERMS.publisher , URIRef('https://w3id.org/ficlitdl/org/fabre'), graph_5))
-d.add((URIRef('https://w3id.org/giuseppe-raimondi-lod/pub-text/la-pensee-de-paul-valery-1926') , prism.publicationDate , Literal('1926', datatype=XSD.date), graph_5))
+d.add((URIRef('https://w3id.org/giuseppe-raimondi-lod/pub-text/la-pensee-de-paul-valery-1926') , prism.publicationDate , Literal('1926', datatype=XSD.gYear), graph_5))
 
 d.add((URIRef('https://w3id.org/giuseppe-raimondi-lod/pub-text/la-pensee-de-paul-valery-1926/title') , RDF.type , ecrm.E35_Title, graph_5))
 d.add((URIRef('https://w3id.org/giuseppe-raimondi-lod/pub-text/la-pensee-de-paul-valery-1926/title') , RDF.value , Literal('La pensée de Paul Valéry'), graph_5))
@@ -228,10 +232,10 @@ d.add((URIRef(person + 'jean-prevost'), pro.holdsRoleInTime, URIRef('https://w3i
 
 # Paul Valéry, Monsieur Teste, Paris: Cres, 1927, BIFICLIT, FR LS 1879, RL 4163
 
-d.add((URIRef('https://w3id.org/giuseppe-raimondi-lod/pub-text/monsieur-teste-1927') , RDF.type , efrbroo.E24_Publication_Expression, graph_5))
+d.add((URIRef('https://w3id.org/giuseppe-raimondi-lod/pub-text/monsieur-teste-1927') , RDF.type , efrbroo.F24_Publication_Expression, graph_5))
 d.add((URIRef('https://w3id.org/giuseppe-raimondi-lod/pub-text/monsieur-teste-1927') , ecrm.P102_has_title , URIRef('https://w3id.org/giuseppe-raimondi-lod/pub-text/monsieur-teste-1927/title'), graph_5))
 d.add((URIRef('https://w3id.org/giuseppe-raimondi-lod/pub-text/monsieur-teste-1927') , DCTERMS.publisher , URIRef('https://w3id.org/ficlitdl/org/cres'), graph_5))
-d.add((URIRef('https://w3id.org/giuseppe-raimondi-lod/pub-text/monsieur-teste-1927') , prism.publicationDate , Literal('1927', datatype=XSD.date), graph_5))
+d.add((URIRef('https://w3id.org/giuseppe-raimondi-lod/pub-text/monsieur-teste-1927') , prism.publicationDate , Literal('1927', datatype=XSD.gYear), graph_5))
 
 d.add((URIRef('https://w3id.org/giuseppe-raimondi-lod/pub-text/monsieur-teste-1927/title') , RDF.type , ecrm.E35_Title, graph_5))
 d.add((URIRef('https://w3id.org/giuseppe-raimondi-lod/pub-text/monsieur-teste-1927/title') , RDF.value , Literal('Monsieur Teste'), graph_5))
@@ -241,6 +245,10 @@ d.add((URIRef('https://w3id.org/giuseppe-raimondi-lod/pub-text/monsieur-teste-19
 d.add((URIRef('https://w3id.org/giuseppe-raimondi-lod/pub-text/monsieur-teste-1927' + '/author'), pro.relatesToEntity, URIRef('https://w3id.org/giuseppe-raimondi-lod/pub-text/monsieur-teste-1927'), graph_5))
 d.add((URIRef(person + 'paul-valery'), pro.holdsRoleInTime, URIRef('https://w3id.org/giuseppe-raimondi-lod/pub-text/monsieur-teste-1927' + '/author'), graph_5))
 
+
+d.add((URIRef(person + 'giuseppe-raimondi'), RDFS.label, Literal('Giuseppe Raimondi'), graph_5))
+d.add((URIRef(person + 'paul-valery'), RDFS.label, Literal('Paul Valéry'), graph_5))
+d.add((URIRef(person + 'jean-prevost'), RDFS.label, Literal('Jean Prévost'), graph_5))
 
 
 

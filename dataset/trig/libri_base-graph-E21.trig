@@ -1,0 +1,53 @@
+@prefix ficlitdl-np: <https://w3id.org/ficlitdl/nanopub/nanopub-base/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix pro: <http://purl.org/spar/pro/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ficlitdl-np:assertion {
+    <https://w3id.org/ficlitdl/person/giuseppe-raimondi> pro:holdsRoleInTime <https://w3id.org/giuseppe-raimondi-lod/pub-text/anni-di-bologna-1946/author>,
+            <https://w3id.org/giuseppe-raimondi-lod/pub-text/domenico-giordani-1928/author>,
+            <https://w3id.org/giuseppe-raimondi-lod/pub-text/galileo-ovvero-dell-aria-1926/author>,
+            <https://w3id.org/giuseppe-raimondi-lod/pub-text/giornale-ossia-taccuino-1942/author>,
+            <https://w3id.org/giuseppe-raimondi-lod/pub-text/giuseppe-in-italia-1957/author>,
+            <https://w3id.org/giuseppe-raimondi-lod/pub-text/giuseppe-in-italia-1965/author>,
+            <https://w3id.org/giuseppe-raimondi-lod/pub-text/giuseppe-in-italia-1973/author>,
+            <https://w3id.org/giuseppe-raimondi-lod/pub-text/grande-compianto-della-citta-di-parigi-1963/author>,
+            <https://w3id.org/giuseppe-raimondi-lod/pub-text/i-bachi-da-seta-1984/author>,
+            <https://w3id.org/giuseppe-raimondi-lod/pub-text/i-divertimenti-letterari-1966/author>,
+            <https://w3id.org/giuseppe-raimondi-lod/pub-text/i-tetti-sulla-città-1977/author>,
+            <https://w3id.org/giuseppe-raimondi-lod/pub-text/il-nero-e-l-azzurro-1970/author>,
+            <https://w3id.org/giuseppe-raimondi-lod/pub-text/l-arcangelo-del-terrore-1981/author>,
+            <https://w3id.org/giuseppe-raimondi-lod/pub-text/l-ingiustizia-1965/author>,
+            <https://w3id.org/giuseppe-raimondi-lod/pub-text/la-lanterna-magica-1975/author>,
+            <https://w3id.org/giuseppe-raimondi-lod/pub-text/la-valigia-delle-indie-1955/author>,
+            <https://w3id.org/giuseppe-raimondi-lod/pub-text/le-domeniche-d-estate-1963/author>,
+            <https://w3id.org/giuseppe-raimondi-lod/pub-text/le-linee-della-mano-1972/author>,
+            <https://w3id.org/giuseppe-raimondi-lod/pub-text/ligabue-come-un-cavallo-1971/author>,
+            <https://w3id.org/giuseppe-raimondi-lod/pub-text/lo-scrittoio-1960/author>,
+            <https://w3id.org/giuseppe-raimondi-lod/pub-text/magalotti-1929/author>,
+            <https://w3id.org/giuseppe-raimondi-lod/pub-text/mignon-1955/author>,
+            <https://w3id.org/giuseppe-raimondi-lod/pub-text/notizia-su-baudelaire-1924/author>,
+            <https://w3id.org/giuseppe-raimondi-lod/pub-text/racconti-1973/author>,
+            <https://w3id.org/giuseppe-raimondi-lod/pub-text/ritorno-in-citta-1958/author>,
+            <https://w3id.org/giuseppe-raimondi-lod/pub-text/stagioni-1922/author>,
+            <https://w3id.org/giuseppe-raimondi-lod/pub-text/testa-o-croce-1928/author> .
+}
+
+ficlitdl-np:head {
+    <https://w3id.org/ficlitdl/nanopub/nanopub-base> a np:Nanopublication ;
+        np:hasAssertion ficlitdl-np:assertion ;
+        np:hasProvenance ficlitdl-np:provenance ;
+        np:hasPublicationInfo ficlitdl-np:pubinfo .
+}
+
+ficlitdl-np:provenance {
+    ficlitdl-np:assertion prov:generatedAtTime "1993-03-01"^^xsd:date ;
+        prov:wasAttributedTo <https://w3id.org/ficlitdl/org/sab-ero> .
+}
+
+ficlitdl-np:pubinfo {
+    <https://w3id.org/ficlitdl/nanopub/nanopub-base> prov:generatedAtTime "2022-02-28"^^xsd:date ;
+        prov:wasAttributedTo <https://orcid.org/0000-0001-6007-9118> .
+}
+

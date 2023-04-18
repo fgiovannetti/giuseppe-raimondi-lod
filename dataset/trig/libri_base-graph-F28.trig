@@ -1,0 +1,169 @@
+@prefix ecrm: <http://erlangen-crm.org/current/> .
+@prefix efrbroo: <http://erlangen-crm.org/efrbroo/> .
+@prefix grlod-np: <https://w3id.org/giuseppe-raimondi-lod/nanopub/nanopub-base/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+grlod-np:assertion {
+    <https://w3id.org/giuseppe-raimondi-lod/pub-text/anni-di-bologna-1946/creation> a efrbroo:F28_Expression_Creation ;
+        rdfs:label "Raimondi, Giuseppe. Testo a stampa, \"A\", creation."@en,
+            "Raimondi, Giuseppe. Testo a stampa, \"A\", creazione."@it ;
+        ecrm:P14_carried_out_by <https://w3id.org/ficlitdl/person/giuseppe-raimondi> ;
+        efrbroo:R17_created <https://w3id.org/giuseppe-raimondi-lod/pub-text/anni-di-bologna-1946> .
+
+    <https://w3id.org/giuseppe-raimondi-lod/pub-text/domenico-giordani-1928/creation> a efrbroo:F28_Expression_Creation ;
+        rdfs:label "Raimondi, Giuseppe. Testo a stampa, \"D\", creation."@en,
+            "Raimondi, Giuseppe. Testo a stampa, \"D\", creazione."@it ;
+        ecrm:P14_carried_out_by <https://w3id.org/ficlitdl/person/giuseppe-raimondi> ;
+        efrbroo:R17_created <https://w3id.org/giuseppe-raimondi-lod/pub-text/domenico-giordani-1928> .
+
+    <https://w3id.org/giuseppe-raimondi-lod/pub-text/galileo-ovvero-dell-aria-1926/creation> a efrbroo:F28_Expression_Creation ;
+        rdfs:label "Raimondi, Giuseppe. Testo a stampa, \"G\", creation."@en,
+            "Raimondi, Giuseppe. Testo a stampa, \"G\", creazione."@it ;
+        ecrm:P14_carried_out_by <https://w3id.org/ficlitdl/person/giuseppe-raimondi> ;
+        efrbroo:R17_created <https://w3id.org/giuseppe-raimondi-lod/pub-text/galileo-ovvero-dell-aria-1926> .
+
+    <https://w3id.org/giuseppe-raimondi-lod/pub-text/giornale-ossia-taccuino-1942/creation> a efrbroo:F28_Expression_Creation ;
+        rdfs:label "Raimondi, Giuseppe. Testo a stampa, \"G\", creation."@en,
+            "Raimondi, Giuseppe. Testo a stampa, \"G\", creazione."@it ;
+        ecrm:P14_carried_out_by <https://w3id.org/ficlitdl/person/giuseppe-raimondi> ;
+        efrbroo:R17_created <https://w3id.org/giuseppe-raimondi-lod/pub-text/giornale-ossia-taccuino-1942> .
+
+    <https://w3id.org/giuseppe-raimondi-lod/pub-text/giuseppe-in-italia-1957/creation> a efrbroo:F28_Expression_Creation ;
+        rdfs:label "Raimondi, Giuseppe. Testo a stampa, \"G\", creation."@en,
+            "Raimondi, Giuseppe. Testo a stampa, \"G\", creazione."@it ;
+        ecrm:P14_carried_out_by <https://w3id.org/ficlitdl/person/giuseppe-raimondi> ;
+        efrbroo:R17_created <https://w3id.org/giuseppe-raimondi-lod/pub-text/giuseppe-in-italia-1957> .
+
+    <https://w3id.org/giuseppe-raimondi-lod/pub-text/giuseppe-in-italia-1965/creation> a efrbroo:F28_Expression_Creation ;
+        rdfs:label "Raimondi, Giuseppe. Testo a stampa, \"G\", creation."@en,
+            "Raimondi, Giuseppe. Testo a stampa, \"G\", creazione."@it ;
+        ecrm:P14_carried_out_by <https://w3id.org/ficlitdl/person/giuseppe-raimondi> ;
+        efrbroo:R17_created <https://w3id.org/giuseppe-raimondi-lod/pub-text/giuseppe-in-italia-1965> .
+
+    <https://w3id.org/giuseppe-raimondi-lod/pub-text/giuseppe-in-italia-1973/creation> a efrbroo:F28_Expression_Creation ;
+        rdfs:label "Raimondi, Giuseppe. Testo a stampa, \"G\", creation."@en,
+            "Raimondi, Giuseppe. Testo a stampa, \"G\", creazione."@it ;
+        ecrm:P14_carried_out_by <https://w3id.org/ficlitdl/person/giuseppe-raimondi> ;
+        efrbroo:R17_created <https://w3id.org/giuseppe-raimondi-lod/pub-text/giuseppe-in-italia-1973> .
+
+    <https://w3id.org/giuseppe-raimondi-lod/pub-text/grande-compianto-della-citta-di-parigi-1963/creation> a efrbroo:F28_Expression_Creation ;
+        rdfs:label "Raimondi, Giuseppe. Testo a stampa, \"G\", creation."@en,
+            "Raimondi, Giuseppe. Testo a stampa, \"G\", creazione."@it ;
+        ecrm:P14_carried_out_by <https://w3id.org/ficlitdl/person/giuseppe-raimondi> ;
+        efrbroo:R17_created <https://w3id.org/giuseppe-raimondi-lod/pub-text/grande-compianto-della-citta-di-parigi-1963> .
+
+    <https://w3id.org/giuseppe-raimondi-lod/pub-text/i-bachi-da-seta-1984/creation> a efrbroo:F28_Expression_Creation ;
+        rdfs:label "Raimondi, Giuseppe. Testo a stampa, \"I\", creation."@en,
+            "Raimondi, Giuseppe. Testo a stampa, \"I\", creazione."@it ;
+        ecrm:P14_carried_out_by <https://w3id.org/ficlitdl/person/giuseppe-raimondi> ;
+        efrbroo:R17_created <https://w3id.org/giuseppe-raimondi-lod/pub-text/i-bachi-da-seta-1984> .
+
+    <https://w3id.org/giuseppe-raimondi-lod/pub-text/i-divertimenti-letterari-1966/creation> a efrbroo:F28_Expression_Creation ;
+        rdfs:label "Raimondi, Giuseppe. Testo a stampa, \"I\", creation."@en,
+            "Raimondi, Giuseppe. Testo a stampa, \"I\", creazione."@it ;
+        ecrm:P14_carried_out_by <https://w3id.org/ficlitdl/person/giuseppe-raimondi> ;
+        efrbroo:R17_created <https://w3id.org/giuseppe-raimondi-lod/pub-text/i-divertimenti-letterari-1966> .
+
+    <https://w3id.org/giuseppe-raimondi-lod/pub-text/i-tetti-sulla-città-1977/creation> a efrbroo:F28_Expression_Creation ;
+        rdfs:label "Raimondi, Giuseppe. Testo a stampa, \"I\", creation."@en,
+            "Raimondi, Giuseppe. Testo a stampa, \"I\", creazione."@it ;
+        ecrm:P14_carried_out_by <https://w3id.org/ficlitdl/person/giuseppe-raimondi> ;
+        efrbroo:R17_created <https://w3id.org/giuseppe-raimondi-lod/pub-text/i-tetti-sulla-città-1977> .
+
+    <https://w3id.org/giuseppe-raimondi-lod/pub-text/il-nero-e-l-azzurro-1970/creation> a efrbroo:F28_Expression_Creation ;
+        rdfs:label "Raimondi, Giuseppe. Testo a stampa, \"I\", creation."@en,
+            "Raimondi, Giuseppe. Testo a stampa, \"I\", creazione."@it ;
+        ecrm:P14_carried_out_by <https://w3id.org/ficlitdl/person/giuseppe-raimondi> ;
+        efrbroo:R17_created <https://w3id.org/giuseppe-raimondi-lod/pub-text/il-nero-e-l-azzurro-1970> .
+
+    <https://w3id.org/giuseppe-raimondi-lod/pub-text/l-arcangelo-del-terrore-1981/creation> a efrbroo:F28_Expression_Creation ;
+        rdfs:label "Raimondi, Giuseppe. Testo a stampa, \"L\", creation."@en,
+            "Raimondi, Giuseppe. Testo a stampa, \"L\", creazione."@it ;
+        ecrm:P14_carried_out_by <https://w3id.org/ficlitdl/person/giuseppe-raimondi> ;
+        efrbroo:R17_created <https://w3id.org/giuseppe-raimondi-lod/pub-text/l-arcangelo-del-terrore-1981> .
+
+    <https://w3id.org/giuseppe-raimondi-lod/pub-text/l-ingiustizia-1965/creation> a efrbroo:F28_Expression_Creation ;
+        rdfs:label "Raimondi, Giuseppe. Testo a stampa, \"L\", creation."@en,
+            "Raimondi, Giuseppe. Testo a stampa, \"L\", creazione."@it ;
+        ecrm:P14_carried_out_by <https://w3id.org/ficlitdl/person/giuseppe-raimondi> ;
+        efrbroo:R17_created <https://w3id.org/giuseppe-raimondi-lod/pub-text/l-ingiustizia-1965> .
+
+    <https://w3id.org/giuseppe-raimondi-lod/pub-text/la-lanterna-magica-1975/creation> a efrbroo:F28_Expression_Creation ;
+        rdfs:label "Raimondi, Giuseppe. Testo a stampa, \"L\", creation."@en,
+            "Raimondi, Giuseppe. Testo a stampa, \"L\", creazione."@it ;
+        ecrm:P14_carried_out_by <https://w3id.org/ficlitdl/person/giuseppe-raimondi> ;
+        efrbroo:R17_created <https://w3id.org/giuseppe-raimondi-lod/pub-text/la-lanterna-magica-1975> .
+
+    <https://w3id.org/giuseppe-raimondi-lod/pub-text/la-valigia-delle-indie-1955/creation> a efrbroo:F28_Expression_Creation ;
+        rdfs:label "Raimondi, Giuseppe. Testo a stampa, \"L\", creation."@en,
+            "Raimondi, Giuseppe. Testo a stampa, \"L\", creazione."@it ;
+        ecrm:P14_carried_out_by <https://w3id.org/ficlitdl/person/giuseppe-raimondi> ;
+        efrbroo:R17_created <https://w3id.org/giuseppe-raimondi-lod/pub-text/la-valigia-delle-indie-1955> .
+
+    <https://w3id.org/giuseppe-raimondi-lod/pub-text/le-domeniche-d-estate-1963/creation> a efrbroo:F28_Expression_Creation ;
+        rdfs:label "Raimondi, Giuseppe. Testo a stampa, \"L\", creation."@en,
+            "Raimondi, Giuseppe. Testo a stampa, \"L\", creazione."@it ;
+        ecrm:P14_carried_out_by <https://w3id.org/ficlitdl/person/giuseppe-raimondi> ;
+        efrbroo:R17_created <https://w3id.org/giuseppe-raimondi-lod/pub-text/le-domeniche-d-estate-1963> .
+
+    <https://w3id.org/giuseppe-raimondi-lod/pub-text/le-linee-della-mano-1972/creation> a efrbroo:F28_Expression_Creation ;
+        rdfs:label "Raimondi, Giuseppe. Testo a stampa, \"L\", creation."@en,
+            "Raimondi, Giuseppe. Testo a stampa, \"L\", creazione."@it ;
+        ecrm:P14_carried_out_by <https://w3id.org/ficlitdl/person/giuseppe-raimondi> ;
+        efrbroo:R17_created <https://w3id.org/giuseppe-raimondi-lod/pub-text/le-linee-della-mano-1972> .
+
+    <https://w3id.org/giuseppe-raimondi-lod/pub-text/ligabue-come-un-cavallo-1971/creation> a efrbroo:F28_Expression_Creation ;
+        rdfs:label "Raimondi, Giuseppe. Testo a stampa, \"L\", creation."@en,
+            "Raimondi, Giuseppe. Testo a stampa, \"L\", creazione."@it ;
+        ecrm:P14_carried_out_by <https://w3id.org/ficlitdl/person/giuseppe-raimondi> ;
+        efrbroo:R17_created <https://w3id.org/giuseppe-raimondi-lod/pub-text/ligabue-come-un-cavallo-1971> .
+
+    <https://w3id.org/giuseppe-raimondi-lod/pub-text/lo-scrittoio-1960/creation> a efrbroo:F28_Expression_Creation ;
+        rdfs:label "Raimondi, Giuseppe. Testo a stampa, \"L\", creation."@en,
+            "Raimondi, Giuseppe. Testo a stampa, \"L\", creazione."@it ;
+        ecrm:P14_carried_out_by <https://w3id.org/ficlitdl/person/giuseppe-raimondi> ;
+        efrbroo:R17_created <https://w3id.org/giuseppe-raimondi-lod/pub-text/lo-scrittoio-1960> .
+
+    <https://w3id.org/giuseppe-raimondi-lod/pub-text/magalotti-1929/creation> a efrbroo:F28_Expression_Creation ;
+        rdfs:label "Raimondi, Giuseppe. Testo a stampa, \"M\", creation."@en,
+            "Raimondi, Giuseppe. Testo a stampa, \"M\", creazione."@it ;
+        ecrm:P14_carried_out_by <https://w3id.org/ficlitdl/person/giuseppe-raimondi> ;
+        efrbroo:R17_created <https://w3id.org/giuseppe-raimondi-lod/pub-text/magalotti-1929> .
+
+    <https://w3id.org/giuseppe-raimondi-lod/pub-text/mignon-1955/creation> a efrbroo:F28_Expression_Creation ;
+        rdfs:label "Raimondi, Giuseppe. Testo a stampa, \"M\", creation."@en,
+            "Raimondi, Giuseppe. Testo a stampa, \"M\", creazione."@it ;
+        ecrm:P14_carried_out_by <https://w3id.org/ficlitdl/person/giuseppe-raimondi> ;
+        efrbroo:R17_created <https://w3id.org/giuseppe-raimondi-lod/pub-text/mignon-1955> .
+
+    <https://w3id.org/giuseppe-raimondi-lod/pub-text/notizia-su-baudelaire-1924/creation> a efrbroo:F28_Expression_Creation ;
+        rdfs:label "Raimondi, Giuseppe. Testo a stampa, \"N\", creation."@en,
+            "Raimondi, Giuseppe. Testo a stampa, \"N\", creazione."@it ;
+        ecrm:P14_carried_out_by <https://w3id.org/ficlitdl/person/giuseppe-raimondi> ;
+        efrbroo:R17_created <https://w3id.org/giuseppe-raimondi-lod/pub-text/notizia-su-baudelaire-1924> .
+
+    <https://w3id.org/giuseppe-raimondi-lod/pub-text/racconti-1973/creation> a efrbroo:F28_Expression_Creation ;
+        rdfs:label "Raimondi, Giuseppe. Testo a stampa, \"R\", creation."@en,
+            "Raimondi, Giuseppe. Testo a stampa, \"R\", creazione."@it ;
+        ecrm:P14_carried_out_by <https://w3id.org/ficlitdl/person/giuseppe-raimondi> ;
+        efrbroo:R17_created <https://w3id.org/giuseppe-raimondi-lod/pub-text/racconti-1973> .
+
+    <https://w3id.org/giuseppe-raimondi-lod/pub-text/ritorno-in-citta-1958/creation> a efrbroo:F28_Expression_Creation ;
+        rdfs:label "Raimondi, Giuseppe. Testo a stampa, \"R\", creation."@en,
+            "Raimondi, Giuseppe. Testo a stampa, \"R\", creazione."@it ;
+        ecrm:P14_carried_out_by <https://w3id.org/ficlitdl/person/giuseppe-raimondi> ;
+        efrbroo:R17_created <https://w3id.org/giuseppe-raimondi-lod/pub-text/ritorno-in-citta-1958> .
+
+    <https://w3id.org/giuseppe-raimondi-lod/pub-text/stagioni-1922/creation> a efrbroo:F28_Expression_Creation ;
+        rdfs:label "Raimondi, Giuseppe. Testo a stampa, \"S\", creation."@en,
+            "Raimondi, Giuseppe. Testo a stampa, \"S\", creazione."@it ;
+        ecrm:P14_carried_out_by <https://w3id.org/ficlitdl/person/giuseppe-raimondi> ;
+        efrbroo:R17_created <https://w3id.org/giuseppe-raimondi-lod/pub-text/stagioni-1922> .
+
+    <https://w3id.org/giuseppe-raimondi-lod/pub-text/testa-o-croce-1928/creation> a efrbroo:F28_Expression_Creation ;
+        rdfs:label "Raimondi, Giuseppe. Testo a stampa, \"T\", creation."@en,
+            "Raimondi, Giuseppe. Testo a stampa, \"T\", creazione."@it ;
+        ecrm:P14_carried_out_by <https://w3id.org/ficlitdl/person/giuseppe-raimondi> ;
+        efrbroo:R17_created <https://w3id.org/giuseppe-raimondi-lod/pub-text/testa-o-croce-1928> .
+}
+

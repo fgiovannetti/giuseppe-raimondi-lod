@@ -11,7 +11,7 @@ grlod-np:assertion {
         rdfs:label "Raimondi, Giuseppe. Libro moderno, \"Ligabue come un cavallo : romanzo\""@en,
             "Raimondi, Giuseppe. Libro moderno, \"Ligabue come un cavallo : romanzo\""@it ;
         ecrm:P104_is_subject_to <https://w3id.org/ficlitdl/right/all-rights-reserved> ;
-        ecrm:P128_carries <https://w3id.org/giuseppe-raimondi-lod/pub-text/ligabue-come-un-cavallo-romanzo-1971> ;
+        ecrm:P128_carries <https://w3id.org/giuseppe-raimondi-lod/pub-text/ligabue-come-un-cavallo-1971> ;
         ecrm:P1_is_identified_by <https://w3id.org/giuseppe-raimondi-lod/printed-volume/rl7119/inventory-number>,
             <https://w3id.org/giuseppe-raimondi-lod/printed-volume/rl7119/shelfmark> ;
         ecrm:P2_has_type ficlitdlo:printed-volume ;
@@ -51,7 +51,7 @@ grlod-np:assertion {
         rdfs:label "Raimondi, Giuseppe. Libro moderno, \"I divertimenti letterari : 1915-1925\""@en,
             "Raimondi, Giuseppe. Libro moderno, \"I divertimenti letterari : 1915-1925\""@it ;
         ecrm:P104_is_subject_to <https://w3id.org/ficlitdl/right/all-rights-reserved> ;
-        ecrm:P128_carries <https://w3id.org/giuseppe-raimondi-lod/pub-text/i-divertimenti-letterari-19151925-1966> ;
+        ecrm:P128_carries <https://w3id.org/giuseppe-raimondi-lod/pub-text/i-divertimenti-letterari-1966> ;
         ecrm:P1_is_identified_by <https://w3id.org/giuseppe-raimondi-lod/printed-volume/rl7121/inventory-number>,
             <https://w3id.org/giuseppe-raimondi-lod/printed-volume/rl7121/shelfmark> ;
         ecrm:P2_has_type ficlitdlo:printed-volume ;
@@ -131,7 +131,7 @@ grlod-np:assertion {
         rdfs:label "Raimondi, Giuseppe. Libro moderno, \"Ritorno in citta : 8 capitoli e due canti del popolo bolognese\""@en,
             "Raimondi, Giuseppe. Libro moderno, \"Ritorno in citta : 8 capitoli e due canti del popolo bolognese\""@it ;
         ecrm:P104_is_subject_to <https://w3id.org/ficlitdl/right/all-rights-reserved> ;
-        ecrm:P128_carries <https://w3id.org/giuseppe-raimondi-lod/pub-text/ritorno-in-citta-8-capitoli-e-due-canti-del-popolo-bolognese-1958> ;
+        ecrm:P128_carries <https://w3id.org/giuseppe-raimondi-lod/pub-text/ritorno-in-citta-1958> ;
         ecrm:P1_is_identified_by <https://w3id.org/giuseppe-raimondi-lod/printed-volume/rl7125/inventory-number>,
             <https://w3id.org/giuseppe-raimondi-lod/printed-volume/rl7125/shelfmark> ;
         ecrm:P2_has_type ficlitdlo:printed-volume ;
@@ -171,7 +171,7 @@ grlod-np:assertion {
         rdfs:label "Raimondi, Giuseppe. Libro moderno, \"Stagioni : seguite da Orfeo all'Inferno e altre favole\""@en,
             "Raimondi, Giuseppe. Libro moderno, \"Stagioni : seguite da Orfeo all'Inferno e altre favole\""@it ;
         ecrm:P104_is_subject_to <https://w3id.org/ficlitdl/right/all-rights-reserved> ;
-        ecrm:P128_carries <https://w3id.org/giuseppe-raimondi-lod/pub-text/stagioni-seguite-da-orfeo-all-inferno-e-altre-favole-1922> ;
+        ecrm:P128_carries <https://w3id.org/giuseppe-raimondi-lod/pub-text/stagioni-1922> ;
         ecrm:P1_is_identified_by <https://w3id.org/giuseppe-raimondi-lod/printed-volume/rl7127/inventory-number>,
             <https://w3id.org/giuseppe-raimondi-lod/printed-volume/rl7127/shelfmark> ;
         ecrm:P2_has_type ficlitdlo:printed-volume ;
@@ -191,7 +191,7 @@ grlod-np:assertion {
         rdfs:label "Raimondi, Giuseppe. Libro moderno, \"Giornale ossia Taccuino : (1925-1930)\""@en,
             "Raimondi, Giuseppe. Libro moderno, \"Giornale ossia Taccuino : (1925-1930)\""@it ;
         ecrm:P104_is_subject_to <https://w3id.org/ficlitdl/right/all-rights-reserved> ;
-        ecrm:P128_carries <https://w3id.org/giuseppe-raimondi-lod/pub-text/giornale-ossia-taccuino-19251930-1942> ;
+        ecrm:P128_carries <https://w3id.org/giuseppe-raimondi-lod/pub-text/giornale-ossia-taccuino-1942> ;
         ecrm:P1_is_identified_by <https://w3id.org/giuseppe-raimondi-lod/printed-volume/rl7128/inventory-number>,
             <https://w3id.org/giuseppe-raimondi-lod/printed-volume/rl7128/shelfmark> ;
         ecrm:P2_has_type ficlitdlo:printed-volume ;
@@ -211,7 +211,7 @@ grlod-np:assertion {
         rdfs:label "Raimondi, Giuseppe. Libro moderno, \"Il nero e l'azzurro : racconti 1968-1969\""@en,
             "Raimondi, Giuseppe. Libro moderno, \"Il nero e l'azzurro : racconti 1968-1969\""@it ;
         ecrm:P104_is_subject_to <https://w3id.org/ficlitdl/right/all-rights-reserved> ;
-        ecrm:P128_carries <https://w3id.org/giuseppe-raimondi-lod/pub-text/il-nero-e-l-azzurro-racconti-19681969-1970> ;
+        ecrm:P128_carries <https://w3id.org/giuseppe-raimondi-lod/pub-text/il-nero-e-l-azzurro-1970> ;
         ecrm:P1_is_identified_by <https://w3id.org/giuseppe-raimondi-lod/printed-volume/rl7129/inventory-number>,
             <https://w3id.org/giuseppe-raimondi-lod/printed-volume/rl7129/shelfmark> ;
         ecrm:P2_has_type ficlitdlo:printed-volume ;
@@ -251,7 +251,7 @@ grlod-np:assertion {
         rdfs:label "Raimondi, Giuseppe. Libro moderno, \"Domenico Giordani : avventure di un uomo casalingo\""@en,
             "Raimondi, Giuseppe. Libro moderno, \"Domenico Giordani : avventure di un uomo casalingo\""@it ;
         ecrm:P104_is_subject_to <https://w3id.org/ficlitdl/right/all-rights-reserved> ;
-        ecrm:P128_carries <https://w3id.org/giuseppe-raimondi-lod/pub-text/domenico-giordani-avventure-di-un-uomo-casalingo-1928> ;
+        ecrm:P128_carries <https://w3id.org/giuseppe-raimondi-lod/pub-text/domenico-giordani-1928> ;
         ecrm:P1_is_identified_by <https://w3id.org/giuseppe-raimondi-lod/printed-volume/rl7131/inventory-number>,
             <https://w3id.org/giuseppe-raimondi-lod/printed-volume/rl7131/shelfmark> ;
         ecrm:P2_has_type ficlitdlo:printed-volume ;
@@ -291,7 +291,7 @@ grlod-np:assertion {
         rdfs:label "Raimondi, Giuseppe. Libro moderno, \"Grande compianto della citta di Parigi : 1960-1962\""@en,
             "Raimondi, Giuseppe. Libro moderno, \"Grande compianto della citta di Parigi : 1960-1962\""@it ;
         ecrm:P104_is_subject_to <https://w3id.org/ficlitdl/right/all-rights-reserved> ;
-        ecrm:P128_carries <https://w3id.org/giuseppe-raimondi-lod/pub-text/grande-compianto-della-citta-di-parigi-19601962-1963> ;
+        ecrm:P128_carries <https://w3id.org/giuseppe-raimondi-lod/pub-text/grande-compianto-della-citta-di-parigi-1963> ;
         ecrm:P1_is_identified_by <https://w3id.org/giuseppe-raimondi-lod/printed-volume/rl7133/inventory-number>,
             <https://w3id.org/giuseppe-raimondi-lod/printed-volume/rl7133/shelfmark> ;
         ecrm:P2_has_type ficlitdlo:printed-volume ;
@@ -331,7 +331,7 @@ grlod-np:assertion {
         rdfs:label "Raimondi, Giuseppe. Libro moderno, \"La lanterna magica : racconto e memoria\""@en,
             "Raimondi, Giuseppe. Libro moderno, \"La lanterna magica : racconto e memoria\""@it ;
         ecrm:P104_is_subject_to <https://w3id.org/ficlitdl/right/all-rights-reserved> ;
-        ecrm:P128_carries <https://w3id.org/giuseppe-raimondi-lod/pub-text/la-lanterna-magica-racconto-e-memoria-1975> ;
+        ecrm:P128_carries <https://w3id.org/giuseppe-raimondi-lod/pub-text/la-lanterna-magica-1975> ;
         ecrm:P1_is_identified_by <https://w3id.org/giuseppe-raimondi-lod/printed-volume/rl7135/inventory-number>,
             <https://w3id.org/giuseppe-raimondi-lod/printed-volume/rl7135/shelfmark> ;
         ecrm:P2_has_type ficlitdlo:printed-volume ;
@@ -371,7 +371,7 @@ grlod-np:assertion {
         rdfs:label "Raimondi, Giuseppe. Libro moderno, \"I tetti sulla città : 1973-1976\""@en,
             "Raimondi, Giuseppe. Libro moderno, \"I tetti sulla città : 1973-1976\""@it ;
         ecrm:P104_is_subject_to <https://w3id.org/ficlitdl/right/all-rights-reserved> ;
-        ecrm:P128_carries <https://w3id.org/giuseppe-raimondi-lod/pub-text/i-tetti-sulla-città-19731976-1977> ;
+        ecrm:P128_carries <https://w3id.org/giuseppe-raimondi-lod/pub-text/i-tetti-sulla-città-1977> ;
         ecrm:P1_is_identified_by <https://w3id.org/giuseppe-raimondi-lod/printed-volume/rl7137/inventory-number>,
             <https://w3id.org/giuseppe-raimondi-lod/printed-volume/rl7137/shelfmark> ;
         ecrm:P2_has_type ficlitdlo:printed-volume ;
@@ -391,7 +391,7 @@ grlod-np:assertion {
         rdfs:label "Raimondi, Giuseppe. Libro moderno, \"Anni di Bologna : 1924-1943\""@en,
             "Raimondi, Giuseppe. Libro moderno, \"Anni di Bologna : 1924-1943\""@it ;
         ecrm:P104_is_subject_to <https://w3id.org/ficlitdl/right/all-rights-reserved> ;
-        ecrm:P128_carries <https://w3id.org/giuseppe-raimondi-lod/pub-text/anni-di-bologna-19241943-1946> ;
+        ecrm:P128_carries <https://w3id.org/giuseppe-raimondi-lod/pub-text/anni-di-bologna-1946> ;
         ecrm:P1_is_identified_by <https://w3id.org/giuseppe-raimondi-lod/printed-volume/rl7138/inventory-number>,
             <https://w3id.org/giuseppe-raimondi-lod/printed-volume/rl7138/shelfmark> ;
         ecrm:P2_has_type ficlitdlo:printed-volume ;
@@ -411,7 +411,7 @@ grlod-np:assertion {
         rdfs:label "Raimondi, Giuseppe. Libro moderno, \"Mignon : racconti\""@en,
             "Raimondi, Giuseppe. Libro moderno, \"Mignon : racconti\""@it ;
         ecrm:P104_is_subject_to <https://w3id.org/ficlitdl/right/all-rights-reserved> ;
-        ecrm:P128_carries <https://w3id.org/giuseppe-raimondi-lod/pub-text/mignon-racconti-1955> ;
+        ecrm:P128_carries <https://w3id.org/giuseppe-raimondi-lod/pub-text/mignon-1955> ;
         ecrm:P1_is_identified_by <https://w3id.org/giuseppe-raimondi-lod/printed-volume/rl7139/inventory-number>,
             <https://w3id.org/giuseppe-raimondi-lod/printed-volume/rl7139/shelfmark> ;
         ecrm:P2_has_type ficlitdlo:printed-volume ;
@@ -451,7 +451,7 @@ grlod-np:assertion {
         rdfs:label "Raimondi, Giuseppe. Libro moderno, \"Le linee della mano : saggi letterari, 1956-1970\""@en,
             "Raimondi, Giuseppe. Libro moderno, \"Le linee della mano : saggi letterari, 1956-1970\""@it ;
         ecrm:P104_is_subject_to <https://w3id.org/ficlitdl/right/all-rights-reserved> ;
-        ecrm:P128_carries <https://w3id.org/giuseppe-raimondi-lod/pub-text/le-linee-della-mano-saggi-letterari-19561970-1972> ;
+        ecrm:P128_carries <https://w3id.org/giuseppe-raimondi-lod/pub-text/le-linee-della-mano-1972> ;
         ecrm:P1_is_identified_by <https://w3id.org/giuseppe-raimondi-lod/printed-volume/rl7141/inventory-number>,
             <https://w3id.org/giuseppe-raimondi-lod/printed-volume/rl7141/shelfmark> ;
         ecrm:P2_has_type ficlitdlo:printed-volume ;

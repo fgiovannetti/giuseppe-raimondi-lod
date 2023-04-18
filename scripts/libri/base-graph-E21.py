@@ -1,11 +1,11 @@
 # coding: utf-8
 
 """ Base graph :
-Libri, Role In Time
+FICLITDL, E21 Person
 """
 
 from rdflib import Dataset, URIRef, Literal, Namespace
-from rdflib.namespace import RDF, RDFS, XSD, DCTERMS, PROV
+from rdflib.namespace import RDF, RDFS, XSD, DCTERMS, OWL, PROV
 import csv
 import re
 
@@ -32,11 +32,12 @@ d.bind("efrbroo", efrbroo)
 d.bind('ficlitdl', ficlitdl)
 d.bind('ficlitdlo', ficlitdlo)
 d.bind('np', np)
-d.bind('grlod-np', URIRef('https://w3id.org/giuseppe-raimondi-lod/nanopub/nanopub-base/'))
+d.bind('ficlitdl-np', URIRef('https://w3id.org/ficlitdl/nanopub/nanopub-base/'))
+d.bind("owl", OWL)
 d.bind('prov', PROV)
+d.bind("pro", pro)
 d.bind('rdfs', RDFS)
 d.bind('prism', prism)
-d.bind("pro", pro)
 d.bind('seq', seq)
 d.bind('ti', ti)
 d.bind('tvc', tvc)
@@ -46,7 +47,7 @@ d.bind('tvc', tvc)
 base_uri = 'https://w3id.org/giuseppe-raimondi-lod/'
 
 # Declare a URI for the nanopub
-nanopub = URIRef(base_uri + 'nanopub/nanopub-base/')
+nanopub = URIRef('https://w3id.org/ficlitdl/nanopub/nanopub-base/')
 
 # Declare a Graph URI to be used to identify a Graph
 graph_base = URIRef(nanopub + 'assertion')
@@ -65,7 +66,8 @@ with open('../../input/libri.csv', mode='r') as csv_file:
 		precisazione = row['Precisazione inventario']
 		descrizione_isbd = row['Descrizione isbd'].replace('*', '')
 
-		series = URIRef(base_uri + 'record-set' + '/' + 'printed-volumes/archivio')
+		series = URIRef(base_uri + 'record-set' + '/' + 'printed-volumes')
+		subseries = URIRef(base_uri + 'record-set' + '/' + 'printed-volumes/archivio')
 		pubdate = re.findall(', (\[?\d+\]?)\.', descrizione_isbd)
 		publisher = re.findall('\. - .+? : (.+?),', descrizione_isbd)
 		pubplace = re.findall('\. - (\[?\S+?\]?) : .+?,', descrizione_isbd)
@@ -83,39 +85,62 @@ with open('../../input/libri.csv', mode='r') as csv_file:
 		# Declare a URI for each pub text
 		rec_expression = URIRef(record + 'text')
 		pub_text = URIRef(base_uri + 'pub-text/' )
-		# https://w3id.org/giuseppe-raimondi-lod/pub-text/i-tetti-sulla-citta-19731976
 		
 	
 		rec_label = re.findall('^(.+?) \/', descrizione_isbd)[0]
 
 		rec_label_short = rec_label.split(' :')[0]
-
+		
+	
 
 		s = rec_label_short.replace(' ', 'x').replace("'", "x")
 		w = ''.join(ch for ch in s if ch.isalnum())
-
-
 		w = w.replace('x' , '-')
 		w = w.replace('--' , '-')
 		rec_work = URIRef(base_uri + 'work/' + w.lower())
 		pub_text = URIRef(base_uri + 'pub-text/' + w.lower().replace('x' , '-') + '-' + pubdate[0].replace('[', '').replace(']', ''))
 
+	
+		pub = publisher[0].replace(' ', 'x').replace("'", "x")
+		pub_id = ''.join(ch for ch in pub if ch.isalpha())
 
+
+		# person URI
+
+		person = URIRef('https://w3id.org/ficlitdl/' + 'person/') 
 
 
 
 		# Add quads to base-graph
 
-		d.add((URIRef(pub_text + '/author'), RDF.type, pro.RoleInTime, graph_base))
-		d.add((URIRef(pub_text + '/author'), pro.withRole, pro.author, graph_base))
-		d.add((URIRef(pub_text + '/author'), RDFS.label, Literal('Giuseppe Raimondi, autore di  ' + '"' + rec_label + '"', lang='it'), graph_base))
-		d.add((URIRef(pub_text + '/author'), RDFS.label, Literal('Giuseppe Raimondi, author of  ' + '"' + rec_label + '"', lang='en'), graph_base))
-		d.add((URIRef(pub_text + '/author'), pro.relatesToEntity, pub_text, graph_base))
+		# Nanopublication
+		d.add((URIRef('https://w3id.org/ficlitdl/nanopub/nanopub-base'), RDF.type, np.Nanopublication, URIRef(nanopub + 'head')))
+		d.add((URIRef('https://w3id.org/ficlitdl/nanopub/nanopub-base'), np.hasAssertion, URIRef(nanopub + 'assertion'), URIRef(nanopub + 'head')))
+		d.add((URIRef('https://w3id.org/ficlitdl/nanopub/nanopub-base'), np.hasProvenance, URIRef(nanopub + 'provenance'), URIRef(nanopub + 'head')))
+		d.add((URIRef('https://w3id.org/ficlitdl/nanopub/nanopub-base'), np.hasPublicationInfo, URIRef(nanopub + 'pubinfo'), URIRef(nanopub + 'head')))
+
+		# Provenance of the assertions
+		d.add((URIRef(nanopub + 'assertion'), PROV.generatedAtTime, Literal('1993-03' , datatype=XSD.date), URIRef(nanopub + 'provenance')))
+		d.add((URIRef(nanopub + 'assertion'), PROV.wasAttributedTo, URIRef('https://w3id.org/ficlitdl/org/sab-ero'), URIRef(nanopub + 'provenance')))
+
+		# Publication info
+		d.add((URIRef('https://w3id.org/ficlitdl/nanopub/nanopub-base'), PROV.generatedAtTime, Literal('2022-02-28' , datatype=XSD.date), URIRef(nanopub + 'pubinfo')))
+		d.add((URIRef('https://w3id.org/ficlitdl/nanopub/nanopub-base'), PROV.wasAttributedTo, URIRef('https://orcid.org/0000-0001-6007-9118'), URIRef(nanopub + 'pubinfo')))
+
+
+		###########################
+		#                         #
+		# Giuseppe Raimondi       #
+		#                         #
+		###########################
+
+		d.add((URIRef(person + 'giuseppe-raimondi'), pro.holdsRoleInTime, URIRef(pub_text + '/author'), graph_base))
+
 
 
 
 # TriG
-d.serialize(destination="../../dataset/trig/libri_base-graph-RIT.trig", format='trig')
+d.serialize(destination="../../dataset/trig/libri_base-graph-E21.trig", format='trig')
 
 # N-Quads
-d.serialize(destination="../../dataset/nquads/libri_base-graph-RIT.nq", format='nquads')
+d.serialize(destination="../../dataset/nquads/libri_base-graph-E21.nq", format='nquads')

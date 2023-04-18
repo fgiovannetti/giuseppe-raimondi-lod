@@ -85,20 +85,6 @@ with open('../../input/libri.csv', mode='r') as csv_file:
 		# https://w3id.org/giuseppe-raimondi-lod/pub-text/i-tetti-sulla-citta-19731976
 		
 	
-		rec_label = re.findall('^(.+?) \/', descrizione_isbd)[0]
-
-	
-
-		s = rec_label.replace(' ', 'x').replace("'", "x")
-		w = ''.join(ch for ch in s if ch.isalnum())
-		w = w.replace('x' , '-')
-		w = w.replace('--' , '-')
-		rec_work = URIRef(base_uri + 'work/' + w.lower())
-		pub_text = URIRef(base_uri + 'pub-text/' + w.lower().replace('x' , '-') + '-' + pubdate[0])
-
-	
-		pub = publisher[0].replace(' ', 'x').replace("'", "x")
-		pub_id = ''.join(ch for ch in pub if ch.isalpha())
 
 
 		# Add quads to base-graph

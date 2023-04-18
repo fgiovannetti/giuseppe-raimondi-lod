@@ -11,25 +11,44 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
+grlod-np:provenance {
+    grlod-np:assertion prov:generatedAtTime "2023-04-04"^^xsd:date ;
+        prov:wasAttributedTo <https://orcid.org/0000-0001-6007-9118> .
+}
+
+grlod-np:head {
+    <https://w3id.org/giuseppe-raimondi-lod/nanopub/nanopub5> a np:Nanopublication ;
+        np:hasAssertion grlod-np:assertion ;
+        np:hasProvenance grlod-np:provenance ;
+        np:hasPublicationInfo grlod-np:pubinfo .
+}
+
 grlod-np:assertion {
-    <https://w3id.org/ficlitdl/person/giuseppe-raimondi> pro:holdsRoleInTime <https://w3id.org/giuseppe-raimondi-lod/pub-text/divagazioni-intorno-a-paul-valery-1925/author>,
+    <https://w3id.org/ficlitdl/person/giuseppe-raimondi> rdfs:label "Giuseppe Raimondi" ;
+        pro:holdsRoleInTime <https://w3id.org/giuseppe-raimondi-lod/pub-text/divagazioni-intorno-a-paul-valery-1925/author>,
             <https://w3id.org/giuseppe-raimondi-lod/pub-text/il-cartesiano-signor-teste-1928/author>,
             <https://w3id.org/giuseppe-raimondi-lod/pub-text/mostro-a-due-teste-1971/author>,
             <https://w3id.org/giuseppe-raimondi-lod/pub-text/ringraziamento-a-commerce-1925/author> .
 
-    <https://w3id.org/ficlitdl/person/jean-prevost> pro:holdsRoleInTime <https://w3id.org/giuseppe-raimondi-lod/pub-text/la-pensee-de-paul-valery-1926/author> .
+    <https://w3id.org/ficlitdl/person/jean-prevost> rdfs:label "Jean Prévost" ;
+        pro:holdsRoleInTime <https://w3id.org/giuseppe-raimondi-lod/pub-text/la-pensee-de-paul-valery-1926/author> .
 
-    <https://w3id.org/ficlitdl/person/paul-valery> pro:holdsRoleInTime <https://w3id.org/giuseppe-raimondi-lod/pub-text/la-soiréè-avec-monsieur-teste-1906/author>,
+    <https://w3id.org/ficlitdl/person/paul-valery> rdfs:label "Paul Valéry" ;
+        pro:holdsRoleInTime <https://w3id.org/giuseppe-raimondi-lod/pub-text/la-soiréè-avec-monsieur-teste-1906/author>,
             <https://w3id.org/giuseppe-raimondi-lod/pub-text/monsieur-teste-1927/author>,
             <https://w3id.org/giuseppe-raimondi-lod/pub-text/preface-1925/author> .
 
-    <https://w3id.org/giuseppe-raimondi-lod/pub-text/divagazioni-intorno-a-paul-valery-1925/creation> a efrbroo:E28_Expression_Creation .
+    <https://w3id.org/giuseppe-raimondi-lod/pub-text/divagazioni-intorno-a-paul-valery-1925/creation> a efrbroo:E28_Expression_Creation ;
+        efrbroo:R17_created <https://w3id.org/giuseppe-raimondi-lod/pub-text/divagazioni-intorno-a-paul-valery-1925> .
 
-    <https://w3id.org/giuseppe-raimondi-lod/pub-text/il-cartesiano-signor-teste-1928/creation> a efrbroo:E28_Expression_Creation .
+    <https://w3id.org/giuseppe-raimondi-lod/pub-text/il-cartesiano-signor-teste-1928/creation> a efrbroo:E28_Expression_Creation ;
+        efrbroo:R17_created <https://w3id.org/giuseppe-raimondi-lod/pub-text/il-cartesiano-signor-teste-1928> .
 
-    <https://w3id.org/giuseppe-raimondi-lod/pub-text/mostro-a-due-teste-1971/creation> a efrbroo:E28_Expression_Creation .
+    <https://w3id.org/giuseppe-raimondi-lod/pub-text/mostro-a-due-teste-1971/creation> a efrbroo:E28_Expression_Creation ;
+        efrbroo:R17_created <https://w3id.org/giuseppe-raimondi-lod/pub-text/mostro-a-due-teste-1971> .
 
-    <https://w3id.org/giuseppe-raimondi-lod/pub-text/ringraziamento-a-commerce-1925/creation> a efrbroo:E28_Expression_Creation .
+    <https://w3id.org/giuseppe-raimondi-lod/pub-text/ringraziamento-a-commerce-1925/creation> a efrbroo:E28_Expression_Creation ;
+        efrbroo:R17_created <https://w3id.org/giuseppe-raimondi-lod/pub-text/ringraziamento-a-commerce-1925> .
 
     <https://w3id.org/giuseppe-raimondi-lod/periodical/rl4472/object> a ecrm:E22_Human-Made_Object ;
         ecrm:P1_is_identified_by <https://w3id.org/giuseppe-raimondi-lod/periodical/rl4472/shelfmark> .
@@ -45,15 +64,10 @@ grlod-np:assertion {
 
     <https://w3id.org/giuseppe-raimondi-lod/pub-text/commerce-1925-4> ecrm:P102_has_title <https://w3id.org/giuseppe-raimondi-lod/pub-text/commerce-1925-4/title> ;
         ecrm:P128i_is_carried_by <https://w3id.org/giuseppe-raimondi-lod/periodical/rl7034/object> ;
-        prism:publicationDate "1925-01-01"^^xsd:date .
+        prism:publicationDate "1925-01-01"^^xsd:gYear .
 
     <https://w3id.org/giuseppe-raimondi-lod/pub-text/commerce-1925-4/title> a ecrm:E35_Title ;
         rdf:value "Commerce: cahiers trimestriels, 1925, 4" .
-
-    <https://w3id.org/giuseppe-raimondi-lod/pub-text/divagazioni-intorno-a-paul-valery-1925> a efrbroo:E24_Publication_Expression ;
-        ecrm:P102_has_title <https://w3id.org/giuseppe-raimondi-lod/pub-text/divagazioni-intorno-a-paul-valery-1925/title> ;
-        ecrm:P165i_is_incorporated_in <https://w3id.org/giuseppe-raimondi-lod/pub-text/il-convegno-1925-2-3> ;
-        prism:publicationDate "1925-03-30"^^xsd:date .
 
     <https://w3id.org/giuseppe-raimondi-lod/pub-text/divagazioni-intorno-a-paul-valery-1925/author> a pro:RoleInTime ;
         pro:relatesToEntity <https://w3id.org/giuseppe-raimondi-lod/pub-text/divagazioni-intorno-a-paul-valery-1925> ;
@@ -62,11 +76,6 @@ grlod-np:assertion {
     <https://w3id.org/giuseppe-raimondi-lod/pub-text/divagazioni-intorno-a-paul-valery-1925/title> a ecrm:E35_Title ;
         rdf:value "Divagazioni intorno a Paul Valéry" .
 
-    <https://w3id.org/giuseppe-raimondi-lod/pub-text/il-cartesiano-signor-teste-1928> a efrbroo:E24_Publication_Expression ;
-        ecrm:P102_has_title <https://w3id.org/giuseppe-raimondi-lod/pub-text/il-cartesiano-signor-teste-1928/title> ;
-        prism:publicationDate "1928-01-01"^^xsd:date ;
-        dcterms:publisher <https://w3id.org/ficlitdl/org/edizioni-di-solaria> .
-
     <https://w3id.org/giuseppe-raimondi-lod/pub-text/il-cartesiano-signor-teste-1928/author> a pro:RoleInTime ;
         pro:relatesToEntity <https://w3id.org/giuseppe-raimondi-lod/pub-text/il-cartesiano-signor-teste-1928> ;
         pro:withRole pro:author .
@@ -74,9 +83,9 @@ grlod-np:assertion {
     <https://w3id.org/giuseppe-raimondi-lod/pub-text/il-cartesiano-signor-teste-1928/title> a ecrm:E35_Title ;
         rdf:value "Il cartesiano signor Teste" .
 
-    <https://w3id.org/giuseppe-raimondi-lod/pub-text/la-pensee-de-paul-valery-1926> a efrbroo:E24_Publication_Expression ;
+    <https://w3id.org/giuseppe-raimondi-lod/pub-text/la-pensee-de-paul-valery-1926> a efrbroo:F24_Publication_Expression ;
         ecrm:P102_has_title <https://w3id.org/giuseppe-raimondi-lod/pub-text/la-pensee-de-paul-valery-1926/title> ;
-        prism:publicationDate "1926-01-01"^^xsd:date ;
+        prism:publicationDate "1926-01-01"^^xsd:gYear ;
         dcterms:publisher <https://w3id.org/ficlitdl/org/fabre> .
 
     <https://w3id.org/giuseppe-raimondi-lod/pub-text/la-pensee-de-paul-valery-1926/author> a pro:RoleInTime ;
@@ -86,7 +95,7 @@ grlod-np:assertion {
     <https://w3id.org/giuseppe-raimondi-lod/pub-text/la-pensee-de-paul-valery-1926/title> a ecrm:E35_Title ;
         rdf:value "La pensée de Paul Valéry" .
 
-    <https://w3id.org/giuseppe-raimondi-lod/pub-text/la-soiréè-avec-monsieur-teste-1906> a efrbroo:E24_Publication_Expression ;
+    <https://w3id.org/giuseppe-raimondi-lod/pub-text/la-soiréè-avec-monsieur-teste-1906> a efrbroo:F24_Publication_Expression ;
         ecrm:P102_has_title <https://w3id.org/giuseppe-raimondi-lod/pub-text/la-soiréè-avec-monsieur-teste-1906/title> ;
         ecrm:P165i_is_incorporated_in <https://w3id.org/giuseppe-raimondi-lod/pub-text/verse-et-prose-1906-4> .
 
@@ -97,9 +106,9 @@ grlod-np:assertion {
     <https://w3id.org/giuseppe-raimondi-lod/pub-text/la-soiréè-avec-monsieur-teste-1906/title> a ecrm:E35_Title ;
         rdf:value "La Soiréè avec Monsieur Teste" .
 
-    <https://w3id.org/giuseppe-raimondi-lod/pub-text/monsieur-teste-1927> a efrbroo:E24_Publication_Expression ;
+    <https://w3id.org/giuseppe-raimondi-lod/pub-text/monsieur-teste-1927> a efrbroo:F24_Publication_Expression ;
         ecrm:P102_has_title <https://w3id.org/giuseppe-raimondi-lod/pub-text/monsieur-teste-1927/title> ;
-        prism:publicationDate "1927-01-01"^^xsd:date ;
+        prism:publicationDate "1927-01-01"^^xsd:gYear ;
         dcterms:publisher <https://w3id.org/ficlitdl/org/cres> .
 
     <https://w3id.org/giuseppe-raimondi-lod/pub-text/monsieur-teste-1927/author> a pro:RoleInTime ;
@@ -109,12 +118,6 @@ grlod-np:assertion {
     <https://w3id.org/giuseppe-raimondi-lod/pub-text/monsieur-teste-1927/title> a ecrm:E35_Title ;
         rdf:value "Monsieur Teste" .
 
-    <https://w3id.org/giuseppe-raimondi-lod/pub-text/mostro-a-due-teste-1971> a efrbroo:E24_Publication_Expression ;
-        ecrm:P102_has_title <https://w3id.org/giuseppe-raimondi-lod/pub-text/mostro-a-due-teste-1971/title> ;
-        ecrm:P165i_is_incorporated_in <https://w3id.org/giuseppe-raimondi-lod/pub-text/corriere-della-sera-1971-10-28> ;
-        prism:publicationDate "1971-10-28"^^xsd:date ;
-        dcterms:publisher <https://w3id.org/ficlitdl/org/corriere-della-sera> .
-
     <https://w3id.org/giuseppe-raimondi-lod/pub-text/mostro-a-due-teste-1971/author> a pro:RoleInTime ;
         pro:relatesToEntity <https://w3id.org/giuseppe-raimondi-lod/pub-text/mostro-a-due-teste-1971> ;
         pro:withRole pro:author .
@@ -122,7 +125,7 @@ grlod-np:assertion {
     <https://w3id.org/giuseppe-raimondi-lod/pub-text/mostro-a-due-teste-1971/title> a ecrm:E35_Title ;
         rdf:value "Mostro a due Teste" .
 
-    <https://w3id.org/giuseppe-raimondi-lod/pub-text/preface-1925> a efrbroo:E24_Publication_Expression ;
+    <https://w3id.org/giuseppe-raimondi-lod/pub-text/preface-1925> a efrbroo:F24_Publication_Expression ;
         ecrm:P102_has_title <https://w3id.org/giuseppe-raimondi-lod/pub-text/preface-1925/title> ;
         ecrm:P165i_is_incorporated_in <https://w3id.org/giuseppe-raimondi-lod/pub-text/commerce-1925-4> .
 
@@ -133,11 +136,6 @@ grlod-np:assertion {
     <https://w3id.org/giuseppe-raimondi-lod/pub-text/preface-1925/title> a ecrm:E35_Title ;
         rdf:value "Préface pour une nouvelle traduction de La Soiréè avec M. Teste" .
 
-    <https://w3id.org/giuseppe-raimondi-lod/pub-text/ringraziamento-a-commerce-1925> a efrbroo:E24_Publication_Expression ;
-        ecrm:P102_has_title <https://w3id.org/giuseppe-raimondi-lod/pub-text/ringraziamento-a-commerce-1925/title> ;
-        ecrm:P165i_is_incorporated_in <https://w3id.org/giuseppe-raimondi-lod/pub-text/il-convegno-1925-9> ;
-        prism:publicationDate "1925-10-30"^^xsd:date .
-
     <https://w3id.org/giuseppe-raimondi-lod/pub-text/ringraziamento-a-commerce-1925/author> a pro:RoleInTime ;
         pro:relatesToEntity <https://w3id.org/giuseppe-raimondi-lod/pub-text/ringraziamento-a-commerce-1925> ;
         pro:withRole pro:author .
@@ -147,26 +145,35 @@ grlod-np:assertion {
 
     <https://w3id.org/giuseppe-raimondi-lod/pub-text/verse-et-prose-1906-4> ecrm:P102_has_title <https://w3id.org/giuseppe-raimondi-lod/pub-text/verse-et-prose-1906-4/title> ;
         ecrm:P128i_is_carried_by <https://w3id.org/giuseppe-raimondi-lod/periodical/rl4472/object> ;
-        prism:publicationDate "1905-07-09"^^xsd:date .
+        prism:publicationDate "1906-01-01"^^xsd:gYear .
 
     <https://w3id.org/giuseppe-raimondi-lod/pub-text/verse-et-prose-1906-4/title> a ecrm:E35_Title ;
         rdf:value "Vers et prose, décembre 1905, janvier-février 1906, 4" .
-}
 
-grlod-np:provenance {
-    grlod-np:assertion prov:generatedAtTime "2023-04-04"^^xsd:date ;
-        prov:wasAttributedTo <https://orcid.org/0000-0001-6007-9118> .
+    <https://w3id.org/giuseppe-raimondi-lod/pub-text/divagazioni-intorno-a-paul-valery-1925> a efrbroo:F24_Publication_Expression ;
+        ecrm:P102_has_title <https://w3id.org/giuseppe-raimondi-lod/pub-text/divagazioni-intorno-a-paul-valery-1925/title> ;
+        ecrm:P165i_is_incorporated_in <https://w3id.org/giuseppe-raimondi-lod/pub-text/il-convegno-1925-2-3> ;
+        prism:publicationDate "1925-03-30"^^xsd:date .
+
+    <https://w3id.org/giuseppe-raimondi-lod/pub-text/il-cartesiano-signor-teste-1928> a efrbroo:F24_Publication_Expression ;
+        ecrm:P102_has_title <https://w3id.org/giuseppe-raimondi-lod/pub-text/il-cartesiano-signor-teste-1928/title> ;
+        prism:publicationDate "1928-01-01"^^xsd:gYear ;
+        dcterms:publisher <https://w3id.org/ficlitdl/org/edizioni-di-solaria> .
+
+    <https://w3id.org/giuseppe-raimondi-lod/pub-text/mostro-a-due-teste-1971> a efrbroo:F24_Publication_Expression ;
+        ecrm:P102_has_title <https://w3id.org/giuseppe-raimondi-lod/pub-text/mostro-a-due-teste-1971/title> ;
+        ecrm:P165i_is_incorporated_in <https://w3id.org/giuseppe-raimondi-lod/pub-text/corriere-della-sera-1971-10-28> ;
+        prism:publicationDate "1971-10-28"^^xsd:date ;
+        dcterms:publisher <https://w3id.org/ficlitdl/org/corriere-della-sera> .
+
+    <https://w3id.org/giuseppe-raimondi-lod/pub-text/ringraziamento-a-commerce-1925> a efrbroo:F24_Publication_Expression ;
+        ecrm:P102_has_title <https://w3id.org/giuseppe-raimondi-lod/pub-text/ringraziamento-a-commerce-1925/title> ;
+        ecrm:P165i_is_incorporated_in <https://w3id.org/giuseppe-raimondi-lod/pub-text/il-convegno-1925-9> ;
+        prism:publicationDate "1925-10-30"^^xsd:date .
 }
 
 grlod-np:pubinfo {
     <https://w3id.org/giuseppe-raimondi-lod/nanopub/nanopub5> prov:generatedAtTime "2023-04-04"^^xsd:date ;
         prov:wasAttributedTo <https://orcid.org/0000-0001-6007-9118> .
-}
-
-grlod-np:head {
-    <https://w3id.org/giuseppe-raimondi-lod/nanopub/nanopub5> a np:Nanopublication ;
-        np:hasAssertion grlod-np:assertion ;
-        np:hasProvenance grlod-np:provenance ;
-        np:hasPublicationInfo grlod-np:pubinfo .
 }
 

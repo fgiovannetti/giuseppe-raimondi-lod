@@ -4,12 +4,12 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
 grlod-np:assertion {
-    <https://w3id.org/giuseppe-raimondi-lod/pub-text/anni-di-bologna-19241943-1946/title> a ecrm:E35_Title ;
+    <https://w3id.org/giuseppe-raimondi-lod/pub-text/anni-di-bologna-1946/title> a ecrm:E35_Title ;
         rdfs:label "Title, \"Anni di Bologna : 1924-1943\""@en,
             "Titolo, \"Anni di Bologna : 1924-1943\""@it ;
         rdf:value "Anni di Bologna : 1924-1943" .
 
-    <https://w3id.org/giuseppe-raimondi-lod/pub-text/domenico-giordani-avventure-di-un-uomo-casalingo-1928/title> a ecrm:E35_Title ;
+    <https://w3id.org/giuseppe-raimondi-lod/pub-text/domenico-giordani-1928/title> a ecrm:E35_Title ;
         rdfs:label "Title, \"Domenico Giordani : avventure di un uomo casalingo\""@en,
             "Titolo, \"Domenico Giordani : avventure di un uomo casalingo\""@it ;
         rdf:value "Domenico Giordani : avventure di un uomo casalingo" .
@@ -19,7 +19,7 @@ grlod-np:assertion {
             "Titolo, \"Galileo, ovvero dell'aria\""@it ;
         rdf:value "Galileo, ovvero dell'aria" .
 
-    <https://w3id.org/giuseppe-raimondi-lod/pub-text/giornale-ossia-taccuino-19251930-1942/title> a ecrm:E35_Title ;
+    <https://w3id.org/giuseppe-raimondi-lod/pub-text/giornale-ossia-taccuino-1942/title> a ecrm:E35_Title ;
         rdfs:label "Title, \"Giornale ossia Taccuino : (1925-1930)\""@en,
             "Titolo, \"Giornale ossia Taccuino : (1925-1930)\""@it ;
         rdf:value "Giornale ossia Taccuino : (1925-1930)" .
@@ -39,7 +39,7 @@ grlod-np:assertion {
             "Titolo, \"Giuseppe in Italia\""@it ;
         rdf:value "Giuseppe in Italia" .
 
-    <https://w3id.org/giuseppe-raimondi-lod/pub-text/grande-compianto-della-citta-di-parigi-19601962-1963/title> a ecrm:E35_Title ;
+    <https://w3id.org/giuseppe-raimondi-lod/pub-text/grande-compianto-della-citta-di-parigi-1963/title> a ecrm:E35_Title ;
         rdfs:label "Title, \"Grande compianto della citta di Parigi : 1960-1962\""@en,
             "Titolo, \"Grande compianto della citta di Parigi : 1960-1962\""@it ;
         rdf:value "Grande compianto della citta di Parigi : 1960-1962" .
@@ -49,17 +49,17 @@ grlod-np:assertion {
             "Titolo, \"I bachi da seta\""@it ;
         rdf:value "I bachi da seta" .
 
-    <https://w3id.org/giuseppe-raimondi-lod/pub-text/i-divertimenti-letterari-19151925-1966/title> a ecrm:E35_Title ;
+    <https://w3id.org/giuseppe-raimondi-lod/pub-text/i-divertimenti-letterari-1966/title> a ecrm:E35_Title ;
         rdfs:label "Title, \"I divertimenti letterari : 1915-1925\""@en,
             "Titolo, \"I divertimenti letterari : 1915-1925\""@it ;
         rdf:value "I divertimenti letterari : 1915-1925" .
 
-    <https://w3id.org/giuseppe-raimondi-lod/pub-text/i-tetti-sulla-città-19731976-1977/title> a ecrm:E35_Title ;
+    <https://w3id.org/giuseppe-raimondi-lod/pub-text/i-tetti-sulla-città-1977/title> a ecrm:E35_Title ;
         rdfs:label "Title, \"I tetti sulla città : 1973-1976\""@en,
             "Titolo, \"I tetti sulla città : 1973-1976\""@it ;
         rdf:value "I tetti sulla città : 1973-1976" .
 
-    <https://w3id.org/giuseppe-raimondi-lod/pub-text/il-nero-e-l-azzurro-racconti-19681969-1970/title> a ecrm:E35_Title ;
+    <https://w3id.org/giuseppe-raimondi-lod/pub-text/il-nero-e-l-azzurro-1970/title> a ecrm:E35_Title ;
         rdfs:label "Title, \"Il nero e l'azzurro : racconti 1968-1969\""@en,
             "Titolo, \"Il nero e l'azzurro : racconti 1968-1969\""@it ;
         rdf:value "Il nero e l'azzurro : racconti 1968-1969" .
@@ -74,7 +74,7 @@ grlod-np:assertion {
             "Titolo, \"L'ingiustizia\""@it ;
         rdf:value "L'ingiustizia" .
 
-    <https://w3id.org/giuseppe-raimondi-lod/pub-text/la-lanterna-magica-racconto-e-memoria-1975/title> a ecrm:E35_Title ;
+    <https://w3id.org/giuseppe-raimondi-lod/pub-text/la-lanterna-magica-1975/title> a ecrm:E35_Title ;
         rdfs:label "Title, \"La lanterna magica : racconto e memoria\""@en,
             "Titolo, \"La lanterna magica : racconto e memoria\""@it ;
         rdf:value "La lanterna magica : racconto e memoria" .
@@ -89,12 +89,12 @@ grlod-np:assertion {
             "Titolo, \"Le domeniche d'estate\""@it ;
         rdf:value "Le domeniche d'estate" .
 
-    <https://w3id.org/giuseppe-raimondi-lod/pub-text/le-linee-della-mano-saggi-letterari-19561970-1972/title> a ecrm:E35_Title ;
+    <https://w3id.org/giuseppe-raimondi-lod/pub-text/le-linee-della-mano-1972/title> a ecrm:E35_Title ;
         rdfs:label "Title, \"Le linee della mano : saggi letterari, 1956-1970\""@en,
             "Titolo, \"Le linee della mano : saggi letterari, 1956-1970\""@it ;
         rdf:value "Le linee della mano : saggi letterari, 1956-1970" .
 
-    <https://w3id.org/giuseppe-raimondi-lod/pub-text/ligabue-come-un-cavallo-romanzo-1971/title> a ecrm:E35_Title ;
+    <https://w3id.org/giuseppe-raimondi-lod/pub-text/ligabue-come-un-cavallo-1971/title> a ecrm:E35_Title ;
         rdfs:label "Title, \"Ligabue come un cavallo : romanzo\""@en,
             "Titolo, \"Ligabue come un cavallo : romanzo\""@it ;
         rdf:value "Ligabue come un cavallo : romanzo" .
@@ -109,7 +109,7 @@ grlod-np:assertion {
             "Titolo, \"Magalotti\""@it ;
         rdf:value "Magalotti" .
 
-    <https://w3id.org/giuseppe-raimondi-lod/pub-text/mignon-racconti-1955/title> a ecrm:E35_Title ;
+    <https://w3id.org/giuseppe-raimondi-lod/pub-text/mignon-1955/title> a ecrm:E35_Title ;
         rdfs:label "Title, \"Mignon : racconti\""@en,
             "Titolo, \"Mignon : racconti\""@it ;
         rdf:value "Mignon : racconti" .
@@ -124,12 +124,12 @@ grlod-np:assertion {
             "Titolo, \"Racconti\""@it ;
         rdf:value "Racconti" .
 
-    <https://w3id.org/giuseppe-raimondi-lod/pub-text/ritorno-in-citta-8-capitoli-e-due-canti-del-popolo-bolognese-1958/title> a ecrm:E35_Title ;
+    <https://w3id.org/giuseppe-raimondi-lod/pub-text/ritorno-in-citta-1958/title> a ecrm:E35_Title ;
         rdfs:label "Title, \"Ritorno in citta : 8 capitoli e due canti del popolo bolognese\""@en,
             "Titolo, \"Ritorno in citta : 8 capitoli e due canti del popolo bolognese\""@it ;
         rdf:value "Ritorno in citta : 8 capitoli e due canti del popolo bolognese" .
 
-    <https://w3id.org/giuseppe-raimondi-lod/pub-text/stagioni-seguite-da-orfeo-all-inferno-e-altre-favole-1922/title> a ecrm:E35_Title ;
+    <https://w3id.org/giuseppe-raimondi-lod/pub-text/stagioni-1922/title> a ecrm:E35_Title ;
         rdfs:label "Title, \"Stagioni : seguite da Orfeo all'Inferno e altre favole\""@en,
             "Titolo, \"Stagioni : seguite da Orfeo all'Inferno e altre favole\""@it ;
         rdf:value "Stagioni : seguite da Orfeo all'Inferno e altre favole" .
