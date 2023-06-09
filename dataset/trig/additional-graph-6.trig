@@ -8,16 +8,6 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-grlod-np:pubinfo {
-    <https://w3id.org/giuseppe-raimondi-lod/nanopub/nanopub6> prov:generatedAtTime "2023-04-07"^^xsd:date ;
-        prov:wasDerivedFrom <https://doi.org/10.1400/276891> .
-}
-
-grlod-np:provenance {
-    grlod-np:assertion prov:generatedAtTime "2023-04-07"^^xsd:date ;
-        prov:wasAttributedTo <https://orcid.org/0000-0001-6007-9118> .
-}
-
 grlod-np:assertion {
     <https://w3id.org/giuseppe-raimondi-lod/annotation/preface-1925/anno1> a oa:Annotation ;
         prism:hasEndingPage 100 ;
@@ -41,10 +31,21 @@ grlod-np:assertion {
     <https://w3id.org/giuseppe-raimondi-lod/pub-text/preface-1925/page100> rdf:value 100 .
 }
 
+grlod-np:provenance {
+    grlod-np:assertion prov:generatedAtTime "2023-04-07"^^xsd:date ;
+        prov:wasAttributedTo <https://orcid.org/0000-0001-6007-9118> .
+}
+
 grlod-np:head {
     <https://w3id.org/giuseppe-raimondi-lod/nanopub/nanopub6> a np:Nanopublication ;
         np:hasAssertion grlod-np:assertion ;
         np:hasProvenance grlod-np:provenance ;
         np:hasPublicationInfo grlod-np:pubinfo .
+}
+
+grlod-np:pubinfo {
+    <https://w3id.org/giuseppe-raimondi-lod/nanopub/nanopub6> prov:generatedAtTime "2023-04-07"^^xsd:date ;
+        prov:wasAttributedTo <https://orcid.org/0000-0001-6007-9118> ;
+        prov:wasDerivedFrom <https://doi.org/10.1400/276891> .
 }
 

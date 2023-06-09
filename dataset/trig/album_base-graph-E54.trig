@@ -1,0 +1,36 @@
+@prefix ecrm: <http://erlangen-crm.org/current/> .
+@prefix ficlitdlo: <https://w3id.org/ficlitdl/ontology/> .
+@prefix grlod-np: <https://w3id.org/giuseppe-raimondi-lod/nanopub/nanopub-base/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+grlod-np:assertion {
+    <https://w3id.org/giuseppe-raimondi-lod/height/25cm> a ecrm:E54_Dimension ;
+        rdfs:label "Height 25 cm"@en,
+            "Altezza 25 cm"@it ;
+        ecrm:P2_has_type ficlitdlo:height ;
+        ecrm:P90_has_value "25 cm"^^xsd:integer ;
+        ecrm:P91_has_unit ficlitdlo:centimetre .
+
+    <https://w3id.org/giuseppe-raimondi-lod/height/26cm> a ecrm:E54_Dimension ;
+        rdfs:label "Height 26 cm"@en,
+            "Altezza 26 cm"@it ;
+        ecrm:P2_has_type ficlitdlo:height ;
+        ecrm:P90_has_value "26 cm"^^xsd:integer ;
+        ecrm:P91_has_unit ficlitdlo:centimetre .
+
+    <https://w3id.org/giuseppe-raimondi-lod/height/31cm> a ecrm:E54_Dimension ;
+        rdfs:label "Height 31 cm"@en,
+            "Altezza 31 cm"@it ;
+        ecrm:P2_has_type ficlitdlo:height ;
+        ecrm:P90_has_value "31 cm"^^xsd:integer ;
+        ecrm:P91_has_unit ficlitdlo:centimetre .
+
+    <https://w3id.org/giuseppe-raimondi-lod/height/37cm> a ecrm:E54_Dimension ;
+        rdfs:label "Height 37 cm"@en,
+            "Altezza 37 cm"@it ;
+        ecrm:P2_has_type ficlitdlo:height ;
+        ecrm:P90_has_value "37 cm"^^xsd:integer ;
+        ecrm:P91_has_unit ficlitdlo:centimetre .
+}
+

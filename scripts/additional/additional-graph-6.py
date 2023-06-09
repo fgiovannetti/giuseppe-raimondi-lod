@@ -66,6 +66,7 @@ d.add((URIRef(nanopub + 'assertion'), PROV.wasAttributedTo, URIRef('https://orci
 # Publication info
 d.add((URIRef(base_uri + 'nanopub/nanopub6'), PROV.generatedAtTime, Literal('2023-04-07' , datatype=XSD.date), URIRef(nanopub + 'pubinfo')))
 d.add((URIRef(base_uri + 'nanopub/nanopub6'), PROV.wasDerivedFrom, URIRef('https://doi.org/10.1400/276891'), URIRef(nanopub + 'pubinfo')))
+d.add((URIRef(base_uri + 'nanopub/nanopub6'), PROV.wasAttributedTo, URIRef('https://orcid.org/0000-0001-6007-9118'), URIRef(nanopub + 'pubinfo')))
 
 
 

@@ -74,6 +74,9 @@
         <ObjectProperty IRI="https://w3id.org/ficlit/ontology/hasIIIFManifest"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="https://w3id.org/ficlit/ontology/hasPublishedVersion"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="https://w3id.org/ficlit/ontology/hasTranscription"/>
     </Declaration>
     <Declaration>
@@ -87,6 +90,9 @@
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="https://w3id.org/ficlit/ontology/isPublishedVersionOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="https://w3id.org/ficlit/ontology/isVariantVersionOf"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="https://w3id.org/ficlit/ontology/relatesToText"/>
@@ -715,12 +721,24 @@
         <NamedIndividual IRI="https://w3id.org/ficlit/ontology/literary-work"/>
     </ObjectPropertyAssertion>
     <SubObjectPropertyOf>
-        <ObjectProperty IRI="https://w3id.org/ficlit/ontology/isPublishedVersionOf"/>
+        <ObjectProperty IRI="https://w3id.org/ficlit/ontology/hasPublishedVersion"/>
         <ObjectProperty IRI="https://w3id.org/ficlit/ontology/hasVariantVersion"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="https://w3id.org/ficlit/ontology/isPublishedVersionOf"/>
+        <ObjectProperty IRI="https://w3id.org/ficlit/ontology/isVariantVersionOf"/>
     </SubObjectPropertyOf>
     <InverseObjectProperties>
         <ObjectProperty IRI="https://w3id.org/ficlit/ontology/formsConceptuallyPartOf"/>
         <ObjectProperty IRI="https://w3id.org/ficlit/ontology/isConceptuallyComposedOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="https://w3id.org/ficlit/ontology/hasPublishedVersion"/>
+        <ObjectProperty IRI="https://w3id.org/ficlit/ontology/isPublishedVersionOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="https://w3id.org/ficlit/ontology/hasVariantVersion"/>
+        <ObjectProperty IRI="https://w3id.org/ficlit/ontology/isVariantVersionOf"/>
     </InverseObjectProperties>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="https://w3id.org/ficlit/ontology/added"/>
