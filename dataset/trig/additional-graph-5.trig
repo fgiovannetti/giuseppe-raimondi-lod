@@ -11,11 +11,6 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-grlod-np:provenance {
-    grlod-np:assertion prov:generatedAtTime "2023-04-04"^^xsd:date ;
-        prov:wasAttributedTo <https://orcid.org/0000-0001-6007-9118> .
-}
-
 grlod-np:head {
     <https://w3id.org/giuseppe-raimondi-lod/nanopub/nanopub5> a np:Nanopublication ;
         np:hasAssertion grlod-np:assertion ;
@@ -23,13 +18,17 @@ grlod-np:head {
         np:hasPublicationInfo grlod-np:pubinfo .
 }
 
-grlod-np:assertion {
-    <https://w3id.org/ficlitdl/person/giuseppe-raimondi> rdfs:label "Giuseppe Raimondi" ;
-        pro:holdsRoleInTime <https://w3id.org/giuseppe-raimondi-lod/pub-text/divagazioni-intorno-a-paul-valery-1925/author>,
-            <https://w3id.org/giuseppe-raimondi-lod/pub-text/il-cartesiano-signor-teste-1928/author>,
-            <https://w3id.org/giuseppe-raimondi-lod/pub-text/mostro-a-due-teste-1971/author>,
-            <https://w3id.org/giuseppe-raimondi-lod/pub-text/ringraziamento-a-commerce-1925/author> .
+grlod-np:pubinfo {
+    <https://w3id.org/giuseppe-raimondi-lod/nanopub/nanopub5> prov:generatedAtTime "2023-04-04"^^xsd:date ;
+        prov:wasAttributedTo <https://orcid.org/0000-0001-6007-9118> .
+}
 
+grlod-np:provenance {
+    grlod-np:assertion prov:generatedAtTime "2023-04-04"^^xsd:date ;
+        prov:wasAttributedTo <https://orcid.org/0000-0001-6007-9118> .
+}
+
+grlod-np:assertion {
     <https://w3id.org/ficlitdl/person/jean-prevost> rdfs:label "Jean Prévost" ;
         pro:holdsRoleInTime <https://w3id.org/giuseppe-raimondi-lod/pub-text/la-pensee-de-paul-valery-1926/author> .
 
@@ -47,8 +46,20 @@ grlod-np:assertion {
     <https://w3id.org/giuseppe-raimondi-lod/pub-text/mostro-a-due-teste-1971/creation> a efrbroo:E28_Expression_Creation ;
         efrbroo:R17_created <https://w3id.org/giuseppe-raimondi-lod/pub-text/mostro-a-due-teste-1971> .
 
+    <https://w3id.org/giuseppe-raimondi-lod/pub-text/preface-1925/reading> a ecrm:E7_Activity ;
+        ecrm:P14_carried_out_by <https://w3id.org/ficlitdl/person/giuseppe-raimondi> ;
+        ecrm:P2_has_type ficlitdlo:reading ;
+        ecrm:P4_has_time-span <https://w3id.org/giuseppe-raimondi-lod/time-span/1925-01-01_1925-03-30> ;
+        ficlitdlo:relatesToText <https://w3id.org/giuseppe-raimondi-lod/pub-text/preface-1925> .
+
     <https://w3id.org/giuseppe-raimondi-lod/pub-text/ringraziamento-a-commerce-1925/creation> a efrbroo:E28_Expression_Creation ;
         efrbroo:R17_created <https://w3id.org/giuseppe-raimondi-lod/pub-text/ringraziamento-a-commerce-1925> .
+
+    <https://w3id.org/ficlitdl/person/giuseppe-raimondi> rdfs:label "Giuseppe Raimondi" ;
+        pro:holdsRoleInTime <https://w3id.org/giuseppe-raimondi-lod/pub-text/divagazioni-intorno-a-paul-valery-1925/author>,
+            <https://w3id.org/giuseppe-raimondi-lod/pub-text/il-cartesiano-signor-teste-1928/author>,
+            <https://w3id.org/giuseppe-raimondi-lod/pub-text/mostro-a-due-teste-1971/author>,
+            <https://w3id.org/giuseppe-raimondi-lod/pub-text/ringraziamento-a-commerce-1925/author> .
 
     <https://w3id.org/giuseppe-raimondi-lod/periodical/rl4472/object> a ecrm:E22_Human-Made_Object ;
         ecrm:P1_is_identified_by <https://w3id.org/giuseppe-raimondi-lod/periodical/rl4472/shelfmark> .
@@ -125,10 +136,6 @@ grlod-np:assertion {
     <https://w3id.org/giuseppe-raimondi-lod/pub-text/mostro-a-due-teste-1971/title> a ecrm:E35_Title ;
         rdf:value "Mostro a due Teste" .
 
-    <https://w3id.org/giuseppe-raimondi-lod/pub-text/preface-1925> a efrbroo:F24_Publication_Expression ;
-        ecrm:P102_has_title <https://w3id.org/giuseppe-raimondi-lod/pub-text/preface-1925/title> ;
-        ecrm:P165i_is_incorporated_in <https://w3id.org/giuseppe-raimondi-lod/pub-text/commerce-1925-4> .
-
     <https://w3id.org/giuseppe-raimondi-lod/pub-text/preface-1925/author> a pro:RoleInTime ;
         pro:relatesToEntity <https://w3id.org/giuseppe-raimondi-lod/pub-text/preface-1925> ;
         pro:withRole pro:author .
@@ -166,14 +173,13 @@ grlod-np:assertion {
         prism:publicationDate "1971-10-28"^^xsd:date ;
         dcterms:publisher <https://w3id.org/ficlitdl/org/corriere-della-sera> .
 
+    <https://w3id.org/giuseppe-raimondi-lod/pub-text/preface-1925> a efrbroo:F24_Publication_Expression ;
+        ecrm:P102_has_title <https://w3id.org/giuseppe-raimondi-lod/pub-text/preface-1925/title> ;
+        ecrm:P165i_is_incorporated_in <https://w3id.org/giuseppe-raimondi-lod/pub-text/commerce-1925-4> .
+
     <https://w3id.org/giuseppe-raimondi-lod/pub-text/ringraziamento-a-commerce-1925> a efrbroo:F24_Publication_Expression ;
         ecrm:P102_has_title <https://w3id.org/giuseppe-raimondi-lod/pub-text/ringraziamento-a-commerce-1925/title> ;
         ecrm:P165i_is_incorporated_in <https://w3id.org/giuseppe-raimondi-lod/pub-text/il-convegno-1925-9> ;
         prism:publicationDate "1925-10-30"^^xsd:date .
-}
-
-grlod-np:pubinfo {
-    <https://w3id.org/giuseppe-raimondi-lod/nanopub/nanopub5> prov:generatedAtTime "2023-04-04"^^xsd:date ;
-        prov:wasAttributedTo <https://orcid.org/0000-0001-6007-9118> .
 }
 

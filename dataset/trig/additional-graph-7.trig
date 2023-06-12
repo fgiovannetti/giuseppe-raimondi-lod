@@ -1,0 +1,79 @@
+@prefix ecrm: <http://erlangen-crm.org/current/> .
+@prefix ficlitdlo: <https://w3id.org/ficlitdl/ontology/> .
+@prefix grlod-np: <https://w3id.org/giuseppe-raimondi-lod/nanopub/nanopub7/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+grlod-np:provenance {
+    grlod-np:assertion prov:generatedAtTime "2023-06-09"^^xsd:date ;
+        prov:wasAttributedTo <https://orcid.org/0000-0001-6007-9118> .
+}
+
+grlod-np:head {
+    <https://w3id.org/giuseppe-raimondi-lod/nanopub/nanopub7> a np:Nanopublication ;
+        np:hasAssertion grlod-np:assertion ;
+        np:hasProvenance grlod-np:provenance ;
+        np:hasPublicationInfo grlod-np:pubinfo .
+}
+
+grlod-np:assertion {
+    <https://w3id.org/giuseppe-raimondi-lod/letter/rdm831/corresp-act/1> a ficlitdlo:CorrespondenceActivity ;
+        ficlitdlo:hadDateOfDispatch "1925-05-17"^^xsd:date ;
+        ficlitdlo:hadPlaceOfDestination <https://w3id.org/ficlitdl/place/bologna> ;
+        ficlitdlo:hadPlaceOfOrigin <https://w3id.org/ficlitdl/place/paris> ;
+        ficlitdlo:hadReceiver <https://w3id.org/ficlitdl/person/giuseppe-raimondi> ;
+        ficlitdlo:hadSender <https://w3id.org/ficlitdl/person/paul-valery> ;
+        ficlitdlo:sent <https://w3id.org/giuseppe-raimondi-lod/letter/rdm831/object/1> .
+
+    <https://w3id.org/giuseppe-raimondi-lod/letter/rdm831/corresp-act/2> a ficlitdlo:CorrespondenceActivity ;
+        ficlitdlo:hadDateOfDispatch "1925-10-06"^^xsd:date ;
+        ficlitdlo:hadPlaceOfDestination <https://w3id.org/ficlitdl/place/bologna> ;
+        ficlitdlo:hadPlaceOfOrigin <https://w3id.org/ficlitdl/place/paris> ;
+        ficlitdlo:hadReceiver <https://w3id.org/ficlitdl/person/giuseppe-raimondi> ;
+        ficlitdlo:hadSender <https://w3id.org/ficlitdl/person/paul-valery> ;
+        ficlitdlo:sent <https://w3id.org/giuseppe-raimondi-lod/letter/rdm831/object/2> .
+
+    <https://w3id.org/giuseppe-raimondi-lod/letter/rdm831/corresp-act/3> a ficlitdlo:CorrespondenceActivity ;
+        ficlitdlo:hadDateOfDispatch "1928-06-03"^^xsd:date ;
+        ficlitdlo:hadPlaceOfDestination <https://w3id.org/ficlitdl/place/bologna> ;
+        ficlitdlo:hadPlaceOfOrigin <https://w3id.org/ficlitdl/place/paris> ;
+        ficlitdlo:hadReceiver <https://w3id.org/ficlitdl/person/giuseppe-raimondi> ;
+        ficlitdlo:hadSender <https://w3id.org/ficlitdl/person/paul-valery> ;
+        ficlitdlo:sent <https://w3id.org/giuseppe-raimondi-lod/letter/rdm831/object/3> .
+
+    <https://w3id.org/giuseppe-raimondi-lod/pub-text/la-valigia-delle-indie-1955> ecrm:P148_has_component <https://w3id.org/giuseppe-raimondi-lod/pub-text/la-valigia-delle-indie-1955/lettera-di-paul-valery-19250517>,
+            <https://w3id.org/giuseppe-raimondi-lod/pub-text/la-valigia-delle-indie-1955/lettera-di-paul-valery-19251006>,
+            <https://w3id.org/giuseppe-raimondi-lod/pub-text/la-valigia-delle-indie-1955/lettera-di-paul-valery-19280603> .
+
+    <https://w3id.org/giuseppe-raimondi-lod/letter/rdm831/object/1> ecrm:P128_carries <https://w3id.org/giuseppe-raimondi-lod/letter/rdm831/text/1> ;
+        ecrm:P46i_forms_part_of <https://w3id.org/giuseppe-raimondi-lod/record-set/album-valery/rdm831/object> .
+
+    <https://w3id.org/giuseppe-raimondi-lod/letter/rdm831/object/2> ecrm:P128_carries <https://w3id.org/giuseppe-raimondi-lod/letter/rdm831/text/2> ;
+        ecrm:P46i_forms_part_of <https://w3id.org/giuseppe-raimondi-lod/record-set/album-valery/rdm831/object> .
+
+    <https://w3id.org/giuseppe-raimondi-lod/letter/rdm831/object/3> ecrm:P128_carries <https://w3id.org/giuseppe-raimondi-lod/letter/rdm831/text/3> ;
+        ecrm:P46i_forms_part_of <https://w3id.org/giuseppe-raimondi-lod/record-set/album-valery/rdm831/object> .
+
+    <https://w3id.org/giuseppe-raimondi-lod/letter/rdm831/text/1> ecrm:P67_refers_to <https://w3id.org/giuseppe-raimondi-lod/pub-text/divagazioni-intorno-a-paul-valery-1925> ;
+        ecrm:P72_has_language <http://id.loc.gov/vocabulary/iso639-2/ita> ;
+        ficlitdlo:hasPublishedVersion <https://w3id.org/giuseppe-raimondi-lod/pub-text/la-valigia-delle-indie-1955/lettera-di-paul-valery-19250517> ;
+        ficlitdlo:hasTrascription <https://w3id.org/giuseppe-raimondi-lod/letter/rdm831/text/1/xml-tei> .
+
+    <https://w3id.org/giuseppe-raimondi-lod/letter/rdm831/text/2> ecrm:P67_refers_to <https://w3id.org/giuseppe-raimondi-lod/pub-text/ringraziamento-a-commerce-1925> ;
+        ecrm:P72_has_language <http://id.loc.gov/vocabulary/iso639-2/ita> ;
+        ficlitdlo:hasPublishedVersion <https://w3id.org/giuseppe-raimondi-lod/pub-text/la-valigia-delle-indie-1955/lettera-di-paul-valery-19251006> ;
+        ficlitdlo:hasTrascription <https://w3id.org/giuseppe-raimondi-lod/letter/rdm831/text/3/xml-tei> .
+
+    <https://w3id.org/giuseppe-raimondi-lod/letter/rdm831/text/3> ecrm:P67_refers_to <https://w3id.org/giuseppe-raimondi-lod/pub-text/il-cartesiano-signor-teste-1928> ;
+        ecrm:P72_has_language <http://id.loc.gov/vocabulary/iso639-2/ita> ;
+        ficlitdlo:hasPublishedVersion <https://w3id.org/giuseppe-raimondi-lod/pub-text/la-valigia-delle-indie-1955/lettera-di-paul-valery-19280603> ;
+        ficlitdlo:hasTrascription <https://w3id.org/giuseppe-raimondi-lod/letter/rdm831/text/3/xml-tei> .
+}
+
+grlod-np:pubinfo {
+    <https://w3id.org/giuseppe-raimondi-lod/nanopub/nanopub7> prov:generatedAtTime "2023-06-09"^^xsd:date ;
+        prov:wasAttributedTo <https://orcid.org/0000-0001-6007-9118> ;
+        prov:wasDerivedFrom <https://doi.org/10.1400/276891> .
+}
+

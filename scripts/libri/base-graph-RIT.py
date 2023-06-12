@@ -100,7 +100,7 @@ with open('../../input/libri.csv', mode='r') as csv_file:
 		rec_work = URIRef(base_uri + 'work/' + w.lower())
 		pub_text = URIRef(base_uri + 'pub-text/' + w.lower().replace('x' , '-') + '-' + pubdate[0].replace('[', '').replace(']', ''))
 
-
+		person = URIRef(base_uri + 'person/')
 
 
 
@@ -112,6 +112,7 @@ with open('../../input/libri.csv', mode='r') as csv_file:
 		d.add((URIRef(pub_text + '/author'), RDFS.label, Literal('Giuseppe Raimondi, author of  ' + '"' + rec_label + '"', lang='en'), graph_base))
 		d.add((URIRef(pub_text + '/author'), pro.relatesToEntity, pub_text, graph_base))
 
+		d.add((URIRef(person  + 'giuseppe-raimondi'), pro.holdsRoleInTime, URIRef(pub_text + '/author'), graph_base))
 
 
 # TriG

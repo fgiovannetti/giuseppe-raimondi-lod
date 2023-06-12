@@ -4,6 +4,13 @@
 @prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
+ficlitdl-np:head {
+    <https://w3id.org/ficlitdl/nanopub/nanopub-base> a np:Nanopublication ;
+        np:hasAssertion ficlitdl-np:assertion ;
+        np:hasProvenance ficlitdl-np:provenance ;
+        np:hasPublicationInfo ficlitdl-np:pubinfo .
+}
+
 ficlitdl-np:assertion {
     <https://w3id.org/ficlitdl/person/giuseppe-raimondi> pro:holdsRoleInTime <https://w3id.org/giuseppe-raimondi-lod/pub-text/anni-di-bologna-1946/author>,
             <https://w3id.org/giuseppe-raimondi-lod/pub-text/domenico-giordani-1928/author>,
@@ -32,13 +39,6 @@ ficlitdl-np:assertion {
             <https://w3id.org/giuseppe-raimondi-lod/pub-text/ritorno-in-citta-1958/author>,
             <https://w3id.org/giuseppe-raimondi-lod/pub-text/stagioni-1922/author>,
             <https://w3id.org/giuseppe-raimondi-lod/pub-text/testa-o-croce-1928/author> .
-}
-
-ficlitdl-np:head {
-    <https://w3id.org/ficlitdl/nanopub/nanopub-base> a np:Nanopublication ;
-        np:hasAssertion ficlitdl-np:assertion ;
-        np:hasProvenance ficlitdl-np:provenance ;
-        np:hasPublicationInfo ficlitdl-np:pubinfo .
 }
 
 ficlitdl-np:provenance {

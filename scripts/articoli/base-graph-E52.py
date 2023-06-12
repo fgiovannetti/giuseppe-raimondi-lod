@@ -91,15 +91,15 @@ with open('../../input/articoli.csv', mode='r') as csv_file:
 
 		# specificazione + sequenza
 		if sequenza == '00.00':
-			rec_time_span = specificazione.replace('?', '') + '-01-01-' + specificazione.replace('?', '') + '-12-31'
-			time_span = URIRef(base_uri + rec_time_span)
+			rec_time_span = specificazione.replace('?', '') + '-01-01_' + specificazione.replace('?', '') + '-12-31'
+			time_span = URIRef(base_uri + 'time-span/' + rec_time_span)
 			d.add((time_span, RDF.type, URIRef('http://erlangen-crm.org/current/E52_Time-Span'), graph_base))
 			d.add((time_span, ti.hasIntervalStartDate, Literal(specificazione.replace('?', '') + '-01-01', datatype=XSD.date), graph_base))
 			d.add((time_span, ti.hasIntervalEndDate, Literal(specificazione.replace('?', '') + '-12-31', datatype=XSD.date), graph_base))
 
 		else:
 			rec_time_span = specificazione + '-' + sequenza.replace('.', '-').replace(' ', '')
-			time_span = URIRef(base_uri + rec_time_span)
+			time_span = URIRef(base_uri + 'time-span/' + rec_time_span)
 			d.add((time_span, RDF.type, URIRef('http://erlangen-crm.org/current/P52_Time-Span'), graph_base))
 			d.add((time_span, ti.hasIntervalStartDate, Literal(rec_time_span, datatype=XSD.date), graph_base))
 			d.add((time_span, ti.hasIntervalEndDate, Literal(rec_time_span, datatype=XSD.date), graph_base))

@@ -44,6 +44,7 @@ d.bind('tvc', tvc)
 
 # Declare a base URI for the Giuseppe Raimondi Fonds 
 base_uri = 'https://w3id.org/giuseppe-raimondi-lod/'
+person = URIRef(base_uri + 'person/')
 
 # Declare a URI for the nanopub
 nanopub = URIRef(base_uri + 'nanopub/nanopub-base/')
@@ -82,7 +83,7 @@ with open('../../input/album.csv', mode='r') as csv_file:
 		file_label_en = 'Giuseppe Raimondi Fonds, Archive, ' + label[0]
 		file_label_it = 'Fondo Giuseppe Raimondi, Archivio, ' + label[0]
 	
-
+		person = URIRef(base_uri + 'person/')
 	
 		# Add quads to base-graph
 
@@ -92,6 +93,7 @@ with open('../../input/album.csv', mode='r') as csv_file:
 		d.add((URIRef(file_text  + '/author'), RDFS.label, Literal('Giuseppe Raimondi, author of the album ' + '"' + label[0] + '"', lang='en'), graph_base))
 		d.add((URIRef(file_text  + '/author'), pro.relatesToEntity, file_text, graph_base))
 
+		d.add((URIRef(person  + 'giuseppe-raimondi'), pro.holdsRoleInTime, URIRef(file_text + '/author'), graph_base))
 
 
 # TriG

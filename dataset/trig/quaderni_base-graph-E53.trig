@@ -10,6 +10,13 @@ ficlitdl-np:assertion {
         ecrm:P76_has_contact_point <https://w3id.org/ficlitdl/address/via-zamboni-32-40126-Bologna-BO> ;
         ecrm:P89_falls_within <https://w3id.org/ficlitdl/place/bologna> .
 
+    <https://w3id.org/ficlitdl/place/paris> a ecrm:E53_Place ;
+        rdfs:label "Paris"@en,
+            "Parigi"@it ;
+        owl:sameAs <http://dbpedia.org/resource/Paris>,
+            <http://sws.geonames.org/2968815>,
+            <https://www.wikidata.org/wiki/Q90> .
+
     <https://w3id.org/ficlitdl/place/bologna> a ecrm:E53_Place ;
         rdfs:label "Bologna"@en,
             "Bologna"@it ;

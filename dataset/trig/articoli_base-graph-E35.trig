@@ -1232,7 +1232,7 @@ grlod-np:assertion {
     <https://w3id.org/giuseppe-raimondi-lod/article/rda32/text/title-attribution> a ecrm:E13_Attribute_Assignment ;
         ecrm:P141_assigned <https://w3id.org/giuseppe-raimondi-lod/article/rda32/text/title> ;
         ecrm:P14_carried_out_by <https://w3id.org/ficlitdl/org/sab-ero> ;
-        ecrm:P4_has_time-span <https://w3id.org/giuseppe-raimondi-lod/1993-03> .
+        ecrm:P4_has_time-span <https://w3id.org/giuseppe-raimondi-lod/time-span/1993-03> .
 
     <https://w3id.org/giuseppe-raimondi-lod/article/rda320/text/title> a ecrm:E35_Title ;
         rdfs:label "Title, \"Mostra delle Nuove acquisizioni per i Musei dello stato : a Palazzo dell'Archiginnasio\""@en,
@@ -1902,7 +1902,7 @@ grlod-np:assertion {
     <https://w3id.org/giuseppe-raimondi-lod/article/rda440/text/title-attribution> a ecrm:E13_Attribute_Assignment ;
         ecrm:P141_assigned <https://w3id.org/giuseppe-raimondi-lod/article/rda440/text/title> ;
         ecrm:P14_carried_out_by <https://w3id.org/ficlitdl/org/sab-ero> ;
-        ecrm:P4_has_time-span <https://w3id.org/giuseppe-raimondi-lod/1993-03> .
+        ecrm:P4_has_time-span <https://w3id.org/giuseppe-raimondi-lod/time-span/1993-03> .
 
     <https://w3id.org/giuseppe-raimondi-lod/article/rda441/text/title> a ecrm:E35_Title ;
         rdfs:label "Title, \"E tornata la pittura di Mario Cavaglieri\""@en,
@@ -2072,7 +2072,7 @@ grlod-np:assertion {
     <https://w3id.org/giuseppe-raimondi-lod/article/rda471/text/title-attribution> a ecrm:E13_Attribute_Assignment ;
         ecrm:P141_assigned <https://w3id.org/giuseppe-raimondi-lod/article/rda471/text/title> ;
         ecrm:P14_carried_out_by <https://w3id.org/ficlitdl/org/sab-ero> ;
-        ecrm:P4_has_time-span <https://w3id.org/giuseppe-raimondi-lod/1993-03> .
+        ecrm:P4_has_time-span <https://w3id.org/giuseppe-raimondi-lod/time-span/1993-03> .
 
     <https://w3id.org/giuseppe-raimondi-lod/article/rda472/text/title> a ecrm:E35_Title ;
         rdfs:label "Title, \"Soffici e il cubismo futurista\""@en,
@@ -2102,7 +2102,7 @@ grlod-np:assertion {
     <https://w3id.org/giuseppe-raimondi-lod/article/rda477/text/title-attribution> a ecrm:E13_Attribute_Assignment ;
         ecrm:P141_assigned <https://w3id.org/giuseppe-raimondi-lod/article/rda477/text/title> ;
         ecrm:P14_carried_out_by <https://w3id.org/ficlitdl/org/sab-ero> ;
-        ecrm:P4_has_time-span <https://w3id.org/giuseppe-raimondi-lod/1993-03> .
+        ecrm:P4_has_time-span <https://w3id.org/giuseppe-raimondi-lod/time-span/1993-03> .
 
     <https://w3id.org/giuseppe-raimondi-lod/article/rda478/text/title> a ecrm:E35_Title ;
         rdfs:label "Title, \"Ritratto di Giorgio Morandi\""@en,

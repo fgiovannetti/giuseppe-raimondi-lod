@@ -253,24 +253,16 @@ d.add((URIRef(person + 'jean-prevost'), RDFS.label, Literal('Jean Prévost'), gr
 
 
 
+# Raimondi reading Préface
 
 
-# TODO
+d.add((URIRef(base_uri + 'pub-text/preface-1925/reading') , RDF.type , ecrm.E7_Activity, graph_5))
+d.add((URIRef(base_uri + 'pub-text/preface-1925/reading') , URIRef('http://erlangen-crm.org/current/P4_has_time-span') , URIRef(base_uri + 'time-span/1925-01-01_1925-03-30'), graph_5))
+d.add((URIRef(base_uri + 'pub-text/preface-1925/reading') , ecrm.P2_has_type , ficlitdlo.reading, graph_5))
+d.add((URIRef(base_uri + 'pub-text/preface-1925/reading') , ecrm.P14_carried_out_by , URIRef(person + 'giuseppe-raimondi'), graph_5))
+d.add((URIRef(base_uri + 'pub-text/preface-1925/reading') , ficlitdlo.relatesToText , URIRef(base_uri + 'pub-text/preface-1925'), graph_5))
 
-# Aggiorna diagrammi su GraphDB sulla base delle triple effettivamente create.
 
-# Per UC4 Crea diagramma e triple: [Raffaello Franchi sending G.R. a copy of J. Prévost's La pensée de P.V. oppure scambio GR e PV]
-
-# Queries per verificare correttezza dati per ciascun UC (UC3 e UC4)
-
-# Modifiche generali a dataset
-# NB holds role in time per tutti gli item che non sono quaderni mi pare che manchi dal dataset generale, aggiungi
-# NB manca base_uri + 'time-span/' etichetta time-span in alcuni casi, aggiungi (e usa underscore per time intervals)
-# NB appunta in tesi di ricontrollare ontologia sulla base dell'UC3
-
-# Aggiungi UC3 e UC4 a Evaluation Chapter
-
-# Aggiorna capitolo modello
 
 
 

@@ -86,6 +86,7 @@ with open('../../input/articoli.csv', mode='r') as csv_file:
 		
 	
 		rec_label = re.findall('^(.+?) \/', descrizione_isbd)[0]
+		person = URIRef(base_uri + 'person/')
 
 
 
@@ -96,6 +97,8 @@ with open('../../input/articoli.csv', mode='r') as csv_file:
 		d.add((URIRef(rec_expression + '/author'), RDFS.label, Literal('Giuseppe Raimondi, autore del testo manoscritto ' + '"' + rec_label + '"', lang='it'), graph_base))
 		d.add((URIRef(rec_expression + '/author'), RDFS.label, Literal('Giuseppe Raimondi, author of the manuscript text ' + '"' + rec_label + '"', lang='en'), graph_base))
 		d.add((URIRef(rec_expression + '/author'), pro.relatesToEntity, rec_expression, graph_base))
+
+		d.add((URIRef(person  + 'giuseppe-raimondi'), pro.holdsRoleInTime, URIRef(rec_expression + '/author'), graph_base))
 
 
 

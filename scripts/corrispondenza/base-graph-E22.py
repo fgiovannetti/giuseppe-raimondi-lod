@@ -144,7 +144,8 @@ with open('../../input/corrispondenza.csv', mode='r') as csv_file:
 				item_num = re.findall("(\d+)" , item)
 				c = 1
 				while c < int(item_num[0]):
-					d.add((URIRef(file_object + '/' + str(c)), RDF.type, URIRef('http://erlangen-crm.org/current/E22_Human-Made_Object'), graph_base))
+					#d.add((URIRef(file_object + '/' + str(c)), RDF.type, URIRef('http://erlangen-crm.org/current/E22_Human-Made_Object'), graph_base))
+					d.add((URIRef(file + '-' + str(c) + '/object'), RDF.type, URIRef('http://erlangen-crm.org/current/E22_Human-Made_Object'), graph_base))
 					d.add((URIRef(file_object + '/' + str(c)), ecrm.P46i_forms_part_of, file_object, graph_base))
 					d.add((URIRef(file_object + '/' + str(c)), ecrm.P128_carries, URIRef(file + '/text/' + str(c)), graph_base))
 					if 'L' in item:

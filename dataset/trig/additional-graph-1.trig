@@ -6,23 +6,6 @@
 @prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-grlod-np:pubinfo {
-    <https://w3id.org/giuseppe-raimondi-lod/nanopub/nanopub1> prov:generatedAtTime "2023-01-28"^^xsd:date ;
-        prov:wasAttributedTo <https://orcid.org/0000-0001-6007-9118> .
-}
-
-grlod-np:provenance {
-    grlod-np:assertion prov:generatedAtTime "2021-07-13"^^xsd:date ;
-        prov:wasAttributedTo <https://orcid.org/0000-0002-2972-3152> .
-}
-
-grlod-np:head {
-    <https://w3id.org/giuseppe-raimondi-lod/nanopub/nanopub1> a np:Nanopublication ;
-        np:hasAssertion grlod-np:assertion ;
-        np:hasProvenance grlod-np:provenance ;
-        np:hasPublicationInfo grlod-np:pubinfo .
-}
-
 grlod-np:assertion {
     <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq1/object> dcterms:relation <https://sol.unibo.it/SebinaOpac/resource/mignon-racconti/UBO0036368> .
 
@@ -487,5 +470,22 @@ grlod-np:assertion {
 
     <https://w3id.org/giuseppe-raimondi-lod/pub/una-sera-dottobre> a efrbroo:F3_Manifestation_Product_Type ;
         ficlitdlo:hasSbnUboPermalink <https://sol.unibo.it/SebinaOpac/resource/una-sera-dottobre/UBO3679735> .
+}
+
+grlod-np:head {
+    <https://w3id.org/giuseppe-raimondi-lod/nanopub/nanopub1> a np:Nanopublication ;
+        np:hasAssertion grlod-np:assertion ;
+        np:hasProvenance grlod-np:provenance ;
+        np:hasPublicationInfo grlod-np:pubinfo .
+}
+
+grlod-np:provenance {
+    grlod-np:assertion prov:generatedAtTime "2021-07-13"^^xsd:date ;
+        prov:wasAttributedTo <https://orcid.org/0000-0002-2972-3152> .
+}
+
+grlod-np:pubinfo {
+    <https://w3id.org/giuseppe-raimondi-lod/nanopub/nanopub1> prov:generatedAtTime "2023-01-28"^^xsd:date ;
+        prov:wasAttributedTo <https://orcid.org/0000-0001-6007-9118> .
 }
 

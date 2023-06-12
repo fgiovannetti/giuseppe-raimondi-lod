@@ -109,6 +109,16 @@ d.add((URIRef(base_uri + 'pub-text/mostro-a-due-teste-1971/creation') , ecrm.P15
 d.add((URIRef(base_uri + 'pub-text/mostro-a-due-teste-1971/creation') , ecrm.P3_has_note , Literal("The newspaper article 'Mostro a due Teste' by Giuseppe Raimondi (in «Corriere della Sera», 28 ottobre 1971), was influence by Paul Valéry's 'Préface pour une nouvelle traduction de La Soiréè avec M. Teste' (in «Commerce», 1925, n. 4). Supporting evidence for this connection is provided by the presence of handwritten annotations by Giuseppe Raimondi on his copy of the 'Préface' (BIFICLIT, FR PER COMMER 1925, p. 100). Such annotations read 'Mostri, prodotti dei pensieri' and 'Idee mostri'. The article title 'Mostro a due Teste' is a possible reworking of these notes.", datatype=XSD.string), graph_6))
 
 
+# Creation of the annotation 
+
+d.add((URIRef(base_uri + 'annotation/preface-1925/anno1-anno2/creation') , ecrm.P94_has_created , URIRef(base_uri + 'annotation/preface-1925/anno1'), graph_6))
+d.add((URIRef(base_uri + 'annotation/preface-1925/anno1-anno2/creation') , ecrm.P94_has_created , URIRef(base_uri + 'annotation/preface-1925/anno2'), graph_6))
+d.add((URIRef(base_uri + 'annotation/preface-1925/anno1-anno2/creation') , ecrm.P125_used_object_of_type , ficlitdlo.pencil, graph_6))
+d.add((URIRef(base_uri + 'annotation/preface-1925/anno1-anno2/creation') , ecrm.P32_used_general_technique , ficlitdlo.handwriting, graph_6))
+d.add((URIRef(base_uri + 'annotation/preface-1925/anno1-anno2/creation') , URIRef('http://erlangen-crm.org/current/P4_has_time-span') , URIRef(base_uri + 'time-span/1925-01-01_1925-03-30'), graph_6))
+
+
+
 
 
 # TriG

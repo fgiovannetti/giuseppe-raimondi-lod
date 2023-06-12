@@ -13,11 +13,6 @@
 @prefix seq: <http://www.ontologydesignpatterns.org/cp/owl/sequence.owl#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-grlod-np:pubinfo {
-    <https://w3id.org/giuseppe-raimondi-lod/nanopub/nanopub4> prov:generatedAtTime "2023-02-08"^^xsd:date ;
-        prov:wasAttributedTo <https://orcid.org/0000-0001-6007-9118> .
-}
-
 grlod-np:assertion {
     ficlitdl:edizioni-di-comunita a ecrm:E40_Legal_Body ;
         rdfs:label "Edizioni di comunità" .
@@ -34,10 +29,6 @@ grlod-np:assertion {
         ecrm:P128i_is_carried_by <https://w3id.org/giuseppe-raimondi-lod/periodical/rl6683/object> ;
         prism:publicationDate "1954-06-01"^^xsd:date ;
         dcterms:publisher ficlitdl:edizioni-di-comunita .
-
-    <https://w3id.org/giuseppe-raimondi-lod/pub-text/comunita-1954-25/dei-colombi-in-una-facciata> a efrbroo:E24_Publication_Expression ;
-        ecrm:P102_has_title <https://w3id.org/giuseppe-raimondi-lod/pub-text/comunita-1954-25/dei-colombi-in-una-facciata/title> ;
-        ecrm:P165i_is_incorporated_in <https://w3id.org/giuseppe-raimondi-lod/pub-text/comunita-1954-25> .
 
     <https://w3id.org/giuseppe-raimondi-lod/pub-text/comunita-1954-25/dei-colombi-in-una-facciata/title> a ecrm:E35_Title ;
         rdf:value "Dei colombi in una facciata" .
@@ -66,6 +57,11 @@ grlod-np:assertion {
         ficlitdlo:added <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq2/text/2/title/3> ;
         ficlitdlo:resultedIn <https://w3id.org/giuseppe-raimondi-lod/textvar-1> .
 
+    <https://w3id.org/giuseppe-raimondi-lod/pub-text/comunita-1954-25/dei-colombi-in-una-facciata> a efrbroo:E24_Publication_Expression ;
+        ecrm:P102_has_title <https://w3id.org/giuseppe-raimondi-lod/pub-text/comunita-1954-25/dei-colombi-in-una-facciata/title> ;
+        ecrm:P165i_is_incorporated_in <https://w3id.org/giuseppe-raimondi-lod/pub-text/comunita-1954-25> ;
+        dcterms:identifier <https://w3id.org/giuseppe-raimondi-lod/pub-text/comunita-1954-25/dei-colombi-in-una-facciata> .
+
     <https://w3id.org/giuseppe-raimondi-lod/textrev-2> a ficlitdlo:TextRevision ;
         ecrm:P14_carried_out_by <https://w3id.org/ficlitdl/person/giuseppe-raimondi> ;
         ecrm:P2_has_type ficlitdlo:addition ;
@@ -74,28 +70,25 @@ grlod-np:assertion {
         ficlitdlo:added <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq2/text/2/title/2> ;
         ficlitdlo:resultedIn <https://w3id.org/giuseppe-raimondi-lod/textvar-1> .
 
-    <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq2/text/2> a efrbroo:F22_Self-Contained_Expression ;
-        ecrm:P102_has_title <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq2/text/2/title/1>,
-            <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq2/text/2/title/2>,
-            <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq2/text/2/title/3> ;
-        ecrm:P165i_is_incorporated_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq2/text> ;
-        ecrm:P2_has_type ficlitdlo:short-story ;
-        ficlitdlo:hasPublishedVersion <https://w3id.org/giuseppe-raimondi-lod/pub-text/comunita-1954-25/dei-colombi-in-una-facciata>,
-            <https://w3id.org/giuseppe-raimondi-lod/pub-text/mignon-racconti-1955/dei-colombi-in-una-facciata> .
-
-    <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq2/text/2/title/1> ecrm:P106i_forms_part_of <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq2/text/2> ;
+    <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq2/text/2/title/1> a ecrm:E35_Title,
+            ecrm:E90_Symbolic_Object ;
+        ecrm:P106i_forms_part_of <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq2/text/2> ;
         rdf:value "L'anno '43" ;
         oa:hasSelector [ a oa:XPathSelector ;
                 rdf:value "//line[@xml:id=\"ln-227\"]" ] ;
         oa:hasSource <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq2/text/xml-tei> .
 
-    <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq2/text/2/title/2> ecrm:P106i_forms_part_of <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq2/text/2> ;
+    <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq2/text/2/title/2> a ecrm:E35_Title,
+            ecrm:E90_Symbolic_Object ;
+        ecrm:P106i_forms_part_of <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq2/text/2> ;
         rdf:value "I piccioni di Santa Lucia" ;
         oa:hasSelector [ a oa:XPathSelector ;
                 rdf:value "//line[@xml:id=\"ln-6\"]" ] ;
         oa:hasSource <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq2/text/xml-tei> .
 
-    <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq2/text/2/title/3> ecrm:P106i_forms_part_of <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq2/text/2> ;
+    <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq2/text/2/title/3> a ecrm:E35_Title,
+            ecrm:E90_Symbolic_Object ;
+        ecrm:P106i_forms_part_of <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq2/text/2> ;
         ecrm:P2_has_note "Tit. a c. [9]." ;
         rdf:value "Dei colombi in una facciata" ;
         oa:hasSelector [ a oa:XPathSelector ;
@@ -106,6 +99,16 @@ grlod-np:assertion {
         ficlitdlo:hasVariantReading <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq2/text/2/title/1>,
             <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq2/text/2/title/2>,
             <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq2/text/2/title/3> .
+
+    <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq2/text/2> a efrbroo:F22_Self-Contained_Expression ;
+        ecrm:P102_has_title <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq2/text/2/title/1>,
+            <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq2/text/2/title/2>,
+            <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq2/text/2/title/3> ;
+        ecrm:P165i_is_incorporated_in <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq2/text> ;
+        ecrm:P2_has_type ficlitdlo:short-story ;
+        dcterms:identifier <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq2/text/2> ;
+        ficlitdlo:hasPublishedVersion <https://w3id.org/giuseppe-raimondi-lod/pub-text/comunita-1954-25/dei-colombi-in-una-facciata>,
+            <https://w3id.org/giuseppe-raimondi-lod/pub-text/mignon-racconti-1955/dei-colombi-in-una-facciata> .
 }
 
 grlod-np:head {
@@ -117,6 +120,11 @@ grlod-np:head {
 
 grlod-np:provenance {
     grlod-np:assertion prov:generatedAtTime "2023-02-08"^^xsd:date ;
+        prov:wasAttributedTo <https://orcid.org/0000-0001-6007-9118> .
+}
+
+grlod-np:pubinfo {
+    <https://w3id.org/giuseppe-raimondi-lod/nanopub/nanopub4> prov:generatedAtTime "2023-02-08"^^xsd:date ;
         prov:wasAttributedTo <https://orcid.org/0000-0001-6007-9118> .
 }
 

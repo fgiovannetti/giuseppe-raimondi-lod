@@ -1,5 +1,5 @@
 "Text revision act","Relation","Text revision act"
-"https://w3id.org/giuseppe-raimondi-lod/textrev-1","http://www.ontologydesignpatterns.org/cp/owl/sequence.owl#precedes","https://w3id.org/giuseppe-raimondi-lod/textrev-2"
-"https://w3id.org/giuseppe-raimondi-lod/textrev-2","http://www.ontologydesignpatterns.org/cp/owl/sequence.owl#follows","https://w3id.org/giuseppe-raimondi-lod/textrev-1"
-"https://w3id.org/giuseppe-raimondi-lod/textrev-2","http://www.ontologydesignpatterns.org/cp/owl/sequence.owl#precedes","https://w3id.org/giuseppe-raimondi-lod/textrev-3"
 "https://w3id.org/giuseppe-raimondi-lod/textrev-3","http://www.ontologydesignpatterns.org/cp/owl/sequence.owl#follows","https://w3id.org/giuseppe-raimondi-lod/textrev-2"
+"https://w3id.org/giuseppe-raimondi-lod/textrev-2","http://www.ontologydesignpatterns.org/cp/owl/sequence.owl#precedes","https://w3id.org/giuseppe-raimondi-lod/textrev-3"
+"https://w3id.org/giuseppe-raimondi-lod/textrev-2","http://www.ontologydesignpatterns.org/cp/owl/sequence.owl#follows","https://w3id.org/giuseppe-raimondi-lod/textrev-1"
+"https://w3id.org/giuseppe-raimondi-lod/textrev-1","http://www.ontologydesignpatterns.org/cp/owl/sequence.owl#precedes","https://w3id.org/giuseppe-raimondi-lod/textrev-2"

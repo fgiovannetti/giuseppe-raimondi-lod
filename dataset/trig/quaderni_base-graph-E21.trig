@@ -12,16 +12,16 @@ ficlitdl-np:pubinfo {
         prov:wasAttributedTo <https://orcid.org/0000-0001-6007-9118> .
 }
 
+ficlitdl-np:provenance {
+    ficlitdl-np:assertion prov:generatedAtTime "1993-03-01"^^xsd:date ;
+        prov:wasAttributedTo <https://w3id.org/ficlitdl/org/sab-ero> .
+}
+
 ficlitdl-np:head {
     <https://w3id.org/ficlitdl/nanopub/nanopub-base> a np:Nanopublication ;
         np:hasAssertion ficlitdl-np:assertion ;
         np:hasProvenance ficlitdl-np:provenance ;
         np:hasPublicationInfo ficlitdl-np:pubinfo .
-}
-
-ficlitdl-np:provenance {
-    ficlitdl-np:assertion prov:generatedAtTime "1993-03-01"^^xsd:date ;
-        prov:wasAttributedTo <https://w3id.org/ficlitdl/org/sab-ero> .
 }
 
 ficlitdl-np:assertion {

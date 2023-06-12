@@ -4,16 +4,16 @@
 @prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
+grlod-np:provenance {
+    grlod-np:assertion prov:generatedAtTime "2022-11-14"^^xsd:date ;
+        prov:wasAttributedTo <https://orcid.org/0000-0001-6007-9118> .
+}
+
 grlod-np:head {
     <https://w3id.org/giuseppe-raimondi-lod/nanopub/nanopub3> a np:Nanopublication ;
         np:hasAssertion grlod-np:assertion ;
         np:hasProvenance grlod-np:provenance ;
         np:hasPublicationInfo grlod-np:pubinfo .
-}
-
-grlod-np:provenance {
-    grlod-np:assertion prov:generatedAtTime "2022-11-14"^^xsd:date ;
-        prov:wasAttributedTo <https://orcid.org/0000-0001-6007-9118> .
 }
 
 grlod-np:pubinfo {

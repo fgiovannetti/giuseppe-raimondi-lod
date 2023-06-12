@@ -77,7 +77,7 @@ with open('../../input/quaderni.csv', mode='r') as csv_file:
 
 		rec_label = re.findall('^(.+?) \/? \[?G(iuseppe)?\.? Raimondi', descrizione_isbd)[0]
 
-
+		person = URIRef(base_uri + 'person/')
 
 		# Add quads to base-graph
 
@@ -86,6 +86,9 @@ with open('../../input/quaderni.csv', mode='r') as csv_file:
 		d.add((URIRef(rec_expression + '/author'), RDFS.label, Literal('Giuseppe Raimondi, autore del testo manoscritto ' + '"' + rec_label[0].replace('*', '') + '"', lang='it'), graph_base))
 		d.add((URIRef(rec_expression + '/author'), RDFS.label, Literal('Giuseppe Raimondi, author of the manuscript text ' + '"' + rec_label[0].replace('*', '') + '"', lang='en'), graph_base))
 		d.add((URIRef(rec_expression + '/author'), pro.relatesToEntity, rec_expression, graph_base))
+
+		d.add((URIRef(person  + 'giuseppe-raimondi'), pro.holdsRoleInTime, (URIRef(rec_expression + '/author'), graph_base))
+
 
 		if ' ; ' in rec_label[0]:
 			rec_label = rec_label[0].split(' ; ')
@@ -100,8 +103,12 @@ with open('../../input/quaderni.csv', mode='r') as csv_file:
 				d.add((URIRef(rec_subexpression + '/author'), RDFS.label, Literal('Giuseppe Raimondi, author of the manuscript text ' + '"' + title.replace('[', '').replace(']', '') + '"', lang='en'), graph_base))
 				d.add((URIRef(rec_subexpression + '/author'), pro.relatesToEntity, rec_subexpression, graph_base))
 
+				d.add((URIRef(person  + 'giuseppe-raimondi'), pro.holdsRoleInTime, URIRef(rec_subexpression + '/author'), graph_base))
+
 
 				i += 1
+
+
 
 
 

@@ -2,32 +2,6 @@
 @prefix efrbroo: <http://erlangen-crm.org/efrbroo/> .
 @prefix grlod-np: <https://w3id.org/giuseppe-raimondi-lod/nanopub/nanopub-base/> .
 
-{
-    <https://w3id.org/giuseppe-raimondi-lod/record-set/album-apolli/rdm837/text/creation> ecrm:P4_has_time-span <https://w3id.org/giuseppe-raimondi-lod/time-span/1977> .
-
-    <https://w3id.org/giuseppe-raimondi-lod/record-set/album-bacche/rdm840/text/creation> ecrm:P4_has_time-span <https://w3id.org/giuseppe-raimondi-lod/time-span/1977> .
-
-    <https://w3id.org/giuseppe-raimondi-lod/record-set/album-cardar/rdm841/text/creation> ecrm:P4_has_time-span <https://w3id.org/giuseppe-raimondi-lod/time-span/1977> .
-
-    <https://w3id.org/giuseppe-raimondi-lod/record-set/album-carra/rdm833/text/creation> ecrm:P4_has_time-span <https://w3id.org/giuseppe-raimondi-lod/time-span/1977> .
-
-    <https://w3id.org/giuseppe-raimondi-lod/record-set/album-cecchi/rdm830/text/creation> ecrm:P4_has_time-span <https://w3id.org/giuseppe-raimondi-lod/time-span/1977> .
-
-    <https://w3id.org/giuseppe-raimondi-lod/record-set/album-dada/rdm836/text/creation> ecrm:P4_has_time-span <https://w3id.org/giuseppe-raimondi-lod/time-span/1977> .
-
-    <https://w3id.org/giuseppe-raimondi-lod/record-set/album-depisi/rdm835/text/creation> ecrm:P4_has_time-span <https://w3id.org/giuseppe-raimondi-lod/time-span/1977> .
-
-    <https://w3id.org/giuseppe-raimondi-lod/record-set/album-longan/rdm834/text/creation> ecrm:P4_has_time-span <https://w3id.org/giuseppe-raimondi-lod/time-span/1977> .
-
-    <https://w3id.org/giuseppe-raimondi-lod/record-set/album-rebora/rdm838/text/creation> ecrm:P4_has_time-span <https://w3id.org/giuseppe-raimondi-lod/time-span/1977> .
-
-    <https://w3id.org/giuseppe-raimondi-lod/record-set/album-rosai/rdm839/text/creation> ecrm:P4_has_time-span <https://w3id.org/giuseppe-raimondi-lod/time-span/1977> .
-
-    <https://w3id.org/giuseppe-raimondi-lod/record-set/album-ungare/rdm832/text/creation> ecrm:P4_has_time-span <https://w3id.org/giuseppe-raimondi-lod/time-span/1977> .
-
-    <https://w3id.org/giuseppe-raimondi-lod/record-set/album-valery/rdm831/text/creation> ecrm:P4_has_time-span <https://w3id.org/giuseppe-raimondi-lod/time-span/1977> .
-}
-
 grlod-np:assertion {
     <https://w3id.org/giuseppe-raimondi-lod/record-set/album-apolli/rdm837/text/creation> a efrbroo:F28_Expression_Creation ;
         ecrm:P14_carried_out_by <https://w3id.org/ficlitdl/person/giuseppe-raimondi> ;
@@ -88,5 +62,31 @@ grlod-np:assertion {
         ecrm:P14_carried_out_by <https://w3id.org/ficlitdl/person/giuseppe-raimondi> ;
         efrbroo:R17_created <https://w3id.org/giuseppe-raimondi-lod/record-set/album-valery/rdm831/text> ;
         efrbroo:R18_created <https://w3id.org/giuseppe-raimondi-lod/record-set/album-valery/rdm831/object> .
+}
+
+{
+    <https://w3id.org/giuseppe-raimondi-lod/record-set/album-apolli/rdm837/text/creation> ecrm:P4_has_time-span <https://w3id.org/giuseppe-raimondi-lod/time-span/1977> .
+
+    <https://w3id.org/giuseppe-raimondi-lod/record-set/album-bacche/rdm840/text/creation> ecrm:P4_has_time-span <https://w3id.org/giuseppe-raimondi-lod/time-span/1977> .
+
+    <https://w3id.org/giuseppe-raimondi-lod/record-set/album-cardar/rdm841/text/creation> ecrm:P4_has_time-span <https://w3id.org/giuseppe-raimondi-lod/time-span/1977> .
+
+    <https://w3id.org/giuseppe-raimondi-lod/record-set/album-carra/rdm833/text/creation> ecrm:P4_has_time-span <https://w3id.org/giuseppe-raimondi-lod/time-span/1977> .
+
+    <https://w3id.org/giuseppe-raimondi-lod/record-set/album-cecchi/rdm830/text/creation> ecrm:P4_has_time-span <https://w3id.org/giuseppe-raimondi-lod/time-span/1977> .
+
+    <https://w3id.org/giuseppe-raimondi-lod/record-set/album-dada/rdm836/text/creation> ecrm:P4_has_time-span <https://w3id.org/giuseppe-raimondi-lod/time-span/1977> .
+
+    <https://w3id.org/giuseppe-raimondi-lod/record-set/album-depisi/rdm835/text/creation> ecrm:P4_has_time-span <https://w3id.org/giuseppe-raimondi-lod/time-span/1977> .
+
+    <https://w3id.org/giuseppe-raimondi-lod/record-set/album-longan/rdm834/text/creation> ecrm:P4_has_time-span <https://w3id.org/giuseppe-raimondi-lod/time-span/1977> .
+
+    <https://w3id.org/giuseppe-raimondi-lod/record-set/album-rebora/rdm838/text/creation> ecrm:P4_has_time-span <https://w3id.org/giuseppe-raimondi-lod/time-span/1977> .
+
+    <https://w3id.org/giuseppe-raimondi-lod/record-set/album-rosai/rdm839/text/creation> ecrm:P4_has_time-span <https://w3id.org/giuseppe-raimondi-lod/time-span/1977> .
+
+    <https://w3id.org/giuseppe-raimondi-lod/record-set/album-ungare/rdm832/text/creation> ecrm:P4_has_time-span <https://w3id.org/giuseppe-raimondi-lod/time-span/1977> .
+
+    <https://w3id.org/giuseppe-raimondi-lod/record-set/album-valery/rdm831/text/creation> ecrm:P4_has_time-span <https://w3id.org/giuseppe-raimondi-lod/time-span/1977> .
 }
 

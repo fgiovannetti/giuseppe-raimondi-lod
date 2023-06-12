@@ -78,6 +78,17 @@ d.add((URIRef(base_uri + 'place/' + 'bologna'), OWL.sameAs, URIRef('https://www.
 d.add((URIRef(base_uri + 'place/' + 'bologna'), OWL.sameAs, URIRef('http://dbpedia.org/resource/Bologna'), graph_base))
 
 
+# Paris
+		
+d.add((URIRef(base_uri + 'place/' + 'paris'), RDF.type, ecrm.E53_Place, graph_base))
+d.add((URIRef(base_uri + 'place/' + 'paris'), RDFS.label, Literal('Parigi' , lang='it'), graph_base))
+d.add((URIRef(base_uri + 'place/' + 'paris'), RDFS.label, Literal('Paris' , lang='en'), graph_base))
+d.add((URIRef(base_uri + 'place/' + 'paris'), OWL.sameAs, URIRef('http://sws.geonames.org/2968815'), graph_base))
+d.add((URIRef(base_uri + 'place/' + 'paris'), OWL.sameAs, URIRef('https://www.wikidata.org/wiki/Q90'), graph_base))
+d.add((URIRef(base_uri + 'place/' + 'paris'), OWL.sameAs, URIRef('http://dbpedia.org/resource/Paris'), graph_base))
+
+
+
 
 
 

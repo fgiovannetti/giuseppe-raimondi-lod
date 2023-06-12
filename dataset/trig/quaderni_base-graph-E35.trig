@@ -2787,12 +2787,12 @@ grlod-np:assertion {
     <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq308/text/title-attribution> a ecrm:E13_Attribute_Assignment ;
         ecrm:P141_assigned <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq308/text/title> ;
         ecrm:P14_carried_out_by <https://w3id.org/ficlitdl/org/sab-ero> ;
-        ecrm:P4_has_time-span <https://w3id.org/giuseppe-raimondi-lod/1993-03-07> .
+        ecrm:P4_has_time-span <https://w3id.org/giuseppe-raimondi-lod/time-span/1993-03-07> .
 
     <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq309/text/title-attribution> a ecrm:E13_Attribute_Assignment ;
         ecrm:P141_assigned <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq309/text/title> ;
         ecrm:P14_carried_out_by <https://w3id.org/ficlitdl/org/sab-ero> ;
-        ecrm:P4_has_time-span <https://w3id.org/giuseppe-raimondi-lod/1993-03-07> .
+        ecrm:P4_has_time-span <https://w3id.org/giuseppe-raimondi-lod/time-span/1993-03-07> .
 
     <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq31/text/1/title> a ecrm:E35_Title ;
         rdfs:label "Title, \"Vecchie botteghe a Bologna\""@en,
@@ -2932,7 +2932,7 @@ grlod-np:assertion {
     <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq324/text/title-attribution> a ecrm:E13_Attribute_Assignment ;
         ecrm:P141_assigned <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq324/text/title> ;
         ecrm:P14_carried_out_by <https://w3id.org/ficlitdl/org/sab-ero> ;
-        ecrm:P4_has_time-span <https://w3id.org/giuseppe-raimondi-lod/1993-03-07> .
+        ecrm:P4_has_time-span <https://w3id.org/giuseppe-raimondi-lod/time-span/1993-03-07> .
 
     <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq325/text/title> a ecrm:E35_Title ;
         rdfs:label "Title, \"Domenico Giordani. (1940). 2. quaderno\""@en,
@@ -3652,7 +3652,7 @@ grlod-np:assertion {
     <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq413/text/title-attribution> a ecrm:E13_Attribute_Assignment ;
         ecrm:P141_assigned <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq413/text/title> ;
         ecrm:P14_carried_out_by <https://w3id.org/ficlitdl/org/sab-ero> ;
-        ecrm:P4_has_time-span <https://w3id.org/giuseppe-raimondi-lod/1993-03-07> .
+        ecrm:P4_has_time-span <https://w3id.org/giuseppe-raimondi-lod/time-span/1993-03-07> .
 
     <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq414/text/title> a ecrm:E35_Title ;
         rdfs:label "Title, \"Baudelaire e Parigi. Marzo 1980\""@en,
@@ -3682,12 +3682,12 @@ grlod-np:assertion {
     <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq416/text/title-attribution> a ecrm:E13_Attribute_Assignment ;
         ecrm:P141_assigned <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq416/text/title> ;
         ecrm:P14_carried_out_by <https://w3id.org/ficlitdl/org/sab-ero> ;
-        ecrm:P4_has_time-span <https://w3id.org/giuseppe-raimondi-lod/1993-03-07> .
+        ecrm:P4_has_time-span <https://w3id.org/giuseppe-raimondi-lod/time-span/1993-03-07> .
 
     <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq417/text/title-attribution> a ecrm:E13_Attribute_Assignment ;
         ecrm:P141_assigned <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq417/text/title> ;
         ecrm:P14_carried_out_by <https://w3id.org/ficlitdl/org/sab-ero> ;
-        ecrm:P4_has_time-span <https://w3id.org/giuseppe-raimondi-lod/1993-03-07> .
+        ecrm:P4_has_time-span <https://w3id.org/giuseppe-raimondi-lod/time-span/1993-03-07> .
 
     <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq418/text/title> a ecrm:E35_Title ;
         rdfs:label "Title, \"Scultura pisana : mostra 1946\""@en,
@@ -3737,7 +3737,7 @@ grlod-np:assertion {
     <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq424/text/title-attribution> a ecrm:E13_Attribute_Assignment ;
         ecrm:P141_assigned <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq424/text/title> ;
         ecrm:P14_carried_out_by <https://w3id.org/ficlitdl/org/sab-ero> ;
-        ecrm:P4_has_time-span <https://w3id.org/giuseppe-raimondi-lod/1993-03-07> .
+        ecrm:P4_has_time-span <https://w3id.org/giuseppe-raimondi-lod/time-span/1993-03-07> .
 
     <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq425/text/title> a ecrm:E35_Title ;
         rdfs:label "Title, \"Giuseppe in Italia. 3. quaderno\""@en,
@@ -3812,7 +3812,7 @@ grlod-np:assertion {
     <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq438/text/title-attribution> a ecrm:E13_Attribute_Assignment ;
         ecrm:P141_assigned <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq438/text/title> ;
         ecrm:P14_carried_out_by <https://w3id.org/ficlitdl/org/sab-ero> ;
-        ecrm:P4_has_time-span <https://w3id.org/giuseppe-raimondi-lod/1993-03-07> .
+        ecrm:P4_has_time-span <https://w3id.org/giuseppe-raimondi-lod/time-span/1993-03-07> .
 
     <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq439/text/title> a ecrm:E35_Title ;
         rdfs:label "Title, \"Articolo Caletti\""@en,
@@ -3847,7 +3847,7 @@ grlod-np:assertion {
     <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq442/text/title-attribution> a ecrm:E13_Attribute_Assignment ;
         ecrm:P141_assigned <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq442/text/title> ;
         ecrm:P14_carried_out_by <https://w3id.org/ficlitdl/org/sab-ero> ;
-        ecrm:P4_has_time-span <https://w3id.org/giuseppe-raimondi-lod/1993-03-07> .
+        ecrm:P4_has_time-span <https://w3id.org/giuseppe-raimondi-lod/time-span/1993-03-07> .
 
     <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq443/text/title> a ecrm:E35_Title ;
         rdfs:label "Title, \"Rileggere l'esame di coscienza di Serra\""@en,
@@ -3877,7 +3877,7 @@ grlod-np:assertion {
     <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq446/text/title-attribution> a ecrm:E13_Attribute_Assignment ;
         ecrm:P141_assigned <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq446/text/title> ;
         ecrm:P14_carried_out_by <https://w3id.org/ficlitdl/org/sab-ero> ;
-        ecrm:P4_has_time-span <https://w3id.org/giuseppe-raimondi-lod/1993-03-07> .
+        ecrm:P4_has_time-span <https://w3id.org/giuseppe-raimondi-lod/time-span/1993-03-07> .
 
     <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq447/text/title> a ecrm:E35_Title ;
         rdfs:label "Title, \"L'arcangelo del terrore : prefazione e Rimbaud\""@en,
@@ -3892,7 +3892,7 @@ grlod-np:assertion {
     <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq449/text/title-attribution> a ecrm:E13_Attribute_Assignment ;
         ecrm:P141_assigned <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq449/text/title> ;
         ecrm:P14_carried_out_by <https://w3id.org/ficlitdl/org/sab-ero> ;
-        ecrm:P4_has_time-span <https://w3id.org/giuseppe-raimondi-lod/1993-03-07> .
+        ecrm:P4_has_time-span <https://w3id.org/giuseppe-raimondi-lod/time-span/1993-03-07> .
 
     <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq45/text/1/title> a ecrm:E35_Title ;
         rdfs:label "Title, \"Progetti lavori per la Radio\""@en,

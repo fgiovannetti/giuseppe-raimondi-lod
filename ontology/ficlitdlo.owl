@@ -41,6 +41,9 @@
         <Class IRI="https://w3id.org/ficlit/ontology/ArchivalUnitType"/>
     </Declaration>
     <Declaration>
+        <Class IRI="https://w3id.org/ficlit/ontology/CorrespondenceActivity"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="https://w3id.org/ficlit/ontology/DimensionType"/>
     </Declaration>
     <Declaration>
@@ -71,6 +74,18 @@
         <ObjectProperty IRI="https://w3id.org/ficlit/ontology/formsConceptuallyPartOf"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="https://w3id.org/ficlit/ontology/hadPlaceOfDestination"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="https://w3id.org/ficlit/ontology/hadPlaceOfOrigin"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="https://w3id.org/ficlit/ontology/hadReceiver"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="https://w3id.org/ficlit/ontology/hadSender"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="https://w3id.org/ficlit/ontology/hasIIIFManifest"/>
     </Declaration>
     <Declaration>
@@ -99,6 +114,12 @@
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="https://w3id.org/ficlit/ontology/resultedIn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="https://w3id.org/ficlit/ontology/sent"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="https://w3id.org/ficlit/ontology/hadDateOfDispatch"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="http://vocab.getty.edu/aat/300026291"/>
@@ -322,9 +343,34 @@
     <Declaration>
         <AnnotationProperty IRI="http://purl.org/dc/terms/title"/>
     </Declaration>
+    <EquivalentClasses>
+        <Class IRI="https://w3id.org/ficlit/ontology/CorrespondenceActivity"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="https://w3id.org/ficlit/ontology/hadReceiver"/>
+            <Class IRI="http://erlangen-crm.org/current/E39_Actor"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="https://w3id.org/ficlit/ontology/CorrespondenceActivity"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="https://w3id.org/ficlit/ontology/hadSender"/>
+            <Class IRI="http://erlangen-crm.org/current/E39_Actor"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="https://w3id.org/ficlit/ontology/CorrespondenceActivity"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="https://w3id.org/ficlit/ontology/sent"/>
+            <Class IRI="http://erlangen-crm.org/current/E24_Physical_Man-Made_Thing"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
     <SubClassOf>
         <Class IRI="https://w3id.org/ficlit/ontology/ArchivalUnitType"/>
         <Class IRI="http://erlangen-crm.org/current/E55_Type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://w3id.org/ficlit/ontology/CorrespondenceActivity"/>
+        <Class IRI="http://erlangen-crm.org/current/E7_Activity"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="https://w3id.org/ficlit/ontology/DimensionType"/>
@@ -721,6 +767,10 @@
         <NamedIndividual IRI="https://w3id.org/ficlit/ontology/literary-work"/>
     </ObjectPropertyAssertion>
     <SubObjectPropertyOf>
+        <ObjectProperty IRI="https://w3id.org/ficlit/ontology/hadReceiver"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
         <ObjectProperty IRI="https://w3id.org/ficlit/ontology/hasPublishedVersion"/>
         <ObjectProperty IRI="https://w3id.org/ficlit/ontology/hasVariantVersion"/>
     </SubObjectPropertyOf>
@@ -749,6 +799,22 @@
         <Class IRI="https://w3id.org/ficlit/ontology/TextRevision"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
+        <ObjectProperty IRI="https://w3id.org/ficlit/ontology/hadPlaceOfDestination"/>
+        <Class IRI="https://w3id.org/ficlit/ontology/CorrespondenceActivity"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="https://w3id.org/ficlit/ontology/hadPlaceOfOrigin"/>
+        <Class IRI="https://w3id.org/ficlit/ontology/CorrespondenceActivity"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="https://w3id.org/ficlit/ontology/hadReceiver"/>
+        <Class IRI="https://w3id.org/ficlit/ontology/CorrespondenceActivity"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="https://w3id.org/ficlit/ontology/hadSender"/>
+        <Class IRI="https://w3id.org/ficlit/ontology/CorrespondenceActivity"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
         <ObjectProperty IRI="https://w3id.org/ficlit/ontology/hasVariantReading"/>
         <Class IRI="https://w3id.org/ficlit/ontology/TextualVariation"/>
     </ObjectPropertyDomain>
@@ -772,6 +838,10 @@
         <ObjectProperty IRI="https://w3id.org/ficlit/ontology/resultedIn"/>
         <Class IRI="https://w3id.org/ficlit/ontology/TextRevision"/>
     </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="https://w3id.org/ficlit/ontology/sent"/>
+        <Class IRI="https://w3id.org/ficlit/ontology/CorrespondenceActivity"/>
+    </ObjectPropertyDomain>
     <ObjectPropertyRange>
         <ObjectProperty IRI="https://w3id.org/ficlit/ontology/added"/>
         <Class IRI="http://erlangen-crm.org/current/E90_Symbolic_Object"/>
@@ -779,6 +849,22 @@
     <ObjectPropertyRange>
         <ObjectProperty IRI="https://w3id.org/ficlit/ontology/deleted"/>
         <Class IRI="http://erlangen-crm.org/current/E90_Symbolic_Object"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="https://w3id.org/ficlit/ontology/hadPlaceOfDestination"/>
+        <Class IRI="http://erlangen-crm.org/current/E53_Place"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="https://w3id.org/ficlit/ontology/hadPlaceOfOrigin"/>
+        <Class IRI="http://erlangen-crm.org/current/E53_Place"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="https://w3id.org/ficlit/ontology/hadReceiver"/>
+        <Class IRI="http://erlangen-crm.org/current/E39_Actor"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="https://w3id.org/ficlit/ontology/hadSender"/>
+        <Class IRI="http://erlangen-crm.org/current/E39_Actor"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="https://w3id.org/ficlit/ontology/hasVariantReading"/>
@@ -804,6 +890,14 @@
         <ObjectProperty IRI="https://w3id.org/ficlit/ontology/resultedIn"/>
         <Class IRI="https://w3id.org/ficlit/ontology/TextualVariation"/>
     </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="https://w3id.org/ficlit/ontology/sent"/>
+        <Class IRI="http://erlangen-crm.org/current/E24_Physical_Human-Made_Thing"/>
+    </ObjectPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="https://w3id.org/ficlit/ontology/hadDateOfDispatch"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
 </Ontology>
 
 

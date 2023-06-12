@@ -15,6 +15,16 @@ grlod-np:head {
         np:hasPublicationInfo grlod-np:pubinfo .
 }
 
+grlod-np:provenance {
+    grlod-np:assertion prov:generatedAtTime "1993-03-01"^^xsd:date ;
+        prov:wasAttributedTo <https://w3id.org/ficlitdl/org/sab-ero> .
+}
+
+grlod-np:pubinfo {
+    <https://w3id.org/giuseppe-raimondi-lod/nanopub/nanopub-base> prov:generatedAtTime "2022-02-28"^^xsd:date ;
+        prov:wasAttributedTo <https://orcid.org/0000-0001-6007-9118> .
+}
+
 grlod-np:assertion {
     <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq1/object> a ecrm:E22_Human-Made_Object ;
         rdfs:label "Raimondi, Giuseppe. Manuscript notebook, \"Argomenti per i racconti. 1954 : (2. volume)\""@en,
@@ -9821,15 +9831,5 @@ grlod-np:assertion {
         seq:follows <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq96/object> ;
         seq:precedes <https://w3id.org/giuseppe-raimondi-lod/notebook/rdq98/object> ;
         ficlitdlo:formsConceptuallyPartOf <https://w3id.org/giuseppe-raimondi-lod/record-set/notebooks-1-1959> .
-}
-
-grlod-np:pubinfo {
-    <https://w3id.org/giuseppe-raimondi-lod/nanopub/nanopub-base> prov:generatedAtTime "2022-02-28"^^xsd:date ;
-        prov:wasAttributedTo <https://orcid.org/0000-0001-6007-9118> .
-}
-
-grlod-np:provenance {
-    grlod-np:assertion prov:generatedAtTime "1993-03-01"^^xsd:date ;
-        prov:wasAttributedTo <https://w3id.org/ficlitdl/org/sab-ero> .
 }
 

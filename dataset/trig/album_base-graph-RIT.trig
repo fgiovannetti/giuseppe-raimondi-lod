@@ -3,6 +3,19 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
 grlod-np:assertion {
+    <https://w3id.org/giuseppe-raimondi-lod/person/giuseppe-raimondi> pro:holdsRoleInTime <https://w3id.org/giuseppe-raimondi-lod/record-set/album-apolli/rdm837/text/author>,
+            <https://w3id.org/giuseppe-raimondi-lod/record-set/album-bacche/rdm840/text/author>,
+            <https://w3id.org/giuseppe-raimondi-lod/record-set/album-cardar/rdm841/text/author>,
+            <https://w3id.org/giuseppe-raimondi-lod/record-set/album-carra/rdm833/text/author>,
+            <https://w3id.org/giuseppe-raimondi-lod/record-set/album-cecchi/rdm830/text/author>,
+            <https://w3id.org/giuseppe-raimondi-lod/record-set/album-dada/rdm836/text/author>,
+            <https://w3id.org/giuseppe-raimondi-lod/record-set/album-depisi/rdm835/text/author>,
+            <https://w3id.org/giuseppe-raimondi-lod/record-set/album-longan/rdm834/text/author>,
+            <https://w3id.org/giuseppe-raimondi-lod/record-set/album-rebora/rdm838/text/author>,
+            <https://w3id.org/giuseppe-raimondi-lod/record-set/album-rosai/rdm839/text/author>,
+            <https://w3id.org/giuseppe-raimondi-lod/record-set/album-ungare/rdm832/text/author>,
+            <https://w3id.org/giuseppe-raimondi-lod/record-set/album-valery/rdm831/text/author> .
+
     <https://w3id.org/giuseppe-raimondi-lod/record-set/album-apolli/rdm837/text/author> a pro:RoleInTime ;
         rdfs:label "Giuseppe Raimondi, author of the album \"Album Apollinaire ... Cendrars : Leger, Reverdy, Cocteau, Jacob, Dermee, Birot, Autant\""@en,
             "Giuseppe Raimondi, autore dell'album \"Album Apollinaire ... Cendrars : Leger, Reverdy, Cocteau, Jacob, Dermee, Birot, Autant\""@it ;
